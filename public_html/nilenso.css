@@ -1,0 +1,21 @@
+
+body, h1, h2, h3, h4, h5, h6, p, div, span {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6em;
+}
+
+section {
+  border:1px solid;
+}
+
+/* section:nth-of-type(2n+1) img { */
+/*   float: left; */
+/* } */
+
+/* section:nth-of-type(2n) img { */
+/*   float: right; */
+/* } */
