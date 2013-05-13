@@ -22,10 +22,18 @@ h1 {
   margin: 50px;
 }
 
+.padded {
+  margin: 0 5% 0 5%;
+  width: 90%;
+}
+
+.padded-in {
+  padding: 0 5% 0 5%;
+  width: 100%;
+}
+
 .intro {
   background: url("../nilenso-bg.png") #EEE center no-repeat;
-  margin-left: 5%;
-  width: 85%;
   font-size: 4em;
   line-height: 1.1em;
 }
@@ -35,7 +43,6 @@ h1 {
   text-align: justify;
 }
 
-/* 5% / n / 5% / n / 5% */
 section {
   border: 0px solid;
   float: left;
@@ -91,6 +98,39 @@ section p {
 
 .large:hover {
   color: #EEEEEE;
+}
+
+.contact {
+  clear: both;
+  font-size: 70px;
+  background-color: #333;
+  color: #EEE;
+}
+
+.huge {
+  width: 80px;
+}
+
+.phone {
+  padding: 27px 0 27px 0;
+}
+.phone a {
+  color: #EEE;
+}
+.phone a:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.email {
+  padding: 0 0 27px 0;
+}
+.email a {
+  color: #EEE;
+}
+.email a:hover {
+  text-decoration: none;
+  color: #FFF;
 }
 
 /* override `inline` from font-awesome.css. -steven */
