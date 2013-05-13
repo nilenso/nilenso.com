@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+body {
+  background-color: #EEEEEE;
+}
+
 body, h1, h2, h3, h4, h5, h6, p, div, span {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -15,6 +19,20 @@ h1 {
   font-size: 6em;
   font-family: 'Junction';
   line-height: 1em;
+  margin: 50px;
+}
+
+.intro {
+  background: url("../nilenso-bg.png") #EEE center no-repeat;
+  margin-left: 5%;
+  width: 85%;
+  font-size: 4em;
+  line-height: 1.1em;
+}
+
+.intro p {
+  margin: 50px 0 50px 0;
+  text-align: justify;
 }
 
 /* 5% / n / 5% / n / 5% */
@@ -22,7 +40,7 @@ section {
   border: 0px solid;
   float: left;
   width: 40%;
-  background: #EEF2DC;
+  background-color: #CCCCCC;
   -moz-border-radius: 15px;
   border-radius: 15px;
   padding: 10px;
@@ -66,13 +84,13 @@ section p {
 .large {
   display: block;
   font-size: 66px;
-  color: #bbb;
+  color: #999;
   text-decoration: none;
   padding: 0 10px 0 10px;
 }
 
 .large:hover {
-  color: #fff;
+  color: #EEEEEE;
 }
 
 /* override `inline` from font-awesome.css. -steven */
