@@ -1,0 +1,75 @@
+body, h1, h2, h3, h4, h5, h6, p, div, span {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6em;
+  font-family: 'Junction';
+}
+
+/* 5% / n / 5% / n / 5% */
+section {
+  border: 0px solid;
+  float: left;
+  width: 40%;
+  background: #EEF2DC;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+section:nth-of-type(2n+1) {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+section:nth-of-type(2n) {
+  margin-left: 0%;
+  margin-right: 5%;
+}
+
+section img {
+  float: left;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+section p {
+  font-size: 1.5em;
+}
+
+.social {
+  float: left;
+  /* margin: 0 20px 0 20px; */
+}
+
+.social ul {
+  margin: 0;
+}
+
+.social li {
+  display: block;
+  clear: both;
+}
+
+.large {
+  display: block;
+  font-size: 66px;
+  color: #bbb;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+}
+
+.large:hover {
+  color: #fff;
+}
+
+/* override `inline` from font-awesome.css. -steven */
+a [class^="icon-"],
+a [class*=" icon-"],
+a [class^="icon-"]:before,
+a [class*=" icon-"]:before {
+  display: inline-block; 
+}
