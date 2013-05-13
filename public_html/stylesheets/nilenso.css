@@ -14,11 +14,15 @@ body, h1, h2, h3, h4, h5, h6, p, div, span {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+small {
+  font-size: 12px;
+}
+
 h1 {
   text-align: center;
   font-size: 6em;
   font-family: 'Junction';
-  line-height: 1em;
+  line-height: 1.0;
   margin: 50px;
 }
 
@@ -35,7 +39,7 @@ h1 {
 .intro {
   background: url("../nilenso-bg.png") #EEE center no-repeat;
   font-size: 4em;
-  line-height: 1.1em;
+  line-height: 1.1;
 }
 
 .intro p {
@@ -108,7 +112,7 @@ section p {
 }
 
 .huge {
-  width: 80px;
+  width: 100px;
 }
 
 .phone {
@@ -131,6 +135,31 @@ section p {
 .email a:hover {
   text-decoration: none;
   color: #FFF;
+}
+
+.map {
+  padding: 0 0 27px 0;
+}
+.map .map-icon {
+  float: left;
+}
+.map .map-frame {
+  float: left;
+  padding-right: 27px;
+}
+
+.address {
+  height: 380px;
+  font-size: 43px;
+  line-height: 1.1;
+}
+.address li {
+  line-height: inherit;
+}
+
+.copyright {
+  margin-top: 27px;
+  text-align: center;
 }
 
 /* override `inline` from font-awesome.css. -steven */
