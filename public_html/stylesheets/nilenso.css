@@ -145,7 +145,7 @@ section p {
 }
 .map .map-frame {
   float: left;
-  padding-right: 27px;
+  padding: 0 27px 0 23px;
 }
 
 .address {
@@ -158,7 +158,7 @@ section p {
 }
 
 .copyright {
-  margin-top: 27px;
+  margin: 27px 0 27px 0;
   text-align: center;
 }
 
