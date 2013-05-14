@@ -10,20 +10,12 @@ body {
   background-color: #EEEEEE;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, div, span {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+/* body, h1, h2, h3, h4, h5, h6, p, div, span { */
+/*   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+/* } */
 
 small {
   font-size: 12px;
-}
-
-h1 {
-  text-align: center;
-  font-size: 6em;
-  font-family: 'Junction';
-  line-height: 1.0;
-  margin: 50px;
 }
 
 .padded {
@@ -36,16 +28,26 @@ h1 {
   width: 100%;
 }
 
+.logo {
+  width: 200px;
+  height: 200px;
+  padding-right: 27px;
+  float: left;
+}
+
 .intro {
-  background: url("../nilenso-bg.png") #EEE center no-repeat;
   font-size: 4em;
   line-height: 1.1;
 }
 
 .intro p {
   margin: 50px 0 50px 0;
-  text-align: justify;
+  font-family: "Quattrocento", serif;
 }
+
+.nilenso {
+  font-family: 'Junction';
+}  
 
 section {
   border: 0px solid;
@@ -74,8 +76,15 @@ section img {
   border-radius: 8px;
 }
 
+section strong {
+  display: block;
+  padding-bottom: 1.0em;
+}
+
 section p {
   font-size: 1.5em;
+  font-family: "Quattrocento", serif;
+  line-height: 1.4;
 }
 
 .social {
@@ -106,6 +115,7 @@ section p {
 
 .contact {
   clear: both;
+  font-family: "Quattrocento";
   font-size: 70px;
   background-color: #333;
   color: #EEE;
@@ -158,6 +168,7 @@ section p {
 }
 
 .copyright {
+  font-family: "Quattrocento";
   margin: 27px 0 27px 0;
   text-align: center;
 }
