@@ -10,10 +10,6 @@ body {
   background-color: #EEEEEE;
 }
 
-/* body, h1, h2, h3, h4, h5, h6, p, div, span { */
-/*   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
-/* } */
-
 small {
   font-size: 12px;
 }
@@ -169,6 +165,7 @@ section p {
 
 .copyright {
   font-family: "Quattrocento";
+  font-size: 1.5em;
   margin: 27px 0 27px 0;
   text-align: center;
 }
