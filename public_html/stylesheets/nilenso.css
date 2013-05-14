@@ -38,12 +38,13 @@ small {
 
 .intro p {
   margin: 50px 0 50px 0;
+  overflow: hidden;
   font-family: "Quattrocento", serif;
 }
 
 .nilenso {
   font-family: 'Junction';
-}  
+}
 
 section {
   border: 0px solid;
@@ -89,6 +90,7 @@ section strong {
 }
 
 section p {
+  overflow: hidden;
   font-size: 1.5em;
   font-family: "Quattrocento", serif;
   line-height: 1.4;
@@ -186,5 +188,5 @@ a [class^="icon-"],
 a [class*=" icon-"],
 a [class^="icon-"]:before,
 a [class*=" icon-"]:before {
-  display: inline-block; 
+  display: inline-block;
 }
