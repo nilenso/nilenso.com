@@ -63,6 +63,10 @@ section {
     margin-right: 5%;
     width: 90%;
   }
+
+  section p {
+    font-size: 1.8em;
+  }
 }
 
 @media (min-device-width: 800px) {
@@ -74,6 +78,10 @@ section {
   section:nth-of-type(2n) {
     margin-left: 0%;
     margin-right: 5%;
+  }
+
+  section p {
+    font-size: 1.5em;
   }
 }
 
@@ -91,7 +99,6 @@ section strong {
 
 section p {
   overflow: hidden;
-  font-size: 1.5em;
   font-family: "Quattrocento", serif;
   line-height: 1.4;
 }
