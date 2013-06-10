@@ -46,6 +46,11 @@ small {
   font-family: 'Junction';
 }
 
+.nilenso a:hover {
+  color: #f8337d;
+  text-decoration: none;
+}
+
 section {
   border: 0px solid;
   float: left;
@@ -196,4 +201,30 @@ a [class*=" icon-"],
 a [class^="icon-"]:before,
 a [class*=" icon-"]:before {
   display: inline-block;
+}
+
+.name-page {
+  background-color: #f8337d;
+  color: #fff;
+}
+
+.name {
+  background: url("../nilenso-bg.png") #f8337d center no-repeat;
+  margin-left: 5%;
+  width: 85%;
+  height: 100%;
+  font-family: "Quattrocento";
+}
+
+.name h1 {
+  margin: 0.5em 0 0.5em 0;
+  font-size: 7em;
+  text-align: center;
+}
+
+.name p {
+  margin-top: 2em;
+  font-size: 5em;
+  line-height: 1.1em;
+  text-align: justify;
 }
