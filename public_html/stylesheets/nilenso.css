@@ -98,10 +98,11 @@ header {
   font-size: 20px;
   bottom: 100px;
   left: 66px;
-  width: 600px;
+  width: 700px;
   color: white;
-  text-shadow: 5px 5px 30px black;
   z-index: 10;
+  font-family: 'Quattrocento Sans', sans-serif;
+  line-height: 22px;
 }
 
 .intro p {
