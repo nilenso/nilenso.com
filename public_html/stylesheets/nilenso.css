@@ -7,6 +7,7 @@
 }
 
 body {
+  background-image: url(../images/texture.png);
   background-color: #EEEEEE;
 }
 
@@ -25,6 +26,7 @@ header {
   overflow: hidden;
   padding: 4px 20px;
   box-sizing: border-box;
+  z-index: 10;
 }
 
 .page {
@@ -34,8 +36,9 @@ header {
 }
 
 .splash-page {
-  background: url(../people/splash.jpg) no-repeat;
+  background: url(../images/splash.png) no-repeat;
   background-size: 100%;
+  padding-top: 0px;
 }
 
 .contact-page {
@@ -99,7 +102,7 @@ header {
   bottom: 100px;
   left: 66px;
   width: 700px;
-  color: white;
+  color: black;
   z-index: 10;
   font-family: 'Quattrocento Sans', sans-serif;
   line-height: 22px;
@@ -122,6 +125,8 @@ header {
   text-decoration: none;
 }
 
+article {}
+
 section {
   border: 0px solid;
   float: left;
@@ -131,6 +136,7 @@ section {
   border-radius: 15px;
   padding: 10px;
   margin-bottom: 50px;
+  overflow: hidden;
 }
 
 @media (max-device-width: 799px) {
@@ -168,15 +174,18 @@ section img {
   border-radius: 8px;
 }
 
-section strong {
+.person-name {
+  font-size: 24px;
   display: block;
-  padding-bottom: 1.0em;
+  padding-bottom: 10px;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
-section p {
-  overflow: hidden;
+.person-desc {
+  font-size: 20px;
   font-family: "Quattrocento", serif;
-  line-height: 1.4;
+  line-height: 24px;
+  margin-right: 10px;
 }
 
 .social {
