@@ -29,7 +29,7 @@ header {
 
 .page {
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   padding: 60px 0;
 }
 
@@ -95,7 +95,7 @@ header {
 
 .intro {
   font-size: 20px;
-  top: 550px;
+  top: 520px;
   left: 66px;
   width: 600px;
   color: white;
