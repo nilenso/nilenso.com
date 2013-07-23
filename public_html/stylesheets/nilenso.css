@@ -38,6 +38,10 @@ header {
   background-size: 100%;
 }
 
+.contact-page {
+  overflow: hidden;
+}
+
 .padded {
   margin: 0 5% 0 5%;
   width: 90%;
