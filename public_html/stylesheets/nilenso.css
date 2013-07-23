@@ -87,6 +87,7 @@ header {
 
 .text-on-image-container {
   position: relative;
+  height: 100%;
 }
 
 .text-on-image {
@@ -95,7 +96,7 @@ header {
 
 .intro {
   font-size: 20px;
-  top: 520px;
+  bottom: 100px;
   left: 66px;
   width: 600px;
   color: white;
