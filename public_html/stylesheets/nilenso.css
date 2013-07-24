@@ -11,6 +11,10 @@ body {
   background-color: #EEEEEE;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 small {
   font-size: 12px;
 }
@@ -94,10 +98,6 @@ header {
   padding: 0 10px;
 }
 
-.header-link:hover {
-  text-decoration: none;
-}
-
 .page-link {
   border-top: 3px solid transparent;
 }
@@ -145,7 +145,6 @@ header {
 
 .nilenso:hover {
   color: white;
-  text-decoration: none;
 }
 
 /*@media (max-device-width: 799px) {
@@ -256,7 +255,6 @@ section i:hover {
   color: #EEE;
 }
 .phone a:hover {
-  text-decoration: none;
   color: #FFF;
 }
 
@@ -267,7 +265,6 @@ section i:hover {
   color: #EEE;
 }
 .email a:hover {
-  text-decoration: none;
   color: #FFF;
 }
 .map .map-icon {
