@@ -1,0 +1,83 @@
+people/akshay-200.png
+Akshay Gupta
+http://twitter.com/kitallis
+http://in.linkedin.com/in/kitallis
+http://github.com/kitallis
+Gnome hacker. Snakeboarder. Power cyclist. Tea specialist. Guitarist. Obsessed with typefaces.
+
+people/aninda-200.png
+Aninda Kundu
+http://twitter.com/aninda42
+http://in.linkedin.com/pub/aninda-kundu/36/231/15
+http://github.com/spacefugitive
+Lover of KitKats and burgers. Passionate dancer. Squash and badminton monster. Relic of a bygone age.
+
+people/asif-200.png
+Asif Kalam
+http://twitter.com/asifskalam
+http://www.linkedin.com/in/asifskalam
+http://github.com/asifkalam
+Speaks only to improve the silence. Telephony hacker. Nature lover. Smartass, eventually.
+
+people/jithu-200.png
+Jithu Gopal
+http://twitter.com/tRAS
+http://in.linkedin.com/pub/jithu-gopal/b/119/842/
+http://github.com/jithugopal
+Cyclist. Hair. Artist and benefactor of the Arts. Passionate about SPACE and weird animals.
+
+people/neha-200.png
+Neha Kumari
+http://twitter.com/__Neha
+http://in.linkedin.com/in/nehabits
+http://github.com/Bodhisattva2-0
+Internet celebrity. Connector. Dirty hippie. Cautious cyclist. Rainbow chaser. Hacker among hackers.
+
+people/nivedita-200.png
+Nivedita Priyadarshini
+http://twitter.com/nid90
+http://in.linkedin.com/pub/nivedita-priyadarshini/47/524/386/
+http://github.com/nid90
+Next-gen, ever-connected pre-cyborg. Loves hyphens. DOA badass.
+
+people/prashant-200.png
+Prashant Karpe
+http://twitter.com/prashantwit
+http://in.linkedin.com/pub/prashant-karpe/11/512/28a/
+http://github.com/prashantkarpe
+Hobo 2.0. Lean philosopher. Chronic dilettante. Veggie foodie. Quiz-solver. Black-hat thinker. Incorrigible optimist.
+
+people/srihari-200.png
+Srihari Sriraman
+http://twitter.com/SrihariSriraman
+http://www.linkedin.com/in/sriharisriraman
+http://github.com/ssrihari
+Design-gineer. Carnatic crooner. Straight-edge. Gimper. Peace-and-quiet-lover.
+
+people/steven-200.png
+Steven Deobald
+http://twitter.com/deobald
+http://in.linkedin.com/in/deobald
+http://github.com/deobald
+Coffee addict. Traffic nuisance on a bicycle. Clojure fanboy. Scotch taster. Really dirty hippie.
+
+people/tejas-200.png
+Tejas Dinkar
+http://twitter.com/tdinkar
+http://www.linkedin.com/in/tdinkar
+http://github.com/gja
+King of nilenso. Security/sandboxing specialist.
+
+people/timothy-200.jpg
+Timothy Andrew
+http://twitter.com/timothyandrew
+http://www.linkedin.com/in/timothyandrew
+http://github.com/timothyandrew
+Technology addict. Voracious reader. Bassist. Snooker player. Would barbecue for every meal if he could.
+
+people/alumni-200.png
+Alumni
+alumni.html
+alumni.html
+alumni.html
+Change is inevitable. We're proud of our departed friends!
