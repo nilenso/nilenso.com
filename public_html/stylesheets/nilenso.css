@@ -182,7 +182,7 @@ section img {
   font-weight: bolder;
 }
 
-.large {
+section i {
   display: block;
   font-size: 20px;
   color: #999;
@@ -190,8 +190,8 @@ section img {
   padding: 0;
 }
 
-.large:hover {
-  color: #EEEEEE;
+section i:hover {
+  color: black;
 }
 
 .social-links {
