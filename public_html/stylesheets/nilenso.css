@@ -34,6 +34,21 @@ header {
   padding: 60px 0;
 }
 
+.page h2 {
+  margin: 0 66px;
+  padding: 20px 0;
+  font-family: "Quattrocento Sans" sans-serif;
+}
+
+.v-line {
+  width: 4px;
+  height: 44px;
+  background-color: pink;
+  display: inline-block;
+  margin-bottom: -8px;
+  margin-right: 8px;
+}
+
 .splash-page {
   background: url(../images/splash.png) no-repeat;
   background-size: 100%;
@@ -163,6 +178,7 @@ header {
 */
 article {
   text-align: center;
+  margin: 0 66px
 }
 
 section {
