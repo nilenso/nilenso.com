@@ -321,3 +321,8 @@ a [class*=" icon-"]:before {
   line-height: 1.1em;
   text-align: justify;
 }
+
+.alumni-link {
+  text-decoration: none;
+  color: black;
+}
