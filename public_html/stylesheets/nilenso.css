@@ -212,11 +212,13 @@ section i:hover {
 }
 
 .contact {
-  clear: both;
   font-family: "Quattrocento";
-  font-size: 53px;
+  font-size: 40px;
   background-color: #333;
   color: #EEE;
+  padding: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .huge {
@@ -244,25 +246,18 @@ section i:hover {
   text-decoration: none;
   color: #FFF;
 }
-
-.map {
-  padding: 0 0 27px 0;
-}
 .map .map-icon {
   float: left;
 }
-.map .map-frame {
-  float: left;
-  padding: 0 27px 0 23px;
+
+.map-frame {
+  float: right;
 }
 
 .address {
-  height: 380px;
-  font-size: 43px;
-  line-height: 1.1;
-}
-.address li {
-  line-height: inherit;
+  height: 250px;
+  line-height: 42px;
+  float: left;
 }
 
 .copyright {
