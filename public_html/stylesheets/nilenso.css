@@ -326,3 +326,11 @@ a [class*=" icon-"]:before {
   text-decoration: none;
   color: black;
 }
+
+.testimonial {
+  padding: 10px 66px;
+}
+
+.testimonial-logo {
+  max-width: 200px;
+}
