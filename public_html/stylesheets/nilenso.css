@@ -83,6 +83,14 @@ header {
   text-decoration: none;
 }
 
+.page-link {
+  border-top: 3px solid transparent;
+}
+
+.page-link:hover, .page-link.active {
+  border-color: pink;
+}
+
 .logo-name {
   font-size: 30px;
   padding: 0 4px;
