@@ -332,7 +332,7 @@
       }
 
       var changeActiveOnScroll = function changeActiveOnScroll() {
-        var position = window.pageYOffset + 60;
+        var position = window.pageYOffset + 60 + (window.innerHeight / 2);
         if (position > document.getElementById("contact").offsetTop) {
           highlightActive(document.getElementById("contact-link"));
         }
