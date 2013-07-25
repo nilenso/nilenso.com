@@ -35,11 +35,12 @@ header {
 
 .page {
   width: 100%;
-  padding: 60px 0;
+  padding: 60px 66px;
+  box-sizing: border-box;
 }
 
 .page h2 {
-  margin: 0 66px;
+  margin: 0;
   padding: 20px 0;
   font-family: "Quattrocento Sans" sans-serif;
 }
@@ -56,7 +57,7 @@ header {
 .splash-page {
   background: url(../images/splash.png) no-repeat;
   background-size: 100%;
-  padding-top: 0px;
+  padding: 0px 0 60px;
   height: 100%;
 }
 
@@ -328,9 +329,49 @@ a [class*=" icon-"]:before {
 }
 
 .testimonial {
-  padding: 10px 66px;
+  padding: 10px;
+  font-family: "Quattrocento";
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  text-align: center;
 }
 
 .testimonial-logo {
   max-width: 200px;
+}
+
+.testimonial-quote-container {
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #ddd;
+  position: relative;
+  padding: 20px;
+  margin-top: 24px;
+  text-align: justify;
+}
+
+.testimonial-quote-container:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  position: absolute;
+  top: -15px;
+  left: 130px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #ddd;
+}
+
+.testimonial-quote-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.testimonial-quoter {
+  font-style: italic;
+  color: #333;
+  font-size: 12px;
+  text-align: right;
 }
