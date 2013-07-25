@@ -132,7 +132,7 @@ header {
   line-height: 22px;
 }
 
-.intro p {
+.intro-text {
   margin: 50px 0 50px 0;
   overflow: hidden;
   font-family: "Quattrocento", serif;
@@ -145,8 +145,36 @@ header {
 }
 
 .nilenso:hover {
-  color: white;
+  color: black;
 }
+
+.nilenso-tooltip {
+  font-family: "Junction";
+  bottom: 80px;
+  left: 0px;
+  display: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 10px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.nilenso:hover + .nilenso-tooltip {
+  display: block;
+  position: absolute;
+}
+
+.meaning {
+  font-family: "Quattrocento Sans" sans-serif;
+  color: white;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
 
 /*@media (max-device-width: 799px) {
   section {
