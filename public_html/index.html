@@ -18,10 +18,10 @@
     <header>
       <img class="logo-image left" src="nilenso-200.png" />
       <a class="header-link logo-name left" href="http://nilenso.com">nilenso</a>
-      <a class="header-link right page-link" data-page="contact">Contact</a>
-      <a class="header-link right page-link" data-page="portfolio">Portfolio</a>
-      <a class="header-link right page-link" data-page="people">People</a>
-      <a class="header-link right page-link active" data-page="about">About</a>
+      <a class="header-link right page-link" id="contact-link" data-page="contact">Contact</a>
+      <a class="header-link right page-link" id="portfolio-link" data-page="portfolio">Portfolio</a>
+      <a class="header-link right page-link" id="people-link" data-page="people">People</a>
+      <a class="header-link right page-link active" id="about-link" data-page="about">About</a>
     </header>
 
     <div class="page splash-page" id="about">
@@ -322,20 +322,37 @@
     </div>
 
     <script type="text/javascript">
+      var pageLinks = document.getElementsByClassName("page-link");
 
-      function removeActive(links) {
-        for (var i = 0; i < links.length; i++) {
-          links[i].className = links[i].className.replace(/\bactive\b/,'');
+      function highlightActive(activeLink) {
+        for (var i = 0; i < pageLinks.length; i++) {
+          pageLinks[i].className = pageLinks[i].className.replace(/\bactive\b/,'');
         }
+        activeLink.className += ' active';
       }
 
-      pageLinks = document.getElementsByClassName("page-link");
+      var changeActiveOnScroll = function changeActiveOnScroll() {
+        var position = window.pageYOffset + 60;
+        if (position > document.getElementById("contact").offsetTop) {
+          highlightActive(document.getElementById("contact-link"));
+        }
+        else if(position > document.getElementById("portfolio").offsetTop) {
+          highlightActive(document.getElementById("portfolio-link"));
+        }
+        else if(position > document.getElementById("people").offsetTop) {
+          highlightActive(document.getElementById("people-link"));
+        }
+        else if(position > document.getElementById("about").offsetTop) {
+          highlightActive(document.getElementById("about-link"));
+        }
+      }
+      window.onscroll = changeActiveOnScroll;
+
       for (var i = 0; i < pageLinks.length; i++) {
         pageLinks[i].onclick = function(event) {
-          removeActive(pageLinks);
           target = document.getElementById(event.target.getAttribute("data-page"));
           window.smoothScroll(target, 600);
-          event.target.className += ' active';
+          highlightActive(event.target);
         };
       }
     </script>
