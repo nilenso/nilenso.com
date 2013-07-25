@@ -328,11 +328,11 @@ a [class*=" icon-"]:before {
 }
 
 .testimonial {
-  padding: 10px;
+  padding: 30px 20px;
   font-family: "Quattrocento";
   display: inline-block;
   vertical-align: top;
-  width: 300px;
+  width: 400px;
   text-align: center;
 }
 
@@ -341,36 +341,21 @@ a [class*=" icon-"]:before {
 }
 
 .testimonial-quote-container {
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  background-color: #ddd;
   position: relative;
   padding: 20px;
   margin-top: 24px;
   text-align: justify;
 }
 
-.testimonial-quote-container:after {
-  content: "";
-  width: 0;
-  height: 0;
-  display: block;
-  position: absolute;
-  top: -15px;
-  left: 130px;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-bottom: 15px solid #ddd;
-}
-
 .testimonial-quote-text {
   font-size: 14px;
   color: #333;
+  font-style: italic;
 }
 
 .testimonial-quoter {
-  font-style: italic;
-  color: #333;
-  font-size: 12px;
+  font-size: 14px;
+  color: #000;
   text-align: right;
+  font-style: normal;
 }
