@@ -56,7 +56,10 @@ header {
 
 .splash-page {
   background: url(../images/splash.png) no-repeat;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding: 0px 0 60px;
   height: 100%;
 }
