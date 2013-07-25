@@ -11,15 +11,16 @@
     <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700'
           rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/nilenso.css">
+    <script src="javascripts/smoothscroll.js" type="text/javascript"></script>
   </head>
 
   <body>
     <header>
       <img class="logo-image left" src="nilenso-200.png" />
       <a class="header-link logo-name left" href="http://nilenso.com">nilenso</a>
-      <a class="header-link right page-link" href="#contact">Contact</a>
-      <a class="header-link right page-link" href="#people">People</a>
-      <a class="header-link right page-link active" href="#about">About</a>
+      <a class="header-link right page-link" data-page="contact">Contact</a>
+      <a class="header-link right page-link" data-page="people">People</a>
+      <a class="header-link right page-link active" data-page="about">About</a>
       <div class="clear"></div>
     </header>
 
@@ -256,6 +257,7 @@
     </div>
 
     <script type="text/javascript">
+
       function removeActive(links) {
         for (var i = 0; i < links.length; i++) {
           links[i].className = links[i].className.replace(/\bactive\b/,'');
@@ -266,6 +268,8 @@
       for (var i = 0; i < pageLinks.length; i++) {
         pageLinks[i].onclick = function(event) {
           removeActive(pageLinks);
+          target = document.getElementById(event.target.getAttribute("data-page"));
+          window.smoothScroll(target, 600);
           event.target.className += ' active';
         };
       }
