@@ -48,14 +48,14 @@ header {
 .v-line {
   width: 4px;
   height: 44px;
-  background-color: pink;
+  background-color: #f8337d;
   display: inline-block;
   margin-bottom: -8px;
   margin-right: 8px;
 }
 
 .splash-page {
-  background: url(../images/splash.png) no-repeat;
+  background: url(../images/splash.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -107,7 +107,7 @@ header {
 }
 
 .page-link:hover, .page-link.active {
-  border-color: pink;
+  border-color: #f8337d;
 }
 
 .logo-name {
@@ -128,8 +128,8 @@ header {
   font-size: 20px;
   bottom: 100px;
   left: 66px;
-  width: 700px;
-  color: black;
+  width: 800px;
+  color: white;
   z-index: 10;
   font-family: 'Quattrocento Sans', sans-serif;
   line-height: 22px;
@@ -148,7 +148,7 @@ header {
 }
 
 .nilenso:hover {
-  color: black;
+  color: white;
 }
 
 .nilenso-tooltip {
