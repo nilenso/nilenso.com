@@ -209,14 +209,15 @@ header {
 */
 article {
   text-align: center;
+  margin: 0 -15px;
 }
 
 section {
   display: inline-block;
   vertical-align: top;
-  width: 300px;
+  width: 310px;
   text-align: center;
-  margin: 30px;
+  margin: 34px;
 }
 
 section img {
@@ -238,7 +239,7 @@ section img {
 
 section i {
   display: block;
-  font-size: 20px;
+  font-size: 24px;
   color: #999;
   text-decoration: none;
   padding: 0;
@@ -259,7 +260,7 @@ section i:hover {
 
 
 .person-desc {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Quattrocento", serif;
   line-height: 24px;
   margin-right: 10px;
@@ -359,11 +360,11 @@ a [class*=" icon-"]:before {
 }
 
 .testimonial {
-  padding: 30px 20px;
+  padding: 30px 15px;
   font-family: "Quattrocento";
   display: inline-block;
   vertical-align: top;
-  width: 400px;
+  width: 360px;
   text-align: center;
 }
 
