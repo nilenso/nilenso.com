@@ -18,10 +18,10 @@
     <header>
       <img class="logo-image left" src="nilenso-200.png" />
       <a class="header-link logo-name left" href="http://nilenso.com">nilenso</a>
-      <a class="header-link right page-link" id="contact-link" data-page="contact">Contact</a>
-      <a class="header-link right page-link" id="portfolio-link" data-page="portfolio">Portfolio</a>
-      <a class="header-link right page-link" id="people-link" data-page="people">People</a>
-      <a class="header-link right page-link active" id="about-link" data-page="about">About</a>
+      <a class="header-link right page-link" id="contact-link" href="#contact" data-page="contact">Contact</a>
+      <a class="header-link right page-link" id="portfolio-link" href="#portfolio" data-page="portfolio">Portfolio</a>
+      <a class="header-link right page-link" id="people-link" href="#people" data-page="people">People</a>
+      <a class="header-link right page-link active" id="about-link" href="#about" data-page="about">About</a>
     </header>
 
     <div class="page splash-page" id="about">
@@ -345,7 +345,7 @@
 
       function highlightActive(activeLink) {
         for (var i = 0; i < pageLinks.length; i++) {
-          pageLinks[i].className = pageLinks[i].className.replace(/\bactive\b/,'');
+          pageLinks[i].className = pageLinks[i].className.replace(/\b active\b/,'');
         }
         activeLink.className += ' active';
       }
