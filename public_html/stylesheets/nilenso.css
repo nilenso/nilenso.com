@@ -90,6 +90,10 @@ header {
   clear: both;
 }
 
+.hidden {
+  display: none;
+}
+
 .logo-image {
   width: 50px;
 }
@@ -126,7 +130,7 @@ header {
 
 .intro {
   font-size: 20px;
-  bottom: 100px;
+  bottom: 80px;
   left: 66px;
   width: 800px;
   color: white;
@@ -135,10 +139,14 @@ header {
   line-height: 22px;
 }
 
-.intro-text {
+h1.intro-text {
+  font-size: 20px;
+  font-weight: normal;
   margin: 50px 0 50px 0;
   overflow: hidden;
   font-family: "Quattrocento", serif;
+  display: inline;
+  line-height: 22px;
 }
 
 .nilenso {
