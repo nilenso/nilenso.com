@@ -110,8 +110,11 @@ header {
   border-top: 3px solid transparent;
 }
 
-.page-link:hover, .page-link.active {
+.page-link.active {
   border-color: #f8337d;
+}
+.page-link:hover {
+  border-color: pink;
 }
 
 .logo-name {
