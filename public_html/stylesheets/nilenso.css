@@ -272,7 +272,7 @@ section i:hover {
 
 .person-desc {
   font-size: 16px;
-  font-family: "Quattrocento", serif;
+  font-family: "calluna", "Quattrocento", serif;
   line-height: 24px;
   margin-right: 10px;
 }
@@ -372,7 +372,7 @@ a [class*=" icon-"]:before {
 
 .testimonial {
   padding: 30px 15px;
-  font-family: "Quattrocento";
+  font-family: "calluna", "Quattrocento";
   display: inline-block;
   vertical-align: top;
   width: 360px;
