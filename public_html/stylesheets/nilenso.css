@@ -55,13 +55,19 @@ header {
 }
 
 .splash-page {
-  background: url(../images/splash.jpg) no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(../images/splash.jpg) no-repeat center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   padding: 0px 0 60px;
   height: 100%;
+}
+
+@media only screen and (max-width : 640) {
+  .splash-page {
+    background-image: url(../images/splash-small.jpg);
+  }
 }
 
 .contact-page {
@@ -100,7 +106,7 @@ header {
 
 .header-link {
   font-size: 16px;
-  font-family: 'Junction';
+  font-family: 'museo-sans' sans-serif;
   color: black;
   line-height: 56px;
   padding: 0 10px;
@@ -143,13 +149,8 @@ header {
 }
 
 h1.intro-text {
-  font-size: 20px;
-  font-weight: normal;
-  margin: 50px 0 50px 0;
-  overflow: hidden;
-  font-family: "Quattrocento", serif;
-  display: inline;
-  line-height: 22px;
+  display: none;
+  /*Keeping the h1 for seo*/
 }
 
 .nilenso {
@@ -163,10 +164,10 @@ h1.intro-text {
 }
 
 .nilenso-tooltip {
+  position: absolute;
   font-family: "Junction";
   bottom: 80px;
   left: 0px;
-  display: none;
   background-color: black;
   color: white;
   border-radius: 10px;
@@ -174,12 +175,17 @@ h1.intro-text {
   padding: 10px;
   margin: 0;
   font-size: 16px;
+  display: none;
 }
 
-.nilenso:hover + .nilenso-tooltip {
-  display: block;
-  position: absolute;
+.tooltip-container {
+  position: relative;
+  display: none;
 }
+/*
+.logo-name:hover + .tooltip-container .nilenso-tooltip {
+  display: block;
+}*/
 
 .meaning {
   font-family: "museo-sans" sans-serif;
@@ -278,7 +284,7 @@ section i:hover {
 }
 
 .contact {
-  font-family: "Quattrocento";
+  font-family: "calluna" serif;
   font-size: 30px;
   background-color: #333;
   color: #EEE;
@@ -325,7 +331,7 @@ section i:hover {
 }
 
 .copyright {
-  font-family: "Quattrocento";
+  font-family: "calluna", serif;
   font-size: 1.5em;
   margin: 27px 0 27px 0;
   text-align: center;
@@ -349,7 +355,7 @@ a [class*=" icon-"]:before {
   margin-left: 5%;
   width: 85%;
   height: 100%;
-  font-family: "Quattrocento";
+  font-family: "calluna", serif;
 }
 
 .name h1 {
@@ -391,7 +397,7 @@ a [class*=" icon-"]:before {
 }
 
 .testimonial-quote-text {
-  font-size: 14px;
+  font-size: 16px;
   color: #333;
   font-style: italic;
 }
