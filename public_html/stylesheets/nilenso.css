@@ -55,7 +55,7 @@ header {
 }
 
 .splash-page {
-  background: url(../images/splash.jpg) no-repeat center center;
+  background: url(../images/splash.jpg) no-repeat center center fixed;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -294,7 +294,7 @@ section i:hover {
 }
 
 .huge {
-  width: 100px;
+  width: 50px;
 }
 
 .phone {
