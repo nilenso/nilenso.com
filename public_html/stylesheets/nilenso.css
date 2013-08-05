@@ -30,11 +30,11 @@ header {
   overflow: hidden;
   padding: 4px 20px;
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
   z-index: 10;
 }
 
 .page {
-  width: 100%;
   padding: 60px 66px;
   box-sizing: border-box;
 }
