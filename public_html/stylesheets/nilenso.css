@@ -124,6 +124,7 @@ header {
 }
 
 .logo-name {
+  font-family: 'Junction';
   font-size: 30px;
   padding: 0 4px;
 }
