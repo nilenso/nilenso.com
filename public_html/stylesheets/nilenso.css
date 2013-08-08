@@ -334,7 +334,7 @@ section i:hover {
 .copyright {
   font-family: "calluna", serif;
   font-size: 1.5em;
-  margin: 27px 0 27px 0;
+  margin: 50px 0 27px;
   text-align: center;
 }
 
@@ -408,4 +408,19 @@ a [class*=" icon-"]:before {
   color: #000;
   text-align: right;
   font-style: normal;
+}
+
+.back-to-top {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-family: "calluna", serif;
+  margin-bottom: 4px;
+}
+
+.back-to-top-link {
+  color: #f8337d;
+  border-bottom: 1px solid #999;
+  padding: 8px;
 }
