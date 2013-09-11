@@ -43,7 +43,7 @@ a {
 }
 
 .section-heading {
-  font-family: "Georgia, Times, 'Times New Roman', serif";
+  font-family: "calluna";
   font-size: 50px;
   line-height: 65px;
   text-align: center;
@@ -52,7 +52,7 @@ a {
 
 .section-content {
   font-size: 21px;
-  font-family: "Georgia, Times, 'Times New Roman', serif";
+  font-family: "calluna";
   line-height: 32px;
 }
 
@@ -163,7 +163,7 @@ img.human {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   z-index: 10;
-  font-family: "Georgia, Times, 'Times New Roman', serif";
+  font-family: "calluna";
   border-top: 4px solid #f8337d;
   box-shadow: white 0px 10px 20px;
 }
