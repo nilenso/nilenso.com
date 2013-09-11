@@ -3,36 +3,6 @@ body {
   border-top: 4px solid #f8337d;
 }
 
-.content {
-  margin: 0 auto;
-  width: 662px;
-}
-
-.section {
-  margin-bottom: 80px;
-}
-
-.section-heading {
-  font-family: "Georgia, Times, 'Times New Roman', serif";
-  font-variant: small-caps;
-  font-size: 26px;
-  line-height: 24px;
-  text-align: center;
-  text-transform: lowercase;
-  font-weight: 300;
-}
-
-.section-content {
-  text-rendering: optimizelegibility;
-  font-size: 21px;
-  font-family: "Georgia, Times, 'Times New Roman', serif";
-  line-height: 32px;
-}
-
-.section-content-more {
-  padding-top: 2em;
-}
-
 h2 {
   margin-bottom: 1em;
 }
@@ -48,26 +18,69 @@ a {
   font-variant: small-caps;
 }
 
-.client-logo {
+.content {
+  margin: 0 auto;
+  padding: 0 1.5em;
+  max-width: 700px;
+}
+
+.bordered-section {
+  margin-bottom: 70px;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 20px;
+  border-color: #f8337d;
+}
+
+.section {
+  margin-bottom: 70px;
+}
+
+.section-heading {
+  font-family: "Georgia, Times, 'Times New Roman', serif";
+  font-variant: small-caps;
+  font-size: 23px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 300;
+}
+
+.section-content {
+  font-size: 21px;
+  font-family: "Georgia, Times, 'Times New Roman', serif";
+  line-height: 32px;
+}
+
+.section-content-more {
+  padding-top: 2em;
 }
 
 .casestudy {
+  display: table-row;
   margin-bottom: 2em;
 }
 
 .casestudy-client-logo {
-  float: left;
-  margin: auto 0;
-  width: 220px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .casestudy-client-description {
-  float: right;
-  width: 400px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px 0 0 20px;
 }
 
 .casestudy-client-description-content {
-  padding-top: 14px;
+  font-size: 18px;
+}
+
+.casestudy-client-description.first {
+  padding-top: 0;
+}
+
+.portfolio-more {
+  padding-top: 30px;
 }
 
 .human {
@@ -94,6 +107,7 @@ a {
 .logo-section {
   text-align: center;
   margin-bottom: 0;
+  border-bottom: none;
 }
 
 .nilenso-logo {
