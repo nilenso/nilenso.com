@@ -1,110 +1,110 @@
 body {
-    margin: 0 auto;
-    border-top: 4px solid #f8337d;
+  margin: 0 auto;
+  border-top: 4px solid #f8337d;
 }
 
 .content {
-    margin: 0 auto;
-    width: 662px;
+  margin: 0 auto;
+  width: 662px;
 }
 
 .section {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .section-heading {
-    font-family: "Georgia, Times, 'Times New Roman', serif";
-    font-variant: small-caps;
-    font-size: 26px;
-    line-height: 24px;
-    text-align: center;
-    text-transform: lowercase;
-    font-weight: 300;
+  font-family: "Georgia, Times, 'Times New Roman', serif";
+  font-variant: small-caps;
+  font-size: 26px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 300;
 }
 
 .section-content {
-    text-rendering: optimizelegibility;
-    font-size: 21px;
-    font-family: "Georgia, Times, 'Times New Roman', serif";
-    line-height: 32px;
+  text-rendering: optimizelegibility;
+  font-size: 21px;
+  font-family: "Georgia, Times, 'Times New Roman', serif";
+  line-height: 32px;
 }
 
 .section-content-more {
-    padding-top: 2em;
+  padding-top: 2em;
 }
 
 h2 {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .clear {
-    clear: both;
-    content: " ";
+  clear: both;
+  content: " ";
 }
 
 a {
-    color: black;
-    text-transform: lowercase;
-    font-variant: small-caps;
+  color: black;
+  text-transform: lowercase;
+  font-variant: small-caps;
 }
 
 .client-logo {
 }
 
 .casestudy {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .casestudy-client-logo {
-    float: left;
-    margin: auto 0;
-    width: 220px;
+  float: left;
+  margin: auto 0;
+  width: 220px;
 }
 
 .casestudy-client-description {
-    float: right;
-    width: 400px;
+  float: right;
+  width: 400px;
 }
 
 .casestudy-client-description-content {
-    padding-top: 14px;
+  padding-top: 14px;
 }
 
 .human {
-    margin-top: 1em;
-    margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .human-image {
-    float: left;
-    margin: auto 0;
-    width: 120px;
-    margin-top: 6px;
+  float: left;
+  margin: auto 0;
+  width: 120px;
+  margin-top: 6px;
 }
 
 .human-description {
-    float: right;
-    width: 500px;
+  float: right;
+  width: 500px;
 }
 
 .human-description-content {
-    padding-top: 14px;
+  padding-top: 14px;
 }
 
 .logo-section {
-    text-align: center;
-    margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .nilenso-logo {
-    width: 200px;
+  width: 200px;
 }
 
 img.human {
-    width: 110px;
+  width: 110px;
 }
 
 img.splash-image {
-    height: 100px;
+  height: 100px;
 }
 
