@@ -135,6 +135,10 @@ img.splash-image {
   height: 100px;
 }
 
+.contact-email {
+  font-variant: normal;
+}
+
 .copyright {
   text-align: center;
   margin-bottom: 30px;
