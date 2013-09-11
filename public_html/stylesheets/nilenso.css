@@ -1,7 +1,13 @@
+@font-face {
+  font-family: 'Junction';
+  src: url('../font/junction-webfont.eot?v=1.0');
+  src: url('../font/junction-webfont.eot?#iefix&v=1.0') format('embedded-opentype'), url('../font/junction-webfont.woff?v=1.0') format('woff'), url('../font/junction-webfont.ttf?v=1.0') format('truetype'), url('../font/junction-webfont.svg#junctionregular?v=1.0') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0 auto;
-  border-top: 4px solid #f8337d;
-  /*background: url('../images/p6.png');*/
 }
 
 h2 {
@@ -138,4 +144,75 @@ img.human {
 .copyright {
   text-align: center;
   margin-bottom: 30px;
+}
+
+
+
+
+/*HEADER================================*/
+
+.nilenso-header {
+  width: 100%;
+  height: 56px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow: hidden;
+  padding: 4px 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  z-index: 10;
+  font-family: "Georgia, Times, 'Times New Roman', serif";
+  border-top: 4px solid #f8337d;
+  box-shadow: white 0px 10px 20px;
+}
+
+
+.header-logo-image {
+  float: left;
+  width: 50px;
+}
+
+.header-link {
+  font-size: 20px;
+  color: black;
+  line-height: 56px;
+  padding: 0 10px;
+  text-transform: lowercase;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+.header-logo {
+  opacity: 0;
+  transition: opacity 1.0s ease-in;
+  -ms-transition: opacity 1.0s ease-in;
+  -moz-transition: opacity 1.0s ease-in;
+  -webkit-transition: opacity 1.0s ease-in;
+}
+
+.header-logo.visible {
+  transition: opacity 1.0s ease-out;
+  -ms-transition: opacity 1.0s ease-out;
+  -moz-transition: opacity 1.0s ease-out;
+  -webkit-transition: opacity 1.0s ease-out;
+  opacity: 1;
+}
+
+.header-link:hover {
+  color: #f8337d;
+}
+
+.page-link {
+  float: right;
+}
+
+.logo-name {
+  font-family: 'Junction';
+  font-variant: normal;
+  font-size: 30px;
+  padding: 0 4px;
+  color: black;
+  float: left;
 }
