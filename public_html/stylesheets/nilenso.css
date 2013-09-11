@@ -92,6 +92,10 @@ a {
   border-radius: 100px;
 }
 
+.person-link {
+  text-decoration: none;
+}
+
 .human-description {
   float: right;
   width: 500px;
