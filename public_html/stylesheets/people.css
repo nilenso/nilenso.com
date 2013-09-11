@@ -1,0 +1,17 @@
+.human {
+  margin-top: 4em;
+  border-radius: 100px;
+}
+
+.human-description {
+  float: right;
+  width: 540px;
+}
+
+.human-image {
+  width: 100px;
+  float: left;
+}
+.human-description-content {
+  padding-top: 14px;
+}
