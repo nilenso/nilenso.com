@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   border-top: 4px solid #f8337d;
+  /*background: url('../images/p6.png');*/
 }
 
 h2 {
@@ -38,7 +39,7 @@ a {
 .section-heading {
   font-family: "Georgia, Times, 'Times New Roman', serif";
   font-size: 50px;
-  line-height: 24px;
+  line-height: 65px;
   text-align: center;
   font-weight: 300;
 }
@@ -79,6 +80,19 @@ a {
 
 .casestudy-client-description.first {
   padding-top: 0;
+}
+
+@media screen and (max-width: 600px){
+  .casestudy { display: block; }
+  .casestudy-client-logo {
+    display: block;
+    text-align: center;
+  }
+
+  .casestudy-client-description {
+    display: block;
+    padding-left: 0;
+  }
 }
 
 .portfolio-more {
