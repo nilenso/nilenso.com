@@ -29,6 +29,10 @@ body {
     line-height: 32px;
 }
 
+.section-content-more {
+    padding-top: 2em;
+}
+
 h2 {
     margin-bottom: 1em;
 }
@@ -51,19 +55,40 @@ a {
     margin-bottom: 2em;
 }
 
-.casestudy-description {
+.casestudy-client-logo {
+    float: left;
+    margin: auto 0;
+    width: 220px;
+}
+
+.casestudy-client-description {
+    float: right;
+    width: 400px;
+}
+
+.casestudy-client-description-content {
     padding-top: 14px;
 }
 
-.casestudy-client-logo, .human-image {
-    float: left;
-    width: 220px;
-    margin: auto 0;
+.human {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
-.casestudy-client-description, .human-description {
+.human-image {
+    float: left;
+    margin: auto 0;
+    width: 120px;
+    margin-top: 6px;
+}
+
+.human-description {
     float: right;
-    width: 400px;
+    width: 500px;
+}
+
+.human-description-content {
+    padding-top: 14px;
 }
 
 .logo-section {
