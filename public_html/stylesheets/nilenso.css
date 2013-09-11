@@ -29,14 +29,13 @@ body {
     line-height: 32px;
 }
 
-.client-logo {
-}
-
-.case-study-description {
+h2 {
+    margin-bottom: 1em;
 }
 
 .clear {
     clear: both;
+    content: " ";
 }
 
 a {
@@ -45,13 +44,24 @@ a {
     font-variant: small-caps;
 }
 
-.client-casestudy-logo, .human-image {
+.client-logo {
+}
+
+.casestudy {
+    margin-bottom: 2em;
+}
+
+.casestudy-description {
+    padding-top: 14px;
+}
+
+.casestudy-client-logo, .human-image {
     float: left;
     width: 220px;
     margin: auto 0;
 }
 
-.client-casestudy-description, .human-description {
+.casestudy-client-description, .human-description {
     float: right;
     width: 400px;
 }
