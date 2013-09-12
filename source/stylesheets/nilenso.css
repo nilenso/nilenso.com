@@ -186,6 +186,10 @@ img.human {
 
 .header-logo {
   opacity: 0;
+  transition: opacity 1.0s ease-in;
+  -ms-transition: opacity 1.0s ease-in;
+  -moz-transition: opacity 1.0s ease-in;
+  -webkit-transition: opacity 1.0s ease-in;
 }
 
 .header-logo.visible {
@@ -193,10 +197,6 @@ img.human {
   -ms-transition: opacity 1.0s ease-out;
   -moz-transition: opacity 1.0s ease-out;
   -webkit-transition: opacity 1.0s ease-out;
-  opacity: 1;
-}
-
-.header-logo.always-visible {
   opacity: 1;
 }
 
