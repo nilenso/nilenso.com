@@ -1,4 +1,12 @@
 .portfolio-testimonial {
   margin-top: 4em;
-  border-radius: 100px;
+}
+
+.testimonial-quote-text {
+  font-style: italic;
+}
+
+.testimonial-quoter {
+  float: right;
+  margin-top: 12px;
 }

@@ -16,7 +16,7 @@ h2 {
 
 .clear {
   clear: both;
-  content: " ";
+  content: "";
 }
 
 a {
