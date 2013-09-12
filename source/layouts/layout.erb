@@ -38,13 +38,14 @@
 
 <body>
 <header class="nilenso-header">
-  <div class="header-logo">
+  <div class="header-logo always-visible">
     <img class="header-logo-image" src="images/nilenso_logos/nilenso-200.png" />
     <a class="header-link logo-name" href="http://nilenso.com">nilenso</a>
   </div>
+  <a class="header-link page-link" href="http://blog.nilenso.com">Blog</a>
   <a class="header-link page-link" href="portfolio.html">Portfolio</a>
   <a class="header-link page-link" href="people.html">People</a>
-  <a class="header-link page-link" href="http://blog.nilenso.com">Blog</a>
+  <a class="header-link page-link" href="/">Home</a>
 </header>
 
 <div class="content">
@@ -96,18 +97,7 @@
 
   ga('create', 'UA-43704022-1', 'nilenso.com');
   ga('send', 'pageview');
-  $(window).scroll(function () {
-    var top = $(window).scrollTop();
-    var header = $(".header-logo");
-    var showLogoAtHeight = 180;
-    if(top > showLogoAtHeight) {
-      header.addClass("visible");
-    } else {
-      header.removeClass("visible");
-    }
-  });
 
 </script>
-
 </body>
 </html>
