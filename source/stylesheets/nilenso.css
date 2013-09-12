@@ -216,3 +216,30 @@ img.human {
   color: black;
   float: left;
 }
+
+/*FOOTER================================*/
+
+.footer {
+  border-top: 1px dotted #f8337d;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  font-size: 18px;
+  line-height: 24px;
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 10px;
+  max-width: 250px;
+}
+
+.contact-map {
+  text-align: center;
+  font-size: 15px;
+}
+
+.contact-social-link {
+  font-variant: normal;
+  text-transform: lowercase;
+}
