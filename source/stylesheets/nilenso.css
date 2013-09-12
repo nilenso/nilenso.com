@@ -243,3 +243,7 @@ img.human {
   font-variant: normal;
   text-transform: lowercase;
 }
+
+.spacer {
+  margin-top: 56px;
+}
