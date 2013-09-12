@@ -6,31 +6,20 @@ title: People
   <h2 class="section-heading">Our Team</h2>
 
   <% data.people.each do |f| %>
-    <div class="people-human" id='akshay'>
+    <div class="portfolio-testimonial section">
+      <a href="#" target="_blank"><img class="testimonial-logo" src="<%= f.picture %>"></img></a>
 
-      <a class="person-link" href="people.html#akshay">
-        <img alt="<%= f.name %>" class="human" src="<%= f.picture %>" />
-      </a>
-
-      <div class="people-human-description">
-        <p class="people-human-description-name">
-          <%= f.name %>
-        </p>
-
+      <div class="testimonial-quote-container section-content">
         <p class="people-human-description-links">
           <a class="social-link" href="<%= f.twitter %>"><i class="icon-twitter-sign"></i></a>
           <a class="social-link" href="<%= f.linkedin %>"><i class="icon-linkedin-sign"></i></a>
           <a class="social-link" href="<%= f.github %>"><i class="icon-github-sign"></i></a>
         </p>
 
-        <p class="section-content">
-          <%= f.bio %>
+        <p class="testimonial-quote-text">
+          <% f.bio %>
         </p>
       </div>
-
-      <div class="clear"></div>
-
     </div>
-
   <% end %>
 </div>
