@@ -1,45 +1,70 @@
-# First, require any additional compass plugins installed on your system.
-require 'zen-grids'
-# require 'breakpoint'
+###
+# Compass
+###
 
+# Change Compass configuration
+# compass_config do |config|
+#   config.output_style = :compact
+# end
 
-# Toggle this between :development and :production when deploying the CSS to the
-# live server. Development mode will retain comments and spacing from the
-# original Sass source and adds line numbering comments for easier debugging.
-environment = :production
-# environment = :development
+###
+# Page options, layouts, aliases and proxies
+###
 
-# In development, we can turn on the FireSass-compatible debug_info.
-firesass = false
-# firesass = true
+# Per-page layout changes:
+#
+# With no layout
+# page "/path/to/file.html", :layout => false
+#
+# With alternative layout
+# page "/path/to/file.html", :layout => :otherlayout
+#
+# A path which all have the same layout
+# with_layout :admin do
+#   page "/admin/*"
+# end
 
+# Proxy pages (http://middlemanapp.com/dynamic-pages/)
+# proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
+#  :which_fake_page => "Rendering a fake page with a local variable" }
 
-# Location of the your project's resources.
-css_dir         = "css"
-sass_dir        = "sass"
-extensions_dir  = "sass-extensions"
-images_dir      = "images"
-javascripts_dir = "js"
+###
+# Helpers
+###
 
-# Set this to the root of your project. All resource locations above are
-# considered to be relative to this path.
-http_path = "/"
+# Automatic image dimensions on image_tag helper
+# activate :automatic_image_sizes
 
-# To use relative paths to assets in your compiled CSS files, set this to true.
-# relative_assets = true
+# Reload the browser automatically whenever files change
+activate :livereload
 
+# Methods defined in the helpers block are available in templates
+# helpers do
+#   def some_helper
+#     "Helping"
+#   end
+# end
 
-##
-## You probably don't need to edit anything below this.
-##
+set :css_dir, 'stylesheets'
 
-# You can select your preferred output style here (can be overridden via the command line):
-# output_style = :expanded or :nested or :compact or :compressed
-output_style = (environment == :development) ? :expanded : :compressed
+set :js_dir, 'javascripts'
 
-# To disable debugging comments that display the original location of your selectors. Uncomment:
-# line_comments = false
+set :images_dir, 'images'
 
-# Pass options to sass. For development, we turn on the FireSass-compatible
-# debug_info if the firesass config variable above is true.
-sass_options = (environment == :development && firesass == true) ? {:debug_info => true} : {}
+# Build-specific configuration
+configure :build do
+  # For example, change the Compass output style for deployment
+  # activate :minify_css
+
+  # Minify Javascript on build
+  # activate :minify_javascript
+
+  # Enable cache buster
+  # activate :asset_hash
+
+  # Use relative URLs
+  # activate :relative_assets
+
+  # Or use a different image path
+  # set :http_prefix, "/Content/images/"
+end

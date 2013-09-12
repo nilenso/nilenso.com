@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html encoding="utf-8">
+<head>
+  <title>Nilenso Software - <%= current_page.data.title %></title>
+
+  <!-- seo meta -->
+  <meta name='keywords'
+        content='Nilenso, Ruby, Ruby On Rails, India, Bangalore, Agile, Open Source Software, TDD, Test Driven Development BDD, Continuous Integration, DevOps, C42, C42 Engineering, Software Consulting'/>
+  <meta name='description'
+        content="Nilenso (formerly the consulting arm of C42 Engineering) is an employee-owned software cooperative. We ship beautiful, fully-tested applications for you every day."/>
+
+  <!-- facebook meta -->
+  <meta property="og:title" content="Nilenso Software"/>
+  <meta property="og:url" content="http://nilenso.com"/>
+  <meta property="og:site_name" content="Nilenso Software"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="http://nilenso.com/nilenso-200.png"/>
+  <meta property="og:description"
+        content="Nilenso (formerly the consulting arm of C42 Engineering) is an employee-owned software cooperative. We ship beautiful, fully-tested applications for you every day."/>
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@nilenso">
+  <meta name="twitter:title" content="Nilenso Software">
+  <meta name="twitter:image" content="http://nilenso.com/nilenso-200.png">
+  <meta name="twitter:description"
+        content="Nilenso (formerly the consulting arm of C42 Engineering) is an employee-owned software cooperative. We ship beautiful, fully-tested applications for you every day.">
+
+  <!-- Typekit fonts -->
+  <script type="text/javascript" src="//use.typekit.net/xgt4lgm.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'/>
+
+  <%= stylesheet_link_tag "reset", "font-awesome", "nilenso", "people" %>
+  <%= javascript_include_tag  "all" %>
+</head>
+
+<body>
+<header class="nilenso-header">
+  <div class="header-logo">
+    <img class="header-logo-image" src="images/nilenso_logos/nilenso-200.png" />
+    <a class="header-link logo-name" href="http://nilenso.com">nilenso</a>
+  </div>
+  <a class="header-link page-link" href="portfolio.html">Portfolio</a>
+  <a class="header-link page-link" href="people.html">People</a>
+  <a class="header-link page-link" href="http://blog.nilenso.com">Blog</a>
+</header>
+
+<div class="content">
+  <!-- Render partial -->
+  <%= yield %>
+  
+  <div class="copyright">
+    <span>&copy; 2013 Nilenso Software LLP</span>
+  </div>  
+</div>  
+
+<script>
+  // Google Analytics
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-43704022-1', 'nilenso.com');
+  ga('send', 'pageview');
+  $(window).scroll(function () {
+    var top = $(window).scrollTop();
+    var header = $(".header-logo");
+    var showLogoAtHeight = 180;
+    if(top > showLogoAtHeight) {
+      header.addClass("visible");
+    } else {
+      header.removeClass("visible");
+    }
+  });
+
+</script>
+
+</body>
+</html>

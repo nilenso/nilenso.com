@@ -1,2 +1,7 @@
-nilenso.com
-===========
+# Nilenso website
+
+Setting up:
+  bundle
+  middleman
+  
+Live-reload is enabled.  

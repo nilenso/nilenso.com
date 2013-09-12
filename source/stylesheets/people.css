@@ -1,17 +1,17 @@
-.human {
+.people-human {
   margin-top: 4em;
   border-radius: 100px;
 }
 
-.human-description {
+.people-human-description {
   float: right;
   width: 540px;
 }
 
-.human-image {
+.people-human-image {
   width: 100px;
   float: left;
 }
-.human-description-content {
+.people-human-description-content {
   padding-top: 14px;
 }
