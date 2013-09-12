@@ -45,6 +45,12 @@ activate :livereload
 #   end
 # end
 
+helpers do
+  def header_visibility_depending_on_homepage_or_not
+    'visible' unless current_page.data.title == 'Home'
+  end
+end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'

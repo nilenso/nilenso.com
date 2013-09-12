@@ -133,3 +133,17 @@ title: Home
   <h2 class="section-heading">Get in touch</h2>
   <p class="section-content">Email us at <a class="contact-email" href='mailto:hello@nilenso.com'>hello@nilenso.com</a>. We'll respond to you within one business day.</p>
 </div>
+
+<script>
+  // Show the Nilenso header logo when you scroll past the main logo
+  $(window).scroll(function () {
+    var top = $(window).scrollTop();
+    var header = $(".header-logo");
+    var showLogoAtHeight = 180;
+    if(top > showLogoAtHeight) {
+      header.addClass("visible");
+    } else {
+      header.removeClass("visible");
+    }
+  });
+</script>
