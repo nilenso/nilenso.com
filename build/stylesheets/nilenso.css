@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'Junction';
+  src: url('../font/junction-webfont.eot?v=1.0');
+  src: url('../font/junction-webfont.eot?#iefix&v=1.0') format('embedded-opentype'), url('../font/junction-webfont.woff?v=1.0') format('woff'), url('../font/junction-webfont.ttf?v=1.0') format('truetype'), url('../font/junction-webfont.svg#junctionregular?v=1.0') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
+.clear {
+  clear: both;
+  content: " ";
+}
+
+a {
+  color: black;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 0 1.5em;
+  max-width: 700px;
+}
+
+.bordered-section {
+  margin-bottom: 70px;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 20px;
+  border-color: #f8337d;
+}
+
+.section {
+  margin-bottom: 70px;
+}
+
+.section-heading {
+  font-family: "calluna";
+  font-size: 50px;
+  line-height: 65px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.section-content {
+  font-size: 21px;
+  font-family: "calluna";
+  line-height: 32px;
+}
+
+.section-content-more {
+  padding-top: 2em;
+}
+
+.people-more {
+  text-align: center;
+}
+
+.casestudy {
+  display: table-row;
+  margin-bottom: 2em;
+}
+
+.casestudy-client-logo {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.casestudy-client-description {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px 0 0 20px;
+}
+
+.casestudy-client-description-content {
+  font-size: 18px;
+}
+
+.casestudy-client-description.first {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 600px){
+  .casestudy { display: block; }
+  .casestudy-client-logo {
+    display: block;
+    text-align: center;
+  }
+
+  .casestudy-client-description {
+    display: block;
+    padding-left: 0;
+  }
+}
+
+.portfolio-more {
+  padding-top: 30px;
+}
+
+.human {
+  margin: 1em;
+  border-radius: 100px;
+}
+
+.person-link {
+  text-decoration: none;
+}
+
+.human-description {
+  float: right;
+  width: 500px;
+}
+
+.human-description-content {
+  padding-top: 14px;
+}
+
+.logo-section {
+  text-align: center;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.nilenso-logo {
+  width: 200px;
+}
+
+img.human {
+  width: 80px;
+}
+
+.contact-email {
+  font-variant: normal;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+
+/*HEADER================================*/
+
+.nilenso-header {
+  width: 100%;
+  height: 56px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow: hidden;
+  padding: 4px 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  z-index: 10;
+  font-family: "calluna";
+  border-top: 4px solid #f8337d;
+  box-shadow: white 0px 10px 20px;
+}
+
+
+.header-logo-image {
+  float: left;
+  width: 50px;
+}
+
+.header-link {
+  font-size: 20px;
+  color: black;
+  line-height: 56px;
+  padding: 0 10px;
+  text-transform: lowercase;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+.header-logo {
+  opacity: 0;
+}
+
+.header-logo.visible {
+  transition: opacity 1.0s ease-out;
+  -ms-transition: opacity 1.0s ease-out;
+  -moz-transition: opacity 1.0s ease-out;
+  -webkit-transition: opacity 1.0s ease-out;
+  opacity: 1;
+}
+
+.header-logo.always-visible {
+  opacity: 1;
+}
+
+.header-link:hover {
+  color: #f8337d;
+}
+
+.page-link {
+  float: right;
+}
+
+.logo-name {
+  font-family: 'Junction';
+  font-variant: normal;
+  font-size: 30px;
+  padding: 0 4px;
+  color: black;
+  float: left;
+}
+
+/*FOOTER================================*/
+
+.footer {
+  border-top: 1px dotted #f8337d;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  font-size: 18px;
+  line-height: 24px;
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 10px;
+  max-width: 250px;
+}
+
+.contact-map {
+  text-align: center;
+  font-size: 15px;
+}
+
+.contact-social-link {
+  font-variant: normal;
+  text-transform: lowercase;
+}
