@@ -32,13 +32,14 @@
 
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'/>
 
-    <%= stylesheet_link_tag "reset", "font-awesome", "nilenso", "people" %>
+    <!-- site scripts and styles -->
+    <%= stylesheet_link_tag "reset", "font-awesome", "nilenso", "people", "portfolio" %>
     <%= javascript_include_tag  "all" %>
   </head>
 
   <body>
     <header class="nilenso-header">
-      <div class="header-logo">
+      <div class="header-logo <%= header_visibility_depending_on_homepage_or_not %>">
         <img class="header-logo-image" src="images/nilenso_logos/nilenso-200.png" />
         <a class="header-link logo-name" href="http://nilenso.com">nilenso</a>
       </div>
@@ -50,6 +51,30 @@
     <div class="content">
       <!-- Render partial -->
       <%= yield %>
+
+      <div class="footer section">
+        <div class="section-content contact-info">
+          <p class="contact-phone-number">+91 80 4204 2671</p>
+          <p class="contact-email">hello@nilenso.com</p>
+          <p class="contact-address">Nilenso Software LLP, #147, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
+        </div>
+
+        <div class="section-content contact-info">
+          <p class="contact-social">
+            We tweet at <a class="contact-social-link" href="http://twitter.com/nilenso">@nilenso</a> and share our open source work at <a class="contact-social-link" href="http://github.com/nilenso">github.com/nilenso</a>
+          </p>
+        </div>
+
+        <div class="contact-info contact-map">
+          <iframe width="150" height="150" frameborder="0"
+                  scrolling="no" marginheight="0" marginwidth="0"
+                  src="http://www.openstreetmap.org/export/embed.html?bbox=77.637371,12.980132,77.641143,12.984167&amp;layer=mapnik&amp;marker=12.98199,77.63883"
+                  style="border: 1px solid black"></iframe><br />
+          <small>
+            <a href="http://www.openstreetmap.org/?lat=12.982149499999998&amp;lon=77.639257&amp;zoom=17&amp;layers=M&amp;mlat=12.98199&amp;mlon=77.63883">View Larger Map</a>
+            </small>
+        </div>
+      </div>
 
       <div class="copyright">
         <span>&copy; 2013 Nilenso Software LLP</span>
@@ -64,7 +89,7 @@
           (i[r].q = i[r].q || []).push(arguments)
         }, i[r].l = 1 * new Date();
         a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
+            m = s.getElementsByTagName(o)[0];
         a.async = 1;
         a.src = g;
         m.parentNode.insertBefore(a, m)
@@ -72,6 +97,7 @@
 
       ga('create', 'UA-43704022-1', 'nilenso.com');
       ga('send', 'pageview');
+
       $(window).scroll(function () {
         var top = $(window).scrollTop();
         var header = $(".header-logo");
