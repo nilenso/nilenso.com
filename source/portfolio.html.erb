@@ -2,25 +2,27 @@
 title: Portfolio
 ---
 
-<div class="spacer">
-
-  <div class="section">
-    <h2 class="section-heading">Portfolio</h2>
-  </div>
+<div class="spacer"></div>
+<div class="section portfolio">
+  <h2 class="section-heading">Portfolio</h2>
 
   <% data.portfolios.each do |portfolio| %>
-    <div class="portfolio-testimonial section">
-    <a href="<%= portfolio.company_link %>" target="_blank"><img class="testimonial-logo" src="<%= portfolio.logo %>"/></a>
+    <div class="testimonial bordered-section">
+      <div class="portfolio-above">
+        <a href="<%= portfolio.company_link %>" target="_blank">
+          <img class="testimonial-logo" src="<%= portfolio.logo %>"/>
+        </a>
+      </div>
 
-    <div class="testimonial-quote-container section-content">
-      <p class="testimonial-quote-text">
-      <%= portfolio.quote %>
-      </p>
-
-      <p class="testimonial-quoter">
-        <%= portfolio.quoter %>,</br><%= portfolio.company %>
-      </p>
-      <div class="clear"></div>
+      <div class="testimonial-quote-container">
+        <p class="testimonial-quote-text section-content">
+          <i class="icon-quote-left"></i>
+          <%= portfolio.quote %>
+        </p>
+        <p class="testimonial-quoter section-content">
+          <%= portfolio.quoter %>,</br><%= portfolio.company %>
+        </p>
+      </div>
     </div>
   <% end %>
 </div>

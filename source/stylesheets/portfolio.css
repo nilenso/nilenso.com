@@ -1,12 +1,21 @@
-.portfolio-testimonial {
-  margin-top: 4em;
+.portfolio-above {
+  text-align: center;
+  padding: 40px 0 30px;
 }
 
 .testimonial-quote-text {
-  font-style: italic;
+  text-align: justify;
 }
 
 .testimonial-quoter {
-  float: right;
-  margin-top: 12px;
+  text-align: right;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 20px 0 10px;
+  font-family: 'calluna';
+  font-variant: small-caps;
+}
+
+.testimonial:last-child {
+  border-bottom: 0;
 }
