@@ -146,6 +146,12 @@ img.human {
   margin-bottom: 30px;
 }
 
+.people-image {
+  width: 100%;
+}
+.person-link {
+  display: none;
+}
 
 
 
