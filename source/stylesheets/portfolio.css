@@ -19,3 +19,16 @@
 .testimonial:last-child {
   border-bottom: 0;
 }
+
+.quote {
+  font-size: 30px;
+}
+
+.quote.left {
+  padding-right: 2px;
+}
+
+.quote.right {
+  padding-left: 2px;
+}
+
