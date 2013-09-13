@@ -27,23 +27,11 @@
   font-variant: small-caps;
 }
 
-.person-social-links {
-  /*display: none;*/
-}
-
 .person-social-link {
   color: #333;
   text-decoration: none;
   font-size: 21px;
   padding: 0 1px;
-}
-
-.icon-twitter-sign {}
-.social-link {}
-.icon-linkedin-sign {}
-.social-link {}
-.icon-github-sign {}
-.person-right {
 }
 
 .person-bio {
