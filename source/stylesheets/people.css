@@ -51,7 +51,7 @@
   font-size: 21px;
   font-family: "calluna";
   line-height: 32px;
-  padding: 8px;
+  padding: 8px 0;
 }
 
 .person-bio p:last-child {

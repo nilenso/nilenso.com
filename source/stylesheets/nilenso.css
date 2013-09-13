@@ -53,7 +53,10 @@ a {
   font-size: 21px;
   font-family: "calluna";
   line-height: 32px;
-  padding: 0 8px;
+}
+
+.section-content +.section-content {
+  padding-top: 18px;
 }
 
 .section-content-more {
