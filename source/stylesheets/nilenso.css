@@ -33,9 +33,8 @@ a {
 
 .bordered-section {
   margin-bottom: 70px;
-  border-bottom: 1px dotted #ccc;
   padding-bottom: 20px;
-  border-color: #f8337d;
+  border-bottom: 1px dotted #f8337d;
 }
 
 .section {
@@ -220,7 +219,6 @@ img.human {
   border-top: 1px dotted #f8337d;
   padding-top: 50px;
   margin-bottom: 40px;
-  display: table-row;
 }
 
 .contact-info {

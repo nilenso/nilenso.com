@@ -1,17 +1,56 @@
-.people-human {
-  margin-top: 4em;
-  border-radius: 100px;
+.person {
+  border-bottom: 1px dotted #f8337d;
+  display: block;
 }
 
-.people-human-description {
-  float: right;
-  width: 540px;
+.person:last-child {
+  border-bottom: none;
 }
 
-.people-human-image {
-  width: 100px;
-  float: left;
+.person-left {
+  text-align: center;
+  padding: 40px 30px 50px 0;
+  min-width: 180px;
 }
-.people-human-description-content {
-  padding-top: 14px;
+
+.person-image {
+  width: 150px;
+  border-radius: 75px;
+}
+
+.person-name {
+  font-size: 21px;
+  line-height: 25px;
+  padding: 10px 0;
+  color: #333;
+  font-family: 'calluna';
+  font-variant: small-caps;
+}
+
+.person-social-links {
+  /*display: none;*/
+}
+
+.person-social-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 21px;
+  padding: 0 1px;
+}
+
+.icon-twitter-sign {}
+.social-link {}
+.icon-linkedin-sign {}
+.social-link {}
+.icon-github-sign {}
+.person-right {
+}
+
+.person-bio {
+  color: #333333;
+}
+
+.person-bio a {
+  font-variant: normal;
+
 }

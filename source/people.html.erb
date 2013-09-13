@@ -8,20 +8,20 @@ title: People
   <% data.people.each do |person| %>
     <div class="section two-column person" id="<%= person.nick %>">
 
-      <div class="column">
+      <div class="column person-left">
         <a href="people.html#<%= person.nick %>">
           <img alt="<%= person.nick %>" class="person-image" src="<%= person.picture %>"/>
         </a>
         <p class="person-name"><%= person.name %></p>
         <p class="person-social-links">
-          <a class="social-link" href="<%= person.twitter %>"><i class="icon-twitter-sign"></i></a>
-          <a class="social-link" href="<%= person.linkedin %>"><i class="icon-linkedin-sign"></i></a>
-          <a class="social-link" href="<%= person.github %>"><i class="icon-github-sign"></i></a>
+          <a class="person-social-link" href="<%= person.github %>"><i class="icon-github"></i></a>
+          <a class="person-social-link" href="<%= person.twitter %>"><i class="icon-twitter"></i></a>
+          <a class="person-social-link" href="<%= person.linkedin %>"><i class="icon-linkedin"></i></a>
         </p>
       </div>
 
-      <div class="column">
-        <p class="person-bio">
+      <div class="column person-right">
+        <p class="person-bio section-content">
           <%= person.bio %>
         </p>
       </div>
