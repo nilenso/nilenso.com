@@ -65,18 +65,13 @@ a {
 }
 
 .casestudy {
-  display: table-row;
   margin-bottom: 2em;
 }
 
 .casestudy-client-logo {
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .casestudy-client-description {
-  display: table-cell;
-  vertical-align: middle;
   padding: 20px 0 0 20px;
 }
 
@@ -225,6 +220,7 @@ img.human {
   border-top: 1px dotted #f8337d;
   padding-top: 50px;
   margin-bottom: 40px;
+  display: table-row;
 }
 
 .contact-info {
@@ -249,3 +245,24 @@ img.human {
 .spacer {
   margin-top: 56px;
 }
+
+/* two column layout=======================*/
+
+.two-column {
+  display: table-row;
+  margin-bottom: 2em;
+}
+
+.column {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 600px){
+  .two-column { display: block; }
+  .column {
+    display: blocck;
+    text-align: center;
+  }
+}
+
