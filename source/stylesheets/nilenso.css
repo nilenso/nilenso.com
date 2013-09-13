@@ -158,6 +158,8 @@ img.human {
   top: 0;
   left: 0;
   background-color: white;
+  background-attachment: fixed;
+  -webkit-transform: translateZ(0);
   overflow: hidden;
   padding: 4px 20px;
   box-sizing: border-box;
