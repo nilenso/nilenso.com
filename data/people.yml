@@ -27,7 +27,22 @@
   picture: "images/people/jasim-200.png"
   github: "http://github.com/jasim"
   name: "Jasim Basheer"
-  bio: "Akshay started programming in the usual Indian way with Borland Turbo C++ and Visual Basic in high-school, but then quickly moved to Ruby when he discovered _why's poignant guide. Since then, he has hacked a fair bit of Ruby, been a part of the Google Summer of Code 2011 and contributed to GNOME. He's the youngest recruit and deservedly last on the page."
+  bio: >
+      Jasim has been programming for over ten years, out of which the last four
+      years was spent writing Ruby at startups. He started writing code
+      during school years by building business applications in CA-Clipper, a
+      language which is as dear to him as much as it is old.
+
+      He joined
+      <a href='http://c42.in'>C42 Engineering</a> after a brief
+      stint at MobME where he helped build
+      telephony infrastructure for some of India's largest Telco providers. He
+      was part of the team that built and supported
+      <a href='http://rubymonk.com'>RubyMonk</a>. At Nilenso, he partners with
+      clients to build out their products, helps with product incubation, and
+      generally go all Gung ho about the
+      <a href='http://www.wired.com/wiredenterprise/2013/08/indie-web/'>IndieWeb
+        movement</a>. He likes coconuts.
   twitter: "http://twitter.com/jasim_ab"
   linkedin: null
 -
@@ -59,7 +74,10 @@
   picture: "images/people/prashant-200.png"
   github: "https://github.com/prashantkarpe"
   name: "Prashant Karpe"
-  bio: "Akshay started programming in the usual Indian way with Borland Turbo C++ and Visual Basic in high-school, but then quickly moved to Ruby when he discovered _why's poignant guide. Since then, he has hacked a fair bit of Ruby, been a part of the Google Summer of Code 2011 and contributed to GNOME. He's the youngest recruit and deservedly last on the page."
+  bio: >
+    Here's a suit in disguise who's worn the hats of a developer, business analyst and salesman 
+    in his earlier avatars. He laps up numbers and food in similar zest. When he's not being our Business Sherpa 
+    he is pursuing his interests in quizzing, traveling and cooking.
   twitter: "http://twitter.com/prashantwit"
   linkedin: "http://in.linkedin.com/pub/prashant-karpe/11/512/28a/"
 -
