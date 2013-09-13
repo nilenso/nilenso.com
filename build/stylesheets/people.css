@@ -1,17 +1,52 @@
-.people-human {
-  margin-top: 4em;
-  border-radius: 100px;
+.people.section {
+  margin-top: 56px;
 }
 
-.people-human-description {
-  float: right;
-  width: 540px;
+.person {
+  display: block;
 }
 
-.people-human-image {
-  width: 100px;
-  float: left;
+.person:last-child {
+  border-bottom: none;
 }
-.people-human-description-content {
-  padding-top: 14px;
+
+.person-above {
+  text-align: center;
+  padding: 40px 0 50px;
+  min-width: 180px;
+}
+
+.person-image {
+  width: 150px;
+  border-radius: 75px;
+  box-shadow: 0 0 0 5px white, 0 0 0 6px black;
+}
+
+.person-name {
+  font-size: 23px;
+  line-height: 25px;
+  padding: 10px 0;
+  font-family: 'calluna';
+  font-variant: small-caps;
+}
+
+.person-social-link {
+  text-decoration: none;
+  font-size: 21px;
+  padding: 0 1px;
+}
+
+.person-bio a {
+  font-variant: normal;
+}
+
+.person-bio p {
+  font-size: 21px;
+  font-family: "calluna";
+  line-height: 32px;
+  padding: 8px;
+}
+
+.person-bio p:last-child {
+  padding-bottom: 0;
 }

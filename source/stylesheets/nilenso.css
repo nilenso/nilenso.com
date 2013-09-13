@@ -53,6 +53,7 @@ a {
   font-size: 21px;
   font-family: "calluna";
   line-height: 32px;
+  padding: 0 8px;
 }
 
 .section-content-more {
@@ -259,7 +260,7 @@ img.human {
 @media screen and (max-width: 600px){
   .two-column { display: block; }
   .column {
-    display: blocck;
+    display: block;
     text-align: center;
   }
 }

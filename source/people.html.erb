@@ -1,26 +1,28 @@
 ---
 title: People
 ---
-
+<div class="spacer"></div>
 <div class="people section">
   <h2 class="section-heading">Our Team</h2>
 
   <% data.people.each do |person| %>
     <div class="bordered-section person" id="<%= person.nick %>">
 
-      <div class="person-left">
-        <a href="people.html#<%= person.nick %>">
+      <div class="person-above">
+        <a href="people.html#<%= person.nick %>" class="person-anchor-link">
           <img alt="<%= person.nick %>" class="person-image" src="<%= person.picture %>"/>
         </a>
         <p class="person-name"><%= person.name %></p>
         <p class="person-social-links">
           <a class="person-social-link" href="<%= person.github %>"><i class="icon-github"></i></a>
           <a class="person-social-link" href="<%= person.twitter %>"><i class="icon-twitter"></i></a>
-          <a class="person-social-link" href="<%= person.linkedin %>"><i class="icon-linkedin"></i></a>
+          <% if person.linkedin.present? %>
+            <a class="person-social-link" href="<%= person.linkedin %>"><i class="icon-linkedin"></i></a>
+          <% end %>
         </p>
       </div>
 
-      <div class="person-right">
+      <div class="person-below">
         <div class="person-bio section-content">
           <%= person.bio %>
         </div>
@@ -28,3 +30,13 @@ title: People
     </div>
   <% end %>
 </div>
+<script type="text/javascript">
+
+  $(document).ready(function () {
+    if(window.location.href.indexOf("#") > -1) {
+      // currentScrollTop = $( window).scrollTop();
+      // scrollToo = currentScrollTop - 56;
+      // $(window).scrollTop(scrollToo);
+    }
+  });
+</script>
