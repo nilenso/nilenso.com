@@ -43,10 +43,10 @@
         <img class="header-logo-image" src="images/nilenso_logos/nilenso-200.png" />
         <a class="header-link logo-name" href="http://nilenso.com">nilenso</a>
       </div>
-      <a class="header-link page-link" href="portfolio.html">Portfolio</a>
-      <a class="header-link page-link" href="people.html">People</a>
-      <a class="header-link page-link" href="http://blog.nilenso.com">Blog</a>
-      <a class="header-link page-link" href="/">Home</a>
+      <a class="header-link page-link <%= active?('Portfolio') %>" href="portfolio.html">Portfolio</a>
+      <a class="header-link page-link <%= active?('People') %>" href="people.html">People</a>
+      <a class="header-link page-link <%= active?('Blog') %>" href="http://blog.nilenso.com">Blog</a>
+      <a class="header-link page-link <%= active?('Home') %>" href="/">Home</a>
     </header>
 
     <div class="content">
