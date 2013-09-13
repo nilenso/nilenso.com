@@ -1,5 +1,4 @@
 .person {
-  border-bottom: 1px dotted #f8337d;
   display: block;
 }
 
@@ -40,5 +39,15 @@
 
 .person-bio a {
   font-variant: normal;
+}
 
+.person-bio p {
+  font-size: 21px;
+  font-family: "calluna";
+  line-height: 32px;
+  padding: 8px;
+}
+
+.person-bio p:last-child {
+  padding-bottom: 0;
 }

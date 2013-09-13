@@ -6,9 +6,9 @@ title: People
   <h2 class="section-heading">Our Team</h2>
 
   <% data.people.each do |person| %>
-    <div class="section two-column person" id="<%= person.nick %>">
+    <div class="bordered-section person" id="<%= person.nick %>">
 
-      <div class="column person-left">
+      <div class="person-left">
         <a href="people.html#<%= person.nick %>">
           <img alt="<%= person.nick %>" class="person-image" src="<%= person.picture %>"/>
         </a>
@@ -20,10 +20,10 @@ title: People
         </p>
       </div>
 
-      <div class="column person-right">
-        <p class="person-bio section-content">
+      <div class="person-right">
+        <div class="person-bio section-content">
           <%= person.bio %>
-        </p>
+        </div>
       </div>
     </div>
   <% end %>
