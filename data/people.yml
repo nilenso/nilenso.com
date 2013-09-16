@@ -1,6 +1,6 @@
 -
   nick: "kitallis"
-  picture: "images/people/akshay-200.png"
+  picture: "images/people/kitallis-200.png"
   github: "http://github.com/kitallis"
   name: "Akshay Gupta"
   bio: "Akshay started programming in the usual Indian way with Borland Turbo C++ and Visual Basic in high-school, but then quickly moved to Ruby when he discovered _why's poignant guide. Since then, he has hacked a fair bit of Ruby, been a part of the Google Summer of Code 2011 and contributed to GNOME. He's the youngest recruit and deservedly last on the page."
@@ -62,8 +62,8 @@
   twitter: "http://twitter.com/__Neha"
   linkedin: "http://in.linkedin.com/in/nehabits"
 -
-  nick: "nivedita"
-  picture: "images/people/nivedita-200.png"
+  nick: "nid"
+  picture: "images/people/nid-200.png"
   github: "https://github.com/nid90"
   name: "Nivedita Priyadarshini"
   bio: "Nivedita is a final year engineering student working with C42 as an intern. She developed an interest in programming when doing a school project in C++. Since then she has been trying her hands at various languages, mostly C++ and PHP."
@@ -75,8 +75,8 @@
   github: "https://github.com/prashantkarpe"
   name: "Prashant Karpe"
   bio: >
-    Here's a suit in disguise who's worn the hats of a developer, business analyst and salesman 
-    in his earlier avatars. He laps up numbers and food in similar zest. When he's not being our Business Sherpa 
+    Here's a suit in disguise who's worn the hats of a developer, business analyst and salesman
+    in his earlier avatars. He laps up numbers and food in similar zest. When he's not being our Business Sherpa
     he is pursuing his interests in quizzing, traveling and cooking.
   twitter: "http://twitter.com/prashantwit"
   linkedin: "http://in.linkedin.com/pub/prashant-karpe/11/512/28a/"
@@ -98,14 +98,14 @@
   linkedin: "http://in.linkedin.com/in/deobald"
 -
   nick: "gja"
-  picture: "images/people/tejas-200.png"
+  picture: "images/people/gja-200.png"
   github: "http://github.com/gja"
   name: "Tejas Dinkar"
   bio: "Akshay started programming in the usual Indian way with Borland Turbo C++ and Visual"
   twitter: "http://twitter.com/tdinkar"
   linkedin: "http://www.linkedin.com/in/tdinkar"
 -
-  picture: "images/people/timothy-200.jpg"
+  picture: "images/people/tim-200.png"
   nick: "tim"
   name: "Timothy Andrew"
   bio: >

@@ -90,42 +90,11 @@ title: Home
   </p>
 
   <p class="people-more section-content-more">
-    <a class="person-link" href="people.html#akshay">
-      <img alt="Akshay 200" class="human" src="images/people/akshay-200.png" />
-    </a>
-    <a class="person-link" href="people.html#aninda">
-      <img alt="Aninda 200" class="human" src="images/people/aninda-200.png" />
-    </a>
-    <a class="person-link" href="people.html#asif">
-      <img alt="Asif 200" class="human" src="images/people/asif-200.png" />
-    </a>
-    <a class="person-link" href="people.html#jasim">
-      <img alt="Jasim 200" class="human" src="images/people/jasim-200.png" />
-    </a>
-    <a class="person-link" href="people.html#jithu">
-      <img alt="Jithu 200" class="human" src="images/people/jithu-200.png" />
-    </a>
-    <a class="person-link" href="people.html#neha">
-      <img alt="Neha 200" class="human" src="images/people/neha-200.png" />
-    </a>
-    <a class="person-link" href="people.html#nid">
-      <img alt="Nid 200" class="human" src="images/people/nivedita-200.png" />
-    </a>
-    <a class="person-link" href="people.html#prashant">
-      <img alt="Prashant 200" class="human" src="images/people/prashant-200.png" />
-    </a>
-    <a class="person-link" href="people.html#srihari">
-      <img alt="Srihari 200" class="human" src="images/people/srihari-200.png" />
-    </a>
-    <a class="person-link" href="people.html#steve">
-      <img alt="Steve 200" class="human" src="images/people/steven-200.png" />
-    </a>
-    <a class="person-link" href="people.html#tejas">
-      <img alt="Tejas 200" class="human" src="images/people/tejas-200.png" />
-    </a>
-    <a class="person-link" href="people.html#timothy">
-      <img alt="Timothy 200" class="human" src="images/people/timothy-200.jpg" />
-    </a>
+    <% data.people.each do |person| %>
+      <a class="person-link" href="people.html#<%= person.nick %>">
+        <img alt="<%= person.name %> 200" class="human" src="images/people/<%= person.nick %>-200.png" />
+      </a>
+    <% end %>
   </p>
 </div>
 <div class="section cta">
