@@ -5,7 +5,7 @@ title: Portfolio
 <div class="spacer"></div>
 <div class="section portfolio">
   <% data.portfolios.each do |portfolio| %>
-    <div class="testimonial bordered-section">
+    <div class="testimonial bordered-section" id="<%= portfolio.company_nick %>">
       <div class="portfolio-above">
         <a href="<%= portfolio.company_link %>" target="_blank">
           <img class="testimonial-logo" src="<%= portfolio.logo %>"/>

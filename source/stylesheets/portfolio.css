@@ -22,6 +22,7 @@
 
 .quote {
   font-size: 30px;
+  line-height: 0px;
 }
 
 .quote.left {
