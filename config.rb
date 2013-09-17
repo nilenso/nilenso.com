@@ -46,8 +46,16 @@ activate :livereload
 # end
 
 helpers do
+  def current_page_home?
+    current_page.data.title == 'Home'
+  end
+
   def header_visibility_depending_on_homepage_or_not
-    'visible' unless current_page.data.title == 'Home'
+    'visible' unless current_page_home?
+  end
+
+  def title_of_the_page_if_it_needs_to_be_shown
+    " - #{current_page.data.title}" unless current_page_home?
   end
 
   def active?(page)
