@@ -11,7 +11,11 @@
   picture: "images/people/aninda-200.png"
   github: "http://github.com/spacefugitive"
   name: "Aninda Kundu"
-  bio: "Akshay started programming in the usual Indian way with Borland Turbo C++ and Visual Basic in high-school, but then quickly moved to Ruby when he discovered _why's poignant guide. Since then, he has hacked a fair bit of Ruby, been a part of the Google Summer of Code 2011 and contributed to GNOME. He's the youngest recruit and deservedly last on the page."
+  bio: >
+    <p>Aninda graduated from BIT Mesra, with a degree in Electronics and Communication Engineering which he traded in favor of a life in programming. He started his career in HP where he spent 4 years learning how not to build software on the .NET platform (which he still loves).</p>
+    <p>He delved into the world of startups where he was able to make a leap of faith into the world of TDD, REST, MVC, DRY, YAGNI, Git, ROR and other abbreviated coolness. He fell in love with software again and gravitated to a deep appreciation of agile philosophies and vows not to leave home without it.</p>
+    <p>Aninda is passionate about building elegant working software and wanted to work with people who are too, when C42 answered his call. Here he plans to actively contribute back to open source, build value and live a little on the edge.</p>
+
   twitter: "http://twitter.com/aninda42"
   linkedin: "http://in.linkedin.com/pub/aninda-kundu/36/231/15"
 -
@@ -110,7 +114,10 @@
   picture: "images/people/steven-200.png"
   github: "http://github.com/deobald"
   name: "Steven Deobald"
-  bio: "Akshay started programming in the usual Indian way with Borland Turbo C++ and Visual Basic in high-school, but then quickly moved to Ruby when he discovered _why's poignant guide. Since then, he has hacked a fair bit of Ruby, been a part of the Google Summer of Code 2011 and contributed to GNOME. He's the youngest recruit and deservedly last on the page."
+  bio: >
+    <p>Steven spent the last decade working for DRW Trading, ThoughtWorks, Adxstudio, The Canadian Department of National Defence, THE MAN, and some other people. Also himself. Not in that order. Whatever, you don't care -- he's obviously just an ineffective old man. He's last on this page, isn't he? (He used to, but now he isn't)</p>
+    <p>Steven will drink you under the table at the conference of your choosing.</p>
+
   twitter: "http://twitter.com/deobald"
   linkedin: "http://in.linkedin.com/in/deobald"
 -
