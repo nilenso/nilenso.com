@@ -219,6 +219,14 @@ img.human {
   pointer-events: none;
 }
 
+.get-in-touch {
+  text-align: center;
+}
+
+.get-in-touch .section-content {
+  font-size:21px;
+}
+
 .logo-name {
   font-family: 'Junction';
   font-variant: normal;
@@ -259,6 +267,9 @@ img.human {
   margin-top: 56px;
 }
 
+.email-link {
+  font-variant: normal;
+}
 /* two column layout=======================*/
 
 .two-column {
