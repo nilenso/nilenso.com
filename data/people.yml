@@ -50,7 +50,18 @@
   picture: "images/people/jithu-200.png"
   github: "http://github.com/jithugopal"
   name: "Jithu Gopal"
-  bio: "Jithu has been developing web applications for five years, with the first three years almost exclusively on Java. He then chanced upon Ruby and has jumped ship never to look back again. He fancies throwing in words like agile, test driven development, broccoli whenever unsuitable. He has experience working on J2EE stack for products verifying carbon emission compliance. He helped in fleshing out the backend for an ad channel and notification service on Sinatra for an award winning iOS application. Among others, he worked for an open source survey application running of a Ruby on Rails stack and while at it, dabbled a bit into android application development. When not spaced out at work, he enjoys travelling, cycling and fair bit of air-guitaring. You do not want to be around when he goes into his falsetto thinking he’s the next Justin Vernon."
+  bio: >
+      <p>
+      Jithu has been developing web applications for five years, with the first three years
+      almost exclusively on Java. He then chanced upon Ruby and has jumped ship never to look back again.
+      Apart from web application development, he has been gathering intel on
+      <a href="https://github.com/nilenso/ashoka-survey-web/">mobile application development</a>
+      which he believes is the future.
+      </p>
+      <p>
+      When not spaced out at work, he enjoys travelling, cycling and fair bit of air-guitaring.
+      You do not want to be around when he goes into his falsetto thinking he’s the next Justin Vernon.
+      </p>
   twitter: "http://twitter.com/tRAS"
   linkedin: "http://in.linkedin.com/pub/jithu-gopal/b/119/842/"
 -
