@@ -112,7 +112,10 @@
   picture: "images/people/gja-200.png"
   github: "http://github.com/gja"
   name: "Tejas Dinkar"
-  bio: "Tejas started his career at ThoughtWorks, where he picked up an unhealthy taste for all things agile. He joined C42 Emgomeeromg as a Senior Developer, and also played the role of CEO of it's services division. Tejas is really passionate about open source software, and has released multiple gems including secure and musterb. He has given talks at multiple open source conferences, such as RubyConf India. Tejas also has been on the organizing team of multiple conferences including FOSS.in and RubyConf India. Tejas is a languages geek, and will try any programming language once."
+  bio: >
+    Tejas started his career at ThoughtWorks, where he picked up an unhealthy taste for all things agile. He joined C42 Emgomeeromg as a Senior Developer, and also played the role of CEO of it's services division.
+    Tejas is really passionate about open source software, and has released multiple gems including secure and musterb. He has given talks at multiple open source conferences, such as RubyConf India.
+    Tejas also has been on the organizing team of multiple conferences including FOSS.in and RubyConf India. Tejas is a languages geek, and will try any programming language once."
   twitter: "http://twitter.com/tdinkar"
   linkedin: "http://www.linkedin.com/in/tdinkar"
 -
