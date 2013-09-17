@@ -112,10 +112,7 @@
   picture: "images/people/gja-200.png"
   github: "http://github.com/gja"
   name: "Tejas Dinkar"
-  bio: >
-    <p>Tejas has been writing code since he was a kid, although most of the apps he wrote involved throwing pies at images of his principal.</p>
-    <p>Tejas accidently crashed Windows on his machine in the early 2000s, and had to install Linux on it. He has been an ardent supporter of Open Source Software ever since. Tejas has been a contributor to the Fedora and KDE projects, implementing the Bonjour protocol for Kopete. You can find more of his hacks on his Github Page. Tejas has also been an organizer of multiple popular Open Source Conferences.</p>
-    <p>After graduating in Computer Science from PESIT, Tejas spent two years at ThoughtWorks, where he was on a team that wrote large scale C# apps. His passion has always been in Desktop app, and bridging the gap between online apps and the Desktop.<p>
+  bio: "Tejas started his career at ThoughtWorks, where he picked up an unhealthy taste for all things agile. He joined C42 Emgomeeromg as a Senior Developer, and also played the role of CEO of it's services division. Tejas is really passionate about open source software, and has released multiple gems including secure and musterb. He has given talks at multiple open source conferences, such as RubyConf India. Tejas also has been on the organizing team of multiple conferences including FOSS.in and RubyConf India. Tejas is a languages geek, and will try any programming language once."
   twitter: "http://twitter.com/tdinkar"
   linkedin: "http://www.linkedin.com/in/tdinkar"
 -
