@@ -26,6 +26,12 @@
     <meta name="twitter:description"
     content="Nilenso (formerly the consulting arm of C42 Engineering) is an employee-owned software cooperative. We ship beautiful, fully-tested applications for you every day.">
 
+    <!-- mobile-friendly -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
     <!-- Typekit fonts -->
     <script type="text/javascript" src="//use.typekit.net/xgt4lgm.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -33,7 +39,7 @@
     <link rel='shortcut icon' type='image/x-icon' href='favicon.png'/>
 
     <!-- site scripts and styles -->
-    <%= stylesheet_link_tag "reset", "font-awesome", "nilenso", "people", "portfolio" %>
+    <%= stylesheet_link_tag "reset", "font-awesome", "nilenso", "people", "portfolio", "jquery.navobile" %>
     <%= javascript_include_tag  "all" %>
   </head>
 
@@ -43,10 +49,13 @@
         <img class="header-logo-image" src="/nilenso-200.png" />
         <a class="header-link logo-name" href="http://nilenso.com">nilenso</a>
       </div>
-      <a class="header-link page-link <%= active?('Portfolio') %>" href="portfolio.html">Portfolio</a>
-      <a class="header-link page-link <%= active?('People') %>" href="people.html">People</a>
-      <a class="header-link page-link <%= active?('Blog') %>" href="http://blog.nilenso.com">Blog</a>
-      <a class="header-link page-link <%= active?('Home') %>" href="/">Home</a>
+      <div class="page-links">
+        <a class="header-link page-link <%= active?('Home') %>" href="/">Home</a>
+        <a class="header-link page-link <%= active?('Blog') %>" href="http://blog.nilenso.com">Blog</a>
+        <a class="header-link page-link <%= active?('People') %>" href="people.html">People</a>
+        <a class="header-link page-link <%= active?('Portfolio') %>" href="portfolio.html">Portfolio</a>
+      </div>
+      <i id="show-navigation" class="header-link page-link navobile-mobile-only icon-indent-right"></i>
     </header>
 
     <div class="content">
@@ -97,7 +106,13 @@
       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
       ga('create', 'UA-43704022-1', 'nilenso.com');
-    ga('send', 'pageview');
+      ga('send', 'pageview');
+      $(document).ready(function(){
+        $('.page-links').navobile({
+          'content': '.content',
+          'changeDOM': true
+        });
+      });
     </script>
   </body>
 </html>

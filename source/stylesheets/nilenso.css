@@ -27,7 +27,7 @@ a {
 
 .content {
   margin: 0 auto;
-  padding: 0 1.5em;
+  padding: 64px 1.5em 20px;
   max-width: 700px;
 }
 
@@ -205,8 +205,11 @@ img.human {
   color: #f8337d;
 }
 
-.page-link {
+.page-links {
   float: right;
+}
+
+.page-link {
   border: 2px solid white;
 }
 
@@ -236,6 +239,10 @@ img.human {
   float: left;
 }
 
+#show-navigation {
+  float: right;
+}
+
 /*FOOTER================================*/
 
 .footer {
@@ -261,10 +268,6 @@ img.human {
 .contact-social-link {
   font-variant: normal;
   text-transform: lowercase;
-}
-
-.spacer {
-  margin-top: 56px;
 }
 
 .email-link {
