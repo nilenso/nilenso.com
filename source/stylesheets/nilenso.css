@@ -285,11 +285,15 @@ img.human {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
   .two-column { display: block; }
   .column {
     display: block;
     text-align: center;
+  }
+
+  .more-link {
+    display: block;
   }
 }
 
