@@ -55,7 +55,7 @@
         <a class="header-link page-link <%= active?('People') %>" href="people.html">People</a>
         <a class="header-link page-link <%= active?('Portfolio') %>" href="portfolio.html">Portfolio</a>
       </div>
-      <i id="show-navigation" class="header-link page-link navobile-mobile-only icon-indent-right"></i>
+      <i class="show-navigation page-link navobile-mobile-only icon-list"></i>
     </header>
 
     <div class="content">
@@ -110,6 +110,7 @@
       $(document).ready(function(){
         $('.page-links').navobile({
           'content': '.content',
+          'cta': '.show-navigation',
           'changeDOM': true
         });
       });

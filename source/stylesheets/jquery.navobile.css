@@ -103,8 +103,8 @@
     }
 
     .navobile-navigation-visible .page-link {
-      float: none;/*
-      overflow: hi*/dden;
+      float: none;
+      overflow: hidden;
       display: block;
       border-bottom: 1px dotted #f8337d;
     }

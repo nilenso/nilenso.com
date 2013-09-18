@@ -239,8 +239,10 @@ img.human {
   float: left;
 }
 
-#show-navigation {
-  float: right;
+.show-navigation {
+  float: left;
+  font-size: 30px;
+  line-height: 44px;
 }
 
 /*FOOTER================================*/
@@ -295,5 +297,8 @@ img.human {
   .more-link {
     display: block;
   }
-}
 
+  .header-logo {
+    float: right;
+  }
+}
