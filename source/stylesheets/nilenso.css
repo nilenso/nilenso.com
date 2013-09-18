@@ -251,30 +251,37 @@ img.human {
   border-top: 1px dotted #f8337d;
   padding-top: 50px;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .contact-info {
   font-size: 18px;
   line-height: 24px;
-  display: table-cell;
-  vertical-align: top;
   padding: 0 10px;
-  max-width: 250px;
 }
 
 .contact-map {
+  display: none;
   text-align: center;
   font-size: 15px;
+  margin: 30px 0;
 }
 
-.contact-social-link {
+.contact-link {
+  border-left: 1px dotted #f8337d;
+  padding: 0 8px;
   font-variant: normal;
-  text-transform: lowercase;
 }
 
-.email-link {
-  font-variant: normal;
+.contact-link:first-child {
+  border-left: 0;
+  padding-left: 0;
 }
+
+.contact-address {
+  padding-top: 10px;
+}
+
 /* two column layout=======================*/
 
 .two-column {
@@ -300,5 +307,19 @@ img.human {
 
   .header-logo {
     float: right;
+  }
+
+  .contact-link {
+    border: 0;
+    padding: 2px 0;
+    display: block;
+  }
+
+  .contact-address {
+    padding-top: 10px;
+  }
+
+  .contact-map {
+    display: none;
   }
 }
