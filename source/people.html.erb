@@ -2,6 +2,22 @@
 title: People
 ---
 
+<div class="conference-talks bordered-section">
+  <h2 class="section-heading">Our Conference talks</h2>
+
+  <% data.talks.each do |talk| %>
+    <div class="conference-talk">
+      <a href="https://www.youtube.com/watch?v=<%= talk.youtube_id %>" target="_blank">
+        <img class="talk-thumbnail" src="http://img.youtube.com/vi/<%= talk.youtube_id %>/default.jpg"/>
+      </a>
+      <div class="talk-info">
+        <p class="talk-title"><%= talk.title %></p>
+        <p class="talk-speakers"><%= talk.speakers %></p>
+      </div>
+    </div>
+  <% end %>
+</div>
+
 <div class="people section">
   <h2 class="section-heading">Ensonians</h2>
 

@@ -1,3 +1,38 @@
+/*---conference talks-------------------*/
+.conference-talks {
+  text-align: center;
+}
+
+.conference-talk {
+  margin: 10px;
+  font-family: "calluna";
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+}
+
+.talk-thumbnail {
+  border: 1px dotted #f8337d;
+  padding: 2px;
+}
+
+.talk-info {
+  text-align: center;
+}
+
+.talk-title {
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-size: 18px;
+}
+
+.talk-speakers {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #f8337d;
+}
+
+/*---people-------------------*/
 .person {
   display: block;
   margin-bottom: 0;
