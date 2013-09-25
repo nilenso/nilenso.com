@@ -37,9 +37,7 @@ title: Portfolio
 </div>
 
 <script>
-  $(document).ready(function(){
-    navHeight = $(".scroll-nav").height();
-    numberOfNavItems = <%= data.portfolios.count %>;
-    $(".scroll-nav-section").height(navHeight/numberOfNavItems);
+  $(document).ready(function() {
+    setUpScrollNav(<%= data.portfolios.count %>);
   });
 </script>

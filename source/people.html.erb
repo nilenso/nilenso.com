@@ -52,9 +52,11 @@ title: People
 </div>
 
 <div class="scroll-nav">
-  <a class="scroll-nav-section" href="#conference-talks">
-    <img class="scroll-nav-section-img" src="http://img.youtube.com/vi/4A2nAK6H6BU/default.jpg"/>
-    <span class="scroll-nav-tooltip">Conference Talks</span>
+  <a href="#conference-talks" class="scroll-nav-section-link">
+    <div class="scroll-nav-section">
+      <img class="scroll-nav-section-img" src="http://img.youtube.com/vi/4A2nAK6H6BU/default.jpg"/>
+      <span class="scroll-nav-tooltip">Conference Talks</span>
+    </div>
   </a>
   <% data.people.each do |person| %>
     <a href="#<%= person.nick %>" class="scroll-nav-section-link">
@@ -67,9 +69,7 @@ title: People
 </div>
 
 <script>
-  $(document).ready(function(){
-    navHeight = $(".scroll-nav").height();
-    numberOfNavItems = <%= data.people.count %> + 1;
-    $(".scroll-nav-section").height(navHeight/numberOfNavItems);
+  $(document).ready(function() {
+    setUpScrollNav(<%= data.people.count %> + 1);
   });
 </script>

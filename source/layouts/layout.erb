@@ -106,6 +106,16 @@
 
       ga('create', 'UA-43704022-1', 'nilenso.com');
       ga('send', 'pageview');
+
+      function setUpScrollNav(numberOfNavItems) {
+        var navHeight = $(".scroll-nav").height();
+        $(".scroll-nav-section").height(navHeight/numberOfNavItems);
+        $(".scroll-nav-section").click(function(event) {
+          $(".scroll-nav-section.selected").removeClass("selected");
+          $(event.currentTarget).addClass("selected");
+        });
+      }
+
       $(document).ready(function(){
         $('.page-links').navobile({
           'content': '.content',
