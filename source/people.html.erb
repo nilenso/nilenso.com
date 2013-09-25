@@ -67,7 +67,7 @@ title: People
 <script>
   $(document).ready(function(){
     navHeight = $(".scroll-nav").height();
-    numberOfNavItems = 13;
+    numberOfNavItems = <%= data.people.count %> + 1;
     $(".scroll-nav-section").height(navHeight/numberOfNavItems);
   });
 </script>
