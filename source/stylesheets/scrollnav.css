@@ -1,0 +1,45 @@
+.scroll-nav {
+  position: fixed;
+  height: 80%;
+  width: 6%;
+  top: 15%;
+  left: 5%;
+}
+
+.scroll-nav-section {
+  border-right: 1px dotted #f8337d;
+  padding-right: 8px;
+  display: block;
+  position: relative;
+  margin: 3px 0;
+
+  opacity: 0.1;
+  transition: opacity 0.2s ease-in;
+  -ms-transition: opacity 0.2s ease-in;
+  -moz-transition: opacity 0.2s ease-in;
+  -webkit-transition: opacity 0.2s ease-in;
+}
+
+.scroll-nav-section:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -webkit-transition: opacity 0.2s ease-out;
+}
+
+.scroll-nav-section-img {
+  max-width: 100%;
+  box-shadow: none;
+}
+
+.scroll-nav-tooltip {
+  display: none;
+}
+
+.scroll-nav-section:hover .scroll-nav-tooltip {
+  display: block;
+  position: absolute;
+  left: 110%;
+  top: 40%;
+}

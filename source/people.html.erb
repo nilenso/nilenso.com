@@ -3,6 +3,7 @@ title: People
 ---
 
 <div class="conference-talks bordered-section">
+  <a name="conference-talks"></a>
   <h2 class="section-heading">Our Conference talks</h2>
 
   <% data.talks.each do |talk| %>
@@ -47,5 +48,18 @@ title: People
         </div>
       </div>
     </div>
+  <% end %>
+</div>
+
+<div class="scroll-nav">
+  <a class="scroll-nav-section" href="#conference-talks">
+    <img class="scroll-nav-section-img" src="http://img.youtube.com/vi/4A2nAK6H6BU/default.jpg"/>
+    <span class="scroll-nav-tooltip">Conference Talks</span>
+  </a>
+  <% data.people.each do |person| %>
+    <a class="scroll-nav-section" href="#<%= person.nick %>">
+      <img class="person-image scroll-nav-section-img" src="<%= person.picture %>"/>
+      <span class="scroll-nav-tooltip"><%= person.nick %></span>
+    </a>
   <% end %>
 </div>
