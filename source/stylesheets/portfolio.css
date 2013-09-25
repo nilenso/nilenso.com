@@ -1,6 +1,10 @@
+.testimonial {
+  margin-bottom: 50px;
+}
+
 .portfolio-above {
   text-align: center;
-  padding: 40px 0 30px;
+  padding: 70px 0 30px;
 }
 
 .testimonial-quote-text {

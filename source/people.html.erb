@@ -57,9 +57,11 @@ title: People
     <span class="scroll-nav-tooltip">Conference Talks</span>
   </a>
   <% data.people.each do |person| %>
-    <a class="scroll-nav-section" href="#<%= person.nick %>">
-      <img class="scroll-nav-section-img scroll-person-image" src="<%= person.picture %>"/>
-      <span class="scroll-nav-tooltip"><%= person.nick %></span>
+    <a href="#<%= person.nick %>" class="scroll-nav-section-link">
+      <div class="scroll-nav-section">
+        <img class="scroll-nav-section-img scroll-person-image" src="<%= person.picture %>"/>
+        <span class="scroll-nav-tooltip"><%= person.nick %></span>
+      </div>
     </a>
   <% end %>
 </div>

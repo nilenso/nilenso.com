@@ -27,9 +27,11 @@ title: Portfolio
 
 <div class="scroll-nav">
   <% data.portfolios.each do |portfolio| %>
-    <a class="scroll-nav-section" href="#<%= portfolio.company_nick %>">
-      <img class="scroll-nav-section-img" src="<%= portfolio.logo %>"/>
-      <span class="scroll-nav-tooltip"><%= portfolio.company %></span>
+    <a href="#<%= portfolio.company_nick %>" class="scroll-nav-section-link">
+      <div class="scroll-nav-section">
+        <img class="scroll-nav-section-img" src="<%= portfolio.logo %>"/>
+        <span class="scroll-nav-tooltip"><%= portfolio.company_short_name %></span>
+      </div>
     </a>
   <% end %>
 </div>
