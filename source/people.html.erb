@@ -58,8 +58,16 @@ title: People
   </a>
   <% data.people.each do |person| %>
     <a class="scroll-nav-section" href="#<%= person.nick %>">
-      <img class="person-image scroll-nav-section-img" src="<%= person.picture %>"/>
+      <img class="scroll-nav-section-img scroll-person-image" src="<%= person.picture %>"/>
       <span class="scroll-nav-tooltip"><%= person.nick %></span>
     </a>
   <% end %>
 </div>
+
+<script>
+  $(document).ready(function(){
+    navHeight = $(".scroll-nav").height();
+    numberOfNavItems = 13;
+    $(".scroll-nav-section").height(navHeight/numberOfNavItems);
+  });
+</script>
