@@ -123,7 +123,7 @@
         $(".bordered-section")
           .bind('enterviewport', selectScrollNavSection)
           .bind('leaveviewport', deSelectScrollNavSection)
-          .bullseye();
+          .bullseye({offsetTop: 200, offsetHeight: -500});
         $(".scroll-nav-section").click(selectScrollNavSection);
       }
       $(document).ready(function(){
