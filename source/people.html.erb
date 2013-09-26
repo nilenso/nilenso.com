@@ -2,23 +2,6 @@
 title: People
 ---
 
-<div class="conference-talks bordered-section" data-section="conference-talks">
-  <a name="conference-talks"></a>
-  <h2 class="section-heading">Our Conference talks</h2>
-
-  <% data.talks.each do |talk| %>
-    <div class="conference-talk">
-      <a href="https://www.youtube.com/watch?v=<%= talk.youtube_id %>" target="_blank">
-        <img class="talk-thumbnail" src="http://img.youtube.com/vi/<%= talk.youtube_id %>/default.jpg"/>
-      </a>
-      <div class="talk-info">
-        <p class="talk-title"><%= talk.title %></p>
-        <p class="talk-speakers"><%= talk.speakers %></p>
-      </div>
-    </div>
-  <% end %>
-</div>
-
 <div class="people section">
   <h2 class="section-heading">Ensonians</h2>
 
@@ -52,12 +35,6 @@ title: People
 </div>
 
 <div class="scroll-nav">
-  <a href="#conference-talks" class="scroll-nav-section-link">
-    <div class="scroll-nav-section" data-nav="conference-talks">
-      <img class="scroll-nav-section-img" src="http://img.youtube.com/vi/4A2nAK6H6BU/default.jpg"/>
-      <span class="scroll-nav-tooltip">Conference Talks</span>
-    </div>
-  </a>
   <% data.people.each do |person| %>
     <a href="#<%= person.nick %>" class="scroll-nav-section-link">
       <div class="scroll-nav-section" data-nav="<%= person.nick %>">
