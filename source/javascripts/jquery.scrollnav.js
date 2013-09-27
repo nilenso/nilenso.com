@@ -8,12 +8,16 @@ function deSelectScrollNavSection(event) {
   $(".scroll-nav-section[data-nav='" + inactiveSection + "']").removeClass("selected");
 }
 
-function setUpScrollNav() {
+function setUpScrollNav(config) {
+  config = jQuery.extend({
+    pageSectionSelector: ".navigable-section"
+  }, config);
+
   var numberOfNavItems = $("[data-section]").length;
   if (numberOfNavItems < 1) { return false; }
   var navHeight = $(".scroll-nav").height();
   $(".scroll-nav-section").height(navHeight/numberOfNavItems);
-  $(".bordered-section")
+  $(config.pageSectionSelector)
     .bind('enterviewport', selectScrollNavSection)
     .bind('leaveviewport', deSelectScrollNavSection)
     .bullseye({offsetTop: 200, offsetHeight: -500});
