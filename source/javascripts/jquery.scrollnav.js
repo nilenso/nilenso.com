@@ -8,7 +8,9 @@ function deSelectScrollNavSection(event) {
   $(".scroll-nav-section[data-nav='" + inactiveSection + "']").removeClass("selected");
 }
 
-function setUpScrollNav(numberOfNavItems) {
+function setUpScrollNav() {
+  var numberOfNavItems = $("[data-section]").length;
+  if (numberOfNavItems < 1) { return false; }
   var navHeight = $(".scroll-nav").height();
   $(".scroll-nav-section").height(navHeight/numberOfNavItems);
   $(".bordered-section")
