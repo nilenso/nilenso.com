@@ -4,9 +4,9 @@
   github: "http://github.com/kitallis"
   name: "Akshay Gupta"
   bio: >
-    <p>Akshay started writing code with Borland Turbo C++ and Visual Basic in high-school, but then quickly moved to Ruby when he discovered <a href='http://mislav.uniqpath.com/poignant-guide/'>_why's poignant guide</a>. He was a part of GSOC'2011 and contributed to <a href='http://live.gnome.org/AkshayGupta_GnomeShell_Document'>GNOME</a>.
-    <p>Since then, he has hacked a fair bit of Ruby, consulted on a variety of Ruby on Rails projects and helped build <a href='http://rubymonk.com'>RubyMonk</a>.</p>
-    <p>He loves cycling, listening to noise rock and has recently re-discovered his fondness for Snakeboarding.
+    <p>Akshay started writing code with Borland Turbo C++ and Visual Basic in high-school, but then quickly moved to Ruby when he discovered <a href='http://mislav.uniqpath.com/poignant-guide/'>_why's poignant guide</a>. He was a part of GSOC'2011, and contributed to <a href='http://live.gnome.org/AkshayGupta_GnomeShell_Document'>GNOME</a>.
+    <p>Since then, he has hacked a fair bit of Ruby, consulted on a variety of Ruby on Rails projects, and helped build <a href='http://rubymonk.com'>RubyMonk</a>.</p>
+    <p>He loves cycling, listening to noise rock, and has recently re-discovered his fondness for Snakeboarding.
   twitter: "http://twitter.com/kitallis"
   linkedin: "http://in.linkedin.com/in/kitallis"
 -
@@ -16,8 +16,8 @@
   name: "Aninda Kundu"
   bio: >
     <p>Aninda graduated from BIT Mesra, with a degree in Electronics and Communication Engineering which he traded in favor of a life in programming. He started his career in HP where he spent 4 years learning how not to build software on the .NET platform (which he still loves).</p>
-    <p>He delved into the world of startups where he was able to make a leap of faith into the world of TDD, REST, MVC, DRY, YAGNI, Git, ROR and other abbreviated coolness. He fell in love with software again and gravitated to a deep appreciation of agile philosophies and vows not to leave home without it.</p>
-    <p>Aninda is passionate about building elegant working software and wanted to work with people who are too, when Nilenso answered his call. Here he plans to actively contribute back to open source, build value and live a little on the edge.</p>
+    <p>He delved into the world of startups where he was able to make a leap of faith into the world of TDD, REST, MVC, DRY, YAGNI, Git, ROR, and other abbreviated coolness. He fell in love with software again, gravitated to a deep appreciation of agile philosophies, and vows not to leave home without it.</p>
+    <p>Aninda is passionate about building elegant working software, and wanted to work with people who are too, when Nilenso answered his call. Here he plans to actively contribute back to open source, build value, and live a little on the edge.</p>
 
   twitter: "http://twitter.com/aninda42"
   linkedin: "http://in.linkedin.com/pub/aninda-kundu/36/231/15"
@@ -31,7 +31,7 @@
         Asif joined us after spending two years at MobME Wireless where he dabbled in telephony, picked up Ruby, and helped build the systems that powered a large-scale mobile content subscription service.
       </p>
       <p>
-        Over the past year and a half at C42 Engineering and Nilenso, he consulted on Rails projects including a private social network and and a virtual phone system. He's grown fond of pair-programming, TDD and even Javascript (only with frameworks, mind you) during this time. He believes <a href='#steven'>Steven Deobald</a> when he says Clojure is the next big thing, and hopes to deep dive into all the functional awesomeness soon.
+        Over the past year and a half at C42 Engineering and Nilenso, he consulted on Rails projects including a private social network and a virtual phone system. He's grown fond of pair-programming, TDD, and even Javascript (only with frameworks, mind you) during this time. He believes <a href='#steven'>Steven Deobald</a> when he says Clojure is the next big thing, and hopes to deep dive into all the functional awesomeness soon.
       </p>
   twitter: "http://twitter.com/asifskalam"
   linkedin: "http://www.linkedin.com/in/asifskalam"
@@ -72,7 +72,7 @@
       which he believes is the future.
       </p>
       <p>
-      When not spaced out at work, he enjoys travelling, cycling and fair bit of air-guitaring.
+      When not spaced out at work, he enjoys travelling, cycling, and fair bit of air-guitaring.
       You do not want to be around when he goes into his falsetto thinking he's the next Justin Vernon.
       </p>
   twitter: "http://twitter.com/tRAS"
@@ -82,7 +82,7 @@
   picture: "images/people/neha-200.png"
   github: "http://github.com/Bodhisattva2-0"
   name: "Neha Kumari"
-  bio: "Neha interned with Amazon before joining Oracle after her days at BITS Goa. She likes moving fast and switched to a startup role soon after. At C42 & Nilenso, Neha has helped build large scale ecommerce systems and social networks. She also helped organize and coach at RailsGirls Bangalore. She hearts javascript."
+  bio: "Neha interned with Amazon before joining Oracle after her days at BITS Goa. She likes moving fast, and switched to a startup role soon after. At C42 & Nilenso, Neha has helped build large scale ecommerce systems and social networks. She also helped organize and coach at RailsGirls Bangalore. She hearts javascript."
   twitter: "http://twitter.com/__Neha"
   linkedin: "http://in.linkedin.com/in/nehabits"
 -
@@ -90,7 +90,7 @@
   picture: "images/people/nid-200.png"
   github: "https://github.com/nid90"
   name: "Nivedita Priyadarshini"
-  bio: "Nivedita joined Nilenso (then C42 Engineering) straight after finishing her engineering in computer science. She learned programming by building a school project in C++. Fortunately, C++ didn't have as adverse an impact on her as one would imagine. She has been dabbling with code ever since, and is now firmly in the Ruby camp. In the last one and half years, she worked on a suite of three open source applications built in Rails and wrote code for a product: a Twitter client app for groups. She loves learning new stuff and can these days be seen writing AngularJS with great happiness."
+  bio: "Nivedita joined Nilenso (then C42 Engineering) straight after finishing her engineering in computer science. She learned programming by building a school project in C++. Fortunately, C++ didn't have as adverse an impact on her as one would imagine. She has been dabbling with code ever since, and is now firmly in the Ruby camp. In the last one and half years, she worked on a suite of three open source applications built in Rails and wrote code for a product: a Twitter client app for groups. She loves learning new stuff, and can these days be seen writing AngularJS with great happiness."
   twitter: "http://twitter.com/nid90"
   linkedin: "http://in.linkedin.com/pub/nivedita-priyadarshini/47/524/386/"
 -
@@ -101,7 +101,7 @@
   bio: >
     Here's a suit in disguise who's worn the hats of a developer, business analyst and salesman
     in his earlier avatars. He laps up numbers and food in similar zest. When he's not being our Business Sherpa
-    he is pursuing his interests in quizzing, traveling and cooking.
+    he is pursuing his interests in quizzing, traveling, and cooking.
   twitter: "http://twitter.com/prashantwit"
   linkedin: "http://in.linkedin.com/pub/prashant-karpe/11/512/28a/"
 -
@@ -109,7 +109,7 @@
   picture: "images/people/srihari-200.png"
   github: "http://github.com/ssrihari"
   name: "Srihari Sriraman"
-  bio: "Srihari is a FOSS enthusiast, Gnome and Gimp lover. He contributed to <a href='https://github.com/ssrihari/Assignment-Management'>eclipse</a> in GSoC'2011, made a spotlight-like <a href='https://github.com/ssrihari/gimp-tito'>tool</a> for gimp, and contributes occasionally to <a href='https://github.com/diaspora/diaspora/commits?author=ssrihari'>diaspora</a>. He practices minimalistic and user centric design for the web. He loves products and seeks the thrill in solving people's problems. He <a href='http://sriharisriraman.in'>blogs</a>, plays basketball and performs carnatic music ocassionally."
+  bio: "Srihari is a FOSS enthusiast, Gnome, and Gimp lover. He contributed to <a href='https://github.com/ssrihari/Assignment-Management'>eclipse</a> in GSoC'2011, made a spotlight-like <a href='https://github.com/ssrihari/gimp-tito'>tool</a> for gimp, and contributes occasionally to <a href='https://github.com/diaspora/diaspora/commits?author=ssrihari'>diaspora</a>. He practices minimalistic and user centric design for the web. He loves products and seeks the thrill in solving people's problems. He <a href='http://sriharisriraman.in'>blogs</a>, plays basketball, and performs carnatic music ocassionally."
   twitter: "http://twitter.com/SrihariSriraman"
   linkedin: "http://www.linkedin.com/in/sriharisriraman"
 -
@@ -130,7 +130,7 @@
   name: "Tejas Dinkar"
   bio: >
     <p>Tejas started his career at ThoughtWorks, where he picked up an unhealthy taste for all things agile. He joined C42 Engineering as a Senior Developer, and later as the CEO of its services division.</p>
-    <p>Tejas is really passionate about open source software - he has worked on multiple projects include <a href='http://kopete.kde.org/team.php'>KDE</a> and the <a href='https://github.com/maltize/sublime-text-2-ruby-tests'>Sublime Ruby plugin</a>, and has released multiple gems including <a href='http://github.com/gja/secure'>secure</a> and <a href='http://github.com/gja/musterb'>musterb</a>. He has given talks at multiple open source conferences, such as <a href='https://www.youtube.com/watch?v=ntIzf9onRqA'>RubyConf India</a>.</p>
+    <p>Tejas is really passionate about open source software - he has worked on multiple projects include <a href='http://kopete.kde.org/team.php'>KDE</a> and the <a href='https://github.com/maltize/sublime-text-2-ruby-tests'>Sublime Ruby plugin</a>, and has released multiple gems including <a href='http://github.com/gja/secure'>secure</a>, and <a href='http://github.com/gja/musterb'>musterb</a>. He has given talks at multiple open source conferences, such as <a href='https://www.youtube.com/watch?v=ntIzf9onRqA'>RubyConf India</a>.</p>
     <p>Tejas also has been on the organizing team of various conferences including <a href='http://foss.in'>FOSS.in</a> and <a href='http://rubyconfindia.org'>RubyConf India</a>. Tejas is a languages geek, and will try any programming language once.</p>
   twitter: "http://twitter.com/tdinkar"
   linkedin: "http://www.linkedin.com/in/tdinkar"
@@ -139,7 +139,7 @@
   nick: "tim"
   name: "Timothy Andrew"
   bio: >
-    <p>Timothy has been vaguely passionate about computers ever since he got all the way through Prince of Persia when he was five. This grew into a legitimate love for the field after he crashed his Windows box in 2007 and managed a fragile triple-boot system that included a <a href="http://en.wikipedia.org/wiki/OSx86">patched version of OS X</a>.</p>
+    <p>Timothy has been vaguely passionate about computers ever since he got all the way through Prince of Persia when he was five. This grew into a legitimate love for the field after he crashed his Windows box in 2007, and managed a fragile triple-boot system that included a <a href="http://en.wikipedia.org/wiki/OSx86">patched version of OS X</a>.</p>
     <p>Over the past year at Nilenso, he has learned Rails, helped build a suite of three <a href="https://github.com/nilenso/ashoka-survey-web">web</a>/<a href="https://github.com/nilenso/ashoka-survey-mobile">mobile</a> <a href="https://github.com/nilenso/ashoka-user-owner">apps</a> for a non-profit, and worked on <a href="http://wikenso.com/">Wikenso</a>.</p>
 
     <p>When he's not glued to a screen of some sort, he's introverted to a fault, likes to jam on the bass guitar, and play snooker.</p>
