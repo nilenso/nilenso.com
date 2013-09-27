@@ -10,7 +10,9 @@ function deSelectScrollNavSection(event) {
 
 function setUpScrollNav(config) {
   config = jQuery.extend({
-    pageSectionSelector: ".navigable-section"
+    pageSectionSelector: ".navigable-section",
+    viewportOffsetTop: 0,
+    viewportOffsetHeight: 0
   }, config);
 
   var numberOfNavItems = $("[data-section]").length;
@@ -20,6 +22,6 @@ function setUpScrollNav(config) {
   $(config.pageSectionSelector)
     .bind('enterviewport', selectScrollNavSection)
     .bind('leaveviewport', deSelectScrollNavSection)
-    .bullseye({offsetTop: 200, offsetHeight: -500});
+    .bullseye({offsetTop: config.viewportOffsetTop, offsetHeight: config.viewportOffsetHeight});
   $(".scroll-nav-section").click(selectScrollNavSection);
 }
