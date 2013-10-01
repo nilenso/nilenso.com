@@ -1,23 +1,41 @@
-SCROLL_NAV_HTML = '''
-<div class="scroll-nav"></div>
-'''
+class NavHTMLBuilder
+  SCROLL_NAV_HTML: '''
+  <div class="scroll-nav"></div>
+  '''
 
-SCROLL_NAV_SECTION_HTML = '''
-<a class="scroll-nav-section-link">
-  <div class="scroll-nav-section">
-    <img class="scroll-nav-section-img"/>
-    <span class="scroll-nav-tooltip"></span>
-  </div>
-</a>
-'''
+  SCROLL_NAV_SECTION_HTML: '''
+  <a class="scroll-nav-section-link">
+    <div class="scroll-nav-section">
+      <img class="scroll-nav-section-img"/>
+      <span class="scroll-nav-tooltip"></span>
+    </div>
+  </a>
+  '''
+
+  constructor: (@pageSections)->
+    navContainer = $(@SCROLL_NAV_HTML)
+    for section in @pageSections
+      navSection = @buildNavSectionHtml($(section).data())
+      navContainer.append navSection
+    $("body").append navContainer
+
+  buildNavSectionHtml:(sectionData) =>
+    navSection = $(@SCROLL_NAV_SECTION_HTML)
+    navSection.attr("href", "#" + sectionData.sectionLink)
+    navSection.find(".scroll-nav-section").attr("data-nav", sectionData.sectionLink)
+    navSection.find(".scroll-nav-section-img").attr("src", sectionData.imgSrc)
+    navSection.find(".scroll-nav-section-img").addClass(sectionData.imgClass)
+    navSection.find(".scroll-nav-tooltip").html(sectionData.sectionTitle)
+    navSection
+
 
 class ScrollNavigation
   constructor: (@config) ->
     @setupConfig()
     @pageSections = $(@config.pageSectionSelector)
-    @buildNavHTML()
     @numberOfNavItems = @pageSections.length
     return false if @numberOfNavItems < 1
+    new NavHTMLBuilder(@pageSections)
     @setNavItemHeight()
     @bindEvents()
 
@@ -27,22 +45,6 @@ class ScrollNavigation
       viewportOffsetTop: 0
       viewportOffsetHeight: 0
     , @config)
-
-  buildNavSectionHtml:(sectionData) =>
-    navSection = $(SCROLL_NAV_SECTION_HTML)
-    navSection.attr("href", "#" + sectionData.sectionLink)
-    navSection.find(".scroll-nav-section").attr("data-nav", sectionData.sectionLink)
-    navSection.find(".scroll-nav-section-img").attr("src", sectionData.imgSrc)
-    navSection.find(".scroll-nav-section-img").addClass(sectionData.imgClass)
-    navSection.find(".scroll-nav-tooltip").html(sectionData.sectionTitle)
-    navSection
-
-  buildNavHTML: =>
-    navContainer = $(SCROLL_NAV_HTML)
-    for section in @pageSections
-      navSection = @buildNavSectionHtml($(section).data())
-      navContainer.append navSection
-    $("body").append navContainer
 
   setNavItemHeight: =>
     navHeight = $(".scroll-nav").height()
