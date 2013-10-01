@@ -7,7 +7,7 @@ title: People
 
   <% data.people.each do |person| %>
     <a name="<%= person.nick %>"></a>
-    <div class="bordered-section person" data-section="<%= person.nick %>">
+    <% content_tag "div", class: "bordered-section person navigableSection", data: {section_link: person.nick, img_src: person.picture, section_title: person.nick } do %>
 
       <div class="person-above">
         <a href="people.html#<%= person.nick %>" class="person-anchor-link">
@@ -30,17 +30,6 @@ title: People
           <%= person.bio %>
         </div>
       </div>
-    </div>
-  <% end %>
-</div>
-
-<div class="scroll-nav">
-  <% data.people.each do |person| %>
-    <a href="#<%= person.nick %>" class="scroll-nav-section-link">
-      <div class="scroll-nav-section" data-nav="<%= person.nick %>">
-        <img class="scroll-nav-section-img scroll-person-image" src="<%= person.picture %>"/>
-        <span class="scroll-nav-tooltip"><%= person.nick %></span>
-      </div>
-    </a>
+    <% end %>
   <% end %>
 </div>

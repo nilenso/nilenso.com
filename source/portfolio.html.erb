@@ -6,7 +6,7 @@ title: Portfolio
   <h2 class="section-heading">Portfolio</h2>
 
   <% data.portfolios.each do |portfolio| %>
-    <div class="testimonial bordered-section" id="<%= portfolio.company_nick %>" data-section="<%= portfolio.company_nick %>">
+    <% content_tag "div", class: "testimonial bordered-section navigableSection", id: portfolio.company_nick, data: {section_link: portfolio.company_nick, img_src: portfolio.logo, section_title: portfolio.company_short_name } do %>
       <div class="portfolio-above">
         <a href="<%= portfolio.company_link %>" target="_blank">
           <img class="testimonial-logo" src="<%= portfolio.logo %>"/>
@@ -21,17 +21,6 @@ title: Portfolio
           <%= portfolio.quoter %>,</br><%= portfolio.company %>
         </p>
       </div>
-    </div>
-  <% end %>
-</div>
-
-<div class="scroll-nav">
-  <% data.portfolios.each do |portfolio| %>
-    <a href="#<%= portfolio.company_nick %>" class="scroll-nav-section-link">
-      <div class="scroll-nav-section" data-nav="<%= portfolio.company_nick %>">
-        <img class="scroll-nav-section-img" src="<%= portfolio.logo %>"/>
-        <span class="scroll-nav-tooltip"><%= portfolio.company_short_name %></span>
-      </div>
-    </a>
+    <% end %>
   <% end %>
 </div>
