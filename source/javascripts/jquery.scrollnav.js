@@ -50,6 +50,7 @@
       navSection.attr("href", "#" + sectionData.sectionLink);
       navSection.find(".scroll-nav-section").attr("data-nav", sectionData.sectionLink);
       navSection.find(".scroll-nav-section-img").attr("src", sectionData.imgSrc);
+      navSection.find(".scroll-nav-section-img").addClass(sectionData.imgClass);
       navSection.find(".scroll-nav-tooltip").html(sectionData.sectionTitle);
       return navSection;
     };
