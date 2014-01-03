@@ -324,3 +324,7 @@ img.human {
     display: none;
   }
 }
+
+.books, .books a {
+  color: #f8337d;
+}
