@@ -10,18 +10,6 @@
   twitter: "http://twitter.com/kitallis"
   linkedin: "http://in.linkedin.com/in/kitallis"
 -
-  nick: "aninda"
-  picture: "images/people/aninda-200.png"
-  github: "http://github.com/spacefugitive"
-  name: "Aninda Kundu"
-  bio: >
-    <p>Aninda graduated from BIT Mesra, with a degree in Electronics and Communication Engineering which he traded in favor of a life in programming. He started his career in HP where he spent 4 years learning how not to build software on the .NET platform (which he still loves).</p>
-    <p>He delved into the world of startups where he was able to make a leap of faith into the world of TDD, REST, MVC, DRY, YAGNI, Git, ROR, and other abbreviated coolness. He fell in love with software again, gravitated to a deep appreciation of agile philosophies, and vows not to leave home without it.</p>
-    <p>Aninda is passionate about building elegant working software, and wanted to work with people who are too, when Nilenso answered his call. Here he plans to actively contribute back to open source, build value, and live a little on the edge.</p>
-
-  twitter: "http://twitter.com/aninda42"
-  linkedin: "http://in.linkedin.com/pub/aninda-kundu/36/231/15"
--
   nick: "asif"
   picture: "images/people/asif-200.png"
   github: "http://github.com/asifkalam"
@@ -77,14 +65,6 @@
       </p>
   twitter: "http://twitter.com/tRAS"
   linkedin: "http://in.linkedin.com/pub/jithu-gopal/b/119/842/"
--
-  nick: "neha"
-  picture: "images/people/neha-200.png"
-  github: "http://github.com/Bodhisattva2-0"
-  name: "Neha Kumari"
-  bio: "Neha interned with Amazon before joining Oracle after her days at BITS Goa. She likes moving fast, and switched to a startup role soon after. At C42 & Nilenso, Neha has helped build large scale ecommerce systems and social networks. She also helped organize and coach at RailsGirls Bangalore. She hearts javascript."
-  twitter: "http://twitter.com/__Neha"
-  linkedin: "http://in.linkedin.com/in/nehabits"
 -
   nick: "nid"
   picture: "images/people/nid-200.png"
