@@ -14,7 +14,8 @@
   company_short_name: "ashoka"
   company_link: "http://www.ashoka.org"
   logo: "images/client_logos/ashoka_logo.png"
-- quote: "Working with Nilenso was a true pleasure. My development team was stellar and on top of their game. Our project was 5 months long and they were a great fit. We're a startup and needed a team that could quickly adapt to customer feedback and pivots. We came to them with a broken codebase and they were able to clean up the mess and help us deliver our first working prototype. I would recommend them for any future Ruby project and hope to work with them again on our second phase of development."
+- 
+  quote: "Working with Nilenso was a true pleasure. My development team was stellar and on top of their game. Our project was 5 months long and they were a great fit. We're a startup and needed a team that could quickly adapt to customer feedback and pivots. We came to them with a broken codebase and they were able to clean up the mess and help us deliver our first working prototype. I would recommend them for any future Ruby project and hope to work with them again on our second phase of development."
   quoter: "Christopher Collins, Founder and CEO"
   company: "SchoolScoop"
   company_nick: "schoolscoop"

@@ -53,9 +53,8 @@
       </div>
       <div class="page-links">
         <a class="header-link page-link <%= active?('Home') %>" href="/">Home</a>
-        <a class="header-link page-link <%= active?('Blog') %>" href="http://blog.nilenso.com">Blog</a>
         <a class="header-link page-link <%= active?('People') %>" href="people.html">People</a>
-        <a class="header-link page-link <%= active?('Portfolio') %>" href="portfolio.html">Portfolio</a>
+        <a class="header-link page-link <%= active?('Blog') %>" href="http://blog.nilenso.com">Blog</a>
       </div>
       <i class="show-navigation page-link navobile-mobile-only icon-list"></i>
     </header>
@@ -63,31 +62,6 @@
     <div class="content">
       <!-- Render partial -->
       <%= yield %>
-
-      <div class="footer section">
-        <div class="section-content contact-info">
-          <p class="contact-phone-number">
-            <a class="contact-link email-link" href="mailto:hello@nilenso.com">hello@nilenso.com</a>
-            <a class="contact-link contact-social-link" href="http://twitter.com/nilenso">@nilenso</a>
-            <a class="contact-link contact-social-link" href="http://github.com/nilenso">github.com/nilenso</a>
-            <a class="contact-link" href="tel:+918040937123">+91 80 4093 7123</a>
-           </p>
-          <p class="contact-address">Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
-        </div>
-
-        <div class="contact-map">
-          <iframe width="725" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=77.63745725154877%2C12.980698722621153%2C77.63971030712128%2C12.982632828882709&amp;layer=mapnik&amp;marker=12.981665777633317%2C77.63858377933502" style="border: 1px solid black"></iframe><br/>
-          <small>
-            view larger map &mdash;
-            <a target="_blank" href="http://www.openstreetmap.org/?mlat=12.98166&mlon=77.63859#map=19/12.98166/77.63859">OSM</a>,
-            <a target="_blank" href="https://www.google.com/maps/place/Nilenso+Software/@12.981954,77.638743,17z/data=!3m1!4b1!4m2!3m1!1s0x3bae16bb228baf85:0xf43ad1d3efbc4a17">GOOG</a>
-          </small>
-        </div>
-      </div>
-
-      <div class="copyright">
-        <span>&copy; 2014 Nilenso Software LLP</span>
-      </div>
     </div>
 
     <script>

@@ -27,49 +27,14 @@ title: Home
     We work with Ruby on Rails and Javascript, build responsive web sites,
     and ship apps on Android.
   </p>
-</div>
-
-<div class="casestudies bordered-section">
-  <div class="two-column casestudy">
-    <div class="column casestudy-client-logo">
-      <a href="/portfolio.html#flipkart"><img alt="Flipkart logo" class="client-logo"
-           src="images/client_logos/flipkart_logo.png"/></a>
-    </div>
-
-    <div class="column casestudy-client-description first">
-      <p class="casestudy-client-description-content section-content">
-        <i class="quote left">&#8220;</i>
-        C42 has been working with our Ruby & Rails teams for the past few months. They've shown a high level of ownership, and have been driving improvements in agile practices and Ruby usage in our teams. They've also been contributing to DevOps and infrastructure pieces where needed...
-        <i class="quote right">&#8221;</i>
-        <a href="portfolio.html#flipkart" class="more-link">more</a>
-      </p>
-    </div>
-    <div class="clear"></div>
-  </div>
-
-  <div class="two-column casestudy">
-    <div class="column casestudy-client-logo">
-      <a href="/portfolio.html#indinero">
-        <img alt="Indinero logo" class="client-logo"
-             src="images/client_logos/indinero_logo.png"/>
+  
+  <div class="casestudies bordered-section">
+    <% data.portfolios.each do |portfolio| %>
+      <a class="person-link casestudy-client-logo" href="<%= portfolio.company_link %>" target="_blank">
+        <img class="testimonial-logo" src="<%= portfolio.logo %>"/>
       </a>
-    </div>
-
-    <div class="column casestudy-client-description">
-      <p class='casestudy-client-description-content section-content'>
-        <i class="quote left">&#8220;</i>
-        The coders at C42 are absolutely awesome — they're prolific about writing high quality code, and they've even taught us how to improve our engineering practices. They know how to make offshore development work well, and their communication skills are top-notch...
-        <i class="quote right">&#8221;</i>
-        <a href="portfolio.html#indinero" class="more-link">more</a>
-      </p>
-    </div>
-    <div class="clear"></div>
+    <% end %>
   </div>
-
-  <p class="portfolio-more section-content">
-    See our <a href="portfolio.html">portfolio</a> to see a list of the
-    clients we have worked with.
-  </p>
 </div>
 
 <div class="process bordered-section">
@@ -99,9 +64,30 @@ title: Home
     <% end %>
   </p>
 </div>
-<div class="section get-in-touch">
+<div class="get-in-touch bordered-section">
   <h2 class="section-heading">Get in touch</h2>
   <p class="section-content">Email us at <a class="contact-email" href='mailto:hello@nilenso.com'>hello@nilenso.com</a>. We'll respond to you within one business day.</p>
+</div>
+
+<div class="footer">
+  <div class="section-content contact-info">
+    <p class="contact-phone-number">
+      <a class="contact-link email-link" href="mailto:hello@nilenso.com">hello@nilenso.com</a>
+      <a class="contact-link contact-social-link" href="http://twitter.com/nilenso">@nilenso</a>
+      <a class="contact-link contact-social-link" href="http://github.com/nilenso">github.com/nilenso</a>
+      <a class="contact-link" href="tel:+918040937123">+91 80 4093 7123</a>
+     </p>
+    <p class="contact-address">Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
+  </div>
+
+  <div class="contact-map">
+    <iframe width="700" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=77.63745725154877%2C12.980698722621153%2C77.63971030712128%2C12.982632828882709&amp;layer=mapnik&amp;marker=12.981665777633317%2C77.63858377933502" style="border: 1px solid black"></iframe><br/>
+    <small>
+      view larger map in
+      <a target="_blank" href="http://www.openstreetmap.org/?mlat=12.98166&mlon=77.63859#map=19/12.98166/77.63859">OSM</a>,
+      <a target="_blank" href="https://www.google.com/maps/place/Nilenso+Software/@12.981954,77.638743,17z/data=!3m1!4b1!4m2!3m1!1s0x3bae16bb228baf85:0xf43ad1d3efbc4a17">GOOG</a>
+    </small>
+  </div>
 </div>
 
 <script>
