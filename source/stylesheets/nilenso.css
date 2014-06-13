@@ -139,6 +139,7 @@ img.human {
 }
 
 .copyright {
+  font-family: "calluna";
   text-align: center;
   margin-bottom: 30px;
 }
@@ -263,7 +264,6 @@ img.human {
 }
 
 .contact-map {
-  display: none;
   text-align: center;
   font-size: 15px;
   margin: 30px 0;
@@ -318,10 +318,6 @@ img.human {
 
   .contact-address {
     padding-top: 10px;
-  }
-
-  .contact-map {
-    display: none;
   }
 }
 
