@@ -8,42 +8,21 @@ title: Home
 
 <div class="about bordered-section">
   <h1 class="section-content"><a class="name-link" href="name.html">Nilenso</a> is an employee-owned software
-    cooperative based out of Bangalore, India. We ship beautiful, fully-tested applications for you
-    everyday.
+    cooperative based out of Bangalore, India. We ship beautiful, fully-tested applications for you.
   </h1>
-</div>
-
-<div class="startups section">
-  <h2 class="section-heading">We work with startups</h2>
-
-  <p class="section-content">
-    We engage with you as your technical partner, and can help take
-    your product all the way from inception to launch, ensuring consistent
-    delivery of well-designed, well-tested software. We can transition to your team as
-    you grow, or continue refining your product through ongoing iterations.
-  </p>
-
-  <p class="section-content">
-    We work with Ruby on Rails and Javascript, build responsive web sites,
-    and ship apps on Android.
-  </p>
-  
-  <div class="casestudies bordered-section">
-    <% data.portfolios.each do |portfolio| %>
-      <a class="person-link casestudy-client-logo" href="<%= portfolio.company_link %>" target="_blank">
-        <img class="testimonial-logo" src="<%= portfolio.logo %>"/>
-      </a>
-    <% end %>
-  </div>
 </div>
 
 <div class="process bordered-section">
   <h2 class="section-heading">We ship everyday</h2>
 
-  <p class='section-content'>
+  <p class="section-content">
     We follow Extreme Programming (XP) practices to build reliable software fast.
     We deploy working software everyday, communicate effectively through daily standups, work in pairs, test drive code,
     and are transparent about everything we do.
+  </p>
+
+  <p class="section-content">
+    We work only in time and materials mode. This ensures that there is maximum flexiblity in change of scope as your idea evolves.
   </p>
 </div>
 
@@ -51,7 +30,7 @@ title: Home
   <h2 class="section-heading">We are great people to work with</h2>
 
   <p class="section-content">
-    We are expert web developers with extensive experience in Ruby, Rails, and Javascript.
+    We are expert developers with extensive experience in Clojure, Ruby, Rails, and Javascript.
     We have built and launched products, regularly speak at industry conferences, sing
     carnatic music, and climb mountains.
   </p>
@@ -64,6 +43,20 @@ title: Home
     <% end %>
   </p>
 </div>
+
+
+<div class="startups section">
+  <h2 class="section-heading">People we have worked with</h2>
+
+  <div class="casestudies bordered-section">
+    <% data.portfolios.each do |portfolio| %>
+      <a class="person-link casestudy-client-logo" href="<%= portfolio.company_link %>" target="_blank">
+        <img class="testimonial-logo" src="<%= portfolio.logo %>"/>
+      </a>
+    <% end %>
+  </div>
+</div>
+
 <div class="get-in-touch bordered-section">
   <h2 class="section-heading">Get in touch</h2>
   <p class="section-content">Email us at <a class="contact-email" href='mailto:hello@nilenso.com'>hello@nilenso.com</a>. We'll respond to you within one business day.</p>
