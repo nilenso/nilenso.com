@@ -24,29 +24,6 @@
   twitter: "http://twitter.com/asifskalam"
   linkedin: "http://www.linkedin.com/in/asifskalam"
 -
-  nick: "jasim"
-  picture: "images/people/jasim-200.png"
-  github: "http://github.com/jasim"
-  name: "Jasim Basheer"
-  bio: >
-      <p>
-      Jasim has been programming for over ten years, out of which the last four
-       was spent writing Ruby at startups. He joined
-      <a href='http://c42.in'>C42 Engineering</a> after a brief
-      stint at MobME where he helped build
-      telephony infrastructure for some of India's largest Telco providers. He consulted on multiple Ruby on Rails projects at C42 Engineering, and
-      was a member of the founding team behind <a href='http://rubymonk.com'>RubyMonk</a>.
-      </p>
-      <p>
-      At Nilenso, he partners with
-      clients to build out their products, helps with product incubation, and
-      generally go all gung-ho about the
-      <a href='http://www.wired.com/wiredenterprise/2013/08/indie-web/'>IndieWeb
-        movement</a>. He likes coconuts.
-      </p>
-  twitter: "http://twitter.com/jasim_ab"
-  linkedin: null
--
   nick: "jithu"
   picture: "images/people/jithu-200.png"
   github: "http://github.com/jithugopal"
