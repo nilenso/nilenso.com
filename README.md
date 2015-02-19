@@ -7,8 +7,6 @@
 
   `bundle exec middleman`
 
-Live-reload is enabled.
-
 ### Deploying
 
 Following this: https://www.digitalocean.com/community/tutorials/how-to-set-up-automatic-deployment-with-git-with-a-vps
@@ -24,4 +22,7 @@ You'll need:
 
 `git remote add production ssh://www@nilenso.com/home/wwww/repos/nilenso.com.git`
 
-`git push production master`
+```sh
+middleman build
+git push production master
+```
