@@ -1,0 +1,67 @@
+@media screen and (max-width: 1000px){
+  .scroll-nav {
+    display: none;
+  }
+}
+
+.scroll-nav {
+  position: fixed;
+  height: 70%;
+  max-width: 6%;
+  top: 15%;
+  left: 3%;
+}
+
+.scroll-nav-section-link {
+  display: table-row;
+}
+
+.scroll-nav-section {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  text-align: right;
+
+  margin: 4px 0;
+  padding-right: 8px;
+  border-right: 1px dotted #f8337d;
+
+  opacity: 0.1;
+  transition: opacity 0.2s ease-in;
+  -ms-transition: opacity 0.2s ease-in;
+  -moz-transition: opacity 0.2s ease-in;
+  -webkit-transition: opacity 0.2s ease-in;
+}
+
+.scroll-nav-section:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -webkit-transition: opacity 0.2s ease-out;
+}
+
+.scroll-nav-section.selected {
+  opacity: 1;
+}
+
+.scroll-nav-section-img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.scroll-person-image {
+  border-radius: 50%;
+}
+
+.scroll-nav-tooltip {
+  display: none;
+  text-align: left;
+}
+
+.scroll-nav-section:hover .scroll-nav-tooltip {
+  display: block;
+  position: absolute;
+  left: 110%;
+  top: 30%;
+}
