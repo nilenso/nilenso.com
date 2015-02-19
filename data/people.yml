@@ -10,20 +10,6 @@
   twitter: "http://twitter.com/kitallis"
   linkedin: "http://in.linkedin.com/in/kitallis"
 -
-  nick: "asif"
-  picture: "images/people/asif-200.png"
-  github: "http://github.com/asifkalam"
-  name: "Asif Kalam"
-  bio: >
-      <p>
-        Asif joined us after spending two years at MobME Wireless where he dabbled in telephony, picked up Ruby, and helped build the systems that powered a large-scale mobile content subscription service.
-      </p>
-      <p>
-        Over the past year and a half at C42 Engineering and Nilenso, he consulted on Rails projects including a private social network and a virtual phone system. He's grown fond of pair-programming, TDD, and even Javascript (only with frameworks, mind you) during this time. He believes <a href='#steven'>Steven Deobald</a> when he says Clojure is the next big thing, and hopes to deep dive into all the functional awesomeness soon.
-      </p>
-  twitter: "http://twitter.com/asifskalam"
-  linkedin: "http://www.linkedin.com/in/asifskalam"
--
   nick: "jithu"
   picture: "images/people/jithu-200.png"
   github: "http://github.com/jithugopal"
