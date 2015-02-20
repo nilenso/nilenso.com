@@ -13,9 +13,9 @@
   nick: "kitallis"
   picture: "images/people/kitallis-200.png"
   github: "http://github.com/kitallis"
-  name: "Akshay Gupta"
+  name: "Akshay Gupta (kitty)"
   bio: >
-    <p>Akshay started writing code with Borland Turbo C++ and Visual Basic in high-school, but then quickly moved to Ruby when he discovered <a href='http://mislav.uniqpath.com/poignant-guide/'>_why's poignant guide</a>. He was a part of GSOC'2011, and contributed to <a href='http://live.gnome.org/AkshayGupta_GnomeShell_Document'>GNOME</a>.</p>
+    <p>Kitty started writing code with Borland Turbo C++ and Visual Basic in high-school, but then quickly moved to Ruby when he discovered <a href='http://mislav.uniqpath.com/poignant-guide/'>_why's poignant guide</a>. He was a part of GSOC'2011, and contributed to <a href='http://live.gnome.org/AkshayGupta_GnomeShell_Document'>GNOME</a>.</p>
     <p>Since then, he has hacked a fair bit of Ruby, consulted on a variety of Ruby on Rails projects, and helped build <a href='http://rubymonk.com'>RubyMonk</a>.</p>
     <p>He loves cycling, listening to noise rock, and has recently re-discovered his fondness for Snakeboarding.</p>
   twitter: "http://twitter.com/kitallis"
@@ -66,6 +66,15 @@
     he is pursuing his interests in quizzing, traveling, and cooking.
   twitter: "http://twitter.com/prashantwit"
   linkedin: "http://in.linkedin.com/pub/prashant-karpe/11/512/28a/"
+-
+  nick: "neena"
+  picture: "images/people/neena-200.png"
+  github: "https://github.com/neenaoffline"
+  name: "Ravi Chandra (neena) Padmala"
+  bio: >
+    Neena has worked on a rails application that pander to competitive programmers, on libraries that help developers control anonymity software, on backend systems written in Lisp that enables efficient spamming.
+  twitter: "http://twitter.com/neenaoffline"
+  linkedin: "https://www.linkedin.com/in/ravichandrapadmala"
 -
   nick: "srihari"
   picture: "images/people/srihari-200.png"
