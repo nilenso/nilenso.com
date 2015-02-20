@@ -76,6 +76,16 @@
   twitter: "http://twitter.com/neenaoffline"
   linkedin: "https://www.linkedin.com/in/ravichandrapadmala"
 -
+  nick: "smit"
+  picture: "images/people/smit-200.png"
+  github: "http://github.com/who828"
+  name: "Smit Shah"
+  bio: >
+    Smit would like to tell you about TLA+. Not interested? That's cool. What's your favourite consensus algorithm? Do you want a coffee? Blue Tokai or Blue Bottle? Here you go.
+    Are you also concerned with the depths of your consciousness as it pertains to GTD? Let's reflect on our habits so we can see the truth underneath our behaviours which carve the future of distributed computing architecture. Want another coffee?
+  twitter: "http://twitter.com/who828"
+  linkedin: "https://www.linkedin.com/in/who828"
+-
   nick: "srihari"
   picture: "images/people/srihari-200.png"
   github: "http://github.com/ssrihari"
