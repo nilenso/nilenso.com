@@ -1,4 +1,20 @@
 -
+  quote: ""
+  quoter: ""
+  company: "Staples Sparx"
+  company_nick: "sparx"
+  company_short_name: "staples sparx"
+  company_link: "http://www.staples-sparx.com"
+  logo: "images/client_logos/staples-sparx.png"
+-
+  quote: ""
+  quoter: ""
+  company: "Zipline"
+  company_nick: "zipline"
+  company_short_name: "zipline"
+  company_link: "http://www.retailzipline.com/"
+  logo: "images/client_logos/zipline.png"
+-
   quote: "C42 has been working with our Ruby & Rails teams for the past few months. They've shown a high level of ownership, and have been driving improvements in agile practices and Ruby usage in our teams. They've also been contributing to DevOps and infrastructure pieces where needed. We're very happy with their contributions, and look forward to continuing our relationship with them."
   quoter: "Yogi Kulkarni, Technical Architect"
   company: "Flipkart.com"
@@ -14,7 +30,7 @@
   company_short_name: "ashoka"
   company_link: "http://www.ashoka.org"
   logo: "images/client_logos/ashoka_logo.png"
-- 
+-
   quote: "Working with Nilenso was a true pleasure. My development team was stellar and on top of their game. Our project was 5 months long and they were a great fit. We're a startup and needed a team that could quickly adapt to customer feedback and pivots. We came to them with a broken codebase and they were able to clean up the mess and help us deliver our first working prototype. I would recommend them for any future Ruby project and hope to work with them again on our second phase of development."
   quoter: "Christopher Collins, Founder and CEO"
   company: "SchoolScoop"

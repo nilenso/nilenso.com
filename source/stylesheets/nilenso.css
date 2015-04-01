@@ -50,12 +50,14 @@ a {
   line-height: 65px;
   text-align: center;
   font-weight: 300;
+  color: #212121;
 }
 
 .section-content {
   font-size: 21px;
   font-family: "calluna";
   line-height: 32px;
+  color: #343434;
 }
 
 .section-content +.section-content {
@@ -106,14 +108,32 @@ a {
   padding-top: 30px;
 }
 
+.grayscale {
+      filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: grayscale(100%); /* Current draft standard */
+  -webkit-filter: grayscale(100%); /* New WebKit */
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: gray; /* IE6+ */
+  opacity: 0.6;
+}
+
+.grayscale:hover {
+  filter: none;
+  opacity: 1;
+  -webkit-filter: grayscale(0);
+}
+
 .human {
   margin: 10px;
   border-radius: 100px;
+  opacity: 0.9;
 }
 
 .testimonial-logo {
- margin: 10px;
- width: 150px;
+  margin: 10px;
+  width: 150px;
 }
 
 .person-link {
