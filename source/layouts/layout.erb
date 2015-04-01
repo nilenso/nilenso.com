@@ -49,7 +49,7 @@
     <header class="nilenso-header">
       <div class="header-logo <%= header_visibility_depending_on_homepage_or_not %>">
         <img class="header-logo-image" src="/nilenso-200.png" />
-        <a class="header-link logo-name" href="http://nilenso.com">nilenso</a>
+        <a class="header-link logo-name" href="/">nilenso</a>
       </div>
       <div class="page-links">
         <a class="header-link page-link <%= active?('Home') %>" href="/">Home</a>
@@ -73,7 +73,7 @@
           (i[r].q = i[r].q || []).push(arguments)
         }, i[r].l = 1 * new Date();
         a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
+        m = s.getElementsByTagName(o)[0];
         a.async = 1;
         a.src = g;
         m.parentNode.insertBefore(a, m)
@@ -82,7 +82,18 @@
       ga('create', 'UA-43704022-1', 'nilenso.com');
       ga('send', 'pageview');
 
-      $(document).ready(function(){
+      $(document).ready(function() {
+        // open external links in new tabs
+        var host = window.location.hostname;
+        $("body").on("click", "a", function() {
+          if (this.protocol.indexOf("http") == 0 && this.hostname != host) {
+            window.open(this.href, "_blank");
+            return false;
+          } else {
+            return true;
+          }
+        });
+
         $('.page-links').navobile({
           'content': '.content',
           'cta': '.show-navigation',
