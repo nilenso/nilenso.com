@@ -1,0 +1,94 @@
+-
+  nick: "srushti"
+  picture: "images/people/srushti-200.png"
+  github: "http://github.com/srushti"
+  name: "Srushti Ambekallu"
+  bio: >
+    <p>
+    Vim samurai. Programming language junkie. Natural language junkie. Chef.
+    </p>
+  twitter: "https://twitter.com/srshti"
+  linkedin: "http://www.linkedin.com/in/srshti"
+
+-
+  nick: "aninda"
+  picture: "images/people/aninda-200.png"
+  github: "http://github.com/spacefugitive"
+  name: "Aninda Kundu"
+  bio: >
+    <p>Aninda graduated from BIT Mesra, with a degree in Electronics and Communication Engineering which he traded in favor of a life in programming. He started his career in HP where he spent 4 years learning how not to build software on the .NET platform (which he still loves).</p>
+    <p>He delved into the world of startups where he was able to make a leap of faith into the world of TDD, REST, MVC, DRY, YAGNI, Git, ROR, and other abbreviated coolness. He fell in love with software again, gravitated to a deep appreciation of agile philosophies, and vows not to leave home without it.</p>
+    <p>Aninda is passionate about building elegant working software, and wanted to work with people who are too, when Nilenso answered his call. Here he plans to actively contribute back to open source, build value, and live a little on the edge.</p>
+  twitter: "http://twitter.com/aninda42"
+  linkedin: "http://in.linkedin.com/pub/aninda-kundu/36/231/15"
+
+-
+  nick: "neha"
+  picture: "images/people/neha-200.png"
+  github: "http://github.com/Bodhisattva2-0"
+  name: "Neha Kumari"
+  bio: "Neha interned with Amazon before joining Oracle after her days at BITS Goa. She likes moving fast, and switched to a startup role soon after. At C42 & Nilenso, Neha has helped build large scale ecommerce systems and social networks. She also helped organize and coach at RailsGirls Bangalore. She hearts javascript."
+  twitter: "http://twitter.com/__Neha"
+  linkedin: "http://in.linkedin.com/in/nehabits"
+
+-
+  nick: "jasim"
+  picture: "images/people/jasim-200.png"
+  github: "http://github.com/jasim"
+  name: "Jasim Basheer"
+  bio: >
+      <p>
+      Jasim has been programming for over ten years, out of which the last four
+       was spent writing Ruby at startups. He joined
+      <a href='http://c42.in'>C42 Engineering</a> after a brief
+      stint at MobME where he helped build
+      telephony infrastructure for some of India's largest Telco providers. He consulted on multiple Ruby on Rails projects at C42 Engineering, and
+      was a member of the founding team behind <a href='http://rubymonk.com'>RubyMonk</a>.
+      </p>
+      <p>
+      At Nilenso, he partners with
+      clients to build out their products, helps with product incubation, and
+      generally go all gung-ho about the
+      <a href='http://www.wired.com/wiredenterprise/2013/08/indie-web/'>IndieWeb
+        movement</a>. He likes coconuts.
+      </p>
+  twitter: "http://twitter.com/jasim_ab"
+  linkedin: null
+
+-
+  nick: "asif"
+  picture: "images/people/asif-200.png"
+  github: "http://github.com/asifkalam"
+  name: "Asif Kalam"
+  bio: >
+      <p>
+        Asif joined us after spending two years at MobME Wireless where he dabbled in telephony, picked up Ruby, and helped build the systems that powered a large-scale mobile content subscription service.
+      </p>
+      <p>
+        Over the past year and a half at C42 Engineering and Nilenso, he consulted on Rails projects including a private social network and a virtual phone system. He's grown fond of pair-programming, TDD, and even Javascript (only with frameworks, mind you) during this time. He believes <a href='#steven'>Steven Deobald</a> when he says Clojure is the next big thing, and hopes to deep dive into all the functional awesomeness soon.
+      </p>
+  twitter: "http://twitter.com/asifskalam"
+  linkedin: "http://www.linkedin.com/in/asifskalam"
+
+-
+  nick: "smit"
+  picture: "images/people/smit-200.png"
+  github: "http://github.com/who828"
+  name: "Smit Shah"
+  bio: >
+    Smit would like to tell you about TLA+. Not interested? That's cool. What's your favourite consensus algorithm? Do you want a coffee? Blue Tokai or Blue Bottle? Here you go.
+    Are you also concerned with the depths of your consciousness as it pertains to GTD? Let's reflect on our habits so we can see the truth underneath our behaviours which carve the future of distributed computing architecture. Want another coffee?
+  twitter: "http://twitter.com/who828"
+  linkedin: "https://www.linkedin.com/in/who828"
+
+-
+  nick: "gja"
+  picture: "images/people/gja-200.png"
+  github: "http://github.com/gja"
+  name: "Tejas Dinkar"
+  bio: >
+    <p>Tejas started his career at ThoughtWorks, where he picked up an unhealthy taste for all things agile. He joined C42 Engineering as a Senior Developer, and later as the CEO of its services division.</p>
+    <p>Tejas is really passionate about open source software - he has worked on multiple projects include <a href='http://kopete.kde.org/team.php'>KDE</a> and the <a href='https://github.com/maltize/sublime-text-2-ruby-tests'>Sublime Ruby plugin</a>, and has released multiple gems including <a href='http://github.com/gja/secure'>secure</a>, and <a href='http://github.com/gja/musterb'>musterb</a>. He has given talks at multiple open source conferences, such as <a href='https://www.youtube.com/watch?v=ntIzf9onRqA'>RubyConf India</a>.</p>
+    <p>Tejas also has been on the organizing team of various conferences including <a href='http://foss.in'>FOSS.in</a> and <a href='http://rubyconfindia.org'>RubyConf India</a>. Tejas is a languages geek, and will try any programming language once.</p>
+  twitter: "http://twitter.com/tdinkar"
+  linkedin: "http://www.linkedin.com/in/tdinkar"

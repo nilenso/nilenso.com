@@ -76,16 +76,6 @@
   twitter: "http://twitter.com/neenaoffline"
   linkedin: "https://www.linkedin.com/in/ravichandrapadmala"
 -
-  nick: "smit"
-  picture: "images/people/smit-200.png"
-  github: "http://github.com/who828"
-  name: "Smit Shah"
-  bio: >
-    Smit would like to tell you about TLA+. Not interested? That's cool. What's your favourite consensus algorithm? Do you want a coffee? Blue Tokai or Blue Bottle? Here you go.
-    Are you also concerned with the depths of your consciousness as it pertains to GTD? Let's reflect on our habits so we can see the truth underneath our behaviours which carve the future of distributed computing architecture. Want another coffee?
-  twitter: "http://twitter.com/who828"
-  linkedin: "https://www.linkedin.com/in/who828"
--
   nick: "srihari"
   picture: "images/people/srihari-200.png"
   github: "http://github.com/ssrihari"
@@ -104,17 +94,6 @@
 
   twitter: "http://twitter.com/deobald"
   linkedin: "http://in.linkedin.com/in/deobald"
--
-  nick: "gja"
-  picture: "images/people/gja-200.png"
-  github: "http://github.com/gja"
-  name: "Tejas Dinkar"
-  bio: >
-    <p>Tejas started his career at ThoughtWorks, where he picked up an unhealthy taste for all things agile. He joined C42 Engineering as a Senior Developer, and later as the CEO of its services division.</p>
-    <p>Tejas is really passionate about open source software - he has worked on multiple projects include <a href='http://kopete.kde.org/team.php'>KDE</a> and the <a href='https://github.com/maltize/sublime-text-2-ruby-tests'>Sublime Ruby plugin</a>, and has released multiple gems including <a href='http://github.com/gja/secure'>secure</a>, and <a href='http://github.com/gja/musterb'>musterb</a>. He has given talks at multiple open source conferences, such as <a href='https://www.youtube.com/watch?v=ntIzf9onRqA'>RubyConf India</a>.</p>
-    <p>Tejas also has been on the organizing team of various conferences including <a href='http://foss.in'>FOSS.in</a> and <a href='http://rubyconfindia.org'>RubyConf India</a>. Tejas is a languages geek, and will try any programming language once.</p>
-  twitter: "http://twitter.com/tdinkar"
-  linkedin: "http://www.linkedin.com/in/tdinkar"
 -
   picture: "images/people/tim-200.png"
   nick: "tim"
