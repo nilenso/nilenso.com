@@ -15,6 +15,14 @@
   company_link: "http://www.retailzipline.com/"
   logo: "images/client_logos/zipline.png"
 -
+  quote: ""
+  quoter: ""
+  company: "Quintype"
+  company_nick: "quintype"
+  company_short_name: "quintype"
+  company_link: "http://www.quintype.com/"
+  logo: "images/client_logos/quintype.png"
+-
   quote: "C42 has been working with our Ruby & Rails teams for the past few months. They've shown a high level of ownership, and have been driving improvements in agile practices and Ruby usage in our teams. They've also been contributing to DevOps and infrastructure pieces where needed. We're very happy with their contributions, and look forward to continuing our relationship with them."
   quoter: "Yogi Kulkarni, Technical Architect"
   company: "Flipkart.com"
