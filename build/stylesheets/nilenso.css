@@ -73,18 +73,11 @@ a {
 }
 
 .casestudies {
-  padding-left: 1em;
-  padding-right: 1em;
   text-align: center;
 }
 
 .casestudy {
   margin-bottom: 2em;
-}
-
-.casestudy-client-logo {
-  margin-left: 2.5em;
-  margin-right: 2.5em;
 }
 
 .casestudy-client-description {

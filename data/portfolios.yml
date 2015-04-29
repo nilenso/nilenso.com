@@ -22,6 +22,26 @@
   company_short_name: "quintype"
   company_link: "http://www.quintype.com/"
   logo: "images/client_logos/quintype.png"
+
+-
+  quote: ""
+  quoter: ""
+  company: "Fact0ry"
+  company_nick: "factory"
+  company_short_name: "factory"
+  company_link: "http://fact0ry.com/"
+  logo: "images/client_logos/fact0ry.png"
+
+-
+  quote: ""
+  quoter: ""
+  company: "Domino"
+  company_nick: "domino"
+  company_short_name: "domino"
+  company_link: "http://www.mydomino.com/"
+  logo: "images/client_logos/domino.png"
+
+
 -
   quote: "C42 has been working with our Ruby & Rails teams for the past few months. They've shown a high level of ownership, and have been driving improvements in agile practices and Ruby usage in our teams. They've also been contributing to DevOps and infrastructure pieces where needed. We're very happy with their contributions, and look forward to continuing our relationship with them."
   quoter: "Yogi Kulkarni, Technical Architect"
