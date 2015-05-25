@@ -28,6 +28,12 @@ a {
   text-transform: lowercase;
 }
 
+ul {
+  list-style: initial;
+  list-style-type: octal;
+  padding-left: 40px;
+}
+
 .content {
   margin: 0 auto;
   padding: 64px 1.5em 20px;
