@@ -10,11 +10,11 @@ deploy:
 	git push production master
 
 add-remote:
-	git remote add production ssh://www@nilenso.com/home/wwww/repos/nilenso.com.git
+	git remote add production ssh://www@nilenso.com/home/www/repos/nilenso.com.git
 
 print-server-hook:
 	@echo \#!/bin/sh
-	@echo git --work-tree=/home/www/nilenso.com --git-dir=/home/wwww/repos/nilenso.com.git checkout -f
+	@echo git --work-tree=/home/www/nilenso.com --git-dir=/home/www/repos/nilenso.com.git checkout -f
 
 help: ?
 
