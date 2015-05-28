@@ -9,20 +9,19 @@
 -
   quote: ""
   quoter: ""
-  company: "Zipline"
-  company_nick: "zipline"
-  company_short_name: "zipline"
-  company_link: "http://www.retailzipline.com/"
-  logo: "images/client_logos/zipline.png"
--
-  quote: ""
-  quoter: ""
   company: "Quintype"
   company_nick: "quintype"
   company_short_name: "quintype"
   company_link: "http://www.quintype.com/"
   logo: "images/client_logos/quintype.png"
-
+-
+  quote: ""
+  quoter: ""
+  company: "Only Much Louder"
+  company_nick: "oml"
+  company_short_name: "oml"
+  company_link: "http://oml.in/"
+  logo: "images/client_logos/oml.png"
 -
   quote: ""
   quoter: ""
@@ -31,7 +30,14 @@
   company_short_name: "factory"
   company_link: "http://fact0ry.com/"
   logo: "images/client_logos/fact0ry.png"
-
+-
+  quote: ""
+  quoter: ""
+  company: "Zipline"
+  company_nick: "zipline"
+  company_short_name: "zipline"
+  company_link: "http://www.retailzipline.com/"
+  logo: "images/client_logos/zipline.png"
 -
   quote: ""
   quoter: ""
