@@ -1,5 +1,8 @@
 .PHONY:	help ? tests
 
+serve:
+	middleman
+
 build:
 	middleman build
 
