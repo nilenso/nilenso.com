@@ -18,6 +18,12 @@ make deploy
 
 # nilenso blog
 
+### Installing
+
+Someone will need to remember exactly how to set up https://github.com/nilenso/planet-nilenso/ ...but it's probably not hard.
+
+Next, clone this repo (https://github.com/nilenso/nilenso.com) to the `deploy` user's home directory and run `make install-planet-sh` to set up the cron job.
+
 ### Config
 
 All your posts with `nilenso` in the tags should appear in Planet Nilenso. If they don't seem to be, make sure your RSS/ATOM feed is listed here:
