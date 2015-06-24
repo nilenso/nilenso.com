@@ -15,6 +15,7 @@ Following this: https://www.digitalocean.com/community/tutorials/how-to-set-up-a
 ```sh
 make clean && make
 git add .
+git ci -m 'adding new partner: Leslie Lamport'
 git pull
 git push
 make deploy
