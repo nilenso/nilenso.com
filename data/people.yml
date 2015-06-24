@@ -10,17 +10,6 @@
   twitter: "http://twitter.com/abhin4v"
   linkedin: "http://in.linkedin.com/in/abhinavsarkar"
 -
-  nick: "deepa"
-  picture: "images/people/deepa-200.png"
-  github: "http://github.com/dvenkatr"
-  name: "Deepa Venkatraman"
-  bio: >
-    <p>Like a rock. Which is to say, she has tenacity. Not the way a Ford is "like a rock". Deepa drives. One supposes a Ford drives, too. But Deepa will outlast even a gas guzzler from the 60's. So she's more like a rock than a ford. In both ways.</p>
-    <p>Deepa's got a rainbow-coloured past. Starting startups, running businesses, crunching big numbers, building robots, and tearing up backroads in a cloud of dust that implies the closing credits will scroll by soon with a really kickin' outtro. At nilenso, she's tasked with figuring out how to turn us from a cute little boutique software consultancy into a dominant multinational co-operative corporation. No big deal.</p>
-    <p>Deepa is a stealth semi-luddite, so don't be surprised if she convinces you your smartphone is not the future of your life -- or that data expiry and encryption should be an everyday concern. Oh, she also speaks half a dozen languages and knows everyone you know but she is almost definitely probably not a secret agent.</p>
-  twitter: "https://twitter.com/deepa_v"
-  linkedin: "https://uk.linkedin.com/in/deepavenkatraman"
--
   nick: "kitallis"
   picture: "images/people/kitallis-200.png"
   github: "http://github.com/kitallis"
@@ -31,6 +20,17 @@
     <p>He loves cycling, listening to noise rock, and has recently re-discovered his fondness for Snakeboarding.</p>
   twitter: "http://twitter.com/kitallis"
   linkedin: "http://in.linkedin.com/in/kitallis"
+-
+  nick: "deepa"
+  picture: "images/people/deepa-200.png"
+  github: "http://github.com/dvenkatr"
+  name: "Deepa Venkatraman"
+  bio: >
+    <p>Like a rock. Which is to say, she has tenacity. Not the way a Ford is "like a rock". Deepa drives. One supposes a Ford drives, too. But Deepa will outlast even a gas guzzler from the 60's. So she's more like a rock than a ford. In both ways.</p>
+    <p>Deepa's got a rainbow-coloured past. Starting startups, running businesses, crunching big numbers, building robots, and tearing up backroads in a cloud of dust that implies the closing credits will scroll by soon with a really kickin' outtro. At nilenso, she's tasked with figuring out how to turn us from a cute little boutique software consultancy into a dominant multinational co-operative corporation. No big deal.</p>
+    <p>Deepa is a stealth semi-luddite, so don't be surprised if she convinces you your smartphone is not the future of your life -- or that data expiry and encryption should be an everyday concern. Oh, she also speaks half a dozen languages and knows everyone you know but she is almost definitely probably not a secret agent.</p>
+  twitter: "https://twitter.com/deepa_v"
+  linkedin: "https://uk.linkedin.com/in/deepavenkatraman"
 -
   nick: "jithu"
   picture: "images/people/jithu-200.png"
