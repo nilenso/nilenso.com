@@ -1,13 +1,13 @@
 .PHONY:	help ? tests
 
-serve:
-	middleman
-
 build:
 	middleman build
 
+serve:
+	middleman
+
 clean:
-	rm -r build
+	rm -rf build
 
 deploy:
 	git push production master
@@ -40,6 +40,7 @@ help: ?
 	@echo "add-remote .......... Add the production server as a git remote"
 	@echo "print-server-hook ... Print the hook to add the production server"
 	@echo "clean ............... Clean before building"
+	@echo "serve ............... Serve up nilenso.com locally"
 	@echo "build ............... Build nilenso.com static site"
 	@echo "deploy .............. Deploy to nilenso.com production server"
 	@echo "install-planet-sh ... Install planet nilenso blog (run as deply)"

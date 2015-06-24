@@ -2,8 +2,11 @@
 
 ### Setting up
 
-```bundle
-bundle exec middleman```
+```brew install rbenv
+brew install ruby-build
+rbenv install 2.0.0-p247
+gem install bundler
+bundler install```
 
 ### Deploying
 
@@ -11,6 +14,9 @@ Following this: https://www.digitalocean.com/community/tutorials/how-to-set-up-a
 
 ```sh
 make clean && make
+git add .
+git pull
+git push
 make deploy
 ```
 
