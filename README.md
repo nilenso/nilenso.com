@@ -10,7 +10,7 @@ bundler install```
 
 ### Deploying
 
-Following this: https://www.digitalocean.com/community/tutorials/how-to-set-up-automatic-deployment-with-git-with-a-vps
+Following this: https://www.digitalocean.com/community/tutorials/how-to-set-up-automatic-deployment-with-git-with-a-vps ...yes, it's a bit of a pain in the ass, but it's not horrible and it's a zero-dependency solution which works for now.
 
 ```sh
 make clean && make
