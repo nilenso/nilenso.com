@@ -59,6 +59,16 @@ ul {
   color: #212121;
 }
 
+.section-subheading {
+  font-family: "calluna";
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+  font-weight: 300;
+  color: #212121;
+  margin: 40px 0px;
+}
+
 .section-content {
   font-size: 21px;
   font-family: "calluna";
