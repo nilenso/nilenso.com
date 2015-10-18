@@ -84,6 +84,3 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 3.1.5)
-
-BUNDLED WITH
-   1.10.4
