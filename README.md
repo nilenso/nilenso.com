@@ -4,7 +4,7 @@
 
 ```brew install rbenv
 brew install ruby-build
-rbenv install 2.0.0-p247
+rbenv install 2.2.3
 gem install bundler
 bundler install```
 

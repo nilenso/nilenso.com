@@ -83,4 +83,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  middleman (~> 3.1.5)
+  middleman
+
+BUNDLED WITH
+   1.10.6
