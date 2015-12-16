@@ -2,11 +2,13 @@
 
 ### Setting up
 
-```brew install rbenv
+```
+brew install rbenv
 brew install ruby-build
 rbenv install 2.2.3
 gem install bundler
-bundler install```
+bundler install
+```
 
 ### Deploying
 
