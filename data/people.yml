@@ -9,6 +9,7 @@
     <p>He would love it if you'd go for a long bicycle ride to Mysore with him tomorrow. Bring some of those little bananas.</p>
   twitter: "http://twitter.com/abhin4v"
   linkedin: "http://in.linkedin.com/in/abhinavsarkar"
+
 -
   nick: "kitallis"
   picture: "images/people/kitallis-200.png"
@@ -20,6 +21,7 @@
     <p>He loves cycling, listening to noise rock, and has recently re-discovered his fondness for Snakeboarding.</p>
   twitter: "http://twitter.com/kitallis"
   linkedin: "http://in.linkedin.com/in/kitallis"
+
 -
   nick: "deepa"
   picture: "images/people/deepa-200.png"
@@ -31,6 +33,19 @@
     <p>Deepa is a stealth semi-luddite, so don't be surprised if she convinces you your smartphone is not the future of your life -- or that data expiry and encryption should be an everyday concern. Oh, she also speaks half a dozen languages and knows everyone you know but she is almost definitely probably not a secret agent.</p>
   twitter: "https://twitter.com/deepa_v"
   linkedin: "https://uk.linkedin.com/in/deepavenkatraman"
+
+-
+  nick: "govind"
+  picture: "images/people/govind-200.png"
+  github: "http://github.com/govindkrjoshi"
+  name: "Govind Joshi"
+  bio: >
+    <p>Govind will never assault you with words, but he is always listening intently to what you have to say... which is often a pleasant counterbalance to the rest of us. One doesn't usually consider thoughtful and considered commentary an essential skill, but he has a way of making it appear so.</p>
+    <p>Govind is actually a Biologist in disguise. He's spent most of his career in BioTech and found his way into hardcore software development through an inherent love of Category Theory and Haskell.</p>
+    <p>If you see Govind riding his bicycle around town to get to a local classical music performance, we suggest you follow him.</p>
+  twitter: "https://twitter.com/govindkrjoshi"
+  linkedin: ""
+
 -
   nick: "nid"
   picture: "images/people/nid-200.png"
@@ -39,6 +54,7 @@
   bio: "Nivedita joined nilenso straight after finishing her engineering in computer science. She learned programming by building a school project in C++. Fortunately, C++ didn't have as adverse an impact on her as one would imagine. She has been dabbling with code ever since, and is now firmly in the Ruby camp. In the last one and half years, she worked on a suite of three open source applications built in Rails and wrote code for a product: a Twitter client app for groups. She loves learning new stuff, and can these days be seen writing AngularJS with great happiness."
   twitter: "http://twitter.com/nid90"
   linkedin: "http://in.linkedin.com/pub/nivedita-priyadarshini/47/524/386/"
+
 -
   nick: "noopur"
   picture: "images/people/noopur-200.png"
@@ -47,6 +63,7 @@
   bio: "Noopur is a recent National Institute of Design graduate. She'll tell you what's wrong with your wood grains, straighten your kerning, balance the colour palette of your lunch, and generally make you a better person."
   twitter: "http://twitter.com/noopur_v"
   linkedin: "http://in.linkedin.com/in/noopurvarma"
+
 -
   nick: "prashant"
   picture: "images/people/prashant-200.png"
@@ -58,6 +75,7 @@
     he is pursuing his interests in quizzing, traveling, and cooking.
   twitter: "http://twitter.com/prashantwit"
   linkedin: "http://in.linkedin.com/pub/prashant-karpe/11/512/28a/"
+
 -
   nick: "neena"
   picture: "images/people/neena-200.png"
@@ -67,6 +85,7 @@
     Neena has worked on a rails application that pander to competitive programmers, on libraries that help developers control anonymity software, on backend systems written in Lisp that enables efficient spamming.
   twitter: "http://twitter.com/neenaoffline"
   linkedin: "https://www.linkedin.com/in/ravichandrapadmala"
+
 -
   nick: "srihari"
   picture: "images/people/srihari-200.png"
@@ -75,6 +94,7 @@
   bio: "Srihari is a FOSS enthusiast, Gnome, and Gimp lover. He contributed to <a href='https://github.com/ssrihari/Assignment-Management'>eclipse</a> in GSoC'2011, made a spotlight-like <a href='https://github.com/ssrihari/gimp-tito'>tool</a> for gimp, and contributes occasionally to <a href='https://github.com/diaspora/diaspora/commits?author=ssrihari'>diaspora</a>. He practices minimalistic and user centric design for the web. He loves products and seeks the thrill in solving people's problems. He <a href='http://sriharisriraman.in'>blogs</a>, plays basketball, and performs carnatic music ocassionally."
   twitter: "http://twitter.com/SrihariSriraman"
   linkedin: "http://www.linkedin.com/in/sriharisriraman"
+
 -
   nick: "steven"
   picture: "images/people/steven-200.png"
@@ -86,6 +106,7 @@
 
   twitter: "http://twitter.com/deobald"
   linkedin: "http://in.linkedin.com/in/deobald"
+
 -
   picture: "images/people/tim-200.png"
   nick: "tim"
@@ -93,7 +114,6 @@
   bio: >
     <p>Timothy has been vaguely passionate about computers ever since he got all the way through Prince of Persia when he was five. This grew into a legitimate love for the field after he crashed his Windows box in 2007, and managed a fragile triple-boot system that included a <a href="http://en.wikipedia.org/wiki/OSx86">patched version of OS X</a>.</p>
     <p>Over the past year at nilenso, he has learned Rails, helped build a suite of three <a href="https://github.com/nilenso/ashoka-survey-web">web</a>/<a href="https://github.com/nilenso/ashoka-survey-mobile">mobile</a> <a href="https://github.com/nilenso/ashoka-user-owner">apps</a> for a non-profit, and worked on <a href="http://wikenso.com/">Wikenso</a>.</p>
-
     <p>When he's not glued to a screen of some sort, he's introverted to a fault, likes to jam on the bass guitar, and play snooker.</p>
   twitter: "http://twitter.com/timothyandrew"
   linkedin: "http://www.linkedin.com/in/timothyandrew"
