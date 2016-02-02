@@ -56,6 +56,21 @@
   linkedin: null
 
 -
+  nick: "arnab"
+  picture: "images/people/arnab-200.png"
+  github: "http://github.com/arnab"
+  name: "Arnab Deka"
+  bio: >
+      <p>
+        Arnab worked with nilenso for a brief stint to spend time working on Clojure, experiment with product development, and help us flesh out the initial architecture of <a href="https://www.kulu.in/">Kulu</a>.
+      </p>
+      <p>
+        Arnab has worked for Amazon and LivingSocial and now enjoys time in Seattle working with the AWS Console team.
+      </p>
+  twitter: "http://twitter.com/or9ob"
+  linkedin: "https://www.linkedin.com/in/arnab1981"
+
+-
   nick: "asif"
   picture: "images/people/asif-200.png"
   github: "http://github.com/asifkalam"
@@ -92,3 +107,14 @@
     <p>Tejas also has been on the organizing team of various conferences including <a href='http://foss.in'>FOSS.in</a> and <a href='http://rubyconfindia.org'>RubyConf India</a>. Tejas is a languages geek, and will try any programming language once.</p>
   twitter: "http://twitter.com/tdinkar"
   linkedin: "http://www.linkedin.com/in/tdinkar"
+
+-
+  nick: "jithu"
+  picture: "images/people/jithu-200.png"
+  github: "http://github.com/jithugopal"
+  name: "Jithu Gopal"
+  bio: >
+    <p>Jithu has been developing web applications for over half a decade, writing mostly in Java and Ruby. He is trying to catch up with the frenzy of NodeJS lately, and makes an effort to not clench teeth when exposed to the wonders of Javascript. </p>
+    <p>When the internet goes down, you can find him hunched with a pair of binoculars, either observing birds or stars depending on the time of the day. He enjoys cycling and wishes to busk with a melodica some day.</p>
+  twitter: "http://twitter.com/poxypen"
+  linkedin: "http://in.linkedin.com/pub/jithu-gopal/b/119/842/"
