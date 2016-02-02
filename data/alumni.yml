@@ -1,16 +1,4 @@
 -
-  nick: "srushti"
-  picture: "images/people/srushti-200.png"
-  github: "http://github.com/srushti"
-  name: "Srushti Ambekallu"
-  bio: >
-    <p>
-    Vim samurai. Programming language junkie. Natural language junkie. Chef.
-    </p>
-  twitter: "https://twitter.com/srshti"
-  linkedin: "http://www.linkedin.com/in/srshti"
-
--
   nick: "aninda"
   picture: "images/people/aninda-200.png"
   github: "http://github.com/spacefugitive"
@@ -21,38 +9,6 @@
     <p>Aninda is passionate about building elegant working software, and wanted to work with people who are too, when Nilenso answered his call.</p>
   twitter: "http://twitter.com/aninda42"
   linkedin: "http://in.linkedin.com/pub/aninda-kundu/36/231/15"
-
--
-  nick: "neha"
-  picture: "images/people/neha-200.png"
-  github: "http://github.com/Bodhisattva2-0"
-  name: "Neha Kumari"
-  bio: "Neha interned with Amazon before joining Oracle after her days at BITS Goa. She likes moving fast, and switched to a startup role soon after. At Nilenso, Neha helped build large scale ecommerce systems and social networks. She also helped organize and coach at RailsGirls Bangalore. She hearts javascript."
-  twitter: "http://twitter.com/__Neha"
-  linkedin: "http://in.linkedin.com/in/nehabits"
-
--
-  nick: "jasim"
-  picture: "images/people/jasim-200.png"
-  github: "http://github.com/jasim"
-  name: "Jasim Basheer"
-  bio: >
-      <p>
-      Jasim has been programming for over ten years, out of which the last four
-      was spent writing Ruby at startups. He joined nilenso after stints at MobME and
-      as a member of the founding team behind <a href='http://rubymonk.com'>RubyMonk</a>. At MobME he helped build
-      telephony infrastructure for some of India's largest Telco providers.
-      He continued this work consulting on Ruby on Rails projects while at nilenso.
-      </p>
-      <p>
-      At Nilenso, he partnered with
-      clients to build out their products, helped with product incubation, and
-      generally went all gung-ho about the
-      <a href='http://www.wired.com/wiredenterprise/2013/08/indie-web/'>IndieWeb
-        movement</a>. He likes coconuts.
-      </p>
-  twitter: "http://twitter.com/jasim_ab"
-  linkedin: null
 
 -
   nick: "arnab"
@@ -85,6 +41,49 @@
   linkedin: "http://www.linkedin.com/in/asifskalam"
 
 -
+  nick: "jasim"
+  picture: "images/people/jasim-200.png"
+  github: "http://github.com/jasim"
+  name: "Jasim Basheer"
+  bio: >
+      <p>
+      Jasim has been programming for over ten years, out of which the last four
+      was spent writing Ruby at startups. He joined nilenso after stints at MobME and
+      as a member of the founding team behind <a href='http://rubymonk.com'>RubyMonk</a>. At MobME he helped build
+      telephony infrastructure for some of India's largest Telco providers.
+      He continued this work consulting on Ruby on Rails projects while at nilenso.
+      </p>
+      <p>
+      At Nilenso, he partnered with
+      clients to build out their products, helped with product incubation, and
+      generally went all gung-ho about the
+      <a href='http://www.wired.com/wiredenterprise/2013/08/indie-web/'>IndieWeb
+        movement</a>. He likes coconuts.
+      </p>
+  twitter: "http://twitter.com/jasim_ab"
+  linkedin: null
+
+-
+  nick: "jithu"
+  picture: "images/people/jithu-200.png"
+  github: "http://github.com/jithugopal"
+  name: "Jithu Gopal"
+  bio: >
+    <p>Jithu has been developing web applications for over half a decade, writing mostly in Java and Ruby. He is trying to catch up with the frenzy of NodeJS lately, and makes an effort to not clench teeth when exposed to the wonders of Javascript. </p>
+    <p>When the internet goes down, you can find him hunched with a pair of binoculars, either observing birds or stars depending on the time of the day. He enjoys cycling and wishes to busk with a melodica some day.</p>
+  twitter: "http://twitter.com/poxypen"
+  linkedin: "http://in.linkedin.com/pub/jithu-gopal/b/119/842/"
+
+-
+  nick: "neha"
+  picture: "images/people/neha-200.png"
+  github: "http://github.com/Bodhisattva2-0"
+  name: "Neha Kumari"
+  bio: "Neha interned with Amazon before joining Oracle after her days at BITS Goa. She likes moving fast, and switched to a startup role soon after. At Nilenso, Neha helped build large scale ecommerce systems and social networks. She also helped organize and coach at RailsGirls Bangalore. She hearts javascript."
+  twitter: "http://twitter.com/__Neha"
+  linkedin: "http://in.linkedin.com/in/nehabits"
+
+-
   nick: "smit"
   picture: "images/people/smit-200.png"
   github: "http://github.com/who828"
@@ -94,6 +93,18 @@
     Are you also concerned with the depths of your consciousness as it pertains to GTD? Let's reflect on our habits so we can see the truth underneath our behaviours which carve the future of distributed computing architecture. Want another coffee?
   twitter: "http://twitter.com/who828"
   linkedin: "https://www.linkedin.com/in/who828"
+
+-
+  nick: "srushti"
+  picture: "images/people/srushti-200.png"
+  github: "http://github.com/srushti"
+  name: "Srushti Ambekallu"
+  bio: >
+    <p>
+    Vim samurai. Programming language junkie. Natural language junkie. Chef.
+    </p>
+  twitter: "https://twitter.com/srshti"
+  linkedin: "http://www.linkedin.com/in/srshti"
 
 -
   nick: "gja"
@@ -107,13 +118,3 @@
   twitter: "http://twitter.com/tdinkar"
   linkedin: "http://www.linkedin.com/in/tdinkar"
 
--
-  nick: "jithu"
-  picture: "images/people/jithu-200.png"
-  github: "http://github.com/jithugopal"
-  name: "Jithu Gopal"
-  bio: >
-    <p>Jithu has been developing web applications for over half a decade, writing mostly in Java and Ruby. He is trying to catch up with the frenzy of NodeJS lately, and makes an effort to not clench teeth when exposed to the wonders of Javascript. </p>
-    <p>When the internet goes down, you can find him hunched with a pair of binoculars, either observing birds or stars depending on the time of the day. He enjoys cycling and wishes to busk with a melodica some day.</p>
-  twitter: "http://twitter.com/poxypen"
-  linkedin: "http://in.linkedin.com/pub/jithu-gopal/b/119/842/"
