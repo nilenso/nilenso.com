@@ -14,7 +14,15 @@ h2 {
   margin-bottom: 1em;
 }
 
+li {
+  margin-bottom: 1em;
+}
+
 em {
+  font-weight: bold;
+}
+
+strong {
   font-weight: bold;
 }
 
@@ -63,6 +71,16 @@ ul {
   font-family: "calluna";
   font-size: 40px;
   line-height: 55px;
+  text-align: center;
+  font-weight: 300;
+  color: #212121;
+  margin: 40px 0px;
+}
+
+.section-miniheading {
+  font-family: "calluna";
+  font-size: 30px;
+  line-height: 30px;
   text-align: center;
   font-weight: 300;
   color: #212121;
