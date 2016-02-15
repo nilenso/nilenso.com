@@ -1,10 +1,10 @@
 .PHONY:	help ? tests
 
 build:
-	middleman build
+	bundle exec middleman build
 
 serve:
-	middleman
+	bundle exec middleman
 
 clean:
 	rm -rf build
