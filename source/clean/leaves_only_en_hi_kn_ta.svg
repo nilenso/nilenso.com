@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="leaves_only_en_hi_kn_ta.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -31,7 +31,7 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1020"
+     inkscape:window-width="1827"
      inkscape:window-height="1023"
      inkscape:window-x="73"
      inkscape:window-y="24"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -95,7 +95,7 @@
          id="tspan3203"
          x="470.91977"
          y="437.03931"
-         style="font-size:96px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu">leaves only</tspan></text>
+         style="font-size:96px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junction;-inkscape-font-specification:Junction">leaves only</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -119,6 +119,6 @@
          id="tspan3211"
          x="472.75928"
          y="597.99817"
-         style="font-size:96px;-inkscape-font-specification:Ubuntu;font-family:Ubuntu;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">सिर्फ पत्ते</tspan></text>
+         style="font-size:96px;-inkscape-font-specification:Kruti Dev 40;font-family:Kruti Dev 40;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">सिर्फ पत्ते</tspan></text>
   </g>
 </svg>
