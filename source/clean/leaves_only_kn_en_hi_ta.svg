@@ -14,8 +14,8 @@
    height="744.09448"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="leaves_only_en_hi_kn_ta.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="leaves_only_kn_en_hi_ta.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.087234"
-     inkscape:cx="535.53242"
+     inkscape:cx="569.10385"
      inkscape:cy="368.57143"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -91,16 +91,16 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="390.77603"
-       y="635.73938"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="377.84616"
+       y="632.54913"
        id="text3201"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3203"
-         x="390.77603"
-         y="635.73938"
-         style="font-size:96px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junction;-inkscape-font-specification:Junction">leaves only</tspan></text>
+         x="377.84616"
+         y="632.54913"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:96px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Medium'">leaves only</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -115,16 +115,16 @@
          y="279.61307" /></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="396.29459"
-       y="811.51221"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="390.10117"
+       y="798.08337"
        id="text3209"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3211"
-         x="396.29459"
-         y="811.51221"
-         style="font-size:110px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nakula;-inkscape-font-specification:Nakula">सिर्फ पत्ते</tspan></text>
+         x="390.10117"
+         y="798.08337"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:120px;font-family:'Cambay Devanagari';-inkscape-font-specification:'Cambay Devanagari'">सिर्फ पत्ते</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -139,15 +139,15 @@
          style="font-size:96px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lohit Kannada;-inkscape-font-specification:Lohit Kannada">ಎಲೆಗಳು ಮಾತ್ರ</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="396.29465"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="384.21222"
        y="930.03345"
        id="text3060"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3062"
-         x="396.29465"
+         x="384.21222"
          y="930.03345"
-         style="font-size:84px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TSCu_Paranar;-inkscape-font-specification:TSCu_Paranar">இலைகள் மட்டும்</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84px;font-family:TSCu_Paranar;-inkscape-font-specification:TSCu_Paranar">இலைகள் மட்டும்</tspan></text>
   </g>
 </svg>
