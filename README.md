@@ -30,7 +30,9 @@ make deploy
 ### Installing
 
 Someone will need to remember exactly how to set up https://github.com/nilenso/planet-nilenso/ ...but it's probably not hard.
-Note: Since planet is currently broken (as of 17 Feb, 2016), the Gemfile of planet-nilenso uses forked repository (https://github.com/pote/planet.rb)
+
+Note: Since planet is currently broken (as of 17 Feb, 2016), the Gemfile of planet-nilenso uses forked repository (https://github.com/pote/planet.rb).
+
 The pull request can be found at https://github.com/pote/planet.rb/pull/51 
 
 Next, clone this repo (https://github.com/nilenso/nilenso.com) to the `deploy` user's home directory and run `make install-planet-sh` to set up the cron job.
