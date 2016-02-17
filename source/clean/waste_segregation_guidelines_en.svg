@@ -63,54 +63,56 @@
        preserveAspectRatio="none"
        height="1011"
        width="758" />
-    <text
-       xml:space="preserve"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#125a13;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       x="45.839924"
-       y="633.02252"
-       id="text4443"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4445"
-         x="45.839924"
-         y="633.02252"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'">Garden Waste </tspan></text>
-    <text
-       xml:space="preserve"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       x="46.188435"
-       y="656.31702"
-       id="text4447"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4449"
-         x="46.188435"
-         y="656.31702"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';fill:#000000;fill-opacity:1">(small quantity only; from Apt)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#125a13;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       x="46.501545"
-       y="682.11951"
-       id="text4451"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4453"
-         x="46.501545"
-         y="682.11951">Fallen leaves / twigs</tspan><tspan
-         sodipodi:role="line"
-         x="46.501545"
-         y="696.18201"
-         id="tspan4455">Puja flowers / garlands</tspan><tspan
-         sodipodi:role="line"
-         x="46.501545"
-         y="710.24451"
-         id="tspan4457">Weeds</tspan></text>
-    <image
-       y="724.9068"
-       x="43.931149"
-       id="image4518"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtwAAAJLCAYAAADUykGSAAAKq2lDQ1BJQ0MgUHJvZmlsZQAASImV
+    <g
+       id="g4800">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4443"
+         y="643.02252"
+         x="43.132198"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#125a13;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+           y="643.02252"
+           x="43.132198"
+           id="tspan4445"
+           sodipodi:role="line">Garden Waste </tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4447"
+         y="660.31702"
+         x="43.480709"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';fill:#000000;fill-opacity:1"
+           y="660.31702"
+           x="43.480709"
+           id="tspan4449"
+           sodipodi:role="line">(small quantity only; from Apt)</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4451"
+         y="682.11951"
+         x="43.793819"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#125a13;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           y="682.11951"
+           x="43.793819"
+           id="tspan4453"
+           sodipodi:role="line">Fallen leaves / twigs</tspan><tspan
+           id="tspan4455"
+           y="696.18201"
+           x="43.793819"
+           sodipodi:role="line">Puja flowers / garlands</tspan><tspan
+           id="tspan4457"
+           y="710.24451"
+           x="43.793819"
+           sodipodi:role="line">Weeds</tspan></text>
+      <image
+         width="202.65317"
+         height="162.51013"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtwAAAJLCAYAAADUykGSAAAKq2lDQ1BJQ0MgUHJvZmlsZQAASImV
 lgdUE+kWx7+ZSS+0hEgn9Ca9g/QaivRqIyQQQokxEERsiCyuwFpQEcEGuAii4FoAWQsiim1RVMC+
 QRYBdV0s2FB5AzzCe++8Pe+8O+fO9zv33PnnzuT7zvkDQLnPFgrTYTkAMgRZonA/T2ZsXDwTLwEw
 kEUvR4BjczKFHqGhQeBv40MfgKbWu6ZTWn/f919DnpuUyQEACkU5kZvJyUD5FJrnOUJRFgAImkBn
@@ -5478,9 +5480,10 @@ caBxoHGgcaBxoHFgjgNN4J7jULvfONA40DjQONA40DjQONA40DjwAA40gfsBzGtFGwcaBxoHGgca
 BxoHGgcaBxoH5jjQBO45DrX7jQONA40DjQONA40DjQONA40DD+DA/w/IPAwY/Q8BEwAAAABJRU5E
 rkJggg==
 "
-       preserveAspectRatio="none"
-       height="162.51013"
-       width="202.65317" />
+         id="image4518"
+         x="43.931149"
+         y="724.9068" />
+    </g>
   </g>
   <g
      inkscape:label="Outline"
@@ -5602,90 +5605,82 @@ rkJggg==
      inkscape:label="Organic">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#125a13;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#125a13;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="74.508392"
-       y="282.82077"
+       y="285.27548"
        id="text8217"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan8219"
          x="74.508392"
-         y="282.82077"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';stroke:none;stroke-opacity:1;fill:#125a13;fill-opacity:1;">(Do NOT use a plastic liner)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#006096;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="276.53766"
-       y="284.04813"
-       id="text8225"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan8227"
-         x="276.53766"
-         y="284.04813"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';fill:#006096;fill-opacity:1;">(Use only reusable bags for disposal)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#125a13;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       x="45.411537"
-       y="341.77597"
-       id="text4323"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4325"
-         x="45.411537"
+         y="285.27548"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';fill:#125a13;fill-opacity:1;stroke:none;stroke-opacity:1">(Do <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+   id="tspan4521">NOT</tspan> use a plastic liner)</tspan></text>
+    <g
+       id="g4785"
+       transform="translate(0,-12.000069)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4323"
          y="341.77597"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'" /><tspan
-         sodipodi:role="line"
          x="45.411537"
-         y="355.83847"
-         id="tspan4327">Vegetable / fruit peels</tspan><tspan
-         sodipodi:role="line"
-         x="45.411537"
-         y="369.90097"
-         id="tspan4329">Cooked food / leftovers</tspan><tspan
-         sodipodi:role="line"
-         x="45.411537"
-         y="383.96347"
-         id="tspan4331">Egg shells</tspan><tspan
-         sodipodi:role="line"
-         x="45.411537"
-         y="398.02597"
-         id="tspan4333">Chicken / fish bones</tspan><tspan
-         sodipodi:role="line"
-         x="45.411537"
-         y="412.08847"
-         id="tspan4335">Rotten fruits / vegetables</tspan><tspan
-         sodipodi:role="line"
-         x="45.411537"
-         y="426.15097"
-         id="tspan4337">Tissue paper soiled with food</tspan><tspan
-         sodipodi:role="line"
-         x="45.411537"
-         y="440.21347"
-         id="tspan4339">Tea bags / coffee grinds</tspan><tspan
-         sodipodi:role="line"
-         x="45.411537"
-         y="454.27597"
-         id="tspan4341">Leaf plates</tspan></text>
-    <text
-       xml:space="preserve"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#125a13;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       x="44.176186"
-       y="329.9144"
-       id="text4343"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4345"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#125a13;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+           y="341.77597"
+           x="45.411537"
+           id="tspan4325"
+           sodipodi:role="line" /><tspan
+           id="tspan4327"
+           y="355.83847"
+           x="45.411537"
+           sodipodi:role="line">Vegetable / fruit peels</tspan><tspan
+           id="tspan4329"
+           y="369.90097"
+           x="45.411537"
+           sodipodi:role="line">Cooked food / leftovers</tspan><tspan
+           id="tspan4331"
+           y="383.96347"
+           x="45.411537"
+           sodipodi:role="line">Egg shells</tspan><tspan
+           id="tspan4333"
+           y="398.02597"
+           x="45.411537"
+           sodipodi:role="line">Chicken / fish bones</tspan><tspan
+           id="tspan4335"
+           y="412.08847"
+           x="45.411537"
+           sodipodi:role="line">Rotten fruits / vegetables</tspan><tspan
+           id="tspan4337"
+           y="426.15097"
+           x="45.411537"
+           sodipodi:role="line">Tissue paper soiled with food</tspan><tspan
+           id="tspan4339"
+           y="440.21347"
+           x="45.411537"
+           sodipodi:role="line">Tea bags / coffee grinds</tspan><tspan
+           id="tspan4341"
+           y="454.27597"
+           x="45.411537"
+           sodipodi:role="line">Leaf plates</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4343"
+         y="337.9144"
          x="44.176186"
-         y="329.9144"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'">Kitchen Waste</tspan></text>
-    <image
-       style="display:inline"
-       y="474.16061"
-       x="45.411537"
-       id="image4425"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwgAAAGgCAYAAAAO1UC9AAAKq2lDQ1BJQ0MgUHJvZmlsZQAASImV
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#125a13;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+           y="337.9144"
+           x="44.176186"
+           id="tspan4345"
+           sodipodi:role="line">Kitchen Waste</tspan></text>
+      <image
+         width="199.15079"
+         height="105.4833"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwgAAAGgCAYAAAAO1UC9AAAKq2lDQ1BJQ0MgUHJvZmlsZQAASImV
 lgdUE+kWx7+ZSS+0hEgn9Ca9g/QaivRqIyQQQokxEERsiCyuwFpQEcEGuAii4FoAWQsiim1RVMC+
 QRYBdV0s2FB5AzzCe++8Pe+8O+fO9zv33PnnzuT7zvkDQLnPFgrTYTkAMgRZonA/T2ZsXDwTLwEw
 kEUvR4BjczKFHqGhQeBv40MfgKbWu6ZTWn/f919DnpuUyQEACkU5kZvJyUD5FJrnOUJRFgAImkBn
@@ -13117,9 +13112,346 @@ Q0AYbWBQYFBgUGBQYFBgUGBQYFBgUGBQYKLAEBAmUoyHQYFBgUGBQYFBgUGBQYFBgUGBQYEhIIw2
 MCgwKDAoMCgwKDAoMCgwKDAoMCgwUWAICBMpxsOgwKDAoMCgwKDAoMCgwKDAoMCgwP8PbzJNakCa
 fxMAAAAASUVORK5CYII=
 "
-       preserveAspectRatio="none"
-       height="105.4833"
-       width="199.15079" />
+         id="image4425"
+         x="45.411537"
+         y="474.16061"
+         style="display:inline" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Dry">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#006096;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="276.53766"
+       y="285.33591"
+       id="text8225"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8227"
+         x="276.53766"
+         y="285.33591"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';fill:#006096;fill-opacity:1">(Use only <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+   id="tspan4523">reusable</tspan> bags for disposal)</tspan></text>
+    <g
+       id="g4745"
+       transform="translate(3.4232177,-6.0000084)">
+      <g
+         transform="translate(-1.776062,0)"
+         id="g4643">
+        <text
+           xml:space="preserve"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#006096;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           x="273.69656"
+           y="331.91434"
+           id="text4531"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4533"
+             x="273.69656"
+             y="331.91434"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'">Plastic</tspan></text>
+        <text
+           xml:space="preserve"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           x="326.47211"
+           y="330.68698"
+           id="text4537"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4539"
+             x="326.47211"
+             y="330.68698"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'">(Must be rinsed if soiled)</tspan></text>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4541"
+         y="347.86972"
+         x="272.46921"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#006096;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           y="347.86972"
+           x="272.46921"
+           id="tspan4543"
+           sodipodi:role="line">Plastic covers / bottles / boxes / items</tspan><tspan
+           id="tspan4545"
+           y="361.93222"
+           x="272.46921"
+           sodipodi:role="line">Chips / toffee wrappers</tspan><tspan
+           id="tspan4547"
+           y="375.99472"
+           x="272.46921"
+           sodipodi:role="line">Plastic cups</tspan><tspan
+           id="tspan4549"
+           y="390.05722"
+           x="272.46921"
+           sodipodi:role="line">Milk / curd packets</tspan></text>
+    </g>
+    <g
+       id="g4731"
+       transform="translate(4,-1.0620812)">
+      <g
+         transform="translate(0.10183716,0)"
+         id="g4649">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4551"
+           y="421.51007"
+           x="271.24188"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#006096;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+             y="421.51007"
+             x="271.24188"
+             id="tspan4553"
+             sodipodi:role="line">Paper</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4555"
+           y="420.28271"
+           x="317.42606"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+             y="420.28271"
+             x="317.42606"
+             id="tspan4557"
+             sodipodi:role="line">(Must be rinsed if soiled)</tspan></text>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4571"
+         y="439.92014"
+         x="272.46921"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#006096;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           y="439.92014"
+           x="272.46921"
+           id="tspan4573"
+           sodipodi:role="line">Newspaper / magazines</tspan><tspan
+           id="tspan4575"
+           y="453.98264"
+           x="272.46921"
+           sodipodi:role="line">Stationary / junk mail</tspan><tspan
+           id="tspan4577"
+           y="468.04514"
+           x="272.46921"
+           sodipodi:role="line">Cardboard cartons</tspan><tspan
+           id="tspan4579"
+           y="482.10764"
+           x="272.46921"
+           sodipodi:role="line">Pizza boxes</tspan><tspan
+           id="tspan4581"
+           y="496.17014"
+           x="272.46921"
+           sodipodi:role="line">Tetrapaks</tspan><tspan
+           id="tspan4583"
+           y="510.23264"
+           x="272.46921"
+           sodipodi:role="line">Paper cups and plates</tspan></text>
+    </g>
+    <g
+       id="g4723"
+       transform="translate(4.2440796,8.065696)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4559"
+         y="538.10724"
+         x="271.09964"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#006096;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+           y="538.10724"
+           x="271.09964"
+           id="tspan4561"
+           sodipodi:role="line">Metal</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4585"
+         y="555.29004"
+         x="271.24185"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#006096;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           y="555.29004"
+           x="271.24185"
+           id="tspan4587"
+           sodipodi:role="line">Foil containers</tspan><tspan
+           id="tspan4589"
+           y="569.35254"
+           x="271.24185"
+           sodipodi:role="line">Metal cans</tspan><tspan
+           id="tspan4591"
+           y="583.41504"
+           x="271.24185"
+           sodipodi:role="line">Metal lids</tspan></text>
+    </g>
+    <g
+       id="g4681"
+       transform="translate(4.6505737,-5.7672508)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4567"
+         y="687.84259"
+         x="271.12955"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#006096;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+           y="687.84259"
+           x="271.12955"
+           id="tspan4569"
+           sodipodi:role="line">Other dry waste</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4597"
+         y="706.25269"
+         x="271.24185"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#006096;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           y="706.25269"
+           x="271.24185"
+           id="tspan4599"
+           sodipodi:role="line">Rubber / Thermocol</tspan><tspan
+           id="tspan4601"
+           y="720.31519"
+           x="271.24185"
+           sodipodi:role="line">Old mops / dusters / sponges</tspan><tspan
+           id="tspan4603"
+           y="734.37769"
+           x="271.24185"
+           sodipodi:role="line">Cosmetics</tspan><tspan
+           id="tspan4605"
+           y="748.44019"
+           x="271.24185"
+           sodipodi:role="line">Ceramics, wooden chips</tspan><tspan
+           id="tspan4607"
+           y="762.50269"
+           x="271.24185"
+           sodipodi:role="line">Hair</tspan><tspan
+           id="tspan4609"
+           y="776.56519"
+           x="271.24185"
+           sodipodi:role="line">Coconut shells</tspan></text>
+    </g>
+    <g
+       id="g4713"
+       transform="translate(4.4473266,11.233329)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4593"
+         y="633.83966"
+         x="271.24185"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#006096;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           y="633.83966"
+           x="271.24185"
+           id="tspan4595"
+           sodipodi:role="line"><tspan
+   id="tspan4615"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Italic'">Unbroken</tspan> glass bottles</tspan></text>
+      <g
+         transform="translate(0.09094238,0)"
+         id="g4655">
+        <text
+           xml:space="preserve"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#006096;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           x="271.24185"
+           y="614.65698"
+           id="text4563"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4565"
+             x="271.24185"
+             y="614.65698"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'">Glass</tspan></text>
+        <text
+           xml:space="preserve"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           x="313.2894"
+           y="614.20227"
+           id="text4611"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4613"
+             x="313.2894"
+             y="614.20227"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'">(Handle with care)</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4698"
+       transform="translate(4,-5.9999932)">
+      <g
+         transform="translate(-1.1254883,0)"
+         id="g4692">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4619"
+           y="810.57642"
+           x="272.46921"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#006096;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+             y="810.57642"
+             x="272.46921"
+             id="tspan4621"
+             sodipodi:role="line">E-waste</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4623"
+           y="810.57648"
+           x="332.92679"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+             y="810.57648"
+             x="332.92679"
+             id="tspan4625"
+             sodipodi:role="line">(Handle with care)</tspan></text>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4627"
+         y="830.21387"
+         x="272.46921"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#006096;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           y="830.21387"
+           x="272.46921"
+           id="tspan4629"
+           sodipodi:role="line">Batteries</tspan><tspan
+           id="tspan4631"
+           y="844.27637"
+           x="272.46921"
+           sodipodi:role="line">CDs / tapes</tspan><tspan
+           id="tspan4633"
+           y="858.33887"
+           x="272.46921"
+           sodipodi:role="line">Thermometers</tspan><tspan
+           id="tspan4635"
+           y="872.40137"
+           x="272.46921"
+           sodipodi:role="line" /><tspan
+           id="tspan4637"
+           y="886.46387"
+           x="272.46921"
+           sodipodi:role="line">Bulbs / tube lights / CFLs</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4639"
+         y="901.39948"
+         x="272.12863"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+           y="901.39948"
+           x="272.12863"
+           id="tspan4641"
+           sodipodi:role="line">(hand over seperately)</tspan></text>
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -13136,6 +13468,8 @@ fxMAAAAASUVORK5CYII=
          sodipodi:role="line"
          id="tspan4321"
          x="529.85107"
-         y="285.27548">(Do NOT use a plastic liner)</tspan></text>
+         y="285.27548">(Do <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold'"
+   id="tspan4529">NOT</tspan> use a plastic liner)</tspan></text>
   </g>
 </svg>
