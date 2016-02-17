@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.087234"
-     inkscape:cx="569.10385"
+     inkscape:cx="454.1332"
      inkscape:cy="368.57143"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -93,14 +93,14 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="377.84616"
-       y="632.54913"
+       y="634.31396"
        id="text3201"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3203"
          x="377.84616"
-         y="632.54913"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:96px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Medium'">leaves only</tspan></text>
+         y="634.31396"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans'">leaves only</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -117,14 +117,14 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="390.10117"
-       y="798.08337"
+       y="801.15076"
        id="text3209"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3211"
          x="390.10117"
-         y="798.08337"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:120px;font-family:'Cambay Devanagari';-inkscape-font-specification:'Cambay Devanagari'">सिर्फ पत्ते</tspan></text>
+         y="801.15076"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari'">सिर्फ पत्ते</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -136,7 +136,7 @@
          id="tspan3058"
          x="380.65866"
          y="480.33115"
-         style="font-size:96px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lohit Kannada;-inkscape-font-specification:Lohit Kannada">ಎಲೆಗಳು ಮಾತ್ರ</tspan></text>
+         style="font-size:90px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Kannada';-inkscape-font-specification:'Noto Sans Kannada'">ಎಲೆಗಳು ಮಾತ್ರ</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -148,6 +148,6 @@
          id="tspan3062"
          x="384.21222"
          y="930.03345"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84px;font-family:TSCu_Paranar;-inkscape-font-specification:TSCu_Paranar">இலைகள் மட்டும்</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70px;font-family:'Noto Sans Tamil';-inkscape-font-specification:'Noto Sans Tamil'">இலைகள் மட்டும்</tspan></text>
   </g>
 </svg>

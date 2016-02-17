@@ -2,6 +2,16 @@
 Clean Poster Fonts
 ==================
 
+Noto:
+-----
+
+The `Noto` font set by Google is incredibly consistent, so we will use that for all print material.
+
+All Noto fonts are available in /fonts and https://www.google.com/get/noto
+
+We'll leave the other fonts here in case Noto isn't appropriate for some cases.
+
+
 English:
 --------
 
