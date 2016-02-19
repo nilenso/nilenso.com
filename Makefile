@@ -27,7 +27,7 @@ install-planet-sh: /home/deploy/bin/generate-planet.sh
 	mkdir $@
 
 add-remote:
-	git remote add production ssh://www@nilenso.com/home/www/repos/nilenso.com.git
+	git remote add production ssh://deploy@nilenso.com/home/deploy/nilenso.com
 
 print-server-hook:
 	@echo \#!/bin/sh
