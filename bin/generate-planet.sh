@@ -8,7 +8,7 @@ LOGFILE=/home/deploy/log/planet.log
 echo >> $LOGFILE
 date >> $LOGFILE
 
-cd /home/www/planet.nilenso.com/current \
+cd /home/deploy/planet-nilenso \
   && bundle exec planet generate >> $LOGFILE 2>&1 \
   && bundle exec rake generate >> $LOGFILE 2>&1
 
