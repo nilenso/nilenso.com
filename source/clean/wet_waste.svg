@@ -16,8 +16,7 @@
 	.st10{font-size:18px;}
 	.st11{opacity:0.16;fill:none;stroke:#008000;enable-background:new    ;}
 	.st12{fill:none;stroke:#000000;stroke-width:1.4784;stroke-linecap:round;stroke-linejoin:round;}
-	.st13{font-family:'MyriadPro-Regular';}
-	.st14{font-size:12px;}
+	.st13{font-size:12px;}
 </style>
 <g id="svg2" inkscape:version="0.91 r13725" sodipodi:docname="wet_waste.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg">
 	
@@ -286,12 +285,12 @@
 		c-2.6,6-1,12.4,3.8,15.8c2.5,1.8,5.9,2,8.2,2s4.5-1.4,4.5-3.8c0-2-1.4-3.2-3.1-3.2c-1.8,0-3.8,1.4-3.8,4.6c0,1.8,1,4.2,3.5,6.2
 		c2.2,1.8,4.6,1.9,5.1,4.2c0.5,2.1-1.3,3-2.8,3.8"/>
 	<path class="st12" d="M364.8,356.7c0,1-1.5,1-1.5,0S364.8,355.7,364.8,356.7"/>
-	<text transform="matrix(1 0 0 1 187.0998 266.0001)" class="st13 st14">Leftover food</text>
-	<text transform="matrix(1 0 0 1 423.9998 266.0002)" class="st13 st14">Dry leaves and flowers</text>
-	<rect x="187.1" y="345.9" class="st6" width="103.6" height="30.4"/>
-	<text transform="matrix(1 0 0 1 187.0994 354.3784)"><tspan x="0" y="0" class="st13 st14">Fruit and Vegetable </tspan><tspan x="0" y="14.4" class="st13 st14">peels</tspan></text>
-	<rect x="425.1" y="345.9" class="st6" width="109.4" height="27.6"/>
-	<text transform="matrix(1 0 0 1 425.1338 354.3781)"><tspan x="0" y="0" class="st13 st14">Teabags and coffee </tspan><tspan x="0" y="14.4" class="st13 st14">grinds</tspan></text>
+	<text transform="matrix(1 0 0 1 187.0998 266.0001)" class="st3 st13">Leftover food</text>
+	<text transform="matrix(1 0 0 1 425.9998 266.0002)"><tspan x="0" y="0" class="st3 st13">Dry leaves and</tspan><tspan x="0" y="14.4" class="st3 st13">flowers</tspan></text>
+	<rect x="187.1" y="345.9" class="st6" width="111.4" height="30.4"/>
+	<text transform="matrix(1 0 0 1 187.0994 354.9756)"><tspan x="0" y="0" class="st3 st13">Fruit and Vegetable </tspan><tspan x="0" y="14.4" class="st3 st13">peels</tspan></text>
+	<rect x="425.1" y="345.9" class="st6" width="113.5" height="27.6"/>
+	<text transform="matrix(1 0 0 1 425.1338 354.9758)"><tspan x="0" y="0" class="st3 st13">Teabags and coffee </tspan><tspan x="0" y="14.4" class="st3 st13">grinds</tspan></text>
 </g>
 <g id="Layer_2">
 </g>
