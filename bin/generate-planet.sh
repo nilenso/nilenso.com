@@ -3,7 +3,8 @@
 LOGFILE=/home/deploy/log/planet.log
 
 # needed for rbenv
-. /home/deploy/.bashrc
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 echo >> $LOGFILE
 date >> $LOGFILE
