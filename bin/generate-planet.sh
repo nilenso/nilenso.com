@@ -8,8 +8,8 @@ LOGFILE=/home/deploy/log/planet.log
 echo >> $LOGFILE
 date >> $LOGFILE
 
-cd /home/deploy/planet-nilenso \
+cd /home/deploy/blog.nilenso.com \
   && bundle exec planet generate >> $LOGFILE 2>&1 \
-  && bundle exec rake generate >> $LOGFILE 2>&1
+  && bundle exec jekyll build >> $LOGFILE 2>&1
 
 echo "Logged to $LOGFILE"
