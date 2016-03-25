@@ -20,7 +20,14 @@ git add .
 git ci -m 'adding new partner: Leslie Lamport'
 git pull
 git push
-make deploy
+```
+
+There is a cron job set up on the website machine which runs everything 15 minutes and pulls the latest code from github. The changes will be up on the website within 15 minutes.
+
+The crontab line for reference:
+
+```crontab
+*/15 * *   *   *     cd /home/deploy/nilenso.com && git pull
 ```
 
 ---
