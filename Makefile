@@ -13,6 +13,8 @@ deploy:
 	git push production master
 
 install-planet-sh: /home/deploy/bin/generate-planet.sh
+	@echo "Run this in '/home/deploy':"
+	@echo "git clone https://github.com/nilenso/blog.nilenso.com"
 	@echo "Add the following line to the 'deploy' user with 'crontab -e':"
 	@echo "*/10 * * * * /home/deploy/bin/generate-planet.sh"
 
