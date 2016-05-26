@@ -28,22 +28,7 @@
   speakers: "Srihari"
   youtube_id: "12Uj6gpPA7k"
 
-- 
-  title: "Clojure is my favourite Ruby"
-  speakers: "Steven"
-  youtube_id: "_mBRWyLi40k"
-
 -
   title: "The Tao of Ruby"
   speakers: "Steven and Akshay"
   youtube_id: "4A2nAK6H6BU"
-
--
-  title: "Sandboxing Ruby. Lessons from the Battlefield"
-  speakers: "Tejas and Jasim"
-  youtube_id: "ntIzf9onRqA"
-
--
-  title: "Smells and patterns in spec/test code"
-  speakers: "Sidu and Aninda"
-  youtube_id: "y33hYlufU3Q"
