@@ -22,8 +22,8 @@
 }
 
 .talk-title {
-  font-variant: small-caps;
-  text-transform: lowercase;
+  font-variant: normal;
+  text-transform: capitalize;
   font-size: 24px;
 }
 
