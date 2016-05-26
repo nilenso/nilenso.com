@@ -1,0 +1,38 @@
+---
+title: Talks
+---
+
+<div class="conference-talks section">
+  <h2 class="section-heading">Conference Talks</h2>
+
+  <% data.talks.each do |talk| %>
+    <a name="<%= talk.title %>"></a>
+    <% content_tag "div", class: "bordered-section talk", data: {section_link: talk.title, section_title: talk.title } do %>        
+      <div class="talk-above talk-info">
+        <div class="talk-title"><%= talk.title %></div>
+        <div class="talk-speakers"><%= talk.speakers %></div>
+      </div>
+
+      <div class="talk-below">
+        <iframe width="560" 
+                height="320" 
+                data-src="//www.youtube.com/embed/<%= talk.youtube_id %>?rel=0" 
+                frameborder="0" 
+                allowfullscreen>
+        </iframe>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+
+<div class="footer">
+  <div class="section-content contact-info">
+    <p class="contact-phone-number">
+      <a class="contact-link email-link" href="mailto:hello@nilenso.com">hello@nilenso.com</a>
+      <a class="contact-link contact-social-link" href="http://twitter.com/nilenso">@nilenso</a>
+      <a class="contact-link contact-social-link" href="http://github.com/nilenso">github.com/nilenso</a>
+      <a class="contact-link" href="tel:+918040937123">+91 80 4093 7123</a>
+     </p>
+    <p class="contact-address">Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
+  </div>
+</div>

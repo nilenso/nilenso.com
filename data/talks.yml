@@ -1,3 +1,38 @@
+- 
+  title: "Two Years Wiser, The Nilenso Experiment"
+  speakers: "Steven"
+  youtube_id: "uYTFCSZb3Kc"
+
+- 
+  title: "On the building of a Postgres cluster"
+  speakers: "Srihari"
+  youtube_id: "sGJDg5ba0iI"
+
+- 
+  title: "Vipassana for Hackers"
+  speakers: "Steven"
+  youtube_id: "1BWYqHbF00c"
+
+- 
+  title: "Introduction To Concurrency In Haskell"
+  speakers: "Abhinav"
+  youtube_id: "uVK3t-5wWew"
+
+- 
+  title: "Building an Experimentation Platform in Clojure"
+  speakers: "Nivedita & Srihari"
+  youtube_id: "YjfXhhxw9Bs"
+
+- 
+  title: "Carnatic Music Synthesis In Clojure"
+  speakers: "Srihari"
+  youtube_id: "12Uj6gpPA7k"
+
+- 
+  title: "Clojure is my favourite Ruby"
+  speakers: "Steven"
+  youtube_id: "_mBRWyLi40k"
+
 -
   title: "The Tao of Ruby"
   speakers: "Steven and Akshay"
