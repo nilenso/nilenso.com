@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html encoding="utf-8">
   <head>
-    <title>Nilenso Software  - Technical Details Of Recent Projects</title>
+    <title>Nilenso Software  - Clojure Workshop</title>
 
     <!-- seo meta -->
     <meta name='keywords'
@@ -72,36 +72,52 @@
     <div class="content">
       <!-- Render partial -->
       <div class="bordered-section">
-  <h2 class="section-heading">Technical details of recent projects</h2>
+  <h2 class="section-heading">Clojure Workshop</h2>
 
   <div class="section-content">
-    Some of the major services we've built (and owned in production) include a multivariate testing/experimentation plaform, multiple machine learning runtimes, and a variety of ETL and analytics systems. Most of these systems are written in Clojure but we also have Javascript (node.js) and Haskell in production.
+    <h4 class="sub-section-heading">Registration</h4>
+    <a href="http://nilenso-clojure-workshop.doattend.com" target="_blank">nilenso-clojure-workshop.doattend.com</a>
   </div>
 
-  <p class="section-content">
-    <strong>Experimentation Platform:</strong> This is easily the largest system nilenso has built and owned. With a two-year lifespan thus far, EP supports a <10ms 99.9 percentile SLA and over 500 requests per second as a backend service to a large e-commerce company. The system involved significant research and the incorporation of work done by Google, Netflix, and Microsoft (released as white papers), tuning a large and fast-moving Postgres runtime database as well as a sizeable reporting database. Distribution and failover were a major concern from the beginning, and the service instances have withheld substantial changes in load on occasions such as Black Friday and "Cyber Monday". Additional snapshotting and redundancy for the system is built on top of ZFS.
+  <div class="section-content">
+    <h4 class="sub-section-heading">Motive</h4>
+    Over the last 3 years at nilenso, most of our work has been in Clojure. We've given talks about our work, built a few open source projects with it, and watched the changes in the language and ecosystem closely. This has been quite the learning and delivering experience, but this now opens to us, a better opportunity to learn.  An opportunity to learn Clojure by teaching it. We've helped people at nilenso pick up Clojure quickly, and now we feel equipped to help more people do the same.
+  </div>
 
- We've given a presentation on EP's architecture: <a href="https://youtu.be/YjfXhhxw9Bs">https://youtu.be/YjfXhhxw9Bs </a>
-																		    </p>
+  <div class="section-content">
+    <h4 class="sub-section-heading">Objective</h4>
+    The workshop will strive to give a solid, and hands-on introduction to Clojure in a weekend's time. This will be sufficient to get you started on say, a side-project, and enable you to read most Clojure code out there. You'd need to learn and write a lot more Clojure to get proficient in it; this workshop won't get you that far. But it will definitely give you a jumpstart in that process.
+  </div>
 
-  <p class="section-content">
-    <strong>Machine Learning runtimes:</strong> These systems have evolved a great deal since we began working on them. Initially, they were built on top of an HBase reporting backend using an internal distributed parallelization framework and inter-process communication was primarily managed with RabbitMQ. These days, the reporting is done off of AWS Redshift and most systems communicate via internal REST APIs or Kafka, where appropriate. The external APIs are exposed over Google protocol buffers for serialization efficiency and because they make more sense as strictly-schema'd RPC-style APIs than representational APIs. Part of this work was picking apart the client's original machine learning monolith, another significant portion was coming up with a generative testing harness and framework (QAs write selenium tests, the development team uses Causatum+Simulant+Datomic). Most of the development was on runtimes, not algorithms, but for the recommendations engine (email marketing for existing customers) we did implement Multi-armed Bandit. Performance and load testing was an ongoing activity for all of these services, though some of the load testing drive was written in bare Java rather than Clojure, to maintain control of garbage collection (primarily for histograms of load).
-  </p>
-  <p class="section-content">
-    <strong>ETL, data warehousing, and analytics:</strong> Transformation of streaming events into an OLAP db was done on three projects: for e-commerce (session, purchase, clickstream data), media (clickstream and mutative events), and an events management company (financial data, clickstream). The first two were done in Clojure and Haskell, the last in node.js. These systems were variously about transforming disparate data into a single schema, rendering realtime analytics dashboards, and providing notifications to business users around key metrics.
-  </p>
-  <p class="section-content">
-    <strong>Web crawler/scraper:</strong> A system which would routinely analyze an unstructured dataset on the web to correlate data from internal systems with external. This project employed a great deal of error-handling, distribution of the agents performing the crawling, and intelligent HTML parsing.
-  </p>
-  <p class="section-content">
-    <strong>Monitoring:</strong> We've recently begun working on a complete monitoring solution (quite overdue) for the e-commerce service architectures we help support. System-level events and application events are both centrally collected in an on-box service running adjacent to runtime services then queried periodically into Prometheus to provide intelligent alerting to developers doing operations and diagnostics tools in the case of runtime failure.
-  </p>
-  <p class="section-content">
-    We have a number of older projects we've delivered as well, in a variety of technologies. But these are the key projects from the past year. It's also worth mentioning that we manage all our own servers, infrastructure, testing, and deployments... it's a bit difficult to capture everything we do there under one bullet point, however.
-  </p>
-  <p class="section-content">
-    If you are interested in some of the talks we've given at conferences in the past few years, you can look through our <a href="/talks.html">talks page</a>. These cover Clojure, Haskell, Ruby, data science, concurrency, resilient service architectures, programmatic music synthesis, our employee-owned business model, and meditation. :)
-  </p>
+  <div class="section-content">
+    <h4 class="sub-section-heading">Content</h4>
+    The contents and FAQs are detailed in the <a href="https://github.com/nilenso/clojure-workshop/">github repo</a> for the workshop, but very briefly, we'll learn about:
+    <ol class="workshop-contents">
+      <li> Numerics, Symbols, Keywords, Vars, Booleans, Bindings </li>
+      <li> Clojure’s persistent data structures </li>
+      <li> Working with Libraries </li>
+      <li> Practical Modeling </li>
+      <li> Java Interop </li>
+      <li> Concurrency and Parallelism </li>
+      <li> Macros </li>
+    </ol>
+  </div>
+
+  <div class="section-content">
+    Feel free to write to us at <a class="contact-link email-link" href="mailto:moshimoshi@nilenso.com">moshimoshi@nilenso.com</a> if you have any questions, or need more information.
+  </div>
+</div>
+
+<div class="footer">
+  <div class="section-content contact-info">
+    <p class="contact-phone-number">
+      <a class="contact-link email-link" href="mailto:hello@nilenso.com">hello@nilenso.com</a>
+      <a class="contact-link contact-social-link" href="http://twitter.com/nilenso">@nilenso</a>
+      <a class="contact-link contact-social-link" href="http://github.com/nilenso">github.com/nilenso</a>
+      <a class="contact-link" href="tel:+918040937123">+91 80 4093 7123</a>
+     </p>
+    <p class="contact-address">Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
+  </div>
 </div>
 
     </div>
