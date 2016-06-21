@@ -379,3 +379,18 @@ img.human {
 .books, .books a {
   color: #f8337d;
 }
+
+.workshop-contents {
+  list-style-type: decimal;
+  margin: 20px 42px;
+}
+
+.workshop-contents li  {
+  margin-bottom: 0.5em;
+}
+
+.sub-section-heading {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;
+}
