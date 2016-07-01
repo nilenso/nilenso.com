@@ -5,11 +5,11 @@ title: Technical Details Of Recent Projects
   <h2 class="section-heading">Technical details of recent projects</h2>
 
   <div class="section-content">
-    Some of the major services we've built (and owned in production) include a multivariate testing/experimentation plaform, multiple machine learning runtimes, and a variety of ETL and analytics systems. Most of these systems are written in Clojure but we also have Javascript (node.js) and Haskell in production.
+    Some of the major services we've built (and owned in production) include a multivariate testing/experimentation platform, multiple machine learning runtimes, and a variety of ETL and analytics systems. Most of these systems are written in Clojure but we also have Javascript (node.js) and Haskell in production.
   </div>
 
   <p class="section-content">
-    <strong>Experimentation Platform:</strong> This is easily the largest system nilenso has built and owned. With a two-year lifespan thus far, EP supports a <10ms 99.9 percentile SLA and over 500 requests per second as a backend service to a large e-commerce company. The system involved significant research and the incorporation of work done by Google, Netflix, and Microsoft (released as white papers), tuning a large and fast-moving Postgres runtime database as well as a sizeable reporting database. Distribution and failover were a major concern from the beginning, and the service instances have withheld substantial changes in load on occasions such as Black Friday and "Cyber Monday". Additional snapshotting and redundancy for the system is built on top of ZFS.
+    <strong>Experimentation Platform:</strong> This is easily the largest system nilenso has built and owned. With a two-year lifespan thus far, EP supports a <10ms 99.9 percentile SLA and over 500 requests per second as a backend service to a large e-commerce company. The system involved significant research and the incorporation of work done by Google, Netflix, and Microsoft (released as white papers), tuning a large and fast-moving Postgres runtime database as well as a sizable reporting database. Distribution and failover were a major concern from the beginning, and the service instances have withheld substantial changes in load on occasions such as Black Friday and "Cyber Monday". Additional snapshotting and redundancy for the system is built on top of ZFS.
 
  We've given a presentation on EP's architecture: <a href="https://youtu.be/YjfXhhxw9Bs">https://youtu.be/YjfXhhxw9Bs </a>
 																		    </p>
