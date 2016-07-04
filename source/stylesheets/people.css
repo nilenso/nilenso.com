@@ -1,6 +1,5 @@
 /*---conference talks-------------------*/
 .conference-talks {
-  text-align: center;
 }
 
 .conference-talk {
@@ -17,7 +16,12 @@
 }
 
 .talk-info {
-  text-align: center;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.talk-info > div {
+  margin: 5px;
 }
 
 .talk-title {
@@ -30,6 +34,11 @@
   margin-top: 4px;
   font-size: 18px;
   color: #f8337d;
+}
+
+.talk-video {
+  display: inline-block;
+  vertical-align: middle;  
 }
 
 /*---people-------------------*/

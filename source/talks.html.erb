@@ -8,20 +8,21 @@ title: Talks
   <% data.talks.each do |talk| %>
     <a name="<%= talk.title %>"></a>
     <% content_tag "div", class: "bordered-section talk", data: {section_link: talk.title, section_title: talk.title } do %>        
-      <div class="talk-above talk-info">
-        <div class="talk-title"><%= talk.title %></div>
+      <div class="talk-video">
+        <a href="https://www.youtube.com/watch?v=<%= talk.youtube_id %>" target="_blank">
+          <img src="http://img.youtube.com/vi/<%= talk.youtube_id %>/0.jpg" style="width: 200px"/>
+        </a>
+      </div>
+      <div class="talk-info">
+        <div class="talk-title">
+          <a href="https://www.youtube.com/watch?v=<%= talk.youtube_id %>" target="_blank">
+            <%= talk.title %>
+          </a>
+        </div>
         <div class="talk-speakers"><%= talk.speakers %></div>
+        <div class="talk.venue"><%= talk.venue %></div>
       </div>
-
-      <div class="talk-below">
-        <iframe width="560" 
-                height="320" 
-                data-src="//www.youtube.com/embed/<%= talk.youtube_id %>?rel=0" 
-                frameborder="0" 
-                allowfullscreen>
-        </iframe>
-      </div>
-    <% end %>
+   <% end %>
   <% end %>
 </div>
 

@@ -1,34 +1,61 @@
 - 
-  title: "Two Years Wiser, The Nilenso Experiment"
-  speakers: "Steven"
-  youtube_id: "uYTFCSZb3Kc"
-
-- 
   title: "On the building of a Postgres cluster"
-  speakers: "Srihari"
+  speakers: "Srihari Sriraman"
+  venue: "RootConf 2016"
   youtube_id: "sGJDg5ba0iI"
 
 - 
   title: "Vipassana for Hackers"
-  speakers: "Steven"
+  speakers: "Steven Deobald"
+  venue: "XTC 2016"
   youtube_id: "1BWYqHbF00c"
 
 - 
+  title: "Two Years Wiser, The Nilenso Experiment"
+  speakers: "Steven Deobald"
+  venue: "The Fifth Elephant 2015"
+  youtube_id: "uYTFCSZb3Kc"
+
+- 
   title: "Introduction To Concurrency In Haskell"
-  speakers: "Abhinav"
+  speakers: "Abhinav Sarkar"
+  venue: "Functional Conf 2015" 
   youtube_id: "uVK3t-5wWew"
 
 - 
   title: "Building an Experimentation Platform in Clojure"
-  speakers: "Nivedita & Srihari"
+  speakers: "Nivedita Priyadarshini & Srihari Sriraman"
+  venue: "Functional Conf 2015"
   youtube_id: "YjfXhhxw9Bs"
 
 - 
   title: "Carnatic Music Synthesis In Clojure"
-  speakers: "Srihari"
+  speakers: "Srihari Sriraman"
+  venue: "Functional Conf 2015"
   youtube_id: "12Uj6gpPA7k"
 
 -
+  title: "Resilient by Design"
+  speakers: "Smit Shah"
+  venue: "RailsConf 2015"
+  youtube_id: "_yEz9-Vu8YM"
+
+- 
+  title: "Monads you already use without knowing"
+  speakers: "Tejas Dinkar"
+  venue: "Functional Conf 2014"
+  youtube_id: "tmtKJ35N-TA"  
+
+-
+  title: "Native Extensions Served 3 Ways"
+  speakers: "Tejas Dinkar"
+  venue: "Garden City RubyConf 2014"
+  youtube_id: "bI5oJr4ueQc"
+
+-
   title: "The Tao of Ruby"
-  speakers: "Steven and Akshay"
+  speakers: "Steven Deobald and Akshay Gupta"
+  venue: "RubyConf India 2013"
   youtube_id: "4A2nAK6H6BU"
+
+
