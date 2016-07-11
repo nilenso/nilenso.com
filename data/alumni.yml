@@ -84,6 +84,18 @@
   linkedin: "http://in.linkedin.com/in/nehabits"
 
 -
+  nick: "prashant"
+  picture: "images/people/prashant-200.png"
+  github: "https://github.com/prashantkarpe"
+  name: "Prashant Karpe"
+  bio: >
+    Here's a suit in disguise who's worn the hats of a developer, business analyst and salesman
+    in his earlier avatars. He laps up numbers and food with similar zest. Our erstwhile Business Sherpa, Prashant
+    also likes to pursue his interests in quizzing, traveling, and cooking.
+  twitter: "http://twitter.com/prashantwit"
+  linkedin: "http://in.linkedin.com/pub/prashant-karpe/11/512/28a/"
+
+-
   nick: "smit"
   picture: "images/people/smit-200.png"
   github: "http://github.com/who828"
@@ -125,7 +137,7 @@
   name: "Timothy Andrew"
   bio: >
     <p>Timothy has been vaguely passionate about computers ever since he got all the way through Prince of Persia when he was five. This grew into a legitimate love for the field after he crashed his Windows box in 2007, and managed a fragile triple-boot system that included a <a href="http://en.wikipedia.org/wiki/OSx86">patched version of OS X</a>.</p>
-    <p>Over the past year at nilenso, he has learned Rails, helped build a suite of three <a href="https://github.com/nilenso/ashoka-survey-web">web</a>/<a href="https://github.com/nilenso/ashoka-survey-mobile">mobile</a> <a href="https://github.com/nilenso/ashoka-user-owner">apps</a> for a non-profit, and worked on <a href="http://wikenso.com/">Wikenso</a>.</p>
+    <p>Over the past years at nilenso, he learned Rails, helped build a suite of three <a href="https://github.com/nilenso/ashoka-survey-web">web</a>/<a href="https://github.com/nilenso/ashoka-survey-mobile">mobile</a> <a href="https://github.com/nilenso/ashoka-user-owner">apps</a> for a non-profit, and worked on <a href="http://wikenso.com/">Wikenso</a>.</p>
     <p>When he's not glued to a screen of some sort, he's introverted to a fault, likes to jam on the bass guitar, and play snooker.</p>
   twitter: "http://twitter.com/timothyandrew"
   linkedin: "http://www.linkedin.com/in/timothyandrew"
