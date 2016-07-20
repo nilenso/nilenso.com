@@ -113,16 +113,17 @@
 -
   quote: ""
   quoter: ""
-  company: "Razorfish"
-  company_nick: "Razorfish"
-  company_short_name: "Razorfish"
-  company_link: "http://www.razorfish.com/"
-  logo: "images/client_logos/razorfish_logo.png"
--
-  quote: ""
-  quoter: ""
   company: "Got Clues?"
   company_nick: "gotclues"
   company_short_name: "gotclues"
   company_link: "http://gotclues.com/"
   logo: "images/client_logos/gotclues_logo.png"
+-
+  quote: ""
+  quoter: ""
+  company: "Razorfish"
+  company_nick: "Razorfish"
+  company_short_name: "Razorfish"
+  company_link: "http://www.razorfish.com/"
+  logo: "images/client_logos/razorfish_logo.png"
+
