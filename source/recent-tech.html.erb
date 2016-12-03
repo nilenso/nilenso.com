@@ -1,5 +1,5 @@
 ---
-title: Technical Details Of Recent Projects
+title: Technical Details of Recent Projects
 ---
 <div class="bordered-section">
   <h2 class="section-heading">Technical Details of Recent Projects</h2>
@@ -11,8 +11,8 @@ title: Technical Details Of Recent Projects
   <p class="section-content">
     <strong>Experimentation Platform:</strong> This is easily the largest system nilenso has built and owned. With a two-year lifespan thus far, EP supports a <10ms 99.9 percentile SLA and over 500 requests per second as a backend service to a large e-commerce company. The system involved significant research and the incorporation of work done by Google, Netflix, and Microsoft (released as white papers), tuning a large and fast-moving Postgres runtime database as well as a sizable reporting database. Distribution and failover were a major concern from the beginning, and the service instances have withheld substantial changes in load on occasions such as Black Friday and "Cyber Monday". Additional snapshotting and redundancy for the system is built on top of ZFS.
 
- We've given a presentation on EP's architecture: <a href="https://youtu.be/YjfXhhxw9Bs">https://youtu.be/YjfXhhxw9Bs </a>
-																		    </p>
+     We've given a presentation on EP's architecture: <a href="https://youtu.be/YjfXhhxw9Bs">https://youtu.be/YjfXhhxw9Bs</a>
+  </p>
 
   <p class="section-content">
     <strong>Machine Learning runtimes:</strong> These systems have evolved a great deal since we began working on them. Initially, they were built on top of an HBase reporting backend using an internal distributed parallelization framework and inter-process communication was primarily managed with RabbitMQ. These days, the reporting is done off of AWS Redshift and most systems communicate via internal REST APIs or Kafka, where appropriate. The external APIs are exposed over Google protocol buffers for serialization efficiency and because they make more sense as strictly-schema'd RPC-style APIs than representational APIs. Part of this work was picking apart the client's original machine learning monolith, another significant portion was coming up with a generative testing harness and framework (QAs write selenium tests, the development team uses Causatum+Simulant+Datomic). Most of the development was on runtimes, not algorithms, but for the recommendations engine (email marketing for existing customers) we did implement Multi-armed Bandit. Performance and load testing was an ongoing activity for all of these services, though some of the load testing drive was written in bare Java rather than Clojure, to maintain control of garbage collection (primarily for histograms of load).
@@ -32,4 +32,16 @@ title: Technical Details Of Recent Projects
   <p class="section-content">
     If you are interested in some of the talks we've given at conferences in the past few years, you can look through our <a href="/talks.html">talks page</a>. These cover Clojure, Haskell, Ruby, data science, concurrency, resilient service architectures, programmatic music synthesis, our employee-owned business model, and meditation. :)
   </p>
+</div>
+
+<div class="footer">
+  <div class="section-content contact-info">
+    <p class="contact-phone-number">
+      <a class="contact-link email-link" href="mailto:hello@nilenso.com">hello@nilenso.com</a>
+      <a class="contact-link contact-social-link" href="http://twitter.com/nilenso">@nilenso</a>
+      <a class="contact-link contact-social-link" href="http://github.com/nilenso">github.com/nilenso</a>
+      <a class="contact-link" href="tel:+918040937123">+91 80 4093 7123</a>
+     </p>
+    <p class="contact-address">Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
+  </div>
 </div>
