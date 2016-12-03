@@ -1,4 +1,16 @@
 - 
+  title: "Making Machines that Make Music"
+  speakers: "Srihari Sriraman"
+  venue: "EuroClojure 2016"
+  youtube_id: "ZvSSeuzN_b4"
+
+-
+  title: "What I wish I knew as a newbie designer"
+  speakers: "Noopur Varma"
+  venue: "Meta Refresh 2016"
+  youtube_id: "ZzB5-EK4sgQ"
+
+-
   title: "On the building of a Postgres cluster"
   speakers: "Srihari Sriraman"
   venue: "RootConf 2016"
