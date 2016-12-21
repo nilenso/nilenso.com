@@ -126,4 +126,28 @@
   company_short_name: "Razorfish"
   company_link: "http://www.razorfish.com/"
   logo: "images/client_logos/razorfish_logo.png"
+-
+  quote: ""
+  quoter: ""
+  company: "Milaap"
+  company_nick: "Milaap"
+  company_short_name: "Milaap"
+  company_link: "https://milaap.org/"
+  logo: "images/client_logos/milaap_logo.png"
+-
+  quote: ""
+  quoter: ""
+  company: "Quiklrn"
+  company_nick: "Quiklrn"
+  company_short_name: "Quiklrn"
+  company_link: "https://quiklrn.com/"
+  logo: "images/client_logos/quiklrn_logo.png"
+-
+  quote: ""
+  quoter: ""
+  company: "Akvo"
+  company_nick: "Akvo"
+  company_short_name: "Akvo"
+  company_link: "http://akvo.org/"
+  logo: "images/client_logos/akvo_logo.png"
 
