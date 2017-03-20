@@ -32,11 +32,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
 
-    <!-- Typekit fonts -->
-    <script type="text/javascript" src="//use.typekit.net/xgt4lgm.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.png'/>
+   <link rel='shortcut icon' type='image/x-icon' href='favicon.png'/>
 
     <!-- site scripts and styles -->
     <link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
@@ -47,6 +43,10 @@
 <link href="/stylesheets/jquery.navobile.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="/stylesheets/scrollnav.css" media="screen" rel="stylesheet" type="text/css" />
     <script src="/javascripts/all.js" type="text/javascript"></script>
+
+    <!-- Typekit fonts -->
+    <script type="text/javascript" src="//use.typekit.net/xgt4lgm.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
     <meta name="google-site-verification" content="Ohyg8o6ZXcszxwE6yROBRfrhntJVmkAHUc0QLDzjs58" />
   </head>
@@ -63,7 +63,6 @@
         <a class="header-link page-link active" href="/recent-tech.html">Tech</a>
         <a class="header-link page-link " href="http://design.nilenso.com">Design</a>
         <a class="header-link page-link " href="/careers.html">Careers</a>
-	<a class="header-link page-link " href="/clojure-workshop.html">Workshops</a>
         <a class="header-link page-link " href="/talks.html">Talks</a>
         <a class="header-link page-link " href="/alumni.html">Alumni</a>
         <a class="header-link page-link " href="http://blog.nilenso.com">Blog</a>
@@ -81,7 +80,7 @@
   </div>
 
   <p class="section-content">
-    <strong>Driver Allocation Service:</strong> This service was built for an Indonesian Uber competitor. Matching drivers to riders is perhaps the most crucial runtime behaviour of any rideshare business. This is the first interaction any customer will have with the application. It is also the most common. Failures quickly multiply in the minds of users (riders and drivers, both). We were tasked with rewriting a fragile and bug-ridden Allocation Service written in Go. For this project, we convinced the client to use Clojure, deploying their first production Clojure code. The rewrite runtime consisted of (approximately) 2500 lines of Clojure, as opposed to 3500 lines of Go. Interestingly, 1500 lines of Go tests became 2000 lines of Clojure tests. Our testing strategy for this project was significant: We eschewed the standard unit testing suite for a completely generative test suite, written in Clojure's <pre>test.check</pre>, a port of Haskell's <pre>QuickCheck</pre>. Our generative test suite ran hundreds of different tests in developer's environments and thousands of different tests in the continuous integration environment, growing our confidence over the original codebase by an order of magnitude. Thanks to generative testing (and a tiny unit test suite for edge cases), our rewrite was deployed with zero issues on its first day in production. The service runs behind load-balancing circuit breakers which have, thus far, proven resilient enough to ensure the comprehensive monitoring we built into the service has not been necessary.
+    <strong>Driver Allocation Service:</strong> This service was built for an Indonesian Uber competitor. Matching drivers to riders is perhaps the most crucial runtime behaviour of any rideshare business. This is the first interaction any customer will have with the application. It is also the most common. Failures quickly multiply in the minds of users (riders and drivers, both). We were tasked with rewriting a fragile and bug-ridden Allocation Service written in Go. For this project, we convinced the client to use Clojure, deploying their first production Clojure code. The rewrite runtime consisted of (approximately) 2500 lines of Clojure, as opposed to 3500 lines of Go. Interestingly, 1500 lines of Go tests became 2000 lines of Clojure tests. Our testing strategy for this project was significant: We eschewed the standard unit testing suite for a completely generative test suite, written in Clojure's <span class="mono">test.check</span>, a port of Haskell's <span class="mono">QuickCheck</span>. Our generative test suite ran hundreds of different tests in developer's environments and thousands of different tests in the continuous integration environment, growing our confidence over the original codebase by an order of magnitude. Thanks to generative testing (and a tiny unit test suite for edge cases), our rewrite was deployed with zero issues on its first day in production. The service runs behind load-balancing circuit breakers which have, thus far, proven resilient enough to ensure the comprehensive monitoring we built into the service has not been necessary.
   </p>
 
   <p class="section-content">
@@ -102,7 +101,7 @@
   <p class="section-content">
     <strong>Monitoring:</strong>We have built a complete monitoring solution for the e-commerce service architectures we help support. System-level events and application events are both centrally collected in an on-box service running adjacent to runtime services then queried periodically into Prometheus to provide intelligent alerting to developers doing operations and diagnostics tools in the case of runtime failure. This work was recently open-sourced by our client and can be seen here:
   </p>
-  <ul>
+  <ul class="section-content">
     <li><a href="https://github.com/nilenso/Wonko">https://github.com/nilenso/wonko</a></li>
     <li><a href="https://github.com/nilenso/wonko-client">https://github.com/nilenso/wonko-client</a></li>
   </ul>
