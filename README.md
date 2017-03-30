@@ -30,6 +30,15 @@ The crontab line for reference:
 */15 * *   *   *     cd /home/deploy/nilenso.com && git pull
 ```
 
+### Renewing SSL Certificate
+
+Log into the machine and run the following:
+
+```sh
+sudo certbot renew
+sudo service nginx reload
+```
+
 ---
 
 # nilenso blog
