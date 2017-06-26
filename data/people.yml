@@ -75,6 +75,15 @@
   linkedin: "https://www.linkedin.com/in/ravichandrapadmala"
 
 -
+  nick: "sandy"
+  picture: "images/people/sandy-200.png"
+  github: "https://github.com/jysandy"
+  name: "Sandilya Jandhyala"
+  bio: "Sandy interned at Cisco and Zopper before joining nilenso. An early riser and a straight shooter, Sandy loves writing Clojure, riding his bicycle, breakfasting at MTR, and fixing his bicycle (in that order). He only uses editors that were created after he was born."
+  twitter: "https://twitter.com/jysandilya"
+  linkedin: "https://www.linkedin.com/in/jysandy/"
+
+-
   nick: "shafeeq"
   picture: "images/people/shafeeq-200.png"
   github: "https://github.com/shafeeq"
