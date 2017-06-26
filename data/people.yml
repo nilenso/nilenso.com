@@ -106,8 +106,17 @@
   linkedin: "http://in.linkedin.com/in/deobald"
 
 -
+  nick: "udit"
+  picture: "images/people/udit-200.png"
+  github: "https://github.com/yudistrange"
+  name: "Udit Kumar"
+  bio: "<p align='center'>I have heard eggs help when you “WFH”</p>"
+  twitter: "https://twitter.com/yudistrange"
+  linkedin: "https://www.linkedin.com/in/udit-kumar-01690127/"
+
+-
   nick: "unni"
-  picture: "images/people/unni.png"
+  picture: "images/people/unni-200.png"
   github: "https://github.com/krish8664"
   name: "Unnikrishnan Geethagovindan"
   bio: "In the life of human beings, there is dissatisfaction on the right and gratitude on the left. Frustration and discontent cannot last and will, given enough time, always give way to gentleness and purpose. Unni, like all of us, is forever traversing this bridge. Coarse and sharp is the boredom of working for multinational corporations, building Yet Another CRM for an unknown customer to who-knows-what-end. Finer and softer come the challenges halfway across the bridge: Can I find the same joy in GoLang that I find in LISP? If the bridge is rigid and swaying, how soft and light on my feet must I be to maintain my balance? Is it true that the smoothest loop drawn on the surface of the Earth by my motorcycle contains every secret to the Universe? If I am grateful now for this slice of pizza, what possible discontent could disturb me from an unlived future? Have I crossed the bridge or have I become the bridge"
