@@ -39,6 +39,14 @@ sudo certbot renew
 sudo service nginx reload
 ```
 
+The production box should have a crontab setup for renewal under the `root` user crontab `sudo crontab -l`
+
+```
+0 */12 * * * certbot renew --post-hook "service nginx reload"
+```
+
+If this crontab does not exist, you can add it back by `sudo crontab -e`. It's recommended to run the renewal twice a day.
+
 ---
 
 # nilenso blog
