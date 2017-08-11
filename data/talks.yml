@@ -2,66 +2,77 @@
 -
   title: "Moving People with Clojure"
   speakers: "Abhinav Sarkar"
+  speakerhash: "abhinav"
   venue: "EuroClojure 2017"
   youtube_id: "3y7xzH8jB8A"
 
 -
   title: "A Postgres Orchestra"
   speakers: "Akshay Gupta"
+  speakerhash: "kitallis"
   venue: "PGConf India 2017"
   youtube_id: "oDB1rJD7pa0"
 
 -
   title: "Transparency in Work"
   speakers: "Steven Deobald"
+  speakerhash: "steven"
   venue: "Creative Mornings 2016"
   youtube_id: "u__x4JjvJTo"
 
 -
   title: "Making Machines that Make Music"
   speakers: "Srihari Sriraman"
+  speakerhash: "srihari"
   venue: "EuroClojure 2016"
   youtube_id: "ZvSSeuzN_b4"
 
 -
   title: "What I wish I knew as a newbie designer"
   speakers: "Noopur Varma"
+  speakerhash: "noopur"
   venue: "Meta Refresh 2016"
   youtube_id: "ZzB5-EK4sgQ"
 
 -
   title: "On the building of a Postgres cluster"
   speakers: "Srihari Sriraman"
+  speakerhash: "srihari"
   venue: "RootConf 2016"
   youtube_id: "sGJDg5ba0iI"
 
 - 
   title: "Vipassana for Hackers"
   speakers: "Steven Deobald"
+  speakerhash: "steven"
   venue: "XTC 2016"
   youtube_id: "1BWYqHbF00c"
 
 - 
   title: "Two Years Wiser, The Nilenso Experiment"
   speakers: "Steven Deobald"
+  speakerhash: "steven"
   venue: "The Fifth Elephant 2015"
   youtube_id: "uYTFCSZb3Kc"
 
 - 
   title: "Introduction To Concurrency In Haskell"
   speakers: "Abhinav Sarkar"
+  speakerhash: "abhinav"
   venue: "Functional Conf 2015" 
   youtube_id: "uVK3t-5wWew"
 
 - 
   title: "Building an Experimentation Platform in Clojure"
   speakers: "Nivedita Priyadarshini & Srihari Sriraman"
+  speakerhash: "nid"
   venue: "Functional Conf 2015"
   youtube_id: "YjfXhhxw9Bs"
 
 - 
   title: "Carnatic Music Synthesis In Clojure"
   speakers: "Srihari Sriraman"
+  speakerhash: "srihari"
   venue: "Functional Conf 2015"
   youtube_id: "12Uj6gpPA7k"
 

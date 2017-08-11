@@ -19,7 +19,13 @@ title: Talks
             <%= talk.title %>
           </a>
         </div>
-        <div class="talk-speakers"><%= talk.speakers %></div>
+        <div class="talk-speakers">
+          <% if talk.speakerhash %>
+            <a href="/people.html#<%= talk.speakerhash %>"><%= talk.speakers %></a>
+          <% else %>
+            <%= talk.speakers %>
+          <% end %>
+        </div>
         <div class="talk.venue"><%= talk.venue %></div>
       </div>
    <% end %>
