@@ -1,3 +1,9 @@
+-
+  title: "REPL driven mobile development <br> with Clojure(script)"
+  speakers: "Srihari Sriraman"
+  speakerhash: "srihari"
+  venue: "Fragments 2017"
+  youtube_id: "toGEegAzrZA"
 
 -
   title: "Moving People with Clojure"
@@ -63,7 +69,7 @@
   youtube_id: "uVK3t-5wWew"
 
 - 
-  title: "Building an Experimentation Platform in Clojure"
+  title: "Building an Experimentation Platform <br> in Clojure"
   speakers: "Nivedita Priyadarshini & Srihari Sriraman"
   speakerhash: "nid"
   venue: "Functional Conf 2015"
