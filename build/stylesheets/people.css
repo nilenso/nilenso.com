@@ -37,6 +37,12 @@
   color: #f8337d;
 }
 
+.talk-speakers a {
+  font-size: 18px;
+  color: #f8337d;
+  text-transform: none;
+}
+
 .talk-video {
   display: inline-block;
   vertical-align: middle;  

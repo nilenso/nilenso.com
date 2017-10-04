@@ -75,6 +75,25 @@
   linkedin: "https://www.linkedin.com/in/ravichandrapadmala"
 
 -
+  nick: "sandy"
+  picture: "images/people/sandy-200.png"
+  github: "https://github.com/jysandy"
+  name: "Sandilya Jandhyala"
+  bio: "Sandy interned at Cisco and Zopper before joining nilenso. An early riser and a straight shooter, Sandy loves writing Clojure, riding his bicycle, breakfasting at MTR, and fixing his bicycle (in that order). He only uses editors that were created after he was born."
+  twitter: "https://twitter.com/jysandilya"
+  linkedin: "https://www.linkedin.com/in/jysandy/"
+
+-
+  nick: "shafeeq"
+  picture: "images/people/shafeeq-200.png"
+  github: "https://github.com/shafeeq"
+  name: "Shafeeq Kunnakkadan"
+  bio: "<p>Shafeeq's quiet confidence and smiling demeanor belie an ember of passion searing just beneath the surface. When he first joined us, he was loath to engage the ethically treacherous Java ecosystem and longed for the purity of Python. He is no fan of Oracle, no fan of yesteryear's software meatgrinder, and no fan of ignorance. Neither are we.</p>
+    <p>To that end, we traded him an unlimited library, which he chews through like an industrial tree harvester, for a tempered approach to Free Software. He now builds software with Clojure and ClojureScript with the same passion we first saw in him.</p>"
+  twitter: "https://twitter.com/shafeeq_k"
+  linkedin: "https://www.linkedin.com/in/shafeeqk/"
+
+-
   nick: "srihari"
   picture: "images/people/srihari-200.png"
   github: "http://github.com/ssrihari"
@@ -96,6 +115,24 @@
   linkedin: "http://in.linkedin.com/in/deobald"
 
 -
+  nick: "udit"
+  picture: "images/people/udit-200.png"
+  github: "https://github.com/yudistrange"
+  name: "Udit Kumar"
+  bio: "<p align='center'>I have heard eggs help when you &ldquo;WFH&rdquo;&#128540;</p>"
+  twitter: "https://twitter.com/yudistrange"
+  linkedin: "https://www.linkedin.com/in/udit-kumar-01690127/"
+
+-
+  nick: "unni"
+  picture: "images/people/unni-200.png"
+  github: "https://github.com/krish8664"
+  name: "Unnikrishnan Geethagovindan"
+  bio: "In the life of human beings, there is dissatisfaction on the right and gratitude on the left. Frustration and discontent cannot last and will, given enough time, always give way to gentleness and purpose. Unni, like all of us, is forever traversing this bridge. Coarse and sharp is the boredom of working for multinational corporations, building Yet Another CRM for an unknown customer to who-knows-what-end. Finer and softer come the challenges halfway across the bridge: Can I find the same joy in GoLang that I find in LISP? If the bridge is rigid and swaying, how soft and light on my feet must I be to maintain my balance? Is it true that the smoothest loop drawn on the surface of the Earth by my motorcycle contains every secret to the Universe? If I am grateful now for this slice of pizza, what possible discontent could disturb me from an unlived future? Have I crossed the bridge or have I become the bridge?"
+  twitter: "http://twitter.com/krish8664"
+  linkedin: "https://in.linkedin.com/in/unnikrishnan-gg-a3136028"
+
+-
   nick: "varun"
   picture: "images/people/varun-200.png"
   github: "https://github.com/irrational-pai"
@@ -103,5 +140,4 @@
   bio: "Varun is a front-end developer and designer who embraces creativity in all its forms. A dancer, boxer and prolific note-taker, he also co-runs 'Creative Mornings Bangalore'."
   twitter: "http://twitter.com/irrational_pai"
   linkedin: "https://in.linkedin.com/in/varunpai"
-
 
