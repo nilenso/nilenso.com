@@ -1,0 +1,18 @@
+---
+title: Open Source
+---
+
+<div>
+  <h2 class="section-heading">Open Source</h2>
+
+  <div class="section">
+    <% data.opensource.each do |project| %>
+      <p class="section-content">
+	<strong>
+	  <a href="<%= project.link %>"><%= project.name %></a>:
+	</strong>
+	<%= project.description %>
+      </p >
+    <% end %>
+  </div>
+</div>
