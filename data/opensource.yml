@@ -1,95 +1,101 @@
 -
-  name: wonko
-  link: https://github.com/staples-sparx/wonko
-  description: platform and services monitoring application for a large e-commerce company (the only piece of code we've written for them that is available in the public domain; however we have given a talk about the experimentation platform we built for them).
-
--
-  name: Ashoka survey tool
-  link: https://github.com/nilenso/?q=ashoka
-  description: suite of apps that allow users to build surveys using a web application, collect and upload information using a mobile app and view reports.
-
--
-  name: kulu
-  link: https://github.com/nilenso/kulu
-  description: a mobile and web application to manage corporate reimbursements (used internally at nilenso).
-
--
-  name: ringo
-  link: https://github.com/nilenso/ringo
-  description: a tool written in Haskell, that transforms Postgres OLTP database schemas to OLAP database schemas automatically. It is used in production at quintype.com for their analytics and reporting projects.
-
--
-  name: honeysql-postgres
-  link: https://github.com/nilenso/honeysql-postgres
-  description: library that extends the features of honeysql (the widely used SQL generation clojure library) to support Postgres specific SQL clauses and some basic SQL DDL.
-
--
-  name: postgresql-monitoring
-  link: https://github.com/nilenso/postgresql-monitoring
-  description: a collection of queries to monitor Postgres databases.
-
--
-  name: agrajag
-  link: https://github.com/staples-sparx/Agrajag
-  description: checks the health of database clusters.
-
--
-  name: time-tracker
-  link: https://github.com/nilenso/?q=time-tracker
-  description: our most open source project is a time-tracking tool (to be eventually extended to include invoicing functionality that we have just started testing internally at nilenso.
+  name: Relay
+  source: https://gitlab.com/nilenso?filter=relay
+  website: https://relay-chat.com/
+  description: Relay is a modern, open-source messaging tool that respects your privacy
 
 -
   name: leaflike
-  link: https://github.com/nilenso/leaflike
+  source: https://github.com/nilenso/leaflike
+  website: https://leaflike.nilenso.com
   description: a bookmarking service
 
 -
-  name: biomass
-  link: https://github.com/shafeeq/biomass
-  description: Clojure wrapper for Amazon Mechanical Turk API.
+  name: kulu
+  source: https://github.com/nilenso/kulu
+  website: https://www.kulu.tech/
+  description: a mobile and web application to manage corporate reimbursements (used internally at nilenso).
 
 -
-  name: re-crud
-  link: https://github.com/omnypay/re-crud
-  description: A crud library for re-frame apps
-
--
-  name: wikienso
-  link: https://github.com/nilenso/wikenso
-  description: Clean and simple wiki hosting.
+  name: time-tracker
+  source: https://github.com/nilenso/?q=time-tracker
+  website: https://time.nilenso.com
+  description: our most open source project is a time-tracking tool (to be eventually extended to include invoicing functionality that we have just started testing internally at nilenso.
 
 -
   name: reviews
-  link: https://github.com/nilenso/reviews
+  source: https://github.com/nilenso/reviews
   description: Rails app to do internal reviews at Nilenso
 
 -
   name: kosha
-  link: https://github.com/carnatic-music/kosha
+  source: https://github.com/carnatic-music/kosha
   description: Open carnatic music database
 
 -
   name: ragavardhini
-  link: https://github.com/carnatic-music/ragavardhini
+  source: https://github.com/carnatic-music/ragavardhini
   description: Synthesis and generation of carnatic music
 
 -
   name: markdown2clj
-  link: https://github.com/nilenso/markdown2clj
+  source: https://github.com/nilenso/markdown2clj
   description: Clojure library that converts markdown to Clojure data structures
 
 
 -
   name: wscljs
-  link: https://github.com/nilenso/wscljs
+  source: https://github.com/nilenso/wscljs
   description: A thin and lightweight websocket client for ClojureScript.
 
 -
-  name: Clojure Workshop
-  link: https://github.com/nilenso/clojure-workshop
-  description: Course material for clojure workshops organized by nilenso
+  name: mailgun
+  source: https://github.com/nilenso/mailgun
+  description: Mailgun API in clojure
+
 
 -
-  name: mailgun
-  link: https://github.com/nilenso/mailgun
-  description: Mailgun API in clojure
+  name: biomass
+  source: https://github.com/shafeeq/biomass
+  description: Clojure wrapper for Amazon Mechanical Turk API.
+
+-
+  name: re-crud
+  source: https://github.com/omnypay/re-crud
+  description: A crud library for re-frame apps
+
+
+-
+  name: wonko
+  source: https://github.com/staples-sparx/wonko
+  description: platform and services monitoring application for a large e-commerce company (the only piece of code we've written for them that is available in the public domain; however we have given a talk about the experimentation platform we built for them).
+
+-
+  name: Ashoka survey tool
+  source: https://github.com/nilenso/?q=ashoka
+  description: suite of apps that allow users to build surveys using a web application, collect and upload information using a mobile app and view reports.
+
+-
+  name: ringo
+  source: https://github.com/nilenso/ringo
+  description: a tool written in Haskell, that transforms Postgres OLTP database schemas to OLAP database schemas automatically. It is used in production at quintype.com for their analytics and reporting projects.
+
+-
+  name: honeysql-postgres
+  source: https://github.com/nilenso/honeysql-postgres
+  description: library that extends the features of honeysql (the widely used SQL generation clojure library) to support Postgres specific SQL clauses and some basic SQL DDL.
+
+-
+  name: postgresql-monitoring
+  source: https://github.com/nilenso/postgresql-monitoring
+  description: a collection of queries to monitor Postgres databases.
+
+-
+  name: agrajag
+  source: https://github.com/staples-sparx/Agrajag
+  description: checks the health of database clusters.
+
+-
+  name: wikienso
+  source: https://github.com/nilenso/wikenso
+  description: Clean and simple wiki hosting.

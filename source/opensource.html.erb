@@ -9,8 +9,17 @@ title: Open Source
     <% data.opensource.each do |project| %>
       <p class="section-content">
 	<strong>
-	  <a href="<%= project.link %>"><%= project.name %></a>:
+	  <%= project.name %>
 	</strong>
+	<br>
+
+	<% if project.website.present? %>
+	<a href="<%= project.website %>">Website</a> | <a href="<% project.source %>">Source</a>
+	<% else %>
+	<a href="<% project.source %>">Source</a>
+	<% end %>
+	<br>
+
 	<%= project.description %>
       </p >
     <% end %>
