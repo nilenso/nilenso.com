@@ -37,10 +37,95 @@ title: Open Source
       </div>
     </div>
     <% end %>
+
+
+    <h3 class="section-subheading">Production Ready</h3>
+    <% data.opensource.production_ready.each do |project| %>
+    <div class="bordered-section section-content">
+      <div class = "project">
+
+	  <div class="branding-elem section-miniheading">
+	   <%= project.name %>
+	  </div>
+	  <div class="branding-elem">
+	    <% if project.website.present? %>
+	    <a href="<%= project.website %>">Website</a> | <a href="<% project.source %>">Source</a>
+	    <% else %>
+	    <a href="<% project.source %>">Source</a>
+	    <% end %>
+	  </div>
+	  <div class="branding-elem">
+	    <% project.tags.each do |tag| %>
+	    <div class="project-tag"><%= tag %></div>
+	    <% end %>
+	  </div>
+
+	  <div class="branding-elem">
+	    <%= project.description %>
+	  </div>
+      </div>
+    </div>
+    <% end %>
+
+    <h3 class="section-subheading">Contributed</h3>
+    <% data.opensource.contributed.each do |project| %>
+    <div class="bordered-section section-content">
+      <div class = "project">
+
+	  <div class="branding-elem section-miniheading">
+	   <%= project.name %>
+	  </div>
+	  <div class="branding-elem">
+	    <% if project.website.present? %>
+	    <a href="<%= project.website %>">Website</a> | <a href="<% project.source %>">Source</a>
+	    <% else %>
+	    <a href="<% project.source %>">Source</a>
+	    <% end %>
+	  </div>
+	  <div class="branding-elem">
+	    <% project.tags.each do |tag| %>
+	    <div class="project-tag"><%= tag %></div>
+	    <% end %>
+	  </div>
+
+	  <div class="branding-elem">
+	    <%= project.description %>
+	  </div>
+      </div>
+    </div>
+    <% end %>
+
+    <h3 class="section-subheading">Less Loved :(</h3>
+    <% data.opensource.less_loved.each do |project| %>
+    <div class="bordered-section section-content">
+      <div class = "project">
+
+	  <div class="branding-elem section-miniheading">
+	   <%= project.name %>
+	  </div>
+	  <div class="branding-elem">
+	    <% if project.website.present? %>
+	    <a href="<%= project.website %>">Website</a> | <a href="<% project.source %>">Source</a>
+	    <% else %>
+	    <a href="<% project.source %>">Source</a>
+	    <% end %>
+	  </div>
+	  <div class="branding-elem">
+	    <% project.tags.each do |tag| %>
+	    <div class="project-tag"><%= tag %></div>
+	    <% end %>
+	  </div>
+
+	  <div class="branding-elem">
+	    <%= project.description %>
+	  </div>
+      </div>
+    </div>
+    <% end %>
+
   </div>
 
 
-  <h3 class="section-subheading">Production Ready</h3>
 
 
 </div>
