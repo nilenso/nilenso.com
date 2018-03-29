@@ -44,7 +44,7 @@
 
 .talk-video {
   display: inline-block;
-  vertical-align: middle;  
+  vertical-align: middle;
 }
 
 /*---people-------------------*/
@@ -102,4 +102,46 @@
 
 .person-bio p:last-child {
   padding-bottom: 0;
+}
+
+
+/*---opensource-------------------*/
+.project {
+    display: table;
+    /* padding-bottom: 70px; */
+}
+
+.project-logo {
+    width: 80px;
+}
+
+.branding-elem {
+    display: table-row;
+    text-align: center;
+}
+
+.project-branding {
+    float: left;
+    width: 30%;
+    /* height: 200px; */
+    display: table;
+
+}
+
+.project-title {
+    vertical-align: middle;
+}
+
+.project-description {
+    margin-left: 200px;
+    width: 70%;
+    display: table;
+}
+
+.project-tag {
+    font-size: 16px;
+    display: inline;
+    padding: 3px;
+    border: 1px dotted #f8337d;
+    border-radius: 5px;
 }

@@ -1,101 +1,143 @@
--
-  name: Relay
-  source: https://gitlab.com/nilenso?filter=relay
-  website: https://relay-chat.com/
-  description: Relay is a modern, open-source messaging tool that respects your privacy
+hosted:
+   -
+     name: Relay
+     source: https://gitlab.com/nilenso?filter=relay
+     website: https://relay-chat.com/
+     logo: relay_logo.png
+     tags: ['app', 'service', 'go', 'javascript', 'clojure']
+     description: Relay is modern, hosted, open-source workplace messaging. Sane privacy, sane design. Apps for all platforms. Built on top of Mattermost.
 
--
-  name: leaflike
-  source: https://github.com/nilenso/leaflike
-  website: https://leaflike.nilenso.com
-  description: a bookmarking service
+   -
+     name: leaflike
+     source: https://github.com/nilenso/leaflike
+     website: https://leaflike.nilenso.com
+     logo: leaflike_logo.png
+     tags: ['app', 'service', 'clojure']
+     description: Leaflike is a bookmarking service — a free replacement for Pocket and Pinboard. Use browser plug-ins to hoard URLs like it's 1997.
 
--
-  name: kulu
-  source: https://github.com/nilenso/kulu
-  website: https://www.kulu.tech/
-  description: a mobile and web application to manage corporate reimbursements (used internally at nilenso).
+   -
+     name: kulu
+     source: https://github.com/nilenso/kulu
+     website: https://www.kulu.tech/
+     logo: kulu_logo.png
+     tags: ['app', 'service', 'clojure', 'javascript']
+     description: Kulu is nilenso's application for filing reimbursements. Take a photo of a paper receipt... the accountant deals with the rest.
 
--
-  name: time-tracker
-  source: https://github.com/nilenso/?q=time-tracker
-  website: https://time.nilenso.com
-  description: our most open source project is a time-tracking tool (to be eventually extended to include invoicing functionality that we have just started testing internally at nilenso.
+   -
+     name: reviews
+     source: https://github.com/nilenso/reviews
+     logo: reviews_logo.png
+     tags: ['app', 'service', 'ruby']
+     description: Reviews is the fieldsesque name of nilenso's application for staff reviews. It's web-based, it uses Google authentication, and it couldn't be more straightforward. Special thanks to Timothy Andrew.
 
--
-  name: reviews
-  source: https://github.com/nilenso/reviews
-  description: Rails app to do internal reviews at Nilenso
+production_ready:
+    -
+      name: cooperative-agreement
+      source: https://github.com/nilenso/cooperative-agreement/
+      tags: ['legal', 'markdown', 'co-op']
+      description: nilenso is India's first worker-owned technology co-operative. No laws exist to formalize such a corporation. This is our Partnership Agreement and Constitution which ensures all employees are equal partners in the business. If you have questions, email us at coop@nilenso.com.
+    -
+      name: wscljs
+      source: https://github.com/nilenso/wscljs
+      tags: ['library', 'ClojureScript', 'websockets']
+      description: A thin and lightweight websocket client for ClojureScript.
 
--
-  name: kosha
-  source: https://github.com/carnatic-music/kosha
-  description: Open carnatic music database
+    -
+      name: mailgun
+      source: https://github.com/nilenso/mailgun
+      tags: ['library', 'clojure', 'e-mail']
+      description: Mailgun API in clojure
 
--
-  name: ragavardhini
-  source: https://github.com/carnatic-music/ragavardhini
-  description: Synthesis and generation of carnatic music
+    -
+      name: honeysql-postgres
+      source: https://github.com/nilenso/honeysql-postgres
+      tags: ['library', 'clojure', 'postgres']
+      description: library that extends the features of honeysql (the widely used SQL generation clojure library) to support Postgres specific SQL clauses and some basic SQL DDL.
 
--
-  name: markdown2clj
-  source: https://github.com/nilenso/markdown2clj
-  description: Clojure library that converts markdown to Clojure data structures
+    -
+      name: postgresql-monitoring
+      source: https://github.com/nilenso/postgresql-monitoring
+      tags: ['tool', 'clojure', 'postgres']
+      description: a collection of queries to monitor Postgres databases.
 
+    -
+      name: re-crud
+      source: https://github.com/omnypay/re-crud
+      tags: ['library', 'ClojureScript', 're-frame', 'react']
+      description: A crud library for re-frame apps
 
--
-  name: wscljs
-  source: https://github.com/nilenso/wscljs
-  description: A thin and lightweight websocket client for ClojureScript.
+    -
+      name: agrajag
+      source: https://github.com/staples-sparx/Agrajag
+      tags: ['tool', 'clojure']
+      description: checks the health of database clusters.
 
--
-  name: mailgun
-  source: https://github.com/nilenso/mailgun
-  description: Mailgun API in clojure
+    -
+      name: markdown2clj
+      source: https://github.com/nilenso/markdown2clj
+      tags: ['clojure', 'markdown']
+      description: Clojure library that converts markdown to Clojure data structures
 
+    -
+      name: ringo
+      source: https://github.com/nilenso/ringo
+      tags: ['tool', 'haskell', 'postgres']
+      description: a tool written in Haskell, that transforms Postgres OLTP database schemas to OLAP database schemas automatically. It is used in production at quintype.com for their analytics and reporting projects.
 
--
-  name: biomass
-  source: https://github.com/shafeeq/biomass
-  description: Clojure wrapper for Amazon Mechanical Turk API.
+    -
+      name: wonko
+      source: https://github.com/staples-sparx/wonko
+      tags: ['service', 'clojure']
+      description: platform and services monitoring application for a large e-commerce company (the only piece of code we've written for them that is available in the public domain; however we have given a talk about the experimentation platform we built for them).
 
--
-  name: re-crud
-  source: https://github.com/omnypay/re-crud
-  description: A crud library for re-frame apps
+    -
+      name: biomass
+      source: https://github.com/shafeeq/biomass
+      tags: ['tool', 'clojure']
+      description: Clojure wrapper for Amazon Mechanical Turk API.
 
+    -
+      name: westwind
+      source: https://github.com/nilenso/westwind
+      website: http://westwind.herokuapp.com/
+      tags: ['app', 'ruby']
+      description: Functional Reactive Poems
 
--
-  name: wonko
-  source: https://github.com/staples-sparx/wonko
-  description: platform and services monitoring application for a large e-commerce company (the only piece of code we've written for them that is available in the public domain; however we have given a talk about the experimentation platform we built for them).
+contributed:
+    - name: josm
+      source: https://josm.openstreetmap.de/wiki/Source%20code
+      website: https://josm.openstreetmap.de/
+      tags: ['app', 'java']
+      description: FIXME
 
--
-  name: Ashoka survey tool
-  source: https://github.com/nilenso/?q=ashoka
-  description: suite of apps that allow users to build surveys using a web application, collect and upload information using a mobile app and view reports.
+    -
+      name: kosha
+      source: https://github.com/carnatic-music/kosha
+      tags: ['clojure']
+      description: Open carnatic music database
 
--
-  name: ringo
-  source: https://github.com/nilenso/ringo
-  description: a tool written in Haskell, that transforms Postgres OLTP database schemas to OLAP database schemas automatically. It is used in production at quintype.com for their analytics and reporting projects.
+    -
+      name: ragavardhini
+      source: https://github.com/carnatic-music/ragavardhini
+      tags: ['clojure']
+      description: Synthesis and generation of carnatic music
 
--
-  name: honeysql-postgres
-  source: https://github.com/nilenso/honeysql-postgres
-  description: library that extends the features of honeysql (the widely used SQL generation clojure library) to support Postgres specific SQL clauses and some basic SQL DDL.
+less_loved:
+    -
+      name: time-tracker
+      source: https://github.com/nilenso/?q=time-tracker
+      website: https://time.nilenso.com
+      tags: ['app', 'clojure', 'ClojureScript']
+      description: our most open source project is a time-tracking tool (to be eventually extended to include invoicing functionality that we have just started testing internally at nilenso.
 
--
-  name: postgresql-monitoring
-  source: https://github.com/nilenso/postgresql-monitoring
-  description: a collection of queries to monitor Postgres databases.
+    -
+      name: Ashoka survey tool
+      source: https://github.com/nilenso/?q=ashoka
+      tags: ['app', 'ruby', 'javascript']
+      description: suite of apps that allow users to build surveys using a web application, collect and upload information using a mobile app and view reports.
 
--
-  name: agrajag
-  source: https://github.com/staples-sparx/Agrajag
-  description: checks the health of database clusters.
-
--
-  name: wikienso
-  source: https://github.com/nilenso/wikenso
-  description: Clean and simple wiki hosting.
+    -
+      name: wikienso
+      source: https://github.com/nilenso/wikenso
+      tags: ['app', 'ruby']
+      description: Clean and simple wiki hosting.
