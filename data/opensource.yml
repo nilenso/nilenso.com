@@ -46,7 +46,7 @@ production_ready:
       name: mailgun
       source: https://github.com/nilenso/mailgun
       tags: ['library', 'clojure', 'e-mail']
-      description: Mailgun API in clojure
+      description: A Clojure wrapper for the mailgun (https://mailgun.net) API.
 
     -
       name: honeysql-postgres
@@ -70,7 +70,7 @@ production_ready:
       name: agrajag
       source: https://github.com/staples-sparx/Agrajag
       tags: ['tool', 'clojure']
-      description: checks the health of database clusters.
+      description: Daemon used to decouple a database cluster from its clients. Agrajag runs on DB nodes, sending repmgr cluster status to Zookeeper.
 
     -
       name: markdown2clj
@@ -88,27 +88,27 @@ production_ready:
       name: wonko
       source: https://github.com/staples-sparx/wonko
       tags: ['service', 'clojure']
-      description: platform and services monitoring application for a large e-commerce company (the only piece of code we've written for them that is available in the public domain; however we have given a talk about the experimentation platform we built for them).
+      description: Decentralized monitoring and aggregate alerting for service architectures.
 
     -
       name: biomass
       source: https://github.com/shafeeq/biomass
       tags: ['tool', 'clojure']
-      description: Clojure wrapper for Amazon Mechanical Turk API.
+      description: Drive Amazon's Mechanical Turk REST API from your Clojure apps.
 
     -
       name: westwind
       source: https://github.com/nilenso/westwind
       website: http://westwind.herokuapp.com/
       tags: ['app', 'ruby']
-      description: Functional Reactive Poems
+      description: A fun example of the once-hip "functional reactive programming" style, in Ruby. Queries the Twitter firehose for content, constructing nonsensical poems.
 
 contributed:
-    - name: josm
+    - name: JOSM
       source: https://josm.openstreetmap.de/wiki/Source%20code
       website: https://josm.openstreetmap.de/
       tags: ['app', 'java']
-      description: FIXME
+      description: A small team from nilenso worked with the folks at Mapbox to build an architecture plan for the Java OpenStreetMap Editor. During this time, we also fixed tactical issues, such as un-freezing the UI while uploads occur.
 
     -
       name: kosha
@@ -128,16 +128,16 @@ less_loved:
       source: https://github.com/nilenso/?q=time-tracker
       website: https://time.nilenso.com
       tags: ['app', 'clojure', 'ClojureScript']
-      description: our most open source project is a time-tracking tool (to be eventually extended to include invoicing functionality that we have just started testing internally at nilenso.
+      description: The nilenso Time Tracker is a sort of garage-band project. a playful attempt to build a functional replacement to Harvest. Currently the web interface is in its infancy; mobile and desktop apps do not exist yet. Consider this project unusable in its current state but feel free to play around with it.
 
     -
       name: Ashoka survey tool
       source: https://github.com/nilenso/?q=ashoka
       tags: ['app', 'ruby', 'javascript']
-      description: suite of apps that allow users to build surveys using a web application, collect and upload information using a mobile app and view reports.
+      description: Field tools (mobile and web applications) built for The Ashoka Foundation to take surveys on health and education in rural India.
 
     -
       name: wikienso
       source: https://github.com/nilenso/wikenso
       tags: ['app', 'ruby']
-      description: Clean and simple wiki hosting.
+      description: A simple, tiny, hosted wiki. This project is very small and old but feature-complete.

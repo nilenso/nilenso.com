@@ -40,8 +40,9 @@ title: Open Source
 
 
     <h3 class="section-subheading">Production Ready</h3>
+    <div id="project-col">
     <% data.opensource.production_ready.each do |project| %>
-    <div class="bordered-section section-content">
+    <div class="all-bordered-section section-content">
       <div class = "project">
 
 	  <div class="branding-elem section-miniheading">
@@ -66,12 +67,13 @@ title: Open Source
       </div>
     </div>
     <% end %>
+    </div>
 
     <h3 class="section-subheading">Contributed</h3>
+    <div id="project-col">
     <% data.opensource.contributed.each do |project| %>
-    <div class="bordered-section section-content">
+    <div class="all-bordered-section section-content">
       <div class = "project">
-
 	  <div class="branding-elem section-miniheading">
 	   <%= project.name %>
 	  </div>
@@ -94,10 +96,11 @@ title: Open Source
       </div>
     </div>
     <% end %>
+    </div>
 
     <h3 class="section-subheading">Less Loved :(</h3>
     <% data.opensource.less_loved.each do |project| %>
-    <div class="bordered-section section-content">
+    <div class="all-bordered-section section-content">
       <div class = "project">
 
 	  <div class="branding-elem section-miniheading">
@@ -110,6 +113,7 @@ title: Open Source
 	    <a href="<% project.source %>">Source</a>
 	    <% end %>
 	  </div>
+
 	  <div class="branding-elem">
 	    <% project.tags.each do |tag| %>
 	    <div class="project-tag"><%= tag %></div>
