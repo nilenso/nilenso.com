@@ -8,8 +8,8 @@ title: Open Source
   <div class="section">
     <h3 class="section-subheading">Hosted</h3>
     <% data.opensource.hosted.each do |project| %>
-    <div class="bordered-section section-content">
-      <div class = "project">
+    <div class="bordered-section">
+      <div class="project">
 	<div class="project-branding">
 	  <div class="branding-elem section-miniheading">
 	   <%= project.name %>
@@ -19,9 +19,9 @@ title: Open Source
 	  </div>
 	  <div class="branding-elem">
 	    <% if project.website.present? %>
-	    <a href="<%= project.website %>">Website</a> | <a href="<% project.source %>">Source</a>
+	    <a href="<%= project.website %>">website</a> | <a href="<% project.source %>">source</a>
 	    <% else %>
-	    <a href="<% project.source %>">Source</a>
+	    <a href="<% project.source %>">source</a>
 	    <% end %>
 	  </div>
 	  <div class="branding-elem">
@@ -40,19 +40,19 @@ title: Open Source
 
 
     <h3 class="section-subheading">Production Ready</h3>
+
     <div id="project-col">
     <% data.opensource.production_ready.each do |project| %>
-    <div class="all-bordered-section section-content">
-      <div class = "project">
-
+    <div class="project-box">
+      <div class="project">
 	  <div class="branding-elem section-miniheading">
 	   <%= project.name %>
 	  </div>
 	  <div class="branding-elem">
 	    <% if project.website.present? %>
-	    <a href="<%= project.website %>">Website</a> | <a href="<% project.source %>">Source</a>
+	    <a href="<%= project.website %>">website</a> | <a href="<% project.source %>">source</a>
 	    <% else %>
-	    <a href="<% project.source %>">Source</a>
+	    <a href="<% project.source %>">source</a>
 	    <% end %>
 	  </div>
 	  <div class="branding-elem">
@@ -72,16 +72,16 @@ title: Open Source
     <h3 class="section-subheading">Contributed</h3>
     <div id="project-col">
     <% data.opensource.contributed.each do |project| %>
-    <div class="all-bordered-section section-content">
-      <div class = "project">
+    <div class="project-box">
+      <div class="project">
 	  <div class="branding-elem section-miniheading">
 	   <%= project.name %>
 	  </div>
 	  <div class="branding-elem">
 	    <% if project.website.present? %>
-	    <a href="<%= project.website %>">Website</a> | <a href="<% project.source %>">Source</a>
+	    <a href="<%= project.website %>">website</a> | <a href="<% project.source %>">source</a>
 	    <% else %>
-	    <a href="<% project.source %>">Source</a>
+	    <a href="<% project.source %>">source</a>
 	    <% end %>
 	  </div>
 	  <div class="branding-elem">
@@ -99,18 +99,19 @@ title: Open Source
     </div>
 
     <h3 class="section-subheading">Less Loved :(</h3>
+    <div id="project-col">
     <% data.opensource.less_loved.each do |project| %>
-    <div class="all-bordered-section section-content">
-      <div class = "project">
+    <div class="project-box">
+      <div class="project">
 
 	  <div class="branding-elem section-miniheading">
 	   <%= project.name %>
 	  </div>
 	  <div class="branding-elem">
 	    <% if project.website.present? %>
-	    <a href="<%= project.website %>">Website</a> | <a href="<% project.source %>">Source</a>
+	    <a href="<%= project.website %>">website</a> | <a href="<% project.source %>">source</a>
 	    <% else %>
-	    <a href="<% project.source %>">Source</a>
+	    <a href="<% project.source %>">source</a>
 	    <% end %>
 	  </div>
 
@@ -126,6 +127,7 @@ title: Open Source
       </div>
     </div>
     <% end %>
+    </div>
 
   </div>
 

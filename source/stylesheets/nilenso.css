@@ -54,17 +54,6 @@ ul {
   border-bottom: 1px dotted #f8337d;
 }
 
-.all-bordered-section {
-  margin-bottom: 70px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-bottom: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border: 1px dotted #f8337d;
-  border-radius: 10px;
-}
-
 
 .section {
   margin-bottom: 70px;
