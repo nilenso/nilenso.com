@@ -4,11 +4,11 @@ hosted:
      source: https://gitlab.com/nilenso?filter=relay
      website: https://relay-chat.com/
      logo: relay_logo.png
-     tags: ['app', 'service', 'go', 'javascript', 'clojure']
+     tags: ['app', 'service', 'go', 'javascript', 'clojure', 'clojurescript']
      description: Relay is modern, hosted, open-source workplace messaging. Sane privacy, sane design. Apps for all platforms. Built on top of Mattermost.
 
    -
-     name: leaflike
+     name: Leaflike
      source: https://github.com/nilenso/leaflike
      website: https://leaflike.nilenso.com
      logo: leaflike_logo.png
@@ -16,30 +16,30 @@ hosted:
      description: Leaflike is a bookmarking service — a free replacement for Pocket and Pinboard. Use browser plug-ins to hoard URLs like it's 1997.
 
    -
-     name: kulu
+     name: Kulu
      source: https://github.com/nilenso/kulu
      website: https://www.kulu.tech/
      logo: kulu_logo.png
-     tags: ['app', 'service', 'clojure', 'javascript']
+     tags: ['app', 'service', 'clojure', 'ruby', 'java']
      description: Kulu is nilenso's application for filing reimbursements. Take a photo of a paper receipt... the accountant deals with the rest.
 
    -
-     name: reviews
+     name: Reviews
      source: https://github.com/nilenso/reviews
      logo: reviews_logo.png
-     tags: ['app', 'service', 'ruby']
+     tags: ['app', 'ruby']
      description: Reviews is the fieldsesque name of nilenso's application for staff reviews. It's web-based, it uses Google authentication, and it couldn't be more straightforward. Special thanks to <a href="https://twitter.com/timothyandrew">Timothy Andrew</a>.
 
 production_ready:
     -
       name: cooperative-agreement
       source: https://github.com/nilenso/cooperative-agreement/
-      tags: ['legal', 'markdown', 'co-op']
+      tags: ['tool', 'markdown']
       description: nilenso is India's first worker-owned technology co-operative. No laws exist to formalize such a corporation. This is our Partnership Agreement and Constitution which ensures all employees are equal partners in the business. If you have questions, email us at <a href="mailto:coop@nilenso.com">coop@nilenso.com</a>.
     -
       name: wscljs
       source: https://github.com/nilenso/wscljs
-      tags: ['library', 'ClojureScript', 'websockets']
+      tags: ['library', 'clojurescript']
       description: A thin and lightweight websocket client for ClojureScript.
 
     -
@@ -63,7 +63,7 @@ production_ready:
     -
       name: re-crud
       source: https://github.com/omnypay/re-crud
-      tags: ['library', 'ClojureScript', 're-frame', 'react']
+      tags: ['library', 'clojurescript', 're-frame', 'react']
       description: A crud library for re-frame apps
 
     -
@@ -75,7 +75,7 @@ production_ready:
     -
       name: markdown2clj
       source: https://github.com/nilenso/markdown2clj
-      tags: ['clojure', 'markdown']
+      tags: ['library', 'clojure']
       description: Clojure library that converts markdown to Clojure data structures
 
     -
@@ -124,20 +124,20 @@ contributed:
 
 less_loved:
     -
-      name: time-tracker
+      name: Time Tracker
       source: https://github.com/nilenso/?q=time-tracker
       website: https://time.nilenso.com
-      tags: ['app', 'clojure', 'ClojureScript']
+      tags: ['app', 'clojure', 'clojurescript']
       description: The nilenso Time Tracker is a sort of garage-band project. a playful attempt to build a functional replacement to <a href="https://www.getharvest.com/">Harvest</a>. Currently the web interface is in its infancy; mobile and desktop apps do not exist yet. Consider this project unusable in its current state but feel free to play around with it.
 
     -
-      name: Ashoka survey tool
+      name: Ashoka Survey Tools
       source: https://github.com/nilenso/?q=ashoka
       tags: ['app', 'ruby', 'javascript']
       description: Field tools (mobile and web applications) built for The Ashoka Foundation to take surveys on health and education in rural India.
 
     -
-      name: wikienso
+      name: wikenso
       source: https://github.com/nilenso/wikenso
       tags: ['app', 'ruby']
       description: A simple, tiny, hosted wiki. This project is very small and old but feature-complete.
