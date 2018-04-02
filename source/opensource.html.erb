@@ -1,0 +1,137 @@
+---
+title: Open Source
+---
+
+<div>
+  <h2 class="section-heading">Open Source</h2>
+
+  <div class="section">
+    <h3 class="section-subheading">Hosted</h3>
+    <% data.opensource.hosted.each do |project| %>
+    <div class="bordered-section">
+      <div class="project">
+	<div class="project-branding">
+	  <div class="branding-elem section-miniheading">
+	   <%= project.name %>
+	  </div>
+	  <div class="branding-elem">
+	    <img src="/images/nilenso_logos/<%= project.logo %>" class="project-logo"/>
+	  </div>
+	  <div class="branding-elem">
+	    <% if project.website.present? %>
+	    <a href="<%= project.website %>">website</a> | <a href="<% project.source %>">source</a>
+	    <% else %>
+	    <a href="<% project.source %>">source</a>
+	    <% end %>
+	  </div>
+	  <div class="branding-elem">
+	    <% project.tags.each do |tag| %>
+	    <div class="project-tag"><%= tag %></div>
+	    <% end %>
+	  </div>
+	</div>
+
+	<div class="project-description">
+	  <%= project.description %>
+	</div>
+      </div>
+    </div>
+    <% end %>
+
+
+    <h3 class="section-subheading">Production Ready</h3>
+
+    <div id="project-col">
+    <% data.opensource.production_ready.each do |project| %>
+    <div class="project-box">
+      <div class="project">
+	  <div class="branding-elem section-miniheading">
+	   <%= project.name %>
+	  </div>
+	  <div class="branding-elem">
+	    <% if project.website.present? %>
+	    <a href="<%= project.website %>">website</a> | <a href="<% project.source %>">source</a>
+	    <% else %>
+	    <a href="<% project.source %>">source</a>
+	    <% end %>
+	  </div>
+	  <div class="branding-elem">
+	    <% project.tags.each do |tag| %>
+	    <div class="project-tag"><%= tag %></div>
+	    <% end %>
+	  </div>
+
+	  <div class="branding-elem">
+	    <%= project.description %>
+	  </div>
+      </div>
+    </div>
+    <% end %>
+    </div>
+
+    <h3 class="section-subheading">Contributed</h3>
+    <div id="project-col">
+    <% data.opensource.contributed.each do |project| %>
+    <div class="project-box">
+      <div class="project">
+	  <div class="branding-elem section-miniheading">
+	   <%= project.name %>
+	  </div>
+	  <div class="branding-elem">
+	    <% if project.website.present? %>
+	    <a href="<%= project.website %>">website</a> | <a href="<% project.source %>">source</a>
+	    <% else %>
+	    <a href="<% project.source %>">source</a>
+	    <% end %>
+	  </div>
+	  <div class="branding-elem">
+	    <% project.tags.each do |tag| %>
+	    <div class="project-tag"><%= tag %></div>
+	    <% end %>
+	  </div>
+
+	  <div class="branding-elem">
+	    <%= project.description %>
+	  </div>
+      </div>
+    </div>
+    <% end %>
+    </div>
+
+    <h3 class="section-subheading">Less Loved :(</h3>
+    <div id="project-col">
+    <% data.opensource.less_loved.each do |project| %>
+    <div class="project-box">
+      <div class="project">
+
+	  <div class="branding-elem section-miniheading">
+	   <%= project.name %>
+	  </div>
+	  <div class="branding-elem">
+	    <% if project.website.present? %>
+	    <a href="<%= project.website %>">website</a> | <a href="<% project.source %>">source</a>
+	    <% else %>
+	    <a href="<% project.source %>">source</a>
+	    <% end %>
+	  </div>
+
+	  <div class="branding-elem">
+	    <% project.tags.each do |tag| %>
+	    <div class="project-tag"><%= tag %></div>
+	    <% end %>
+	  </div>
+
+	  <div class="branding-elem">
+	    <%= project.description %>
+	  </div>
+      </div>
+    </div>
+    <% end %>
+    </div>
+
+  </div>
+
+
+
+
+</div>
