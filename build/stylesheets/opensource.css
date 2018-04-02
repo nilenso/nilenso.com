@@ -1,0 +1,62 @@
+/*---opensource-------------------*/
+
+.project {
+    display: table;
+    width: 100%;
+    font-size: 21px;
+    font-family: "calluna";
+    line-height: 32px;
+    color: #343434;
+
+}
+
+.project a {
+  text-transform: none;
+}
+
+.project-box {
+  margin-bottom: 70px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-bottom: 20px;
+  padding-top: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px dotted #f8337d;
+  border-radius: 10px;
+}
+
+.project-logo {
+    width: 80px;
+}
+
+.branding-elem {
+    display: table-row;
+    text-align: center;
+}
+
+.project-branding {
+    float: left;
+    width: 30%;
+    display: table;
+}
+
+.project-description {
+    margin-left: 200px;
+    width: 70%;
+    display: table;
+}
+
+.project-tag {
+    font-size: 16px;
+    display: inline;
+    padding: 3px;
+    border: 1px dotted #f8337d;
+    border-radius: 5px;
+}
+
+#project-col {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+}
