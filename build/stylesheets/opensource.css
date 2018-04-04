@@ -24,6 +24,9 @@
   padding-right: 10px;
   border: 1px dotted #f8337d;
   border-radius: 10px;
+  /* Fix to ensure that the columns don't break inside a project box */
+  overflow: hidden;
+  break-inside: avoid-column;
 }
 
 .project-logo {
@@ -49,9 +52,12 @@
 
 .project-tag {
     font-size: 16px;
-    display: inline;
-    padding: 3px;
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 1px;
     border: 1px dotted #f8337d;
+    line-height: 26px;
     border-radius: 5px;
 }
 
