@@ -1,20 +1,15 @@
 /*---opensource-------------------*/
 
 /*----- common start -----*/
+
+body {
+  font-size: 16px;
+}
+
 .two-col-layout {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.two-col-layout .project-box {
-  width: 40%;
-  
-  margin-bottom: 50px;
-  padding: 20px 10px;
-  
-  border: 1px dotted #f8337d;
-  border-radius: 10px;
 }
 
 .project-logo {
@@ -30,6 +25,11 @@
     border: 1px dotted #f8337d;
     line-height: 26px;
     border-radius: 5px;
+}
+
+.project-name {
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 /*----- common end -----*/ 
 
@@ -51,28 +51,41 @@
 }
 
 .project-branding {
-  width: 300px;
+  width: 100%;
   
   border: 1px solid #f1f1f1;
   border-radius: 4px;
 
   padding: 20px 10px;
   margin-right: 20px;
-}
 
-.project-branding .project-name {
-  font-size: 28px;
-  margin-bottom: 15px;
-}
-
-.branding-elem {
   text-align: center;
 }
 
-.hosted-project a {
-  text-transform: none;
+.project-branding .project-name {
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 /*----- hosted end -----*/
+
+/*----- project box start -----*/
+
+.two-col-layout .project-box {
+  width: 40%;
+  
+  margin-bottom: 50px;
+  padding: 20px 10px;
+  
+  border: 1px dotted #f8337d;
+  border-radius: 10px;
+}
+
+.project-box .project-name {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/*----- project box end -----*/
 
 /*----- media start -----*/
 @media screen and (max-width: 30rem) {
@@ -80,8 +93,13 @@
     flex-direction: column;
   }
 
+  .hosted-project .project-branding{
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
   .two-col-layout .project-box {
-    width: 100%;
+    width: auto;
   }  
 }
 /*----- media end -----*/
