@@ -2,10 +2,6 @@
 
 /*----- common start -----*/
 
-body {
-  font-size: 16px;
-}
-
 .two-col-layout {
   display: flex;
   flex-wrap: wrap;
@@ -31,20 +27,26 @@ body {
   font-size: 32px;
   margin-bottom: 10px;
 }
-/*----- common end -----*/ 
+
+.project-box {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-family: "calluna";
+    text-align: center;
+}
+/*----- common end -----*/
 
 /*----- hosted start -----*/
 .hosted-project {
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+
   padding: 20px;
 
-  font-size: 20px;
   line-height: 1.5em;
   font-family: "calluna";
-  
+  font-size: 20px;
   color: #343434;
 
   border-bottom: 1px dotted #f8337d;
