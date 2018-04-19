@@ -7,70 +7,66 @@ title: Open Source
 
   <div class="section">
     <h3 class="section-subheading">Hosted</h3>
-    <% data.opensource.hosted.each do |project| %>
-    <div class="bordered-section">
-      <div class="project">
-	<div class="project-branding">
-	  <div class="branding-elem section-miniheading">
-	   <%= project.name %>
-	  </div>
-	  <div class="branding-elem">
-	    <img src="/images/nilenso_logos/<%= project.logo %>" class="project-logo"/>
-	  </div>
-	  <div class="branding-elem">
-	    <% if project.website.present? %>
-	    <a href="<%= project.website %>">website</a> | <a href="<%= project.source %>">source</a>
-	    <% else %>
-	    <a href="<%= project.source %>">source</a>
+    <section class="hosted-projects">
+	    <% data.opensource.hosted.each do |project| %>
+	    <div class="hosted-project">
+			<div class="project-branding">
+				<div class="project-name">
+					<%= project.name %>
+				</div>
+				<div class="project-image">
+					<img src="/images/nilenso_logos/<%= project.logo %>" class="project-logo"/>
+				</div>
+				<div class="project-links">
+					<% if project.website.present? %>
+						<a href="<%= project.website %>">website</a> | <a href="<%= project.source %>">source</a>
+					<% else %>
+						<a href="<%= project.source %>">source</a>
+					<% end %>
+				</div>
+				<div class="project-tags">
+					<% project.tags.each do |tag| %><div class="project-tag"><%= tag %></div><% end %>
+				</div>
+			</div>
+			<div class="project-description">
+				<%= project.description %>
+			</div>
+	    </div>
 	    <% end %>
-	  </div>
-	  <div class="branding-elem">
-	    <% project.tags.each do |tag| %><div class="project-tag"><%= tag %></div><% end %>
-	  </div>
-	</div>
-
-	<div class="project-description">
-	  <%= project.description %>
-	</div>
-      </div>
-    </div>
-    <% end %>
+    </section>
 
 
     <h3 class="section-subheading">Production Ready</h3>
 
-    <div id="project-col">
-    <% data.opensource.production_ready.each do |project| %>
-    <div class="project-box">
-      <div class="project">
-	  <div class="branding-elem section-miniheading">
-	   <%= project.name %>
-	  </div>
-	  <div class="branding-elem">
-	    <% if project.website.present? %>
-	    <a href="<%= project.website %>">website</a> | <a href="<%= project.source %>">source</a>
-	    <% else %>
-	    <a href="<%= project.source %>">source</a>
-	    <% end %>
-	  </div>
-	  <div class="branding-elem">
-	    <% project.tags.each do |tag| %><div class="project-tag"><%= tag %></div><% end %>
-	  </div>
-
-	  <div class="branding-elem">
-	    <%= project.description %>
-	  </div>
-      </div>
-    </div>
-    <% end %>
-    </div>
+	<div class="two-col-layout">
+		<% data.opensource.production_ready.each do |project| %>
+			<div class="project-box production-ready-project">
+				<div class="project-name">
+					<%= project.name %>
+				</div>
+				<div class="project-links">
+					<% if project.website.present? %>
+						<a href="<%= project.website %>">website</a> | <a href="<%= project.source %>">source</a>
+					<% else %>
+						<a href="<%= project.source %>">source</a>
+					<% end %>
+				</div>
+				<div class="project-tags">
+					<% project.tags.each do |tag| %><div class="project-tag"><%= tag %></div><% end %>
+				</div>
+				<div class="project-description">
+					<%= project.description %>
+				</div>
+			</div>
+		<% end %>
+	</div>
 
     <h3 class="section-subheading">Contributed</h3>
-    <div id="project-col">
+    <div class="two-col-layout">
     <% data.opensource.contributed.each do |project| %>
-    <div class="project-box">
+    <div class="project-box contributed-project">
       <div class="project">
-	  <div class="branding-elem section-miniheading">
+	  <div class="section-miniheading">
 	   <%= project.name %>
 	  </div>
 	  <div class="branding-elem">
@@ -93,12 +89,12 @@ title: Open Source
     </div>
 
     <h3 class="section-subheading">Less Loved :(</h3>
-    <div id="project-col">
+    <div class="two-col-layout">
     <% data.opensource.less_loved.each do |project| %>
-    <div class="project-box">
+    <div class="project-box less-loved-project">
       <div class="project">
 
-	  <div class="branding-elem section-miniheading">
+	  <div class="section-miniheading">
 	   <%= project.name %>
 	  </div>
 	  <div class="branding-elem">
@@ -120,10 +116,19 @@ title: Open Source
     </div>
     <% end %>
     </div>
-
   </div>
+</div>
 
+<div class="bordered-section"></div>
 
-
-
+<div class="footer">
+  <div class="section-content contact-info">
+    <p class="contact-phone-number">
+      <a class="contact-link email-link" href="mailto:hello@nilenso.com">hello@nilenso.com</a>
+      <a class="contact-link contact-social-link" href="http://twitter.com/nilenso">@nilenso</a>
+      <a class="contact-link contact-social-link" href="http://github.com/nilenso">github.com/nilenso</a>
+      <a class="contact-link" href="tel:+918040937123">+91 80 4093 7123</a>
+     </p>
+    <p class="contact-address">Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
+  </div>
 </div>

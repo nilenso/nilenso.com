@@ -1,52 +1,15 @@
 /*---opensource-------------------*/
-.project {
-    display: table;
-    width: 100%;
-    font-size: 21px;
-    font-family: "calluna";
-    line-height: 32px;
-    color: #343434;
 
-}
+/*----- common start -----*/
 
-.project a {
-  text-transform: none;
-}
-
-.project-box {
-  margin-bottom: 70px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-bottom: 20px;
-  padding-top: 16px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border: 1px dotted #f8337d;
-  border-radius: 10px;
-  /* Fix to ensure that the columns don't break inside a project box */
-  overflow: hidden;
-  break-inside: avoid-column;
+.two-col-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .project-logo {
     width: 80px;
-}
-
-.branding-elem {
-    display: table-row;
-    text-align: center;
-}
-
-.project-branding {
-    float: left;
-    width: 30%;
-    display: table;
-}
-
-.project-description {
-    margin-left: 200px;
-    width: 70%;
-    display: table;
 }
 
 .project-tag {
@@ -60,8 +23,85 @@
     border-radius: 5px;
 }
 
-#project-col {
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
+.project-name {
+  font-size: 32px;
+  margin-bottom: 10px;
 }
+
+.project-box {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-family: "calluna";
+    text-align: center;
+}
+/*----- common end -----*/
+
+/*----- hosted start -----*/
+.hosted-project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 20px;
+
+  line-height: 1.5em;
+  font-family: "calluna";
+  font-size: 20px;
+  color: #343434;
+
+  border-bottom: 1px dotted #f8337d;
+}
+
+.project-branding {
+  width: 100%;
+  
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+
+  padding: 20px 10px;
+  margin-right: 20px;
+
+  text-align: center;
+}
+
+.project-branding .project-name {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+/*----- hosted end -----*/
+
+/*----- project box start -----*/
+
+.two-col-layout .project-box {
+  width: 40%;
+  
+  margin-bottom: 50px;
+  padding: 20px 10px;
+  
+  border: 1px dotted #f8337d;
+  border-radius: 10px;
+}
+
+.project-box .project-name {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/*----- project box end -----*/
+
+/*----- media start -----*/
+@media screen and (max-width: 30rem) {
+  .hosted-project, .two-col-layout {
+    flex-direction: column;
+  }
+
+  .hosted-project .project-branding{
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .two-col-layout .project-box {
+    width: auto;
+  }  
+}
+/*----- media end -----*/
