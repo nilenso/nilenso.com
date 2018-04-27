@@ -1,3 +1,9 @@
+- title: "Practical Generative Testing Patterns"
+  speakers: "Srihari Sriraman"
+  speakerhash: "srihari"
+  venue: "Dutch Clojure Days 2018"
+  youtube_id: zjbcayvTcKQ
+
 - title: "Generative Tests in Clojure"
   speakers: "Shafeeq Kunnakkadan"
   speakerhash: "shafeeq"

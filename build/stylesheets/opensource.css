@@ -55,7 +55,7 @@
 
 .project-branding {
   width: 100%;
-
+  
   border: 1px solid #f1f1f1;
   border-radius: 4px;
 
@@ -75,10 +75,10 @@
 
 .two-col-layout .project-box {
   width: 40%;
-
+  
   margin-bottom: 50px;
   padding: 20px 10px;
-
+  
   border: 1px dotted #f8337d;
   border-radius: 10px;
 }
@@ -103,6 +103,6 @@
 
   .two-col-layout .project-box {
     width: auto;
-  }
+  }  
 }
 /*----- media end -----*/
