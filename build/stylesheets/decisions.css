@@ -39,3 +39,7 @@
   text-transform: none;
   text-decoration: none;
 }
+
+.history-marker {
+  background-color: #ffb3de;
+}
