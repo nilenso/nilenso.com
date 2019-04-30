@@ -38,7 +38,7 @@ a {
 
 ul {
   list-style: initial;
-  list-style-type: octal;
+  list-style-type: disc;
   padding-left: 40px;
 }
 
@@ -399,4 +399,12 @@ img.human {
 
 .mono {
     font-family: monospace;
+}
+
+/* flex layout=======================*/
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
