@@ -1,48 +1,95 @@
----
-title: People
----
+  ---
+  title: People
+  ---
 
-<div class="people section">
-  <h2 class="section-heading">Ensonians</h2>
+  <div class="container work">
+    <ul class="breadcrumbs">
+      <li class="breadcrumb"><a href="index.html">Home</a></li> <i class="fas fa-chevron-right"></i>
+      <li class="breadcrumb">Team</li>
+    </ul>
 
-  <% data.people.each do |person| %>
-    <a name="<%= person.nick %>"></a>
-    <% content_tag "div", class: "bordered-section person navigableSection", data: {section_link: person.nick, img_src: person.picture, img_class: "scroll-person-image", section_title: person.nick } do %>        
-      <div class="person-above">
-        <a href="people.html#<%= person.nick %>" class="person-anchor-link">
-          <img alt="<%= person.nick %>" class="person-image" src="<%= person.picture %>"/>
-        </a>
-
-        <p class="person-name"><%= person.name %></p>
-
-        <p class="person-social-links">
-          <a class="person-social-link" href="<%= person.github %>"><i class="icon-github"></i></a>
-          <a class="person-social-link" href="<%= person.twitter %>"><i class="icon-twitter"></i></a>
-          <% if person.linkedin.present? %>
-            <a class="person-social-link" href="<%= person.linkedin %>"><i class="icon-linkedin"></i></a>
-          <% end %>
+    <div class="hero">
+      <div class="hero-content">
+        <h1 class="heading">Team</h1>
+        <p class="byline">
+          The masterminds behind all our successful projects.
+          You can also meet our extraordinary <a href="">Alumini</a>
         </p>
+        <button class="btn btn-primary">Contact Us</button>
       </div>
+      <img id="home-hero-illustration" class="hero-illustration" src="img/home-hero-illustration.svg" alt="">
+    </div>
 
-      <div class="person-below">
-        <div class="person-bio section-content">
-          <%= person.bio %>
-        </div>
+    <div class="exclusive-section featured">
+      <h2>Career opportunities at Nilenso</h2>
+      <p>
+        We're passionate, curious folks looking to work with passionate, curious folks.
+        We want people to join the team who are as excited as we are to help build the platform
+        that empowers the future generation of creators to be successful online.
+      </p>
+      <a href="" class="featured-link">Career Page <i class="fas fa-long-arrow-alt-right"></i></a>
+    </div>
+
+    <section class="team">
+      <ul class="team-member-thumbnails">
+        <% data.people.each do |person| %>
+        <li class="team-member-thumbnail">
+          <img alt="<%= person.nick %>" src="<%= person.picture %>" />
+        </li>
+        <% end %>
+      </ul>
+
+      <ul class="team-members">
+        <% data.people.each do |person| %>
+        <li class="team-member">
+          <div class="team-member-photo-and-name">
+            <img alt="<%= person.nick %>" src="<%= person.picture %>" />
+            <div class="team-member-name">
+              <h3><%= person.name %></h3>
+              <hr class="divider" />
+              <ul class="social-links">
+                <li class="social-link"><a href="<%= person.twitter %>"><i class="fab fa-twitter-square"></i></a></li>
+                <li class="social-link"><a href="<%= person.github %>"><i class="fab fa-github-square"></i></a></li>
+                <% if person.linkedin.present? %>
+                <li class="social-link"><a href="<%= person.linkedin %>"><i class="fab fa-linkedin-square"></i></a></li>
+                <% end %>
+              </ul>
+            </div>
+          </div>
+          <p>
+            <%= person.bio %>
+          </p>
+        </li>
+        <% end%>
+      </ul>
+    </section>
+
+    <section class="call-out">
+      <div class="call-out-content">
+        <h3>We help our clients in many other ways</h3>
+        <p>We focus on helping our clients successfully transform their businesses</p>
+        <button class="btn btn-secondary">Contact Us</button>
       </div>
-    <% end %>
-  <% end %>
-</div>
+      <ul class="call-out-icons">
+        <li class="call-out-icon"><i class="fad fa-comments-alt"></i>IPMs</li>
+        <li class="call-out-icon"><i class="fad fa-alicorn"></i>Consulting</li>
+        <li class="call-out-icon"><i class="fad fa-calendar-check"></i>Planning</li>
+        <li class="call-out-icon"><i class="fad fa-users-class"></i>Staff Augmentation</li>
+        <li class="call-out-icon"><i class="fad fa-presentation"></i>Training</li>
+        <li class="call-out-icon"><i class="fad fa-hand-holding-seedling"></i>Greenfield Dev</li>
+      </ul>
+    </section>
 
-<div class="bordered-section"></div>
-
-<div class="footer">
-  <div class="section-content contact-info">
-    <p class="contact-phone-number">
-      <a class="contact-link email-link" href="mailto:hello@nilenso.com">hello@nilenso.com</a>
-      <a class="contact-link contact-social-link" href="http://twitter.com/nilenso">@nilenso</a>
-      <a class="contact-link contact-social-link" href="http://github.com/nilenso">github.com/nilenso</a>
-      <a class="contact-link" href="tel:+918040937123">+91 80 4093 7123</a>
-     </p>
-    <p class="contact-address">Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
+    <ul class="paginations">
+      <li class="pagination">
+        <h4 class="pagination-heading"><i class="fad fa-podium-star"></i>Conference Talks</h4>
+        <p>Check our talks on recent technology and work we have done</p>
+        <a href="" class="pagination-link">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </li>
+      <li class="pagination">
+        <h4 class="pagination-heading"><i class="fad fa-users-crown"></i>Team</h4>
+        <p>Our masterminds behind all successful projects</p>
+        <a href="" class="pagination-link">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </li>
+    </ul>
   </div>
-</div>
