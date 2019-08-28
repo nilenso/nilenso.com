@@ -2,84 +2,129 @@
 title: Home
 ---
 
-<div class="logo-section section">
-  <img alt="Nilenso logo" class="nilenso-logo" src="images/nilenso_logos/nilenso_logo.png">
-</div>
+<section class="container home">
+    <div class="hero">
+        <div class="hero-content">
+            <h1 class="heading">We’re an Employee Owned Software Cooperative</h1>
+            <p class="byline">We ship beautiful, fully-tested applications for your organization</p>
+            <button class="btn btn-primary">Contact Us</button>
+        </div>
+        <img id="home-hero-illustration" class="hero-illustration" src="img/home-hero-illustration.svg" alt="">
+    </div>
 
-<div class="about bordered-section">
-  <h1 class="section-content"><a class="name-link" href="name.html">Nilenso</a> is an employee-owned software
-    cooperative based out of Bangalore, India. We ship beautiful, fully-tested applications for your organization.
-  </h1>
-</div>
+    <div class="exclusive-section">
+        <h2>Exlusive Section</h2>
+        <p>
+            We're passionate, curious folks looking to work with passionate, curious folks.
+            We want people to join the team who are as excited as we are to help build the platform that
+            empowers
+            the future generation of creators to be successful online.
+        </p>
+    </div>
 
-<div class="process bordered-section">
-  <h2 class="section-heading">We are evolving</h2>
+    <div class="what-we-do">
+        <h2 class="section-heading">What we do</h2>
+        <p class="section-byline">Sub heading text will come here</p>
+        <div class="section-content flex-row">
+            <p>It is our mission to continuously do better. We have grown a small web shop into a team of
+                developers
+                and designers tackling challenges in data science and experimentation, machine learning
+                runtimes,
+                complex systems integration, large data set analysis, and low-latency realtime systems. Our love
+                of technology
+                is born from helping our clients solve difficult problems and we would love to hear from you if
+                you have a challenge for us.
+                It is our mission to continuously do better. Our love of technology is born from helping our
+                clients solve difficult
+                problems and we would love to hear from you if you have a challenge for us.
+            </p>
+            <img src="img/illustration.png" alt="" />
+        </div>
+        <div class="featured">
+            <span for="" class="featured">featured</span>
+            <h3 class="featured-heading">Driver Allocation for Go-Jek</h3>
+            <hr class="divider">
+            <p class="featured-content">
+                This service was built for an Indonesian Uber competitor. Matching drivers to riders is perhaps
+                the most crucial runtime behaviour of any rideshare business. This is the first interaction any
+                customer will have with the application. It is also the most common. Failures quickly multiply
+                in the minds of users (riders and drivers, both). We were tasked with rewriting a fragile and
+                bug-ridden Allocation Service written in Go. For this project, we convinced the client to use
+                Clojure, deploying their first production Clojure code.
+            </p>
+            <a href="" class="featured-link">View all projects <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+    </div>
 
-  <p class="section-content">It is our mission to continuously do better. We have grown a small web shop into a team of developers and designers tackling challenges in data science and experimentation, machine learning runtimes, complex systems integration, large data set analysis, and low-latency realtime systems. Our love of technology is born from helping our clients solve difficult problems and we would love to hear from you if you have a challenge for us.</p>
+    <div class="we-are-evolving">
+        <h2 class="section-heading">We are evolving</h2>
+        <p class="section-byline">Sub heading text will come here</p>
+        <div class="section-content flex-row">
+            <p>
+                It is our mission to continuously do better. We have grown a small web shop into a team of
+                developers and designers tackling
+                challenges in data science and experimentation, machine learning runtimes, complex systems
+                integration, large data set
+                analysis, and low-latency realtime systems. Our love of technology is born from helping our
+                clients solve difficult problems
+                and we would love to hear from you if you have a challenge for us.
 
-  <p class="section-content">For us, self-improvement has another facet: impact. We want to improve the world around us.
-  Software is emerging as a key component of infrastructure, international development, open government, transportation, agriculture, and the arts. The space is endless.</p>
+                For us, self-improvement has another facet: impact. We want to improve the world around us.
+                Software is emerging as a key
+                component of infrastructure, international development, open government, transportation,
+                agriculture, and
+                the arts.
+            </p>
+            <img src="img/illustration.png" alt="" />
+        </div>
+        <div class="featured">
+            <p class="featured-content">
+                Our primary goal is to find people and organizations to partner with who feel the same way.
+                If you prefer working on open source, with open data, in open and transparent fields, we want to
+                talk to you.
+            </p>
+            <a href="" class="featured-link">Learn more about nilensno <i
+                    class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+    </div>
 
-  <p class="section-content">
-  Our primary goal is to find people and organizations to partner with who feel the same way. If you prefer working on open source, with open data, in open and transparent fields, we want to talk to you.</p>
-</div>
+    <div class="team">
+        <h2 class="section-heading">We are great people to work with</h2>
+        <p class="section-byline">Creating some great memories amongst our team</p>
+        <div class="section-content">
+            <p>
+                We are expert developers with extensive experience in Clojure, Javascript, and Ruby.
+                We have built and launched products, regularly speak at industry conferences, sing carnatic
+                music, and climb mountains.
+                Introduce yourself to any one of us. We want to <a href="">talk to you</a>.
+            </p>
+        </div>
+        
+        <div class="featured">
+          <div class="collage">
+            <% data.people.each do |person| %>
+              <img alt="<%= person.name %> 200" class="human grayscale" src="images/people/<%= person.nick %>-200.png" />
+            <% end %>
+          </div>
+          <a href="" class="featured-link">
+            View all team members
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </a>
+        </div>
+    </div>
 
-<div class="people bordered-section">
-  <h2 class="section-heading">We are great people to work with</h2>
-
-  <p class="section-content">
-    We are expert developers with extensive experience in Clojure, Javascript, and Ruby.
-    We have built and launched products, regularly speak at industry conferences, sing
-    carnatic music, and climb mountains. Introduce yourself to any one of us. We want to <a href="/talks.html">talk</a> to you.
-  </p>
-
-  <p class="people-more section-content-more">
-    <% data.people.each do |person| %>
-      <a class="person-link" href="people.html#<%= person.nick %>">
-        <img alt="<%= person.name %> 200" class="human grayscale" src="images/people/<%= person.nick %>-200.png" />
-      </a>
-    <% end %>
-  </p>
-</div>
-
-
-<div class="startups section">
-  <h2 class="section-heading">People we have worked with</h2>
-
-  <div class="casestudies bordered-section">
-    <% data.portfolios.each do |portfolio| %>
-      <a class="person-link casestudy-client-logo" href="<%= portfolio.company_link %>" target="_blank">
-        <img class="testimonial-logo grayscale" src="<%= portfolio.logo %>"/>
-      </a>
-    <% end %>
-  </div>
-</div>
-
-<div class="get-in-touch bordered-section">
-  <h2 class="section-heading">Get in touch</h2>
-  <p class="section-content">Email us at <a class="contact-email" href='mailto:hello@nilenso.com'>hello@nilenso.com</a>.</p>
-</div>
-
-<div class="footer">
-  <div class="section-content contact-info">
-    <p class="contact-phone-number">
-      <a class="contact-link email-link" href="mailto:hello@nilenso.com">hello@nilenso.com</a>
-      <a class="contact-link contact-social-link" href="http://twitter.com/nilenso">@nilenso</a>
-      <a class="contact-link contact-social-link" href="http://github.com/nilenso">github.com/nilenso</a>
-      <a class="contact-link" href="tel:+918040937123">+91 80 4093 7123</a>
-     </p>
-    <p class="contact-address">Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
-  </div>
-
-  <div class="contact-map">
-    <iframe width='700' height='250' frameBorder='0' src='https://a.tiles.mapbox.com/v4/touchstoneist.l85kd6ba/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoidG91Y2hzdG9uZWlzdCIsImEiOiJ2OGR5bHhjIn0.WA2NKklxU9FyuU2q44MdjQ'></iframe>
-    <small>
-      view larger map in
-      <a target="_blank" href="http://www.openstreetmap.org/?mlat=12.98166&mlon=77.63859#map=19/12.98166/77.63859">OSM</a>,
-      <a target="_blank" href="https://www.google.com/maps/place/Nilenso+Software/@12.981954,77.638743,17z/data=!3m1!4b1!4m2!3m1!1s0x3bae16bb228baf85:0xf43ad1d3efbc4a17">GOOG</a>
-    </small>
-  </div>
-</div>
+    <div class="clients">
+        <h2 class="section-heading">Our Clients</h2>
+        <p class="section-byline">We have worked with some awesome clients</p>
+        <div class="featured">
+            <div class="client collage">
+              <% data.portfolios.each do |portfolio| %>
+                <img src="<%= portfolio.logo %>">
+              <% end %>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script>
   // Show the Nilenso header logo when you scroll past the main logo

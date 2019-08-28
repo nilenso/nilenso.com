@@ -1,0 +1,285 @@
+---
+title: Open Source
+---
+
+<section class="container work">
+	<ul class="breadcrumbs">
+		<li class="breadcrumb"><a href="index.html">Home</a></li> <i class="fas fa-chevron-right"></i>
+		<li class="breadcrumb"><a href="index.html">Projects</a></li> <i class="fas fa-chevron-right"></i>
+		<li class="breadcrumb">Open Source</li>
+	</ul>
+
+	<div class="hero">
+		<div class="hero-content">
+			<h1 class="heading">Open Source</h1>
+			<p class="byline">
+				We maintain and operate systems we build when they go to production.
+				Check our recent <a href="">Projects</a>
+			</p>
+		</div>
+		<img id="home-hero-illustration" class="hero-illustration" src="img/home-hero-illustration.svg" alt="">
+	</div>
+
+	<div class="exclusive-section featured">
+		<h2>We love working for Open Source Projects</h2>
+		<p>
+			We've spent significant time scaling and squeezing runtime performance out of Postgres and analytics
+			performance out of HBase and Redshift. Most of our code is on the backend, and it makes a lot of
+			sense to us to write backend code in a LISP on the JVM, but we're not wedded to it.
+		</p>
+		<a href="" class="featured-link">Open Source Workplace Messaging - Relay <i
+				class="fas fa-long-arrow-alt-right"></i></a>
+	</div>
+
+	<div class="recent-tech">
+		<h2 class="section-heading">Hosted</h2>
+		<p class="section-byline">Technical Details of hosted open source</p>
+		<p>
+			Some of the major services we've built include a multivariate testing/experimentation platform, a
+			rideshare driver-allocation service, multiple machine learning runtimes.
+		</p>
+		<div class="section-content">
+			<ul class="oss-projects">
+				<li class="oss-project">
+					<div class="oss-project-content">
+						<div class="img-and-heading">
+							<img src="img/oss/relay_logo.png" alt="" />
+							<div class="heading-and-tags">
+								<h4 class="project-heading">Relay</h4>
+								<ul class="tags">
+									<li class="tag">clojure</li>
+									<li class="tag">app</li>
+									<li class="tag">clojurescript</li>
+									<li class="tag">javascript</li>
+								</ul>
+							</div>
+						</div>
+						<p>
+							Relay is modern, hosted, open-source workplace messaging. Sane privacy, sane design.
+							Apps for all platforms. Built on top of Mattermost.
+						</p>
+						<ul class="links">
+							<li class="link"><a href="">Source</a></li>
+							<li class="link"><a href="">Website</a></li>
+						</ul>
+					</div>
+				</li>
+
+				<li class="oss-project">
+					<div class="oss-project-content">
+						<div class="img-and-heading">
+							<img src="img/oss/leaflike.png" alt="" />
+							<div class="heading-and-tags">
+								<h4 class="project-heading">Leaflike</h4>
+								<ul class="tags">
+									<li class="tag">clojure</li>
+									<li class="tag">app</li>
+									<li class="tag">clojurescript</li>
+									<li class="tag">javascript</li>
+								</ul>
+							</div>
+						</div>
+						<p>
+							Leaflike is a bookmarking service — a free replacement for Pocket and Pinboard. Use
+							browser plug-ins to hoard URLs like it's 1997.
+						</p>
+						<ul class="links">
+							<li class="link"><a href="">Source</a></li>
+							<li class="link"><a href="">Website</a></li>
+						</ul>
+					</div>
+				</li>
+
+				<li class="oss-project">
+					<div class="oss-project-content">
+						<div class="img-and-heading">
+							<img src="img/oss/kulu.png" alt="" />
+							<div class="heading-and-tags">
+								<h4 class="project-heading">Kulu</h4>
+								<ul class="tags">
+									<li class="tag">clojure</li>
+									<li class="tag">app</li>
+									<li class="tag">clojurescript</li>
+									<li class="tag">javascript</li>
+								</ul>
+							</div>
+						</div>
+						<p>
+							Relay is modern, hosted, open-source workplace messaging. Sane privacy, sane
+							design. Apps for all platforms. Built on top of Mattermost.
+						</p>
+						<ul class="links">
+							<li class="link"><a href="">Source</a></li>
+							<li class="link"><a href="">Website</a></li>
+						</ul>
+					</div>
+				</li>
+
+				<li class="oss-project">
+					<div class="oss-project-content">
+						<div class="img-and-heading">
+							<img src="img/oss/reviews.png" alt="" />
+							<div class="heading-and-tags">
+								<h4 class="project-heading">Reviews.png</h4>
+								<ul class="tags">
+									<li class="tag">clojure</li>
+									<li class="tag">app</li>
+									<li class="tag">clojurescript</li>
+									<li class="tag">javascript</li>
+								</ul>
+							</div>
+						</div>
+						<p>
+							Reviews is the fieldsesque name of nilenso's application for staff reviews. It's
+							web-based, it uses Google authentication.
+						</p>
+						<ul class="links">
+							<li class="link"><a href="">Source</a></li>
+							<li class="link"><a href="">Website</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="recent-tech">
+		<h2 class="section-heading">Production Ready</h2>
+		<p class="section-byline">Technical Details of hosted open source</p>
+		<p>
+			Some of the major services we've built include a multivariate testing/experimentation platform, a
+			rideshare driver-allocation service, multiple machine learning runtimes.
+		</p>
+		<div class="section-content">
+			<ul class="oss-projects">
+
+				<% data.opensource.production_ready.each do |project| %>
+				<li class="oss-project">
+					<div class="oss-project-content">
+						<div class="img-and-heading">
+							<div class="heading-and-tags">
+								<h4 class="project-heading"><%= project.name %></h4>
+								<ul class="tags">
+									<% project.tags.each do |tag| %><li class="tag"><%= tag %></li><% end %>
+
+								</ul>
+							</div>
+						</div>
+						<p>
+							<%= project.description %>
+						</p>
+						<ul class="links">
+							<li class="link"><a href="<%= project.source %>">Source</a></li>
+							<li class="link"><a href="<%= project.website %>">Website</a></li>
+						</ul>
+					</div>
+				</li>
+				<% end %>
+				<li class="oss-project">
+					<div class="oss-project-content">
+						<div class="img-and-heading">
+							<div class="heading-and-tags">
+								<h4 class="project-heading">Kosha</h4>
+								<ul class="tags">
+									<li class="tag">clojure</li>
+									<li class="tag">app</li>
+									<li class="tag">clojurescript</li>
+									<li class="tag">javascript</li>
+								</ul>
+							</div>
+						</div>
+						<p>
+							Open carnatic music database
+						</p>
+						<ul class="links">
+							<li class="link"><a href="">Source</a></li>
+							<li class="link"><a href="">Website</a></li>
+						</ul>
+					</div>
+				</li>
+
+				<li class="oss-project">
+					<div class="oss-project-content">
+						<div class="img-and-heading">
+							<div class="heading-and-tags">
+								<h4 class="project-heading">ragavardhini</h4>
+								<ul class="tags">
+									<li class="tag">clojure</li>
+									<li class="tag">app</li>
+									<li class="tag">clojurescript</li>
+									<li class="tag">javascript</li>
+								</ul>
+							</div>
+						</div>
+						<p>
+							Open carnatic music database
+						</p>
+						<ul class="links">
+							<li class="link"><a href="">Source</a></li>
+							<li class="link"><a href="">Website</a></li>
+						</ul>
+					</div>
+				</li>
+
+				<li class="oss-project">
+					<div class="oss-project-content">
+						<div class="img-and-heading">
+							<div class="heading-and-tags">
+								<h4 class="project-heading">re-crud</h4>
+								<ul class="tags">
+									<li class="tag">clojure</li>
+									<li class="tag">app</li>
+									<li class="tag">clojurescript</li>
+									<li class="tag">javascript</li>
+								</ul>
+							</div>
+						</div>
+						<p>
+							A crud library for re-frame apps
+						</p>
+						<ul class="links">
+							<li class="link"><a href="">Source</a></li>
+							<li class="link"><a href="">Website</a></li>
+						</ul>
+					</div>
+				</li>
+
+				<li class="oss-project">
+					<div class="oss-project-content">
+						<div class="img-and-heading">
+							<div class="heading-and-tags">
+								<h4 class="project-heading">mailgun</h4>
+								<ul class="tags">
+									<li class="tag">clojure</li>
+									<li class="tag">app</li>
+									<li class="tag">clojurescript</li>
+									<li class="tag">javascript</li>
+								</ul>
+							</div>
+						</div>
+						<p>
+							A Clojure wrapper for the mailgun API.
+						</p>
+						<ul class="links">
+							<li class="link"><a href="">Source</a></li>
+							<li class="link"><a href="">Website</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<ul class="paginations">
+		<li class="pagination">
+			<h4 class="pagination-heading"><i class="fad fa-podium-star"></i>Conference Talks</h4>
+			<p>Check our talks on recent technology and work we have done</p>
+			<a href="" class="pagination-link">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+		</li>
+		<li class="pagination">
+			<h4 class="pagination-heading"><i class="fad fa-users-crown"></i>Team</h4>
+			<p>Our masterminds behind all successful projects</p>
+			<a href="" class="pagination-link">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+		</li>
+	</ul>
+</section>
