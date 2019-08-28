@@ -1,115 +1,79 @@
 <!DOCTYPE html>
-<html encoding="utf-8">
-  <head>
-    <title>Nilenso Software <%= title_of_the_page_if_it_needs_to_be_shown %></title>
-    <meta charset="utf-8">
-    <!-- seo meta -->
-    <meta name='keywords'
-    content='Nilenso, Ruby, Ruby On Rails, Rails Outsourcing, Offshoring, India, Bangalore, Agile, Open Source Software, TDD, Test Driven Development BDD, Continuous Integration, DevOps, Software Consulting'/>
-    <meta name='description'
-    content="Nilenso is an employee-owned software cooperative. We ship beautiful, fully-tested applications for you every day."/>
+<html lang="en">
 
-    <!-- facebook meta -->
-    <meta property="og:title" content="Nilenso Software"/>
-    <meta property="og:url" content="http://nilenso.com"/>
-    <meta property="og:site_name" content="Nilenso Software"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content="http://nilenso.com/nilenso-200.png"/>
-    <meta property="og:description"
-    content="Nilenso is an employee-owned software cooperative. We ship beautiful, fully-tested applications for you every day."/>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nilenso Software <%= title_of_the_page_if_it_needs_to_be_shown %></title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap" rel="stylesheet">
+  <%= stylesheet_link_tag "nilenso" %>
+</head>
 
-    <!-- twitter meta -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@nilenso">
-    <meta name="twitter:title" content="Nilenso Software">
-    <meta name="twitter:image" content="http://nilenso.com/nilenso-200.png">
-    <meta name="twitter:description"
-    content="Nilenso is an employee-owned software cooperative. We ship beautiful, fully-tested applications for you every day.">
-
-    <!-- mobile-friendly -->
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-
-   <link rel='shortcut icon' type='image/x-icon' href='favicon.png'/>
-
-    <!-- site scripts and styles -->
-    <%= stylesheet_link_tag "reset", "font-awesome", "nilenso", "people", "portfolio", "jquery.navobile", "scrollnav", "opensource", "decisions" %>
-    <%= javascript_include_tag  "all" %>
-
-    <!-- Typekit fonts -->
-    <script type="text/javascript" src="//use.typekit.net/xgt4lgm.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-    <meta name="google-site-verification" content="Ohyg8o6ZXcszxwE6yROBRfrhntJVmkAHUc0QLDzjs58" />
-  </head>
-
-  <body>
-    <header class="nilenso-header">
-      <div class="header-logo <%= header_visibility_depending_on_homepage_or_not %>">
-        <img class="header-logo-image" src="/nilenso-200.png" />
-        <a class="header-link logo-name" href="/">nilenso</a>
+<body>
+  <main>
+    <header>
+      <span class="hiring">We're Hiring</span>
+      <div class="logo-nav-and-button">
+        <a href="" class="logo"><img src="https://nilenso.com/nilenso-200.png" alt="enso"> nilenso</a>
+        <ul class="header-links">
+          <li class="header-link"><a href="work.html">Work</a></li>
+          <li class="header-link active"><a href="team.html">People</a></li>
+          <li class="header-link"><a href="fundamentals.html">Company</a></li>
+          <li class="header-link"><button class="lets-talk btn btn-secondary">Let's Talk</button></li>
+        </ul>
       </div>
-      <div class="page-links">
-        <a class="header-link page-link <%= active?('Home') %>" href="/">Home</a>
-        <a class="header-link page-link <%= active?('People') %>" href="/people.html">People</a>
-        <a class="header-link page-link <%= active?('Technical Details of Recent Projects') %>" href="/recent-tech.html">Tech</a>
-	<a class="header-link page-link <%= active?('Open Source') %>" href="/opensource.html">Open Source</a>
-        <a class="header-link page-link <%= active?('Decisions') %>" href="/decisions">Decisions</a>
-        <a class="header-link page-link <%= active?('Careers') %>" href="/careers.html">Careers</a>
-        <a class="header-link page-link <%= active?('Talks') %>" href="/talks.html">Talks</a>
-        <a class="header-link page-link <%= active?('Alumni') %>" href="/alumni.html">Alumni</a>
-        <a class="header-link page-link <%= active?('Blog') %>" href="http://blog.nilenso.com">Blog</a>
-      </div>
-      <i class="show-navigation page-link navobile-mobile-only icon-list"></i>
     </header>
 
-    <div class="content">
-      <!-- Render partial -->
-      <%= yield %>
-    </div>
+    <%= yield %>
 
-    <script>
-      // Google Analytics
-      (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    <section class="got-a-project">
+      <h3>Got a Project?</h3>
+      <button class="btn btn-primary">Let's talk</button>
+    </section>
+    
+    <footer>
+      <a href="" class="logo"><img src="img/nilenso-icon.png" alt="enso"> nilenso</a>
+      <ul class="footer-links footer-links-1">
+        Work
+        <li class="footer-link"><a href="work.tml">Projects</a></li>
+        <li class="footer-link"><a href="open-source.html">Open Source</a></li>
+        <li class="footer-link"><a href="talks.html">Talks</a></li>
+      </ul>
+      <ul class="footer-links footer-links-2">
+        People
+        <li class="footer-link"><a href="team.html">Team</a></li>
+        <li class="footer-link"><a href="careers.html">Careers</a></li>
+        <li class="footer-link"><a href="alumini.html">Alumini</a></li>
+      </ul>
+      <ul class="footer-links footer-links-3">
+        Company
+        <li class="footer-link"><a href="fundamentals.html">Fundamentals</a></li>
+        <li class="footer-link"><a href="bdrs.html">Decision</a></li>
+        <li class="footer-link"><a href="blog.html">Blog</a></li>
+      </ul>
 
-      ga('create', 'UA-43704022-1', 'nilenso.com');
-      ga('send', 'pageview');
+      <hr class="divider" />
 
-      $(document).ready(function() {
-        // open external links in new tabs
-        var host = window.location.hostname;
-        $("body").on("click", "a", function() {
-          if (this.protocol.indexOf("http") == 0 && this.hostname != host) {
-            window.open(this.href, "_blank");
-            return false;
-          } else {
-            return true;
-          }
-        });
+      <div class="address">
+        <p>+91 80 4093 7123</p>
+        <p>Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
+        <ul class="social-links">
+          <li class="social-link"><a href="https://www.facebook.com/nilenso/"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li class="social-link"><a href="https://twitter.com/nilenso"><i class="fab fa-twitter-square"></i></a></li>
+          <li class="social-link"><a href="https://github.com/nilenso"><i class="fab fa-github-square"></i></a></li>
+        </ul>
+      </div>
 
-        $('.page-links').navobile({
-          'content': '.content',
-          'cta': '.show-navigation',
-          'changeDOM': true
-        });
-        new ScrollNavigation({
-          pageSectionSelector: ".navigableSection",
-          viewportOffsetTop: 200,
-          viewportOffsetHeight: -500
-        });
-      });
-    </script>
-  </body>
+      <iframe class="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=77.63687789440156%2C12.980980998527064%2C77.6396405696869%2C12.982421123390369&amp;layer=mapnik&amp;marker=12.981701062001799%2C77.63825923204422">
+      </iframe>
+    </footer>
+  </main>
+
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/f98a8c4afc.js"></script>
+  
+</body>
 </html>
