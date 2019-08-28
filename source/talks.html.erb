@@ -2,44 +2,60 @@
 title: Talks
 ---
 
-<div class="conference-talks section">
-  <h2 class="section-heading">Conference Talks</h2>
+<div class="container work">
+  <ul class="breadcrumbs">
+    <li class="breadcrumb"><a href="index.html">Home</a></li> <i class="fas fa-chevron-right"></i>
+    <li class="breadcrumb"><a href="work.html">Projects</a></li> <i class="fas fa-chevron-right"></i>
+    <li class="breadcrumb">Talks</li>
+  </ul>
 
-  <% data.talks.each do |talk| %>
-    <a name="<%= talk.title %>"></a>
-    <% content_tag "div", class: "bordered-section talk", data: {section_link: talk.title, section_title: talk.title } do %>        
-      <div class="talk-video">
-        <a href="https://www.youtube.com/watch?v=<%= talk.youtube_id %>" target="_blank">
-          <img src="http://img.youtube.com/vi/<%= talk.youtube_id %>/0.jpg" style="width: 200px"/>
-        </a>
-      </div>
-      <div class="talk-info">
-        <div class="talk-title">
-          <a href="https://www.youtube.com/watch?v=<%= talk.youtube_id %>" target="_blank">
-            <%= talk.title %>
-          </a>
-        </div>
-        <div class="talk-speakers">
-          <% if talk.speakerhash %>
-            <a href="/people.html#<%= talk.speakerhash %>"><%= talk.speakers %></a>
-          <% else %>
-            <%= talk.speakers %>
-          <% end %>
-        </div>
-        <div class="talk.venue"><%= talk.venue %></div>
-      </div>
-   <% end %>
-  <% end %>
-</div>
-
-<div class="footer">
-  <div class="section-content contact-info">
-    <p class="contact-phone-number">
-      <a class="contact-link email-link" href="mailto:hello@nilenso.com">hello@nilenso.com</a>
-      <a class="contact-link contact-social-link" href="http://twitter.com/nilenso">@nilenso</a>
-      <a class="contact-link contact-social-link" href="http://github.com/nilenso">github.com/nilenso</a>
-      <a class="contact-link" href="tel:+918040937123">+91 80 4093 7123</a>
-     </p>
-    <p class="contact-address">Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
+  <div class="">
+    <h2 class="section-heading">Conference Talks</h2>
+    <p class="section-byline">Frequent conference attendance is our baseline</p>
+    <div class="section-content flex-column">
+      <p>
+        In the last few years, we sponsored and attended a ton of conferences all over the world:
+        IN/Clojure, Clojure/conj, Euroclojure, Clojure/West, StrangeLoop, Functional Conf, FOSSMeet,
+        RubyConf India, JSFoo, rootconf, RubyConf San Diego, React Conf SF, GCRC, Fifth Elephant, and
+        probably one or two we've forgotten. We took the lead in organizing IN/Clojure (the only Clojure
+        conference in Asia) two years running.
+      </p>
+    </div>
   </div>
+
+  <ul class="talks flex-column">
+    <% data.talks.each do |talk| %>
+      <li class="talk flex-row">
+        <div class="talk-video">
+          <iframe width="100%" height="80%" src="https://www.youtube.com/embed/<%= talk.youtube_id %>" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="talk-content">
+          <h3><%= talk.title %></h3>
+          <ul class="tags">
+            <li class="tag">clojure</li>
+            <li class="tag">clojurescript</li>
+            <li class="tag">react native</li>
+          </ul>
+          <p class="talk-host"><%= talk.venue %></p>
+          <p class="talk-speaker"><span>by</span> <a href="team.html#<%= talk.speakerhash %>"><%= talk.speakers %></a></p>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+
+  <ul class="paginations">
+    <li class="pagination">
+      <h4 class="pagination-heading"><i class="fad fa-podium-star"></i>Conference Talks</h4>
+      <p>Check our talks on recent technology and work we have done</p>
+      <a href="" class="pagination-link">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+    </li>
+    <li class="pagination">
+      <h4 class="pagination-heading"><i class="fad fa-users-crown"></i>Team</h4>
+      <p>Our masterminds behind all successful projects</p>
+      <a href="" class="pagination-link">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+    </li>
+  </ul>
 </div>
