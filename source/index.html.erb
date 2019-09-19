@@ -101,9 +101,11 @@ title: Home
         </div>
         
         <div class="featured">
-          <div class="collage">
+          <div class="carousel">
             <% data.people.each do |person| %>
-              <img alt="<%= person.name %> 200" class="human grayscale" src="images/people/<%= person.nick %>-200.png" />
+              <div>
+                <img alt="<%= person.name %> 200" class="human grayscale" src="images/people/<%= person.nick %>-200.png" />
+              </div>
             <% end %>
           </div>
           <a href="" class="featured-link">
@@ -117,9 +119,11 @@ title: Home
         <h2 class="section-heading">Our Clients</h2>
         <p class="section-byline">We have worked with some awesome clients</p>
         <div class="featured">
-            <div class="client collage">
+            <div class="client collage carousel">
               <% data.portfolios.each do |portfolio| %>
-                <img src="<%= portfolio.logo %>">
+                <div>
+                  <img src="<%= portfolio.logo %>">
+                </div>
               <% end %>
             </div>
         </div>
