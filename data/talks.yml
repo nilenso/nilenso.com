@@ -1,3 +1,15 @@
+- title: "Scalable distributed systems from ground up in Elixir"
+  speakers: "Udit Kumar"
+  speakerhash: "udit"
+  venue: "RootConf 2019"
+  youtube_id: "yMJ2u6J3Cb0"
+
+- title: "Reducing Accretion in Monoliths with Stream Processing"
+  speakers: "Akshay Gupta and Sourabh Ghorpade (Go-Jek)"
+  speakerhash: "kitallis"
+  venue: "clojureD 2019"
+  youtube_id: "AOCoYf2TS5Q"
+
 - title: "Making machines that make music"
   speakers: "Srihari Sriraman"
   speakerhash: "srihari"
