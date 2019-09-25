@@ -66,6 +66,17 @@ title: Home
                 problems and we would love to hear from you if you have a challenge for us.
             </p>
         </div>
+
+        <p class="section-content">We have worked with some awesome clients</p>
+        <div class="featured">
+            <div class="client collage client-carousel">
+              <% data.portfolios.each do |portfolio| %>
+                <div>
+                  <img src="<%= portfolio.logo %>">
+                </div>
+              <% end %>
+            </div>
+        </div>
         <%# <div class="featured">
             <span for="" class="featured">featured</span>
             <h3 class="featured-heading">Driver Allocation for Go-Jek</h3>
@@ -106,20 +117,6 @@ title: Home
             View all team members
             <i class="fas fa-long-arrow-alt-right"></i>
           </a>
-        </div>
-    </div>
-
-    <div class="clients">
-        <h2 class="section-heading">Our Clients</h2>
-        <p class="section-byline">We have worked with some awesome clients</p>
-        <div class="featured">
-            <div class="client collage client-carousel">
-              <% data.portfolios.each do |portfolio| %>
-                <div>
-                  <img src="<%= portfolio.logo %>">
-                </div>
-              <% end %>
-            </div>
         </div>
     </div>
 
