@@ -7,12 +7,10 @@ title: Home
         <div class="hero-content">
             <h1 class="heading">We’re an Employee Owned Software Cooperative</h1>
             <p class="byline">We ship beautiful, fully-tested applications for your organization</p>
-            <button class="btn btn-primary">Contact Us</button>
         </div>
-        <img id="home-hero-illustration" class="hero-illustration" src="img/home-hero-illustration.svg" alt="">
     </div>
 
-    <div class="exclusive-section">
+    <%# <div class="exclusive-section">
         <h2>Exlusive Section</h2>
         <p>
             We're passionate, curious folks looking to work with passionate, curious folks.
@@ -20,41 +18,7 @@ title: Home
             empowers
             the future generation of creators to be successful online.
         </p>
-    </div>
-
-    <div class="what-we-do">
-        <h2 class="section-heading">What we do</h2>
-        <p class="section-byline">Sub heading text will come here</p>
-        <div class="section-content flex-row">
-            <p>It is our mission to continuously do better. We have grown a small web shop into a team of
-                developers
-                and designers tackling challenges in data science and experimentation, machine learning
-                runtimes,
-                complex systems integration, large data set analysis, and low-latency realtime systems. Our love
-                of technology
-                is born from helping our clients solve difficult problems and we would love to hear from you if
-                you have a challenge for us.
-                It is our mission to continuously do better. Our love of technology is born from helping our
-                clients solve difficult
-                problems and we would love to hear from you if you have a challenge for us.
-            </p>
-            <img src="img/illustration.png" alt="" />
-        </div>
-        <div class="featured">
-            <span for="" class="featured">featured</span>
-            <h3 class="featured-heading">Driver Allocation for Go-Jek</h3>
-            <hr class="divider">
-            <p class="featured-content">
-                This service was built for an Indonesian Uber competitor. Matching drivers to riders is perhaps
-                the most crucial runtime behaviour of any rideshare business. This is the first interaction any
-                customer will have with the application. It is also the most common. Failures quickly multiply
-                in the minds of users (riders and drivers, both). We were tasked with rewriting a fragile and
-                bug-ridden Allocation Service written in Go. For this project, we convinced the client to use
-                Clojure, deploying their first production Clojure code.
-            </p>
-            <a href="" class="featured-link">View all projects <i class="fas fa-long-arrow-alt-right"></i></a>
-        </div>
-    </div>
+    </div> %>
 
     <div class="we-are-evolving">
         <h2 class="section-heading">We are evolving</h2>
@@ -75,7 +39,6 @@ title: Home
                 agriculture, and
                 the arts.
             </p>
-            <img src="img/illustration.png" alt="" />
         </div>
         <div class="featured">
             <p class="featured-content">
@@ -83,9 +46,40 @@ title: Home
                 If you prefer working on open source, with open data, in open and transparent fields, we want to
                 talk to you.
             </p>
-            <a href="" class="featured-link">Learn more about nilensno <i
-                    class="fas fa-long-arrow-alt-right"></i></a>
         </div>
+    </div>
+
+    <div class="what-we-do">
+        <h2 class="section-heading">What we do</h2>
+        <p class="section-byline">Sub heading text will come here</p>
+        <div class="section-content flex-row">
+            <p>It is our mission to continuously do better. We have grown a small web shop into a team of
+                developers
+                and designers tackling challenges in data science and experimentation, machine learning
+                runtimes,
+                complex systems integration, large data set analysis, and low-latency realtime systems. Our love
+                of technology
+                is born from helping our clients solve difficult problems and we would love to hear from you if
+                you have a challenge for us.
+                It is our mission to continuously do better. Our love of technology is born from helping our
+                clients solve difficult
+                problems and we would love to hear from you if you have a challenge for us.
+            </p>
+        </div>
+        <%# <div class="featured">
+            <span for="" class="featured">featured</span>
+            <h3 class="featured-heading">Driver Allocation for Go-Jek</h3>
+            <hr class="divider">
+            <p class="featured-content">
+                This service was built for an Indonesian Uber competitor. Matching drivers to riders is perhaps
+                the most crucial runtime behaviour of any rideshare business. This is the first interaction any
+                customer will have with the application. It is also the most common. Failures quickly multiply
+                in the minds of users (riders and drivers, both). We were tasked with rewriting a fragile and
+                bug-ridden Allocation Service written in Go. For this project, we convinced the client to use
+                Clojure, deploying their first production Clojure code.
+            </p>
+            <a href="" class="featured-link">View all projects <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div> %>
     </div>
 
     <div class="team">
@@ -101,14 +95,14 @@ title: Home
         </div>
         
         <div class="featured">
-          <div class="carousel">
+          <div class="people-carousel">
             <% data.people.each do |person| %>
               <div>
                 <img alt="<%= person.name %> 200" class="human grayscale" src="images/people/<%= person.nick %>-200.png" />
               </div>
             <% end %>
           </div>
-          <a href="" class="featured-link">
+          <a href="/people.html" class="featured-link">
             View all team members
             <i class="fas fa-long-arrow-alt-right"></i>
           </a>
@@ -119,7 +113,7 @@ title: Home
         <h2 class="section-heading">Our Clients</h2>
         <p class="section-byline">We have worked with some awesome clients</p>
         <div class="featured">
-            <div class="client collage carousel">
+            <div class="client collage client-carousel">
               <% data.portfolios.each do |portfolio| %>
                 <div>
                   <img src="<%= portfolio.logo %>">
@@ -128,6 +122,19 @@ title: Home
             </div>
         </div>
     </div>
+
+    <ul class="paginations">
+      <li class="pagination">
+        <h4 class="pagination-heading"><i class="fad fa-podium-star"></i>Conference Talks</h4>
+        <p>Check our talks on recent technology and work we have done</p>
+        <a href="/talks.html" class="pagination-link">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </li>
+      <li class="pagination">
+        <h4 class="pagination-heading"><i class="fad fa-blog"></i>Blog</h4>
+        <p>Our masterminds behind all successful projects</p>
+        <a href="https://blog.nilenso.html" class="pagination-link">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      </li>
+    </ul>
 </section>
 
 <script>

@@ -21,27 +21,42 @@
 <body>
   <main>
     <header>
-      <span class="hiring">We're Hiring</span>
       <div class="logo-nav-and-button">
         <a href="" class="logo"><img src="https://nilenso.com/nilenso-200.png" alt="enso"> nilenso</a>
         <ul class="header-links">
           <li class="header-link"><a href="work.html">Work</a></li>
           <li class="header-link active"><a href="team.html">People</a></li>
-          <li class="header-link"><a href="fundamentals.html">Company</a></li>
-          <li class="header-link"><button class="lets-talk btn btn-secondary">Let's Talk</button></li>
         </ul>
       </div>
     </header>
 
     <%= yield %>
 
-    <section class="got-a-project">
-      <h3>Got a Project?</h3>
-      <button class="btn btn-primary">Let's talk</button>
+    <section class="get-in-touch">
+      <div class="inner-container">
+        <h3>Get in touch</h3>
+        <button class="btn btn-primary">hello@nilenso.com</button>
+        <hr class="divider" />
+
+        <div class="address">
+          <p>+91 80 4093 7123</p>
+          <p>Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
+          <ul class="social-links">
+            <li class="social-link"><a href="https://www.facebook.com/nilenso/"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li class="social-link"><a href="https://twitter.com/nilenso"><i class="fab fa-twitter-square"></i></a></li>
+            <li class="social-link"><a href="https://github.com/nilenso"><i class="fab fa-github-square"></i></a></li>
+          </ul>
+        </div>
+
+        <iframe class="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=77.63687789440156%2C12.980980998527064%2C77.6396405696869%2C12.982421123390369&amp;layer=mapnik&amp;marker=12.981701062001799%2C77.63825923204422">
+        </iframe>
+      </div>
     </section>
     
     <footer>
-      <a href="" class="logo"><img src="img/nilenso-icon.png" alt="enso"> nilenso</a>
+      <a href="" class="logo"><img src="../images/nilenso_logos/nilenso2-white.png" alt="enso"> nilenso</a>
       <ul class="footer-links footer-links-1">
         Work
         <li class="footer-link"><a href="work.tml">Projects</a></li>
@@ -60,23 +75,6 @@
         <li class="footer-link"><a href="bdrs.html">Decision</a></li>
         <li class="footer-link"><a href="blog.html">Blog</a></li>
       </ul>
-
-      <hr class="divider" />
-
-      <div class="address">
-        <p>+91 80 4093 7123</p>
-        <p>Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038</p>
-        <ul class="social-links">
-          <li class="social-link"><a href="https://www.facebook.com/nilenso/"><i class="fab fa-facebook-square"></i></a>
-          </li>
-          <li class="social-link"><a href="https://twitter.com/nilenso"><i class="fab fa-twitter-square"></i></a></li>
-          <li class="social-link"><a href="https://github.com/nilenso"><i class="fab fa-github-square"></i></a></li>
-        </ul>
-      </div>
-
-      <iframe class="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=77.63687789440156%2C12.980980998527064%2C77.6396405696869%2C12.982421123390369&amp;layer=mapnik&amp;marker=12.981701062001799%2C77.63825923204422">
-      </iframe>
     </footer>
   </main>
 </body>
