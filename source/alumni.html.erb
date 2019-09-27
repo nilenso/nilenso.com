@@ -5,40 +5,21 @@ title: Alumni
 <div class="container work">
   <ul class="breadcrumbs">
     <li class="breadcrumb"><a href="index.html">Home</a></li> <i class="fas fa-chevron-right"></i>
-    <li class="breadcrumb">Team</li>
+    <li class="breadcrumb"><a href="people.html">People</a></li> <i class="fas fa-chevron-right"></i>
+    <li class="breadcrumb">Alumni</li>
   </ul>
 
   <div class="hero">
     <div class="hero-content">
-      <h1 class="heading">Team</h1>
+      <h1 class="heading">Alumni</h1>
       <p class="byline">
         The masterminds behind all our successful projects.
-        You can also meet our extraordinary <a href="">Alumini</a>
+        You can also meet our extraordinary <a href="">Alumni</a>
       </p>
-      <button class="btn btn-primary">Contact Us</button>
     </div>
-    <img id="home-hero-illustration" class="hero-illustration" src="img/home-hero-illustration.svg" alt="">
-  </div>
-
-  <div class="exclusive-section featured">
-    <h2>Career opportunities at Nilenso</h2>
-    <p>
-      We're passionate, curious folks looking to work with passionate, curious folks.
-      We want people to join the team who are as excited as we are to help build the platform
-      that empowers the future generation of creators to be successful online.
-    </p>
-    <a href="" class="featured-link">Career Page <i class="fas fa-long-arrow-alt-right"></i></a>
   </div>
 
   <section class="team">
-    <ul class="team-member-thumbnails">
-      <% data.alumni.each do |person| %>
-      <li class="team-member-thumbnail">
-        <img alt="<%= person.nick %>" src="<%= person.picture %>" />
-      </li>
-      <% end %>
-    </ul>
-
     <ul class="team-members">
       <% data.alumni.each do |person| %>
       <li class="team-member">
@@ -62,34 +43,5 @@ title: Alumni
       </li>
       <% end %>
     </ul>
-  </section>
-
-  <section class="call-out">
-    <div class="call-out-content">
-      <h3>We help our clients in many other ways</h3>
-      <p>We focus on helping our clients successfully transform their businesses</p>
-      <button class="btn btn-secondary">Contact Us</button>
-    </div>
-    <ul class="call-out-icons">
-      <li class="call-out-icon"><i class="fad fa-comments-alt"></i>IPMs</li>
-      <li class="call-out-icon"><i class="fad fa-alicorn"></i>Consulting</li>
-      <li class="call-out-icon"><i class="fad fa-calendar-check"></i>Planning</li>
-      <li class="call-out-icon"><i class="fad fa-users-class"></i>Staff Augmentation</li>
-      <li class="call-out-icon"><i class="fad fa-presentation"></i>Training</li>
-      <li class="call-out-icon"><i class="fad fa-hand-holding-seedling"></i>Greenfield Dev</li>
-    </ul>
-  </section>
-
-  <ul class="paginations">
-    <li class="pagination">
-      <h4 class="pagination-heading"><i class="fad fa-podium-star"></i>Conference Talks</h4>
-      <p>Check our talks on recent technology and work we have done</p>
-      <a href="" class="pagination-link">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
-    </li>
-    <li class="pagination">
-      <h4 class="pagination-heading"><i class="fad fa-users-crown"></i>Team</h4>
-      <p>Our masterminds behind all successful projects</p>
-      <a href="" class="pagination-link">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
-    </li>
-  </ul>
+  </section> 
 </div>
