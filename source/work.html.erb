@@ -12,7 +12,7 @@ title: Technical Details of Recent Projects
       <h1 class="heading">Projects</h1>
       <p class="byline">
         We maintain and operate systems we build when they go to production.
-        We also love working on <a href="">Open Source</a>
+        We also love working on <a href="/open-source.html">Open Source</a>
       </p>
     </div>
   </div>
@@ -33,23 +33,82 @@ title: Technical Details of Recent Projects
               <li class="tag">react native</li>
             </ul>
             <p>
-              This is easily the largest system nilenso has built and owned. With a three-year
-              lifespan thus far,
-              EP supports a less than 10ms 99.9 percentile SLA and over 500 requests per second as
-              a backend service
-              to a large e-commerce company. The system involved significant research and the
-              incorporation of work
-              done by Google, Netflix, and Microsoft (released as white papers), tuning a large
-              and fast-moving
-              Postgres runtime database as well as a sizable reporting database.
+              This service was built for an Indonesian Uber competitor. Matching drivers to riders is perhaps the most crucial runtime behaviour of any rideshare business. This is the first interaction any customer will have with the application. It is also the most common. Failures quickly multiply in the minds of users (riders and drivers, both). We were tasked with rewriting a fragile and bug-ridden Allocation Service written in Go. For this project, we convinced the client to use Clojure, deploying their first production Clojure code. The rewrite runtime consisted of (approximately) 2500 lines of Clojure, as opposed to 3500 lines of Go. Interestingly, 1500 lines of Go tests became 2000 lines of Clojure tests. Our testing strategy for this project was significant: We eschewed the standard unit testing suite for a completely generative test suite, written in Clojure's test.check, a port of Haskell's QuickCheck. Our generative test suite ran hundreds of different tests in developer's environments and thousands of different tests in the continuous integration environment, growing our confidence over the original codebase by an order of magnitude. Thanks to generative testing (and a tiny unit test suite for edge cases), our rewrite was deployed with zero issues on its first day in production. The service runs behind load-balancing circuit breakers which have, thus far, proven resilient enough to ensure the comprehensive monitoring we built into the service has not been necessary.
             </p>
-            <a href="" class="featured-link">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+          <div class="project-video">
+            <iframe width="100%" height="80%" src="https://www.youtube.com/embed/3y7xzH8jB8A" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Building an Experimentation Platform in Clojure - Nivedita & Srihari at Functional
+              Conf 2015</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-content">
+            <h4 class="project-heading">Experimentation platform</h4>
+            <ul class="tags">
+              <li class="tag">clojure</li>
+              <li class="tag">clojurescript</li>
+              <li class="tag">react native</li>
+            </ul>
+            <p>
+              This is easily the largest system nilenso has built and owned. With a three-year lifespan thus far, EP supports a &lt;10ms 99.9 percentile SLA and over 500 requests per second as a backend service to a large e-commerce company. The system involved significant research and the incorporation of work done by Google, Netflix, and Microsoft (released as white papers), tuning a large and fast-moving Postgres runtime database as well as a sizable reporting database. Distribution and failover were a major concern from the beginning, and the service instances have withheld substantial changes in load on occasions such as Black Friday and "Cyber Monday". Additional snapshotting and redundancy for the system is built on top of ZFS.
+            </p>
           </div>
           <div class="project-video">
             <iframe width="100%" height="80%" src="https://www.youtube.com/embed/YjfXhhxw9Bs" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>Building an Experimentation Platform in Clojure - Nivedita & Srihari at Functional
               Conf 2015</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-content">
+            <h4 class="project-heading">Machine Learning Runtimes</h4>
+            <ul class="tags">
+              <li class="tag">clojure</li>
+              <li class="tag">clojurescript</li>
+              <li class="tag">react native</li>
+            </ul>
+            <p>
+              These systems have evolved a great deal since we began working on them. Initially, they were built on top of an HBase reporting backend using an internal distributed parallelization framework and inter-process communication was primarily managed with RabbitMQ. These days, the reporting is done off of AWS Redshift and most systems communicate via internal REST APIs or Kafka, where appropriate. The external APIs are exposed over Google protocol buffers for serialization efficiency and because they make more sense as strictly-schema'd RPC-style APIs than representational APIs. Part of this work was picking apart the client's original machine learning monolith, another significant portion was coming up with a generative testing harness and framework (QAs write selenium tests, the development team uses Causatum+Simulant+Datomic). Most of the development was on runtimes, not algorithms, but for the recommendations engine (email marketing for existing customers) we did implement Multi-armed Bandit. Performance and load testing was an ongoing activity for all of these services, though some of the load testing driver was written in bare Java rather than Clojure, to maintain control of garbage collection (primarily for histograms of load).
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="call-out">
+    <div class="call-out-content">
+      <h3>We help our clients in many other ways</h3>
+      <p>We focus on helping our clients successfully transform their businesses</p>
+    </div>
+    <ul class="call-out-icons">
+      <li class="call-out-icon"><i class="fad fa-comments-alt"></i>IPMs</li>
+      <li class="call-out-icon"><i class="fad fa-alicorn"></i>Consulting</li>
+      <li class="call-out-icon"><i class="fad fa-calendar-check"></i>Planning</li>
+      <li class="call-out-icon"><i class="fad fa-users-class"></i>Staff Augmentation</li>
+      <li class="call-out-icon"><i class="fad fa-presentation"></i>Training</li>
+      <li class="call-out-icon"><i class="fad fa-hand-holding-seedling"></i>Greenfield Dev</li>
+    </ul>
+  </section>
+
+  <div class="section-content">
+    <ul class="projects">
+        <li class="project">
+          <div class="project-content">
+            <h4 class="project-heading">ETL, data warehousing, and analytics</h4>
+            <ul class="tags">
+              <li class="tag">clojure</li>
+              <li class="tag">clojurescript</li>
+              <li class="tag">react native</li>
+            </ul>
+            <p>
+              Transformation of streaming events into an OLAP db was done on three projects: for e-commerce (session, purchase, clickstream data), media (clickstream and mutative events), and an events management company (financial data, clickstream). The first two were done in Clojure and Haskell, the last in node.js. These systems were variously about transforming disparate data into a single schema, rendering realtime analytics dashboards, and providing notifications to business users around key metrics. 
+            </p>
           </div>
         </li>
 
@@ -62,33 +121,34 @@ title: Technical Details of Recent Projects
               <li class="tag">react native</li>
             </ul>
             <p>
-              A system which would routinely analyze an unstructured dataset on the web to
-              correlate data from internal systems with external.
-              This project employed a great deal of error-handling, distribution of the agents
-              performing the crawling, and intelligent HTML parsing
+              A system which would routinely analyze an unstructured dataset on the web to correlate data from internal systems with external. This project employed a great deal of error-handling, distribution of the agents performing the crawling, and intelligent HTML parsing. 
             </p>
-            <a href="" class="featured-link">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-content">
+            <h4 class="project-heading">Monitoring</h4>
+            <ul class="tags">
+              <li class="tag">clojure</li>
+              <li class="tag">clojurescript</li>
+              <li class="tag">react native</li>
+            </ul>
+            <p>
+              We have built a complete monitoring solution for the e-commerce service architectures we help support. System-level events and application events are both centrally collected in an on-box service running adjacent to runtime services then queried periodically into Prometheus to provide intelligent alerting to developers doing operations and diagnostics tools in the case of runtime failure. This work was recently open-sourced by our client and can be seen here:  
+            </p>
+            <ul class="links">
+              <li class="link">
+                <a href="">https://github.com/nilenso/Wonko</a>
+              </li>
+              <li class="link">
+                <a href="">https://github.com/nilenso/wonko-client</a>
+              </li>
+            </ul>
           </div>
         </li>
       </ul>
-    </div>
   </div>
-
-  <section class="call-out">
-    <div class="call-out-content">
-      <h3>We help our clients in many other ways</h3>
-      <p>We focus on helping our clients successfully transform their businesses</p>
-      <button class="btn btn-secondary">Contact Us</button>
-    </div>
-    <ul class="call-out-icons">
-      <li class="call-out-icon"><i class="fad fa-comments-alt"></i>IPMs</li>
-      <li class="call-out-icon"><i class="fad fa-alicorn"></i>Consulting</li>
-      <li class="call-out-icon"><i class="fad fa-calendar-check"></i>Planning</li>
-      <li class="call-out-icon"><i class="fad fa-users-class"></i>Staff Augmentation</li>
-      <li class="call-out-icon"><i class="fad fa-presentation"></i>Training</li>
-      <li class="call-out-icon"><i class="fad fa-hand-holding-seedling"></i>Greenfield Dev</li>
-    </ul>
-  </section>
 
   <ul class="paginations">
     <li class="pagination">
