@@ -193,16 +193,16 @@ header {
     }
 
     .logo {
-        font-size: $body-18px;
+        font-size: 22px;
         font-family: 'Junction', Arial, Helvetica, sans-serif;
         display: flex;
         align-items: center;
         border-bottom: none;
-    }
 
-    img {
-        max-width: 44px;
-        margin-right: 8px;
+        img {
+            max-width: 56px;
+            margin-right: 8px;
+        }
     }
 
     ul.header-links {
@@ -357,7 +357,7 @@ footer {
     }
 
     .logo {
-        font-size: $body-18px;
+        font-size: 22px;
         font-family: 'Junction', Arial, Helvetica, sans-serif;
         grid-area: lg;
         display: flex;
@@ -366,8 +366,7 @@ footer {
         border-bottom: none;
 
         img {
-            width: 44px;
-            height: 44px;
+            max-width: 56px;
             margin-right: 8px;
         }
     }
