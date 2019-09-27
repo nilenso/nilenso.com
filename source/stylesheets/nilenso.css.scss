@@ -864,6 +864,11 @@ ul.team-member-thumbnails {
         flex-direction: column;
         padding: 48px 0;
         border-bottom: 1px solid rgba($color: $black, $alpha: 0.08);
+
+        &:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
     }
 
     p {
@@ -1145,8 +1150,9 @@ Open Source
     .oss-project {
         flex: 1 0 45%;
         margin: 24px;
-        padding: 16px;
+        padding: 24px;
         border: 1px dotted $pink;
+        border-radius: 4px;
     }
 
     .oss-project-content {
@@ -1164,7 +1170,6 @@ Open Source
         }
 
         .link a {
-            color: $pink;
             margin-right: 8px;
         }
     }
