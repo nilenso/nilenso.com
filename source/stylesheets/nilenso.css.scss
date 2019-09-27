@@ -780,7 +780,6 @@ Work
 
     .pagination {
         background: $light-pink;
-        padding: 48px;
         margin: 0 24px;
         border-radius: 8px;
         flex: 1;
@@ -790,6 +789,20 @@ Work
 
             &:first-child {
                 margin-top: 0;
+            }
+        }
+
+        .pagination-link {
+            color: $black;
+            display: block;
+            padding: 48px;
+            border-bottom: none;
+            border: 1px solid transparent;
+            min-height: 218px; // hack for single-line pagination links. If all pagination links are multi-line, remove this line of code
+
+            &:hover {
+                border: 1px solid $pink;
+                border-radius: 8px;
             }
         }
 
@@ -804,10 +817,6 @@ Work
 
         p {
             margin: 16px 0;
-        }
-
-        .pagination-link {
-            color: $pink;
         }
     }
 }
