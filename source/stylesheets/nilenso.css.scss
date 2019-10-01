@@ -296,9 +296,20 @@ header {
         flex: 1;
 
         >p {
-            font-size: 12px;
+            font-size: 18px;
             color: $white;
             margin: 0;
+        }
+
+        @media screen and (max-width: 1334px) {
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+
+            >*,
+            >p {
+                margin: 16px 0;
+            }
         }
 
         @media screen and (max-width: 768px) {
@@ -320,7 +331,7 @@ header {
         }
 
         i {
-            font-size: 16px;
+            font-size: 24px;
             margin: 0 8px;
 
             &:last-child {
@@ -330,10 +341,14 @@ header {
     }
 
     .map {
-        width: 500px;
+        width: 640px;
         flex: 1;
         align-self: center;
         margin-top: 24px;
+
+        @media screen and (max-width: 1024px) {
+            width: 500px;
+        }
 
         @media screen and (max-width: 768px) {
             width: 100%;
@@ -357,7 +372,7 @@ footer {
     }
 
     .logo {
-        font-size: 22px;
+        font-size: 32px;
         font-family: 'Junction', Arial, Helvetica, sans-serif;
         grid-area: lg;
         display: flex;
@@ -376,7 +391,7 @@ footer {
         flex-direction: column;
         color: $body-bg;
         text-transform: uppercase;
-        font-size: 14px;
+        font-size: 10 px;
         font-weight: bold;
 
         @media screen and (max-width: 640px) {
@@ -394,6 +409,7 @@ footer {
             margin: 12px 0;
             text-transform: none;
             font-weight: normal;
+            font-size: 12px;
 
             &:first-child {
                 margin-top: 16px;
