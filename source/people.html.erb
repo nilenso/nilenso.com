@@ -30,7 +30,7 @@ title: People
   <section class="team">
     <ul class="team-members">
       <% data.people.each do |person| %>
-      <li class="team-member">
+      <li id="<%= person.speakerhash %>" class="team-member">
         <div class="team-member-photo-and-name">
           <img class="team-member-photo" alt="<%= person.nick %>" src="<%= person.picture %>" />
           <div class="team-member-name">

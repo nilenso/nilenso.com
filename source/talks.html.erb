@@ -40,7 +40,8 @@ title: Talks
             <li class="tag">react native</li>
           </ul>
           <p class="talk-host"><%= talk.venue %></p>
-          <p class="talk-speaker"><span>by</span> <a href="team.html#<%= talk.speakerhash %>"><%= talk.speakers %></a></p>
+          <p class="talk-speaker"><span>by</span> <a href="people.html#<%= talk.speakerhash %>"><%= talk.speakers %></a></p>
+          <%# Need to add condition if speaker is alumni %>
         </div>
       </li>
     <% end %>

@@ -3,6 +3,7 @@
   picture: "images/people/abhik-200.png"
   github: "http://github.com/trycatcher"
   name: "Abhik Khanra"
+  speakerhash: "abhik"
   bio: >
   twitter: "http://twitter.com/trycatcher"
   linkedin: "http://in.linkedin.com/in/trycatcher"
@@ -12,6 +13,7 @@
   picture: "images/people/kitallis-200.png"
   github: "http://github.com/kitallis"
   name: "Akshay Gupta (kitty)"
+  speakerhash: "kitallis"
   bio: >
     <p>Kitty started writing code with Borland Turbo C++ and Visual Basic in high-school, but then quickly moved to Ruby when he discovered <a href='http://mislav.uniqpath.com/poignant-guide/'>_why's poignant guide</a>. He was a part of GSOC'2011, and contributed to <a href='http://live.gnome.org/AkshayGupta_GnomeShell_Document'>GNOME</a>.</p>
     <p>Since then, he has hacked a fair bit of Ruby, consulted on a variety of Ruby on Rails projects, and helped build <a href='http://rubymonk.com'>RubyMonk</a>.</p>
@@ -24,6 +26,7 @@
   picture: "images/people/arun-200.png"
   github: "https://github.com/ford-prefect"
   name: "Arun Raghavan"
+  speakerhash: "arun"
   bio: >
     <p>Arun started nilenso systems because loves working on systems software and all the plumbing that makes computers useful for humans, and wants you to join in his excitement. He has been helping clients build products using GStreamer, PulseAudio, and other open source projects for almost a decade now. He loves to teach, make things, listen to music, and look at the night sky through his telescope.</p>
   twitter: "https://twitter.com/louiswu"
@@ -34,6 +37,7 @@
   picture: "images/people/deepa-200.png"
   github: "http://github.com/dvenkatr"
   name: "Deepa Venkatraman"
+  speakerhash: "deepa"
   bio: >
     <p>Like a rock. Which is to say, she has tenacity. Not the way a Ford is "like a rock". Deepa drives. One supposes a Ford drives, too. But Deepa will outlast even a gas guzzler from the 60's. So she's more like a rock than a ford. In both ways.</p>
     <p>Deepa's got a rainbow-coloured past. Starting startups, running businesses, crunching big numbers, building robots, and tearing up backroads in a cloud of dust that implies the closing credits will scroll by soon with a really kickin' outtro. At nilenso, she's tasked with figuring out how to turn us from a cute little boutique software consultancy into a dominant multinational co-operative corporation. No big deal.</p>
@@ -46,6 +50,7 @@
   picture: "images/people/govind-200.png"
   github: "http://github.com/govindkrjoshi"
   name: "Govind Joshi"
+  speakerhash: "govind"
   bio: >
     <p>Govind will never assault you with words, but he is always listening intently to what you have to say... which is often a pleasant counterbalance to the rest of us. One doesn't usually consider thoughtful and considered commentary an essential skill, but he has a way of making it appear so.</p>
     <p>Govind is actually a Biologist in disguise. He's spent most of his career in BioTech and found his way into hardcore software development through an inherent love of Category Theory and Haskell.</p>
@@ -58,6 +63,7 @@
   picture: "images/people/kiran-200.png"
   github: "http://github.com/kirang89"
   name: "Kiran Gangadharan"
+  speakerhash: "kiran"
   bio: >
   twitter: "http://twitter.com/kirang89"
   linkedin: "http://in.linkedin.com/in/kirang89"
@@ -67,6 +73,7 @@
   picture: "images/people/murtaza-200.png"
   github: "http://github.com/murtaza0xFF"
   name: "Murtaza Akbari"
+  speakerhash: "murtaza"
   bio: >
   twitter: "http://twitter.com/murtaza0xFF"
   linkedin: "http://in.linkedin.com/in/murtaza0xFF"
@@ -76,6 +83,7 @@
   picture: "images/people/nid-200.jpg"
   github: "https://github.com/nid90"
   name: "Nivedita Priyadarshini"
+  speakerhash: "nid"
   bio: "Nivedita joined nilenso straight after finishing her engineering in computer science. She learned programming by building a school project in C++. Fortunately, C++ didn't have as adverse an impact on her as one would imagine. She has been dabbling with code ever since, and is now firmly in the Ruby camp. In the last one and half years, she worked on a suite of three open source applications built in Rails and wrote code for a product: a Twitter client app for groups. She loves learning new stuff, and can these days be seen writing AngularJS with great happiness."
   twitter: "http://twitter.com/nid90"
   linkedin: "http://in.linkedin.com/pub/nivedita-priyadarshini/47/524/386/"
@@ -85,6 +93,7 @@
   picture: "images/people/neena-200.png"
   github: "https://github.com/neenaoffline"
   name: "Ravi Chandra (neena) Padmala"
+  speakerhash: "neena"
   bio: >
     Neena has worked on a rails application that pander to competitive programmers, on libraries that help developers control anonymity software, on backend systems written in Lisp that enables efficient spamming.
   twitter: "http://twitter.com/neenaoffline"
@@ -95,6 +104,7 @@
   picture: "images/people/prabhanshu-200.png"
   github: "http://github.com/prabhanshuguptagit"
   name: "Prabhanshu Gupta"
+  speakerhash: "prabhanshu"
   bio: >
   twitter: "http://twitter.com/prabhanshu"
   linkedin: "http://in.linkedin.com/in/prabhanshu"
@@ -104,6 +114,7 @@
   picture: "images/people/samrat-200.png"
   github: "http://github.com/samrat"
   name: "Samrat Man Singh"
+  speakerhash: "samrat"
   bio: >
   twitter: "http://twitter.com/samratmansingh"
   linkedin: "http://in.linkedin.com/in/samrat"
@@ -113,6 +124,7 @@
   picture: "images/people/sandy-200.png"
   github: "https://github.com/jysandy"
   name: "Sandilya Jandhyala"
+  speakerhash: "sandy"
   bio: "Sandy interned at Cisco and Zopper before joining nilenso. An early riser and a straight shooter, Sandy loves writing Clojure, riding his bicycle, breakfasting at MTR, and fixing his bicycle (in that order). He only uses editors that were created after he was born."
   twitter: "https://twitter.com/jysandilya"
   linkedin: "https://www.linkedin.com/in/jysandy/"
@@ -122,6 +134,7 @@
   picture: "images/people/sezal-200.png"
   github: "http://github.com/sezaljain"
   name: "Sezal Jain"
+  speakerhash: "sezal"
   bio: >
   twitter: "http://twitter.com/sezal_jain"
   linkedin: "https://www.linkedin.com/in/sezal-jain-80823511/"
@@ -131,6 +144,7 @@
   picture: "images/people/shafeeq-200.png"
   github: "https://github.com/shafeeq"
   name: "Shafeeq Kunnakkadan"
+  speakerhash: "shafeeq"
   bio: "<p>Shafeeq's quiet confidence and smiling demeanor belie an ember of passion searing just beneath the surface. When he first joined us, he was loath to engage the ethically treacherous Java ecosystem and longed for the purity of Python. He is no fan of Oracle, no fan of yesteryear's software meatgrinder, and no fan of ignorance. Neither are we.</p>
     <p>To that end, we traded him an unlimited library, which he chews through like an industrial tree harvester, for a tempered approach to Free Software. He now builds software with Clojure and ClojureScript with the same passion we first saw in him.</p>"
   twitter: "https://twitter.com/shafeeq_k"
@@ -141,6 +155,7 @@
   picture: "images/people/srihari-200.png"
   github: "http://github.com/ssrihari"
   name: "Srihari Sriraman"
+  speakerhash: "srihari"
   bio: "Srihari is a FOSS enthusiast, Gnome, and Gimp lover. He contributed to <a href='https://github.com/ssrihari/Assignment-Management'>eclipse</a> in GSoC'2011, made a spotlight-like <a href='https://github.com/ssrihari/gimp-tito'>tool</a> for gimp, and contributes occasionally to <a href='https://github.com/diaspora/diaspora/commits?author=ssrihari'>diaspora</a>. He practices minimalistic and user centric design for the web. He loves products and seeks the thrill in solving people's problems. He <a href='http://sriharisriraman.in'>blogs</a>, plays basketball, and performs carnatic music ocassionally."
   twitter: "http://twitter.com/SrihariSriraman"
   linkedin: "http://www.linkedin.com/in/sriharisriraman"
@@ -150,6 +165,7 @@
   picture: "images/people/timmy-200.png"
   github: "http://github.com/timmyjose"
   name: "Timmy Jose"
+  speakerhash: "timmy"
   bio: >
   twitter: "http://twitter.com/thetimmyjose"
   linkedin: "http://in.linkedin.com/in/timmy"
@@ -159,6 +175,7 @@
   picture: "images/people/udit-200.png"
   github: "https://github.com/yudistrange"
   name: "Udit Kumar"
+  speakerhash: "udit"
   bio: "<p align='center'>I have heard eggs help when you &ldquo;WFH&rdquo;&#128540;</p>"
   twitter: "https://twitter.com/yudistrange"
   linkedin: "https://www.linkedin.com/in/udit-kumar-01690127/"
@@ -168,6 +185,7 @@
   picture: "images/people/vkrm-200.png"
   github: "http://github.com/vikram"
   name: "Vikram Chintalapati"
+  speakerhash: "vikram"
   bio: >
   twitter: "http://twitter.com/vkrmis"
   linkedin: "http://in.linkedin.com/in/vikram"
