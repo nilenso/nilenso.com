@@ -554,7 +554,7 @@ p.section-byline {
 }
 
 .featured {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
 
     span {
         color: $blue;
@@ -588,21 +588,18 @@ p.section-byline {
     }
 
     .collage {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(104px, 1fr));
-        grid-auto-rows: 104px;
-        grid-row-gap: 16px;
-        grid-column-gap: 16px;
-        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+
+        > div {
+            display: flex;
+            align-items: center;
+
+            margin: 0 1rem;
+        }
 
         img {
             max-width: 100%;
-        }
-
-        &.client {
-            grid-template-columns: repeat(auto-fit, minmax(144px, 1fr));
-            grid-template-rows: auto;
-            grid-auto-rows: auto;
         }
     }
 }
