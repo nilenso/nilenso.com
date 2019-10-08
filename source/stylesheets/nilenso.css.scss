@@ -15,7 +15,8 @@ $page-heading          : 2.5rem; // page heading
 $page-heading-mobile   : 1.5rem; // heading on mobile
 $section-heading       : 2rem; // section heading
 $section-heading-mobile: 1.5rem; // section heading on mobile
-$body-text             : 1.125rem; // body text
+$body-text-r           : 1.125rem; // body text
+$body-text-s           : 0.875rem; // body text small
 
 @font-face {
     font-family: 'Junction';
@@ -58,7 +59,7 @@ General
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: $body-text;
+    font-size: $body-text-r;
     font-family: 'HK Grotesk', Arial, Helvetica, sans-serif;
 }
 
@@ -98,16 +99,15 @@ a {
 }
 
 p {
-    font-size: $body-text;
+    font-size: $body-text-r;
     line-height: 1.65em;
-    margin: 16px 0;
 }
 
 button.btn {
     border: none;
     border-radius: 4px;
     background: none;
-    padding: 16px;
+    padding: 1rem;
 
     &.btn-primary {
         background: $pink;
@@ -140,7 +140,7 @@ button.btn {
 
 h1.heading {
     font-size: $page-heading;
-    line-height: 1.25em;
+    line-height: 1.45em;
 
     @media screen and (max-width: 1024px) {
         font-size: $section-heading;
@@ -154,7 +154,7 @@ h1.heading {
 h2.section-heading,
 h3 {
     font-size: $section-heading;
-    line-height: 1.25em;
+    line-height: 1.65em;
 
     @media screen and (max-width: 1024px) {
         font-size: $section-heading-mobile;
@@ -193,7 +193,7 @@ header {
     padding: 1.5rem 0;
 
     span.hiring {
-        font-size: 12px;
+        font-size: $body-text-s;
         font-style: italic;
         text-align: center;
         font-weight: bold;
@@ -227,8 +227,8 @@ header {
         justify-content: flex-end;
 
         li.header-link {
-            font-size: $body-text;
-            margin: 0 20px;
+            font-size: $body-text-r;
+            margin: 0 1.5rem;
 
             &:last-child {
                 margin-right: 0;
@@ -250,7 +250,7 @@ header {
 .container {
     display: flex;
     flex-direction: column;
-    margin: 1.5rem auto;
+    margin: 0 auto;
     margin-bottom: 80px;
 
     >* {
@@ -294,7 +294,7 @@ header {
     }
 
     button.btn.btn-primary {
-        padding: 16px 64px;
+        padding: 1rem 64px;
     }
 
     .divider {
@@ -324,7 +324,7 @@ header {
 
             >*,
             >p {
-                margin: 16px 0;
+                margin: 1rem 0;
             }
         }
 
@@ -335,7 +335,7 @@ header {
 
             >*,
             >p {
-                margin: 16px 0;
+                margin: 1rem 0;
             }
         }
     }
@@ -412,7 +412,7 @@ footer {
 
         @media screen and (max-width: 640px) {
             text-align: center;
-            padding: 16px 0;
+            padding: 1rem 0;
             border-bottom: 1px solid rgba($color: $white, $alpha: 0.2);
 
             &:last-child {
@@ -425,10 +425,10 @@ footer {
             margin: 12px 0;
             text-transform: none;
             font-weight: normal;
-            font-size: 12px;
+            font-size: $body-text-s;
 
             &:first-child {
-                margin-top: 16px;
+                margin-top: 1rem;
             }
         }
 
@@ -452,10 +452,11 @@ footer {
     .tag {
         display: inline-block;
         padding: 4px 8px;
-        font-size: 12px;
+        font-size: $body-text-s;
         background: $light-pink;
         margin: 8px;
         margin-left: 0;
+        border-radius: 4px;
     }
 }
 
@@ -500,18 +501,12 @@ Home
 
         @media screen and (max-width: 1024px) {
             font-size: 18px;
-            margin-top: 16px;
+            margin-top: 1rem;
         }
 
         @media screen and (max-width: 640px) {
-            font-size: 16px;
+            font-size: 1rem;
         }
-    }
-
-    button.btn.btn-primary {
-        margin-top: 1.5rem;
-        font-size: $body-text;
-        letter-spacing: -0.1px;
     }
 }
 
@@ -526,7 +521,7 @@ Home
     }
 
     p {
-        font-size: $body-text;
+        font-size: $body-text-r;
         line-height: 1.55em;
     }
 }
@@ -551,7 +546,7 @@ p.section-byline {
     }
 
     p {
-        font-size: $body-text;
+        font-size: $body-text-r;
         line-height: 1.65em;
         margin-right: 2.5rem;
 
@@ -572,9 +567,21 @@ p.section-byline {
 .featured {
     margin-top: 1.5rem;
 
+    .team-image {
+        background-image: url('../images/people/team.jpg');
+        background-position: 0 -224px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        width: 100%;
+        height: 360px;
+
+        border-radius: 8px;
+    }
+
     span {
         color: $blue;
-        font-size: 12px;
+        font-size: $body-text-s;
         font-weight: bold;
         text-transform: uppercase;
     }
@@ -594,8 +601,8 @@ p.section-byline {
     }
 
     .featured-content {
-        margin: 16px 0;
-        font-size: $body-text;
+        margin: 1rem 0;
+        font-size: $body-text-r;
         line-height: 1.65em;
     }
 
@@ -615,7 +622,8 @@ p.section-byline {
         }
 
         img {
-            max-width: 100%;
+            max-width: 70%;
+            align-self: center;
         }
     }
 }
@@ -656,13 +664,13 @@ Work
 .work {
     .exclusive-section {
         p {
-            margin: 16px 0;
+            margin: 1rem 0;
         }
     }
 
     .recent-tech {
         p.section-byline {
-            margin: 16px 0;
+            margin: 1rem 0;
         }
     }
 }
@@ -701,7 +709,7 @@ Work
 
     .featured-link {
         display: inline-block;
-        margin-top: 16px;
+        margin-top: 1rem;
         color: $pink;
     }
 
@@ -759,7 +767,7 @@ Work
         width: 80%;
         display: grid;
         grid-auto-rows: auto;
-        grid-row-gap: 16px;
+        grid-row-gap: 1rem;
     }
 
     h3 {
@@ -790,12 +798,14 @@ Work
             flex-direction: column;
             align-items: center;
             justify-content: center;
+
+            font-size: $body-text-s;
         }
 
         i {
-            padding: 16px;
+            padding: 1rem;
             background: $body-bg;
-            margin-bottom: 16px;
+            margin-bottom: 1rem;
         }
     }
 }
@@ -827,7 +837,7 @@ Work
             padding: 2.5rem;
             border-bottom: none;
             border: 1px solid transparent;
-            min-height: 218px; // hack for single-line pagination links. If all pagination links are multi-line, remove this line of code
+            min-height: 228px; // hack for single-line pagination links. If all pagination links are multi-line, remove this line of code
 
             &:hover {
                 border: 1px solid $pink;
@@ -845,7 +855,7 @@ Work
         }
 
         p {
-            margin: 16px 0;
+            margin: 1rem 0;
         }
     }
 }
@@ -868,7 +878,7 @@ ul.team-member-thumbnails {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
     grid-auto-rows: auto;
-    grid-gap: 16px;
+    grid-gap: 1rem;
 
     li.team-member-thumbnail {
         img {
@@ -901,7 +911,7 @@ ul.team-member-thumbnails {
     }
 
     p {
-        margin-bottom: 16px;
+        margin-bottom: 1rem;
 
         &:last-child {
             margin-bottom: 0;
@@ -971,16 +981,16 @@ Careers
             line-height: 1.5em;
 
             +p {
-                margin-bottom: 16px;
+                margin-bottom: 1rem;
             }
         }
     }
 
     .section-heading {
-        margin-bottom: 16px;
+        margin-bottom: 1rem;
 
         +p {
-            font-size: $body-text;
+            font-size: $body-text-r;
             line-height: 1.65em;
         }
     }
@@ -991,7 +1001,7 @@ Careers
         margin-bottom: 1.5rem;
 
         +p {
-            font-size: $body-text;
+            font-size: $body-text-r;
             line-height: 1.65em;
         }
     }
@@ -1005,7 +1015,7 @@ Careers
     padding: 0 2.5rem;
 
     i {
-        margin-right: 16px;
+        margin-right: 1rem;
     }
 }
 
@@ -1013,14 +1023,14 @@ Careers
     margin: 2.5rem 0;
 
     li.featured-perk {
-        margin: 16px;
+        margin: 1rem;
 
         i {
-            margin-right: 16px;
+            margin-right: 1rem;
         }
 
         hr.divider {
-            margin: 16px 0;
+            margin: 1rem 0;
             border: none;
             outline: none;
             width: 100%;
@@ -1069,7 +1079,7 @@ Talks
     .talk-video,
     .talk-content {
         flex: 1;
-        margin: 0 16px;
+        margin: 0 1rem;
 
         @media screen and (max-width: 1200px) {
             padding: 12px 1.5rem;
@@ -1084,7 +1094,7 @@ Talks
         }
 
         .talk-host {
-            font-size: $body-text;
+            font-size: $body-text-r;
             color: $blue;
         }
 
@@ -1117,7 +1127,7 @@ BDRs
 
 .decisions {
     li {
-        font-size: $body-text;
+        font-size: $body-text-r;
         margin: 8px 0;
         padding: 4px 8px;
     }
@@ -1242,7 +1252,7 @@ Open Source
     bottom: -40px !important;
 
     li button::before {
-        font-size: 16px !important;
+        font-size: 1rem !important;
     }
 }
 
@@ -1261,7 +1271,7 @@ Open Source
         align-items: center !important;
 
         >div {
-            margin: 0 16px;
+            margin: 0 1rem;
         }
     }
 }
