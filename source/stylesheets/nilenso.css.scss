@@ -11,7 +11,11 @@ Font sizes
 ---
 */
 
-$body-18px: 18px; // used in body, 18px
+$page-heading          : 2.5rem; // page heading
+$page-heading-mobile   : 1.5rem; // heading on mobile
+$section-heading       : 2rem; // section heading
+$section-heading-mobile: 1.5rem; // section heading on mobile
+$body-text             : 1.125rem; // body text
 
 @font-face {
     font-family: 'Junction';
@@ -54,7 +58,7 @@ General
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: $body-18px;
+    font-size: $body-text;
     font-family: 'HK Grotesk', Arial, Helvetica, sans-serif;
 }
 
@@ -94,7 +98,7 @@ a {
 }
 
 p {
-    font-size: $body-18px;
+    font-size: $body-text;
     line-height: 1.65em;
     margin: 16px 0;
 }
@@ -134,18 +138,30 @@ button.btn {
     flex-direction: column;
 }
 
-h1.heading,
-h2.section-heading,
-h3 {
-    font-size: 2.5rem;
+h1.heading {
+    font-size: $page-heading;
     line-height: 1.25em;
 
     @media screen and (max-width: 1024px) {
-        font-size: 32px;
+        font-size: $section-heading;
     }
 
     @media screen and (max-width: 640px) {
-        font-size: 1.5rem;
+        font-size: $page-heading-mobile;
+    }
+}
+
+h2.section-heading,
+h3 {
+    font-size: $section-heading;
+    line-height: 1.25em;
+
+    @media screen and (max-width: 1024px) {
+        font-size: $section-heading-mobile;
+    }
+
+    @media screen and (max-width: 640px) {
+        font-size: $page-heading-mobile;
     }
 }
 
@@ -211,7 +227,7 @@ header {
         justify-content: flex-end;
 
         li.header-link {
-            font-size: $body-18px;
+            font-size: $body-text;
             margin: 0 20px;
 
             &:last-child {
@@ -494,7 +510,7 @@ Home
 
     button.btn.btn-primary {
         margin-top: 1.5rem;
-        font-size: $body-18px;
+        font-size: $body-text;
         letter-spacing: -0.1px;
     }
 }
@@ -510,7 +526,7 @@ Home
     }
 
     p {
-        font-size: $body-18px;
+        font-size: $body-text;
         line-height: 1.55em;
     }
 }
@@ -535,7 +551,7 @@ p.section-byline {
     }
 
     p {
-        font-size: $body-18px;
+        font-size: $body-text;
         line-height: 1.65em;
         margin-right: 2.5rem;
 
@@ -579,7 +595,7 @@ p.section-byline {
 
     .featured-content {
         margin: 16px 0;
-        font-size: $body-18px;
+        font-size: $body-text;
         line-height: 1.65em;
     }
 
@@ -964,7 +980,7 @@ Careers
         margin-bottom: 16px;
 
         +p {
-            font-size: $body-18px;
+            font-size: $body-text;
             line-height: 1.65em;
         }
     }
@@ -975,7 +991,7 @@ Careers
         margin-bottom: 1.5rem;
 
         +p {
-            font-size: $body-18px;
+            font-size: $body-text;
             line-height: 1.65em;
         }
     }
@@ -1068,7 +1084,7 @@ Talks
         }
 
         .talk-host {
-            font-size: $body-18px;
+            font-size: $body-text;
             color: $blue;
         }
 
@@ -1101,7 +1117,7 @@ BDRs
 
 .decisions {
     li {
-        font-size: $body-18px;
+        font-size: $body-text;
         margin: 8px 0;
         padding: 4px 8px;
     }
