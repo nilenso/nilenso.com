@@ -193,17 +193,6 @@ header {
     margin: 0 auto;
     padding: 1.5rem 0;
 
-    span.hiring {
-        font-size: $body-text-s;
-        font-style: italic;
-        text-align: center;
-        font-weight: bold;
-        color: $pink;
-        margin-bottom: 8px;
-        margin-right: 8px;
-        align-self: flex-end;
-    }
-
     .logo-nav-and-button {
         display: flex;
         justify-content: space-between;
@@ -820,9 +809,14 @@ Work
 
     .pagination {
         background: $light-pink;
-        margin: 0 1.5rem;
+        margin: 0;
+        margin-right: 1.5rem;
         border-radius: 8px;
         flex: 1;
+
+        &:last-child {
+            margin-right: 0; //removes right margin from second pagination link
+        }
 
         @media screen and (max-width: 768px) {
             margin: 8px 0;
@@ -874,26 +868,6 @@ Work End
 Team
 ===========
 */
-
-ul.team-member-thumbnails {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
-    grid-auto-rows: auto;
-    grid-gap: 1rem;
-
-    li.team-member-thumbnail {
-        img {
-            opacity: 0.5;
-            padding-bottom: 8px;
-            max-width: 100%;
-
-            &.active {
-                opacity: 1;
-                border-bottom: 1px solid $pink;
-            }
-        }
-    }
-}
 
 .team-members {
     display: flex;
@@ -1219,62 +1193,6 @@ Open Source
     width: 80px;
     height: 80px;
     border-radius: 4px;
-}
-
-.slick-slider {
-    @media screen and (max-width: 1024px) {
-        margin-bottom: 1.5rem !important;
-    }
-}
-
-.slick-next,
-.slick-prev {
-    background: $white !important;
-    border-radius: 50% !important;
-    width: 2.5rem !important;
-    height: 2.5rem !important;
-    z-index: 999 !important;
-    box-shadow: 0 0 8px rgba($color: $black, $alpha: 0.10);
-
-    &::before {
-        color: $dark-blue !important;
-    }
-}
-
-.slick-next {
-    right: -20px !important;
-}
-
-.slick-prev {
-    left: -20px !important;
-}
-
-.slick-dots {
-    bottom: -40px !important;
-
-    li button::before {
-        font-size: 1rem !important;
-    }
-}
-
-.slick-initialized .slick-slide {
-    display: flex !important;
-    justify-content: center !important;
-}
-
-.client-carousel {
-    .slick-initialized .slick-slide {
-        margin: 0 8px !important;
-    }
-
-    .slick-track {
-        display: flex !important;
-        align-items: center !important;
-
-        >div {
-            margin: 0 1rem;
-        }
-    }
 }
 
 
