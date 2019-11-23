@@ -118,6 +118,15 @@ production_ready:
       description: Drive Amazon's Mechanical Turk REST API from your Clojure apps.
 
 contributed:
+
+    -
+      name: Simple Server
+      source: https://github.com/simpledotorg/simple-server
+      website: https://www.simple.org/
+      logo: simpleg.png
+      tags: ['app', 'service', 'ruby', 'rails', 'healthcare']
+      description: The backend for the Simple app to help track hypertensive patients across a population.
+
     -
       name: JOSM
       source: https://josm.openstreetmap.de/wiki/Source%20code
