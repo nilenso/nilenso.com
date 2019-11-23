@@ -1,14 +1,11 @@
 -
-  nick: "abhinav"
-  picture: "images/people/abhinav-200.png"
-  github: "http://github.com/abhin4v"
-  name: "Abhinav Sarkar"
-  bio: >
-    <p>Abhinav is the crust of the litter, you know? Old school JVM hacker. Loves log files. Wishes he was programming Haskell. The usual.</p>
-    <p>Big data projects were his thing, but we ripped him from his comfortable Cave of Analysis and shoved him into a world of Clojure and Emacs. He's never stopped thanking us.</p>
-    <p>He would love it if you'd go for a long bicycle ride to Mysore with him tomorrow. Bring some of those little bananas.</p>
-  twitter: "http://twitter.com/abhin4v"
-  linkedin: "http://in.linkedin.com/in/abhinavsarkar"
+  nick: "abhik"
+  picture: "images/people/abhik-200.png"
+  github: "https://github.com/trycatcher"
+  name: "Abhik Kanra"
+  bio:
+  twitter: "https://twitter.com/Ryecatcher"
+  linkedin: "http://in.linkedin.com/in/kitallis"
 
 -
   nick: "kitallis"
@@ -47,22 +44,32 @@
   linkedin: ""
 
 -
+  nick: "kiran"
+  picture: "images/people/kiran-200.png"
+  github: "https://github.com/kirang89"
+  name: "Kiran Gangadharan"
+  bio:
+  twitter: "https://twitter.com/kirang89"
+  linkedin: "https://www.linkedin.com/in/kirang89/"
+
+-
+  nick: "murtaza"
+  picture: "images/people/murtaza-200.png"
+  github: "https://github.com/murtaza0xFF"
+  name: "Murtaza Akbari"
+  bio:
+  twitter: "https://twitter.com/murtaza0xFF"
+  linkedin: "https://www.linkedin.com/in/murtaza-akbari-90597693/"
+
+-
   nick: "nid"
   picture: "images/people/nid-200.png"
   github: "https://github.com/nid90"
   name: "Nivedita Priyadarshini"
-  bio: "Nivedita joined nilenso straight after finishing her engineering in computer science. She learned programming by building a school project in C++. Fortunately, C++ didn't have as adverse an impact on her as one would imagine. She has been dabbling with code ever since, and is now firmly in the Ruby camp. In the last one and half years, she worked on a suite of three open source applications built in Rails and wrote code for a product: a Twitter client app for groups. She loves learning new stuff, and can these days be seen writing AngularJS with great happiness."
+  bio: >
+   <p>Nivedita joined nilenso straight after finishing her engineering in computer science. She learned programming by building a school project in C++. Fortunately, C++ didn't have as adverse an impact on her as one would imagine. She loves learning new stuff, knits a lot and can these days be seen writing Clojure with great happiness.</p>
   twitter: "http://twitter.com/nid90"
   linkedin: "http://in.linkedin.com/pub/nivedita-priyadarshini/47/524/386/"
-
--
-  nick: "noopur"
-  picture: "images/people/noopur-200.png"
-  github: "https://github.com/noopurvarma"
-  name: "Noopur Varma"
-  bio: "Noopur is a recent National Institute of Design graduate. She'll tell you what's wrong with your wood grains, straighten your kerning, balance the colour palette of your lunch, and generally make you a better person."
-  twitter: "https://twitter.com/9porcupine"
-  linkedin: "http://in.linkedin.com/in/noopurvarma"
 
 -
   nick: "neena"
@@ -75,6 +82,24 @@
   linkedin: "https://www.linkedin.com/in/ravichandrapadmala"
 
 -
+  nick: "prabhanshu"
+  picture: "images/people/prabhanshu-200.png"
+  github: "https://github.com/prabhanshuguptagit"
+  name: "Prabhanshu Gupta"
+  bio:
+  twitter: "https://twitter.com/twomogambo"
+  linkedin: "https://www.linkedin.com/in/prabhanshu-gupta/"
+
+-
+  nick: "samrat"
+  picture: "images/people/samrat-200.png"
+  github: "https://github.com/samrat"
+  name: "Samrat Man Singh"
+  bio:
+  twitter: "https://twitter.com/samratmansingh"
+  linkedin: "https://www.linkedin.com/in/samrat-man-singh-a31664148/"
+
+-
   nick: "sandy"
   picture: "images/people/sandy-200.png"
   github: "https://github.com/jysandy"
@@ -82,6 +107,15 @@
   bio: "Sandy interned at Cisco and Zopper before joining nilenso. An early riser and a straight shooter, Sandy loves writing Clojure, riding his bicycle, breakfasting at MTR, and fixing his bicycle (in that order). He only uses editors that were created after he was born."
   twitter: "https://twitter.com/jysandilya"
   linkedin: "https://www.linkedin.com/in/jysandy/"
+
+-
+  nick: "sezal"
+  picture: "images/people/sezal-200.png"
+  github: "https://github.com/sezaljain"
+  name: "Sezal Jain"
+  bio:
+  twitter: "https://twitter.com/sezal_jain"
+  linkedin: "https://www.linkedin.com/in/sezal-jain-80823511/"
 
 -
   nick: "shafeeq"
@@ -103,17 +137,6 @@
   linkedin: "http://www.linkedin.com/in/sriharisriraman"
 
 -
-  nick: "steven"
-  picture: "images/people/steven-200.png"
-  github: "http://github.com/deobald"
-  name: "Steven Deobald"
-  bio: >
-    <p>Steven spent the last decade working for DRW Trading, ThoughtWorks, Adxstudio, The Canadian Department of National Defence, THE MAN, and some other people. Also himself. Not in that order. Whatever, you don't care -- he's obviously just an ineffective old man.</p>
-
-  twitter: "http://twitter.com/deobald"
-  linkedin: "http://in.linkedin.com/in/deobald"
-
--
   nick: "udit"
   picture: "images/people/udit-200.png"
   github: "https://github.com/yudistrange"
@@ -123,20 +146,10 @@
   linkedin: "https://www.linkedin.com/in/udit-kumar-01690127/"
 
 -
-  nick: "unni"
-  picture: "images/people/unni-200.png"
-  github: "https://github.com/krish8664"
-  name: "Unnikrishnan Geethagovindan"
-  bio: "In the life of human beings, there is dissatisfaction on the right and gratitude on the left. Frustration and discontent cannot last and will, given enough time, always give way to gentleness and purpose. Unni, like all of us, is forever traversing this bridge. Coarse and sharp is the boredom of working for multinational corporations, building Yet Another CRM for an unknown customer to who-knows-what-end. Finer and softer come the challenges halfway across the bridge: Can I find the same joy in GoLang that I find in LISP? If the bridge is rigid and swaying, how soft and light on my feet must I be to maintain my balance? Is it true that the smoothest loop drawn on the surface of the Earth by my motorcycle contains every secret to the Universe? If I am grateful now for this slice of pizza, what possible discontent could disturb me from an unlived future? Have I crossed the bridge or have I become the bridge?"
-  twitter: "http://twitter.com/krish8664"
-  linkedin: "https://in.linkedin.com/in/unnikrishnan-gg-a3136028"
-
--
-  nick: "varun"
-  picture: "images/people/varun-200.png"
-  github: "https://github.com/irrational-pai"
-  name: "Varun Pai"
-  bio: "Varun is a front-end developer and designer who embraces creativity in all its forms. A dancer, boxer and prolific note-taker, he also co-runs 'Creative Mornings Bangalore'."
-  twitter: "http://twitter.com/irrational_pai"
-  linkedin: "https://in.linkedin.com/in/varunpai"
-
+  nick: "vkrm"
+  picture: "images/people/vkrm-200.png"
+  github: "https://github.com/vkrmis"
+  name: "Vikram Chintalapati"
+  bio:
+  twitter: "https://twitter.com/cvikram"
+  linkedin: "https://www.linkedin.com/in/vikram-chintalapati-23764111a/"
