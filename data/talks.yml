@@ -1,3 +1,27 @@
+- title: "After The Crash"
+  speakers: "Ravi Chandra Padmala"
+  speakerhash: "neena"
+  venue: "Functional Conf 2019"
+  youtube_id: 9nbPZOHBsK4
+
+- title: "Scalable distributed systems from grounds up in Elixir"
+  speakers: "Udit Kumar"
+  speakerhash: "udit"
+  venue: "Rootconf 2019"
+  youtube_id: yMJ2u6J3Cb0
+
+- title: "async/await in Clojure using conquerant"
+  speakers: "Divyansh Prakash"
+  speakerhash: "divyansh"
+  venue: "IN/Clojure 2019"
+  youtube_id: kyvKOnxFoeY
+  
+- title: "Generative Testing Patterns"
+  speakers: "Srihari Sriraman"
+  speakerhash: "srihari"
+  venue: "Functional Conf 2018"
+  youtube_id: 8S5UKQr1dTM
+  
 - title: "Reducing Accretion in Monoliths with Stream Processing"
   speakers: "Akshay Gupta and Sourabh Ghorpade (Go-Jek)"
   speakerhash: "kitallis"
