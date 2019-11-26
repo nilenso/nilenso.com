@@ -15,19 +15,19 @@
   speakerhash: "divyansh"
   venue: "IN/Clojure 2019"
   youtube_id: kyvKOnxFoeY
-  
-- title: "Generative Testing Patterns"
-  speakers: "Srihari Sriraman"
-  speakerhash: "srihari"
-  venue: "Functional Conf 2018"
-  youtube_id: 8S5UKQr1dTM
-  
+
 - title: "Reducing Accretion in Monoliths with Stream Processing"
   speakers: "Akshay Gupta and Sourabh Ghorpade (Go-Jek)"
   speakerhash: "kitallis"
   venue: "clojureD 2019"
   youtube_id: AOCoYf2TS5Q
 
+- title: "Generative Testing Patterns"
+  speakers: "Srihari Sriraman"
+  speakerhash: "srihari"
+  venue: "Functional Conf 2018"
+  youtube_id: 8S5UKQr1dTM
+  
 - title: "Engineering to embrace change"
   speakers: "Srihari Sriraman"
   speakerhash: "srihari"
