@@ -4,7 +4,7 @@
   venue: "Functional Conf 2019"
   youtube_id: 9nbPZOHBsK4
 
-- title: "Scalable distributed systems from grounds up in Elixir"
+- title: "Scalable distributed systems in Elixir"
   speakers: "Udit Kumar"
   speakerhash: "udit"
   venue: "Rootconf 2019"
@@ -16,7 +16,7 @@
   venue: "IN/Clojure 2019"
   youtube_id: kyvKOnxFoeY
 
-- title: "Reducing Accretion in Monoliths with Stream Processing"
+- title: "Reducing Accretion in Monoliths with Clojure"
   speakers: "Akshay Gupta and Sourabh Ghorpade (Go-Jek)"
   speakerhash: "kitallis"
   venue: "clojureD 2019"
