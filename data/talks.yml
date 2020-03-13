@@ -22,7 +22,7 @@
   venue: "IN/Clojure 2019"
   youtube_id: kyvKOnxFoeY
 
-- title: "Reducing Accretion in Monoliths with Clojure"
+- title: "Reducing Accretion in Monoliths"
   speakers: "Akshay Gupta and Sourabh Ghorpade (Go-Jek)"
   speakerhash: "kitallis"
   venue: "clojureD 2019"
