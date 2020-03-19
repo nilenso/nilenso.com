@@ -5,7 +5,7 @@
 ```
 brew install rbenv
 brew install ruby-build
-rbenv install 2.2.3
+rbenv install
 gem install bundler
 bundle install
 ```
