@@ -1,0 +1,32 @@
+
+<h1 id="clean-poster-fonts">Clean Poster Fonts</h1>
+
+<h2 id="noto">Noto:</h2>
+
+<p>The <code>Noto</code> font set by Google is incredibly consistent, so we will use that for all print material.</p>
+
+<p>All Noto fonts are available in /fonts and https://www.google.com/get/noto</p>
+
+<p>We'll leave the other fonts here in case Noto isn't appropriate for some cases.</p>
+
+<h2 id="english">English:</h2>
+
+<p>(used) <code>Cantarell-Regular.ttf</code> comes from Google Fonts: https://www.google.com/fonts/specimen/Cantarell</p>
+
+<p><code>junction.otf</code> comes from the League of Moveable Type: https://www.theleagueofmoveabletype.com/junction</p>
+
+<h2 id="hindi">Hindi:</h2>
+
+<p>(used) <code>CambayDevanagari-*.ttf</code> is a font family by Pooja Saxena: https://github.com/anexasajoop/cambay</p>
+
+<p><code>lohit_hi.ttf</code> comes from the <code>ttf-indic-fonts-core</code> package on Ubuntu.
+<code>nakula.ttf</code> comes from the <code>ttf-devanagari-fonts</code> package on Ubuntu.</p>
+
+<h2 id="kannada">Kannada:</h2>
+
+<p>(used) <code>lohit_kn.ttf</code> comes from the <code>ttf-kannada-fonts</code> package on Ubuntu.</p>
+
+<h2 id="tamil">Tamil:</h2>
+
+<p>(used) <code>TSCu_Paranar.ttf</code> comes from the <code>ttf-tamil-fonts</code> package on Ubuntu.</p>
+

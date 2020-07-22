@@ -226,7 +226,6 @@ img.human {
   background-color: white;
   background-attachment: fixed;
   -webkit-transform: translateZ(0);
-  overflow: hidden;
   padding: 4px 20px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -234,6 +233,8 @@ img.human {
   font-family: "calluna";
   border-top: 4px solid #f8337d;
   box-shadow: white 0px 10px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 
@@ -257,6 +258,7 @@ img.human {
   -ms-transition: opacity 1.0s ease-in;
   -moz-transition: opacity 1.0s ease-in;
   -webkit-transition: opacity 1.0s ease-in;
+  align-self: start;
 }
 
 .header-logo.visible {
@@ -272,7 +274,10 @@ img.human {
 }
 
 .page-links {
-  float: right;
+  justify-self: end;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: 1fr repeat(4, 0fr);
 }
 
 .page-link {
@@ -305,6 +310,19 @@ img.human {
   float: left;
   font-size: 30px;
   line-height: 44px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  padding: 0 24px;
+  text-align: right;
+  right: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: grid;
 }
 
 /*FOOTER================================*/

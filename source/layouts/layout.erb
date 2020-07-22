@@ -51,18 +51,26 @@
         <img class="header-logo-image" src="/nilenso-200.png" />
         <a class="header-link logo-name" href="/">nilenso</a>
       </div>
+
       <div class="page-links">
-        <a class="header-link page-link <%= active?('Home') %>" href="/">Home</a>
-        <a class="header-link page-link <%= active?('People') %>" href="/people.html">People</a>
-        <a class="header-link page-link <%= active?('Technical Details of Recent Projects') %>" href="/recent-tech.html">Tech</a>
-	<a class="header-link page-link <%= active?('Open Source') %>" href="/opensource.html">Open Source</a>
-        <a class="header-link page-link <%= active?('Decisions') %>" href="/decisions">Decisions</a>
-        <a class="header-link page-link <%= active?('Careers') %>" href="/careers.html">Careers</a>
-        <a class="header-link page-link <%= active?('Internship') %>" href="/internship.html">Internship</a>
-        <a class="header-link page-link <%= active?('Talks') %>" href="/talks.html">Talks</a>
-        <a class="header-link page-link <%= active?('Alumni') %>" href="/alumni.html">Alumni</a>
-        <a class="header-link page-link <%= active?('Blog') %>" href="http://blog.nilenso.com">Blog</a>
+        <a class="header-link page-link page-link1 <%= active?('Home') %>" href="/">Home</a>
+        <a class="header-link page-link page-link2 <%= active?('People') %>" href="/people.html">People</a>
+        <a class="header-link page-link page-link3 <%= active?('Technical Details of Recent Projects') %>" href="/recent-tech.html">Tech</a>
+        <a class="header-link page-link page-link4 <%= active?('Careers') %>" href="/careers.html">Careers</a>
+        <div class="page-link dropdown">
+          <span class="header-link">More »</span>
+          <div id="myDropdown" class="dropdown-content">
+            <a class="header-link page-link <%= active?('Blog') %>" href="http://blog.nilenso.com">Blog</a>
+            <a class="header-link page-link <%= active?('Talks') %>" href="/talks.html">Talks</a>
+            <a class="header-link page-link <%= active?('Open Source') %>" href="/opensource.html">Open Source</a>
+            <a class="header-link page-link <%= active?('Internship') %>" href="/internship.html">Internship</a>
+            <a class="header-link page-link <%= active?('Decisions') %>" href="/decisions">Decisions</a>
+
+            <a class="header-link page-link <%= active?('Alumni') %>" href="/alumni.html">Alumni</a>
+          </div>
+        </div>
       </div>
+
       <i class="show-navigation page-link navobile-mobile-only icon-list"></i>
     </header>
 

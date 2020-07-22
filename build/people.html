@@ -35,16 +35,8 @@
    <link rel='shortcut icon' type='image/x-icon' href='favicon.png'/>
 
     <!-- site scripts and styles -->
-    <link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/nilenso.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/people.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/portfolio.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/jquery.navobile.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/scrollnav.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/opensource.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/decisions.css" media="screen" rel="stylesheet" type="text/css" />
-    <script src="/javascripts/all.js" type="text/javascript"></script>
+    <link href="/stylesheets/reset.css" rel="stylesheet" /><link href="/stylesheets/font-awesome.css" rel="stylesheet" /><link href="/stylesheets/nilenso.css" rel="stylesheet" /><link href="/stylesheets/people.css" rel="stylesheet" /><link href="/stylesheets/portfolio.css" rel="stylesheet" /><link href="/stylesheets/jquery.navobile.css" rel="stylesheet" /><link href="/stylesheets/scrollnav.css" rel="stylesheet" /><link href="/stylesheets/opensource.css" rel="stylesheet" /><link href="/stylesheets/decisions.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
 
     <!-- Typekit fonts -->
     <script type="text/javascript" src="//use.typekit.net/xgt4lgm.js"></script>
@@ -59,17 +51,26 @@
         <img class="header-logo-image" src="/nilenso-200.png" />
         <a class="header-link logo-name" href="/">nilenso</a>
       </div>
+
       <div class="page-links">
-        <a class="header-link page-link " href="/">Home</a>
-        <a class="header-link page-link active" href="/people.html">People</a>
-        <a class="header-link page-link " href="/recent-tech.html">Tech</a>
-	<a class="header-link page-link " href="/opensource.html">Open Source</a>
-        <a class="header-link page-link " href="/decisions">Decisions</a>
-        <a class="header-link page-link " href="/careers.html">Careers</a>
-        <a class="header-link page-link " href="/talks.html">Talks</a>
-        <a class="header-link page-link " href="/alumni.html">Alumni</a>
-        <a class="header-link page-link " href="http://blog.nilenso.com">Blog</a>
+        <a class="header-link page-link page-link1 " href="/">Home</a>
+        <a class="header-link page-link page-link2 active" href="/people.html">People</a>
+        <a class="header-link page-link page-link3 " href="/recent-tech.html">Tech</a>
+        <a class="header-link page-link page-link4 " href="/careers.html">Careers</a>
+        <div class="page-link dropdown">
+          <span class="header-link">More »</span>
+          <div id="myDropdown" class="dropdown-content">
+            <a class="header-link page-link " href="http://blog.nilenso.com">Blog</a>
+            <a class="header-link page-link " href="/talks.html">Talks</a>
+            <a class="header-link page-link " href="/opensource.html">Open Source</a>
+            <a class="header-link page-link " href="/internship.html">Internship</a>
+            <a class="header-link page-link " href="/decisions">Decisions</a>
+
+            <a class="header-link page-link " href="/alumni.html">Alumni</a>
+          </div>
+        </div>
       </div>
+
       <i class="show-navigation page-link navobile-mobile-only icon-list"></i>
     </header>
 
@@ -78,22 +79,18 @@
       <div class="people section">
   <h2 class="section-heading">Ensonians</h2>
 
-  
     <a name="abhik"></a>
-    <div class="bordered-section person navigableSection" data-section-link="abhik" data-img-src="images/people/abhik-200.png" data-img-class="scroll-person-image" data-section-title="abhik">        
-      <div class="person-above">
+<div class="bordered-section person navigableSection" data-section-link="abhik" data-img-src="images/people/abhik-200.png" data-img-class="scroll-person-image" data-section-title="abhik">      <div class="person-above">
         <a href="people.html#abhik" class="person-anchor-link">
           <img alt="abhik" class="person-image" src="images/people/abhik-200.png"/>
         </a>
 
-        <p class="person-name">Abhik Kanra</p>
+        <p class="person-name">Abhik Khanra</p>
 
         <p class="person-social-links">
           <a class="person-social-link" href="https://github.com/trycatcher"><i class="icon-github"></i></a>
           <a class="person-social-link" href="https://twitter.com/Ryecatcher"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="http://in.linkedin.com/in/kitallis"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -102,11 +99,8 @@
           
         </div>
       </div>
-    </div>
-  
-    <a name="kitallis"></a>
-    <div class="bordered-section person navigableSection" data-section-link="kitallis" data-img-src="images/people/kitallis-200.png" data-img-class="scroll-person-image" data-section-title="kitallis">        
-      <div class="person-above">
+</div>    <a name="kitallis"></a>
+<div class="bordered-section person navigableSection" data-section-link="kitallis" data-img-src="images/people/kitallis-200.png" data-img-class="scroll-person-image" data-section-title="kitallis">      <div class="person-above">
         <a href="people.html#kitallis" class="person-anchor-link">
           <img alt="kitallis" class="person-image" src="images/people/kitallis-200.png"/>
         </a>
@@ -116,9 +110,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="http://github.com/kitallis"><i class="icon-github"></i></a>
           <a class="person-social-link" href="http://twitter.com/kitallis"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="http://in.linkedin.com/in/kitallis"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -128,11 +120,8 @@
 
         </div>
       </div>
-    </div>
-  
-    <a name="deepa"></a>
-    <div class="bordered-section person navigableSection" data-section-link="deepa" data-img-src="images/people/deepa-200.png" data-img-class="scroll-person-image" data-section-title="deepa">        
-      <div class="person-above">
+</div>    <a name="deepa"></a>
+<div class="bordered-section person navigableSection" data-section-link="deepa" data-img-src="images/people/deepa-200.png" data-img-class="scroll-person-image" data-section-title="deepa">      <div class="person-above">
         <a href="people.html#deepa" class="person-anchor-link">
           <img alt="deepa" class="person-image" src="images/people/deepa-200.png"/>
         </a>
@@ -142,9 +131,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="http://github.com/dvenkatr"><i class="icon-github"></i></a>
           <a class="person-social-link" href="https://twitter.com/deepa_v"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="https://uk.linkedin.com/in/deepavenkatraman"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -154,11 +141,8 @@
 
         </div>
       </div>
-    </div>
-  
-    <a name="govind"></a>
-    <div class="bordered-section person navigableSection" data-section-link="govind" data-img-src="images/people/govind-200.png" data-img-class="scroll-person-image" data-section-title="govind">        
-      <div class="person-above">
+</div>    <a name="govind"></a>
+<div class="bordered-section person navigableSection" data-section-link="govind" data-img-src="images/people/govind-200.png" data-img-class="scroll-person-image" data-section-title="govind">      <div class="person-above">
         <a href="people.html#govind" class="person-anchor-link">
           <img alt="govind" class="person-image" src="images/people/govind-200.png"/>
         </a>
@@ -168,7 +152,6 @@
         <p class="person-social-links">
           <a class="person-social-link" href="http://github.com/govindkrjoshi"><i class="icon-github"></i></a>
           <a class="person-social-link" href="https://twitter.com/govindkrjoshi"><i class="icon-twitter"></i></a>
-          
         </p>
       </div>
 
@@ -178,11 +161,8 @@
 
         </div>
       </div>
-    </div>
-  
-    <a name="kiran"></a>
-    <div class="bordered-section person navigableSection" data-section-link="kiran" data-img-src="images/people/kiran-200.png" data-img-class="scroll-person-image" data-section-title="kiran">        
-      <div class="person-above">
+</div>    <a name="kiran"></a>
+<div class="bordered-section person navigableSection" data-section-link="kiran" data-img-src="images/people/kiran-200.png" data-img-class="scroll-person-image" data-section-title="kiran">      <div class="person-above">
         <a href="people.html#kiran" class="person-anchor-link">
           <img alt="kiran" class="person-image" src="images/people/kiran-200.png"/>
         </a>
@@ -192,9 +172,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="https://github.com/kirang89"><i class="icon-github"></i></a>
           <a class="person-social-link" href="https://twitter.com/kirang89"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="https://www.linkedin.com/in/kirang89/"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -203,11 +181,8 @@
           
         </div>
       </div>
-    </div>
-  
-    <a name="murtaza"></a>
-    <div class="bordered-section person navigableSection" data-section-link="murtaza" data-img-src="images/people/murtaza-200.png" data-img-class="scroll-person-image" data-section-title="murtaza">        
-      <div class="person-above">
+</div>    <a name="murtaza"></a>
+<div class="bordered-section person navigableSection" data-section-link="murtaza" data-img-src="images/people/murtaza-200.png" data-img-class="scroll-person-image" data-section-title="murtaza">      <div class="person-above">
         <a href="people.html#murtaza" class="person-anchor-link">
           <img alt="murtaza" class="person-image" src="images/people/murtaza-200.png"/>
         </a>
@@ -217,9 +192,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="https://github.com/murtaza0xFF"><i class="icon-github"></i></a>
           <a class="person-social-link" href="https://twitter.com/murtaza0xFF"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="https://www.linkedin.com/in/murtaza-akbari-90597693/"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -228,11 +201,8 @@
           
         </div>
       </div>
-    </div>
-  
-    <a name="nid"></a>
-    <div class="bordered-section person navigableSection" data-section-link="nid" data-img-src="images/people/nid-200.png" data-img-class="scroll-person-image" data-section-title="nid">        
-      <div class="person-above">
+</div>    <a name="nid"></a>
+<div class="bordered-section person navigableSection" data-section-link="nid" data-img-src="images/people/nid-200.png" data-img-class="scroll-person-image" data-section-title="nid">      <div class="person-above">
         <a href="people.html#nid" class="person-anchor-link">
           <img alt="nid" class="person-image" src="images/people/nid-200.png"/>
         </a>
@@ -242,9 +212,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="https://github.com/nid90"><i class="icon-github"></i></a>
           <a class="person-social-link" href="http://twitter.com/nid90"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="http://in.linkedin.com/pub/nivedita-priyadarshini/47/524/386/"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -254,11 +222,8 @@
 
         </div>
       </div>
-    </div>
-  
-    <a name="neena"></a>
-    <div class="bordered-section person navigableSection" data-section-link="neena" data-img-src="images/people/neena-200.png" data-img-class="scroll-person-image" data-section-title="neena">        
-      <div class="person-above">
+</div>    <a name="neena"></a>
+<div class="bordered-section person navigableSection" data-section-link="neena" data-img-src="images/people/neena-200.png" data-img-class="scroll-person-image" data-section-title="neena">      <div class="person-above">
         <a href="people.html#neena" class="person-anchor-link">
           <img alt="neena" class="person-image" src="images/people/neena-200.png"/>
         </a>
@@ -268,9 +233,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="https://github.com/neenaoffline"><i class="icon-github"></i></a>
           <a class="person-social-link" href="http://twitter.com/neenaoffline"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="https://www.linkedin.com/in/ravichandrapadmala"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -280,11 +243,8 @@
 
         </div>
       </div>
-    </div>
-  
-    <a name="prabhanshu"></a>
-    <div class="bordered-section person navigableSection" data-section-link="prabhanshu" data-img-src="images/people/prabhanshu-200.png" data-img-class="scroll-person-image" data-section-title="prabhanshu">        
-      <div class="person-above">
+</div>    <a name="prabhanshu"></a>
+<div class="bordered-section person navigableSection" data-section-link="prabhanshu" data-img-src="images/people/prabhanshu-200.png" data-img-class="scroll-person-image" data-section-title="prabhanshu">      <div class="person-above">
         <a href="people.html#prabhanshu" class="person-anchor-link">
           <img alt="prabhanshu" class="person-image" src="images/people/prabhanshu-200.png"/>
         </a>
@@ -294,9 +254,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="https://github.com/prabhanshuguptagit"><i class="icon-github"></i></a>
           <a class="person-social-link" href="https://twitter.com/twomogambo"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="https://www.linkedin.com/in/prabhanshu-gupta/"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -305,11 +263,8 @@
           
         </div>
       </div>
-    </div>
-  
-    <a name="samrat"></a>
-    <div class="bordered-section person navigableSection" data-section-link="samrat" data-img-src="images/people/samrat-200.png" data-img-class="scroll-person-image" data-section-title="samrat">        
-      <div class="person-above">
+</div>    <a name="samrat"></a>
+<div class="bordered-section person navigableSection" data-section-link="samrat" data-img-src="images/people/samrat-200.png" data-img-class="scroll-person-image" data-section-title="samrat">      <div class="person-above">
         <a href="people.html#samrat" class="person-anchor-link">
           <img alt="samrat" class="person-image" src="images/people/samrat-200.png"/>
         </a>
@@ -319,9 +274,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="https://github.com/samrat"><i class="icon-github"></i></a>
           <a class="person-social-link" href="https://twitter.com/samratmansingh"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="https://www.linkedin.com/in/samrat-man-singh-a31664148/"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -330,11 +283,8 @@
           
         </div>
       </div>
-    </div>
-  
-    <a name="sandy"></a>
-    <div class="bordered-section person navigableSection" data-section-link="sandy" data-img-src="images/people/sandy-200.png" data-img-class="scroll-person-image" data-section-title="sandy">        
-      <div class="person-above">
+</div>    <a name="sandy"></a>
+<div class="bordered-section person navigableSection" data-section-link="sandy" data-img-src="images/people/sandy-200.png" data-img-class="scroll-person-image" data-section-title="sandy">      <div class="person-above">
         <a href="people.html#sandy" class="person-anchor-link">
           <img alt="sandy" class="person-image" src="images/people/sandy-200.png"/>
         </a>
@@ -344,9 +294,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="https://github.com/jysandy"><i class="icon-github"></i></a>
           <a class="person-social-link" href="https://twitter.com/jysandilya"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="https://www.linkedin.com/in/jysandy/"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -355,11 +303,8 @@
           Sandy interned at Cisco and Zopper before joining nilenso. An early riser and a straight shooter, Sandy loves writing Clojure, riding his bicycle, breakfasting at MTR, and fixing his bicycle (in that order). He only uses editors that were created after he was born.
         </div>
       </div>
-    </div>
-  
-    <a name="sezal"></a>
-    <div class="bordered-section person navigableSection" data-section-link="sezal" data-img-src="images/people/sezal-200.png" data-img-class="scroll-person-image" data-section-title="sezal">        
-      <div class="person-above">
+</div>    <a name="sezal"></a>
+<div class="bordered-section person navigableSection" data-section-link="sezal" data-img-src="images/people/sezal-200.png" data-img-class="scroll-person-image" data-section-title="sezal">      <div class="person-above">
         <a href="people.html#sezal" class="person-anchor-link">
           <img alt="sezal" class="person-image" src="images/people/sezal-200.png"/>
         </a>
@@ -369,9 +314,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="https://github.com/sezaljain"><i class="icon-github"></i></a>
           <a class="person-social-link" href="https://twitter.com/sezal_jain"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="https://www.linkedin.com/in/sezal-jain-80823511/"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -380,11 +323,8 @@
           
         </div>
       </div>
-    </div>
-  
-    <a name="shafeeq"></a>
-    <div class="bordered-section person navigableSection" data-section-link="shafeeq" data-img-src="images/people/shafeeq-200.png" data-img-class="scroll-person-image" data-section-title="shafeeq">        
-      <div class="person-above">
+</div>    <a name="shafeeq"></a>
+<div class="bordered-section person navigableSection" data-section-link="shafeeq" data-img-src="images/people/shafeeq-200.png" data-img-class="scroll-person-image" data-section-title="shafeeq">      <div class="person-above">
         <a href="people.html#shafeeq" class="person-anchor-link">
           <img alt="shafeeq" class="person-image" src="images/people/shafeeq-200.png"/>
         </a>
@@ -394,9 +334,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="https://github.com/shafeeq"><i class="icon-github"></i></a>
           <a class="person-social-link" href="https://twitter.com/shafeeq_k"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="https://www.linkedin.com/in/shafeeqk/"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -405,11 +343,8 @@
           <p>Shafeeq's quiet confidence and smiling demeanor belie an ember of passion searing just beneath the surface. When he first joined us, he was loath to engage the ethically treacherous Java ecosystem and longed for the purity of Python. He is no fan of Oracle, no fan of yesteryear's software meatgrinder, and no fan of ignorance. Neither are we.</p> <p>To that end, we traded him an unlimited library, which he chews through like an industrial tree harvester, for a tempered approach to Free Software. He now builds software with Clojure and ClojureScript with the same passion we first saw in him.</p>
         </div>
       </div>
-    </div>
-  
-    <a name="srihari"></a>
-    <div class="bordered-section person navigableSection" data-section-link="srihari" data-img-src="images/people/srihari-200.png" data-img-class="scroll-person-image" data-section-title="srihari">        
-      <div class="person-above">
+</div>    <a name="srihari"></a>
+<div class="bordered-section person navigableSection" data-section-link="srihari" data-img-src="images/people/srihari-200.png" data-img-class="scroll-person-image" data-section-title="srihari">      <div class="person-above">
         <a href="people.html#srihari" class="person-anchor-link">
           <img alt="srihari" class="person-image" src="images/people/srihari-200.png"/>
         </a>
@@ -419,9 +354,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="http://github.com/ssrihari"><i class="icon-github"></i></a>
           <a class="person-social-link" href="http://twitter.com/SrihariSriraman"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="http://www.linkedin.com/in/sriharisriraman"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -430,11 +363,8 @@
           Srihari is a FOSS enthusiast, Gnome, and Gimp lover. He contributed to <a href='https://github.com/ssrihari/Assignment-Management'>eclipse</a> in GSoC'2011, made a spotlight-like <a href='https://github.com/ssrihari/gimp-tito'>tool</a> for gimp, and contributes occasionally to <a href='https://github.com/diaspora/diaspora/commits?author=ssrihari'>diaspora</a>. He practices minimalistic and user centric design for the web. He loves products and seeks the thrill in solving people's problems. He <a href='http://sriharisriraman.in'>blogs</a>, plays basketball, and performs carnatic music ocassionally.
         </div>
       </div>
-    </div>
-  
-    <a name="udit"></a>
-    <div class="bordered-section person navigableSection" data-section-link="udit" data-img-src="images/people/udit-200.png" data-img-class="scroll-person-image" data-section-title="udit">        
-      <div class="person-above">
+</div>    <a name="udit"></a>
+<div class="bordered-section person navigableSection" data-section-link="udit" data-img-src="images/people/udit-200.png" data-img-class="scroll-person-image" data-section-title="udit">      <div class="person-above">
         <a href="people.html#udit" class="person-anchor-link">
           <img alt="udit" class="person-image" src="images/people/udit-200.png"/>
         </a>
@@ -444,9 +374,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="https://github.com/yudistrange"><i class="icon-github"></i></a>
           <a class="person-social-link" href="https://twitter.com/yudistrange"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="https://www.linkedin.com/in/udit-kumar-01690127/"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -455,11 +383,8 @@
           <p align='center'>I have heard eggs help when you &ldquo;WFH&rdquo;&#128540;</p>
         </div>
       </div>
-    </div>
-  
-    <a name="vkrm"></a>
-    <div class="bordered-section person navigableSection" data-section-link="vkrm" data-img-src="images/people/vkrm-200.png" data-img-class="scroll-person-image" data-section-title="vkrm">        
-      <div class="person-above">
+</div>    <a name="vkrm"></a>
+<div class="bordered-section person navigableSection" data-section-link="vkrm" data-img-src="images/people/vkrm-200.png" data-img-class="scroll-person-image" data-section-title="vkrm">      <div class="person-above">
         <a href="people.html#vkrm" class="person-anchor-link">
           <img alt="vkrm" class="person-image" src="images/people/vkrm-200.png"/>
         </a>
@@ -469,9 +394,7 @@
         <p class="person-social-links">
           <a class="person-social-link" href="https://github.com/vkrmis"><i class="icon-github"></i></a>
           <a class="person-social-link" href="https://twitter.com/cvikram"><i class="icon-twitter"></i></a>
-          
             <a class="person-social-link" href="https://www.linkedin.com/in/vikram-chintalapati-23764111a/"><i class="icon-linkedin"></i></a>
-          
         </p>
       </div>
 
@@ -480,9 +403,7 @@
           
         </div>
       </div>
-    </div>
-  
-</div>
+</div></div>
 
 <div class="bordered-section"></div>
 
