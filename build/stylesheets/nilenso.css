@@ -281,7 +281,7 @@ img.human {
 }
 
 .page-link {
-  border: 2px solid white;
+  margin: 2px;
 }
 
 .page-link:hover, .active {
