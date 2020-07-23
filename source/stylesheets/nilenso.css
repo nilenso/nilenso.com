@@ -370,7 +370,7 @@ img.human {
   vertical-align: middle;
 }
 
-@media screen and (width: 800px){
+@media screen and (max-width: 800px){
   .two-column { display: block; }
   .column {
     display: block;
