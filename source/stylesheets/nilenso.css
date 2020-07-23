@@ -127,7 +127,7 @@ ul {
   padding-top: 0;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
   .casestudy { display: block; }
   .casestudy-client-logo {
     display: block;
@@ -370,7 +370,7 @@ img.human {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (width: 800px){
   .two-column { display: block; }
   .column {
     display: block;
@@ -382,7 +382,7 @@ img.human {
   }
 
   .header-logo {
-    float: right;
+    justify-self: end;
   }
 
   .contact-link {

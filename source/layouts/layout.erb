@@ -37,6 +37,12 @@
     <!-- site scripts and styles -->
     <%= stylesheet_link_tag "reset", "font-awesome", "nilenso", "people", "portfolio", "jquery.navobile", "scrollnav", "opensource", "decisions" %>
     <%= javascript_include_tag  "all" %>
+    <%= javascript_include_tag  "jquery-2.0.3.min.js" %>
+    <%= javascript_include_tag  "jquery.bullseye.js" %>
+    <%= javascript_include_tag  "jquery.lazyloadxt.min.js" %>
+    <%= javascript_include_tag  "jquery.lazyloadxt.extra.min.js" %>
+    <%= javascript_include_tag  "jquery.navobile.min.js" %>
+    <%= javascript_include_tag  "jquery.scrollnav.js" %>
 
     <!-- Typekit fonts -->
     <script type="text/javascript" src="//use.typekit.net/xgt4lgm.js"></script>
@@ -47,6 +53,7 @@
 
   <body>
     <header class="nilenso-header">
+      <i class="show-navigation page-link navobile-mobile-only icon-list"></i>
       <div class="header-logo <%= header_visibility_depending_on_homepage_or_not %>">
         <img class="header-logo-image" src="/nilenso-200.png" />
         <a class="header-link logo-name" href="/">nilenso</a>
@@ -70,8 +77,6 @@
           </div>
         </div>
       </div>
-
-      <i class="show-navigation page-link navobile-mobile-only icon-list"></i>
     </header>
 
     <div class="content">
