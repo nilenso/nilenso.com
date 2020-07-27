@@ -95,6 +95,10 @@ ul {
   color: #343434;
 }
 
+.case-study > .section-content {
+  text-align: justify;
+}
+
 .section-content +.section-content {
   padding-top: 16px;
 }
