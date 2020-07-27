@@ -35,16 +35,14 @@
    <link rel='shortcut icon' type='image/x-icon' href='favicon.png'/>
 
     <!-- site scripts and styles -->
-    <link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/nilenso.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/people.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/portfolio.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/jquery.navobile.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/scrollnav.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/opensource.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/decisions.css" media="screen" rel="stylesheet" type="text/css" />
-    <script src="/javascripts/all.js" type="text/javascript"></script>
+    <link href="/stylesheets/reset.css" rel="stylesheet" /><link href="/stylesheets/font-awesome.css" rel="stylesheet" /><link href="/stylesheets/nilenso.css" rel="stylesheet" /><link href="/stylesheets/people.css" rel="stylesheet" /><link href="/stylesheets/portfolio.css" rel="stylesheet" /><link href="/stylesheets/jquery.navobile.css" rel="stylesheet" /><link href="/stylesheets/scrollnav.css" rel="stylesheet" /><link href="/stylesheets/opensource.css" rel="stylesheet" /><link href="/stylesheets/decisions.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
+    <script src="/javascripts/jquery-2.0.3.min.js"></script>
+    <script src="/javascripts/jquery.bullseye.js"></script>
+    <script src="/javascripts/jquery.lazyloadxt.min.js"></script>
+    <script src="/javascripts/jquery.lazyloadxt.extra.min.js"></script>
+    <script src="/javascripts/jquery.navobile.min.js"></script>
+    <script src="/javascripts/jquery.scrollnav.js"></script>
 
     <!-- Typekit fonts -->
     <script type="text/javascript" src="//use.typekit.net/xgt4lgm.js"></script>
@@ -55,22 +53,30 @@
 
   <body>
     <header class="nilenso-header">
+      <i class="show-navigation page-link navobile-mobile-only icon-list"></i>
       <div class="header-logo visible">
         <img class="header-logo-image" src="/nilenso-200.png" />
         <a class="header-link logo-name" href="/">nilenso</a>
       </div>
+
       <div class="page-links">
-        <a class="header-link page-link " href="/">Home</a>
-        <a class="header-link page-link " href="/people.html">People</a>
-        <a class="header-link page-link " href="/recent-tech.html">Tech</a>
-	<a class="header-link page-link active" href="/opensource.html">Open Source</a>
-        <a class="header-link page-link " href="/decisions">Decisions</a>
-        <a class="header-link page-link " href="/careers.html">Careers</a>
-        <a class="header-link page-link " href="/talks.html">Talks</a>
-        <a class="header-link page-link " href="/alumni.html">Alumni</a>
-        <a class="header-link page-link " href="http://blog.nilenso.com">Blog</a>
+        <a class="header-link page-link page-link1 " href="/">Home</a>
+        <a class="header-link page-link page-link2 " href="/people.html">People</a>
+        <a class="header-link page-link page-link3 " href="/recent-tech.html">Tech</a>
+        <a class="header-link page-link page-link4 " href="/careers.html">Careers</a>
+        <div class="page-link dropdown">
+          <span class="header-link">More »</span>
+          <div id="myDropdown" class="dropdown-content">
+            <a class="header-link page-link " href="http://blog.nilenso.com">Blog</a>
+            <a class="header-link page-link " href="/talks.html">Talks</a>
+            <a class="header-link page-link active" href="/opensource.html">Open Source</a>
+            <a class="header-link page-link " href="/internship.html">Internship</a>
+            <a class="header-link page-link " href="/decisions">Decisions</a>
+
+            <a class="header-link page-link " href="/alumni.html">Alumni</a>
+          </div>
+        </div>
       </div>
-      <i class="show-navigation page-link navobile-mobile-only icon-list"></i>
     </header>
 
     <div class="content">
@@ -81,7 +87,6 @@
   <div class="section">
     <h3 class="section-subheading">Hosted</h3>
     <section class="hosted-projects">
-	    
 	    <div class="hosted-project">
 			<div class="project-branding">
 				<div class="project-name">
@@ -91,9 +96,7 @@
 					<img src="/images/nilenso_logos/relay_logo.png" class="project-logo"/>
 				</div>
 				<div class="project-links">
-					
 						<a href="https://relay-chat.com/">website</a> | <a href="https://gitlab.com/nilenso?filter=relay">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">app</div><div class="project-tag">service</div><div class="project-tag">go</div><div class="project-tag">javascript</div><div class="project-tag">clojure</div><div class="project-tag">clojurescript</div>
@@ -103,7 +106,6 @@
 				Relay is modern, hosted, open-source workplace messaging. Sane privacy, sane design. Apps for all platforms. Built on top of Mattermost.
 			</div>
 	    </div>
-	    
 	    <div class="hosted-project">
 			<div class="project-branding">
 				<div class="project-name">
@@ -113,9 +115,7 @@
 					<img src="/images/nilenso_logos/leaflike_logo.png" class="project-logo"/>
 				</div>
 				<div class="project-links">
-					
 						<a href="https://leaflike.nilenso.com">website</a> | <a href="https://github.com/nilenso/leaflike">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">app</div><div class="project-tag">service</div><div class="project-tag">clojure</div>
@@ -125,7 +125,6 @@
 				Leaflike is a bookmarking service — a free replacement for Pocket and Pinboard. Use browser plug-ins to hoard URLs like it's 1997.
 			</div>
 	    </div>
-	    
 	    <div class="hosted-project">
 			<div class="project-branding">
 				<div class="project-name">
@@ -135,9 +134,7 @@
 					<img src="/images/nilenso_logos/kulu_logo.png" class="project-logo"/>
 				</div>
 				<div class="project-links">
-					
 						<a href="https://www.kulu.tech/">website</a> | <a href="https://github.com/nilenso/kulu">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">app</div><div class="project-tag">service</div><div class="project-tag">clojure</div><div class="project-tag">ruby</div><div class="project-tag">java</div>
@@ -147,7 +144,6 @@
 				Kulu is nilenso's application for filing reimbursements. Take a photo of a paper receipt... the accountant deals with the rest.
 			</div>
 	    </div>
-	    
 	    <div class="hosted-project">
 			<div class="project-branding">
 				<div class="project-name">
@@ -157,9 +153,7 @@
 					<img src="/images/nilenso_logos/reviews_logo.png" class="project-logo"/>
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/nilenso/reviews">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">app</div><div class="project-tag">ruby</div>
@@ -169,22 +163,18 @@
 				Reviews is the fieldsesque name of nilenso's application for staff reviews. It's web-based, it uses Google authentication, and it couldn't be more straightforward. Special thanks to <a href="https://twitter.com/timothyandrew">Timothy Andrew</a>.
 			</div>
 	    </div>
-	    
     </section>
 
 
     <h3 class="section-subheading">Production Ready</h3>
 
 	<div class="two-col-layout">
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					kosha
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/carnatic-music/kosha">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">clojure</div>
@@ -193,15 +183,12 @@
 					Open carnatic music database
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					ragavardhini
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/carnatic-music/ragavardhini">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">clojure</div>
@@ -210,15 +197,12 @@
 					Synthesis and generation of carnatic music
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					cooperative-agreement
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/nilenso/cooperative-agreement/">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">tool</div><div class="project-tag">markdown</div>
@@ -227,15 +211,12 @@
 					nilenso is India's first worker-owned technology co-operative. No laws exist to formalize such a corporation. This is our Partnership Agreement and Constitution which ensures all employees are equal partners in the business. If you have questions, email us at <a href="mailto:coop@nilenso.com">coop@nilenso.com</a>.
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					re-crud
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/omnypay/re-crud">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">library</div><div class="project-tag">clojurescript</div><div class="project-tag">re-frame</div><div class="project-tag">react</div>
@@ -244,15 +225,12 @@
 					A crud library for re-frame apps
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					agrajag
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/staples-sparx/Agrajag">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">tool</div><div class="project-tag">clojure</div>
@@ -261,15 +239,12 @@
 					Daemon used to decouple a database cluster from its clients. Agrajag runs on DB nodes, sending repmgr cluster status to Zookeeper.
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					wonko
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/staples-sparx/wonko">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">service</div><div class="project-tag">clojure</div>
@@ -278,15 +253,12 @@
 					Decentralized monitoring and aggregate alerting for service architectures.
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					ringo
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/nilenso/ringo">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">tool</div><div class="project-tag">haskell</div><div class="project-tag">postgres</div>
@@ -295,15 +267,12 @@
 					a tool written in Haskell, that transforms Postgres OLTP database schemas to OLAP database schemas automatically. It is used in production at quintype.com for their analytics and reporting projects.
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					westwind
 				</div>
 				<div class="project-links">
-					
 						<a href="http://westwind.herokuapp.com/">website</a> | <a href="https://github.com/nilenso/westwind">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">app</div><div class="project-tag">ruby</div>
@@ -312,15 +281,12 @@
 					A fun example of the once-hip "functional reactive programming" style, in Ruby. Queries the Twitter firehose for content, constructing nonsensical poems.
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					markdown2clj
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/nilenso/markdown2clj">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">library</div><div class="project-tag">clojure</div>
@@ -329,15 +295,12 @@
 					Clojure library that converts markdown to Clojure data structures
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					wscljs
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/nilenso/wscljs">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">library</div><div class="project-tag">clojurescript</div>
@@ -346,15 +309,12 @@
 					A thin and lightweight websocket client for ClojureScript.
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					honeysql-postgres
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/nilenso/honeysql-postgres">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">library</div><div class="project-tag">clojure</div><div class="project-tag">postgres</div>
@@ -363,15 +323,12 @@
 					library that extends the features of honeysql (the widely used SQL generation clojure library) to support Postgres specific SQL clauses and some basic SQL DDL.
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					postgresql-monitoring
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/nilenso/postgresql-monitoring">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">tool</div><div class="project-tag">clojure</div><div class="project-tag">postgres</div>
@@ -380,15 +337,12 @@
 					a collection of queries to monitor Postgres databases.
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					mailgun
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/nilenso/mailgun">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">library</div><div class="project-tag">clojure</div><div class="project-tag">e-mail</div>
@@ -397,15 +351,12 @@
 					A Clojure wrapper for the <a href="https://mailgun.com">mailgun</a> API.
 				</div>
 			</div>
-		
 			<div class="project-box production-ready-project">
 				<div class="project-name">
 					biomass
 				</div>
 				<div class="project-links">
-					
 						<a href="https://github.com/shafeeq/biomass">source</a>
-					
 				</div>
 				<div class="project-tags">
 					<div class="project-tag">tool</div><div class="project-tag">clojure</div>
@@ -414,21 +365,17 @@
 					Drive Amazon's Mechanical Turk REST API from your Clojure apps.
 				</div>
 			</div>
-		
 	</div>
 
     <h3 class="section-subheading">Contributed</h3>
     <div class="two-col-layout">
-    
     <div class="project-box contributed-project">
       <div class="project">
 	  <div class="section-miniheading">
 	   Simple Server
 	  </div>
 	  <div class="branding-elem">
-	    
 	    <a href="https://www.simple.org/">website</a> | <a href="https://github.com/simpledotorg/simple-server">source</a>
-	    
 	  </div>
 	  <div class="branding-elem">
 	    <div class="project-tag">app</div><div class="project-tag">service</div><div class="project-tag">ruby</div><div class="project-tag">rails</div><div class="project-tag">healthcare</div>
@@ -439,16 +386,13 @@
 	  </div>
       </div>
     </div>
-    
     <div class="project-box contributed-project">
       <div class="project">
 	  <div class="section-miniheading">
 	   JOSM
 	  </div>
 	  <div class="branding-elem">
-	    
 	    <a href="https://josm.openstreetmap.de/">website</a> | <a href="https://josm.openstreetmap.de/wiki/Source%20code">source</a>
-	    
 	  </div>
 	  <div class="branding-elem">
 	    <div class="project-tag">app</div><div class="project-tag">java</div>
@@ -459,12 +403,10 @@
 	  </div>
       </div>
     </div>
-    
     </div>
 
     <h3 class="section-subheading">Less Loved :(</h3>
     <div class="two-col-layout">
-    
     <div class="project-box less-loved-project">
       <div class="project">
 
@@ -472,9 +414,7 @@
 	   Time Tracker
 	  </div>
 	  <div class="branding-elem">
-	    
 	    <a href="https://time.nilenso.com">website</a> | <a href="https://github.com/nilenso/?q=time-tracker">source</a>
-	    
 	  </div>
 
 	  <div class="branding-elem">
@@ -486,7 +426,6 @@
 	  </div>
       </div>
     </div>
-    
     <div class="project-box less-loved-project">
       <div class="project">
 
@@ -494,9 +433,7 @@
 	   Ashoka Survey Tools
 	  </div>
 	  <div class="branding-elem">
-	    
 	    <a href="https://github.com/nilenso/?q=ashoka">source</a>
-	    
 	  </div>
 
 	  <div class="branding-elem">
@@ -508,7 +445,6 @@
 	  </div>
       </div>
     </div>
-    
     <div class="project-box less-loved-project">
       <div class="project">
 
@@ -516,9 +452,7 @@
 	   wikenso
 	  </div>
 	  <div class="branding-elem">
-	    
 	    <a href="https://github.com/nilenso/wikenso">source</a>
-	    
 	  </div>
 
 	  <div class="branding-elem">
@@ -530,7 +464,6 @@
 	  </div>
       </div>
     </div>
-    
     </div>
   </div>
 </div>

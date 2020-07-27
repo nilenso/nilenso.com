@@ -35,16 +35,14 @@
    <link rel='shortcut icon' type='image/x-icon' href='favicon.png'/>
 
     <!-- site scripts and styles -->
-    <link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/nilenso.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/people.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/portfolio.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/jquery.navobile.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/scrollnav.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/opensource.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/decisions.css" media="screen" rel="stylesheet" type="text/css" />
-    <script src="/javascripts/all.js" type="text/javascript"></script>
+    <link href="/stylesheets/reset.css" rel="stylesheet" /><link href="/stylesheets/font-awesome.css" rel="stylesheet" /><link href="/stylesheets/nilenso.css" rel="stylesheet" /><link href="/stylesheets/people.css" rel="stylesheet" /><link href="/stylesheets/portfolio.css" rel="stylesheet" /><link href="/stylesheets/jquery.navobile.css" rel="stylesheet" /><link href="/stylesheets/scrollnav.css" rel="stylesheet" /><link href="/stylesheets/opensource.css" rel="stylesheet" /><link href="/stylesheets/decisions.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
+    <script src="/javascripts/jquery-2.0.3.min.js"></script>
+    <script src="/javascripts/jquery.bullseye.js"></script>
+    <script src="/javascripts/jquery.lazyloadxt.min.js"></script>
+    <script src="/javascripts/jquery.lazyloadxt.extra.min.js"></script>
+    <script src="/javascripts/jquery.navobile.min.js"></script>
+    <script src="/javascripts/jquery.scrollnav.js"></script>
 
     <!-- Typekit fonts -->
     <script type="text/javascript" src="//use.typekit.net/xgt4lgm.js"></script>
@@ -55,22 +53,30 @@
 
   <body>
     <header class="nilenso-header">
+      <i class="show-navigation page-link navobile-mobile-only icon-list"></i>
       <div class="header-logo visible">
         <img class="header-logo-image" src="/nilenso-200.png" />
         <a class="header-link logo-name" href="/">nilenso</a>
       </div>
+
       <div class="page-links">
-        <a class="header-link page-link " href="/">Home</a>
-        <a class="header-link page-link " href="/people.html">People</a>
-        <a class="header-link page-link " href="/recent-tech.html">Tech</a>
-	<a class="header-link page-link " href="/opensource.html">Open Source</a>
-        <a class="header-link page-link " href="/decisions">Decisions</a>
-        <a class="header-link page-link " href="/careers.html">Careers</a>
-        <a class="header-link page-link active" href="/talks.html">Talks</a>
-        <a class="header-link page-link " href="/alumni.html">Alumni</a>
-        <a class="header-link page-link " href="http://blog.nilenso.com">Blog</a>
+        <a class="header-link page-link page-link1 " href="/">Home</a>
+        <a class="header-link page-link page-link2 " href="/people.html">People</a>
+        <a class="header-link page-link page-link3 " href="/recent-tech.html">Tech</a>
+        <a class="header-link page-link page-link4 " href="/careers.html">Careers</a>
+        <div class="page-link dropdown">
+          <span class="header-link">More »</span>
+          <div id="myDropdown" class="dropdown-content">
+            <a class="header-link page-link " href="http://blog.nilenso.com">Blog</a>
+            <a class="header-link page-link active" href="/talks.html">Talks</a>
+            <a class="header-link page-link " href="/opensource.html">Open Source</a>
+            <a class="header-link page-link " href="/internship.html">Internship</a>
+            <a class="header-link page-link " href="/decisions">Decisions</a>
+
+            <a class="header-link page-link " href="/alumni.html">Alumni</a>
+          </div>
+        </div>
       </div>
-      <i class="show-navigation page-link navobile-mobile-only icon-list"></i>
     </header>
 
     <div class="content">
@@ -78,34 +84,112 @@
       <div class="conference-talks section">
   <h2 class="section-heading">Conference Talks</h2>
 
-  
-    <a name="Reducing Accretion in Monoliths with Stream Processing"></a>
-    <div class="bordered-section talk" data-section-link="Reducing Accretion in Monoliths with Stream Processing" data-section-title="Reducing Accretion in Monoliths with Stream Processing">        
-      <div class="talk-video">
+    <a name="Clojure is difficult, but worth it"></a>
+<div class="bordered-section talk" data-section-link="Clojure is difficult, but worth it" data-section-title="Clojure is difficult, but worth it">      <div class="talk-video">
+        <a href="https://www.youtube.com/watch?v=dgu4NPF_mNA" target="_blank">
+          <img src="https://img.youtube.com/vi/dgu4NPF_mNA/maxresdefault.jpg" style="width: 250px"/>
+        </a>
+      </div>
+      <div class="talk-info">
+        <div class="talk-title">
+          <a href="https://www.youtube.com/watch?v=dgu4NPF_mNA" target="_blank">
+            Clojure is difficult, but worth it
+          </a>
+        </div>
+        <div class="talk-speakers">
+            <a href="/people.html#sezal">Sezal Jain</a>
+        </div>
+        <div class="talk.venue">IN/Clojure 2020</div>
+      </div>
+</div>    <a name="After The Crash"></a>
+<div class="bordered-section talk" data-section-link="After The Crash" data-section-title="After The Crash">      <div class="talk-video">
+        <a href="https://www.youtube.com/watch?v=9nbPZOHBsK4" target="_blank">
+          <img src="https://img.youtube.com/vi/9nbPZOHBsK4/maxresdefault.jpg" style="width: 250px"/>
+        </a>
+      </div>
+      <div class="talk-info">
+        <div class="talk-title">
+          <a href="https://www.youtube.com/watch?v=9nbPZOHBsK4" target="_blank">
+            After The Crash
+          </a>
+        </div>
+        <div class="talk-speakers">
+            <a href="/people.html#neena">Ravi Chandra Padmala</a>
+        </div>
+        <div class="talk.venue">Functional Conf 2019</div>
+      </div>
+</div>    <a name="Scalable distributed systems in Elixir"></a>
+<div class="bordered-section talk" data-section-link="Scalable distributed systems in Elixir" data-section-title="Scalable distributed systems in Elixir">      <div class="talk-video">
+        <a href="https://www.youtube.com/watch?v=yMJ2u6J3Cb0" target="_blank">
+          <img src="https://img.youtube.com/vi/yMJ2u6J3Cb0/maxresdefault.jpg" style="width: 250px"/>
+        </a>
+      </div>
+      <div class="talk-info">
+        <div class="talk-title">
+          <a href="https://www.youtube.com/watch?v=yMJ2u6J3Cb0" target="_blank">
+            Scalable distributed systems in Elixir
+          </a>
+        </div>
+        <div class="talk-speakers">
+            <a href="/people.html#udit">Udit Kumar</a>
+        </div>
+        <div class="talk.venue">Rootconf 2019</div>
+      </div>
+</div>    <a name="async/await in Clojure using conquerant"></a>
+<div class="bordered-section talk" data-section-link="async/await in Clojure using conquerant" data-section-title="async/await in Clojure using conquerant">      <div class="talk-video">
+        <a href="https://www.youtube.com/watch?v=kyvKOnxFoeY" target="_blank">
+          <img src="https://img.youtube.com/vi/kyvKOnxFoeY/maxresdefault.jpg" style="width: 250px"/>
+        </a>
+      </div>
+      <div class="talk-info">
+        <div class="talk-title">
+          <a href="https://www.youtube.com/watch?v=kyvKOnxFoeY" target="_blank">
+            async/await in Clojure using conquerant
+          </a>
+        </div>
+        <div class="talk-speakers">
+            <a href="/people.html#divyansh">Divyansh Prakash</a>
+        </div>
+        <div class="talk.venue">IN/Clojure 2019</div>
+      </div>
+</div>    <a name="Reducing Accretion in Monoliths"></a>
+<div class="bordered-section talk" data-section-link="Reducing Accretion in Monoliths" data-section-title="Reducing Accretion in Monoliths">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=AOCoYf2TS5Q" target="_blank">
-          <img src="http://img.youtube.com/vi/AOCoYf2TS5Q/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/AOCoYf2TS5Q/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
         <div class="talk-title">
           <a href="https://www.youtube.com/watch?v=AOCoYf2TS5Q" target="_blank">
-            Reducing Accretion in Monoliths with Stream Processing
+            Reducing Accretion in Monoliths
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#kitallis">Akshay Gupta and Sourabh Ghorpade (Go-Jek)</a>
-          
         </div>
         <div class="talk.venue">clojureD 2019</div>
       </div>
-   </div>
-  
-    <a name="Engineering to embrace change"></a>
-    <div class="bordered-section talk" data-section-link="Engineering to embrace change" data-section-title="Engineering to embrace change">        
-      <div class="talk-video">
+</div>    <a name="Generative Testing Patterns"></a>
+<div class="bordered-section talk" data-section-link="Generative Testing Patterns" data-section-title="Generative Testing Patterns">      <div class="talk-video">
+        <a href="https://www.youtube.com/watch?v=8S5UKQr1dTM" target="_blank">
+          <img src="https://img.youtube.com/vi/8S5UKQr1dTM/maxresdefault.jpg" style="width: 250px"/>
+        </a>
+      </div>
+      <div class="talk-info">
+        <div class="talk-title">
+          <a href="https://www.youtube.com/watch?v=8S5UKQr1dTM" target="_blank">
+            Generative Testing Patterns
+          </a>
+        </div>
+        <div class="talk-speakers">
+            <a href="/people.html#srihari">Srihari Sriraman</a>
+        </div>
+        <div class="talk.venue">Functional Conf 2018</div>
+      </div>
+</div>    <a name="Engineering to embrace change"></a>
+<div class="bordered-section talk" data-section-link="Engineering to embrace change" data-section-title="Engineering to embrace change">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=1FqOF9P0nEY" target="_blank">
-          <img src="http://img.youtube.com/vi/1FqOF9P0nEY/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/1FqOF9P0nEY/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -115,19 +199,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#srihari">Srihari Sriraman</a>
-          
         </div>
         <div class="talk.venue">Meta Refresh 2018</div>
       </div>
-   </div>
-  
-    <a name="Making machines that make music"></a>
-    <div class="bordered-section talk" data-section-link="Making machines that make music" data-section-title="Making machines that make music">        
-      <div class="talk-video">
+</div>    <a name="Making machines that make music"></a>
+<div class="bordered-section talk" data-section-link="Making machines that make music" data-section-title="Making machines that make music">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=u9CGcusOz60" target="_blank">
-          <img src="http://img.youtube.com/vi/u9CGcusOz60/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/u9CGcusOz60/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -137,19 +216,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#srihari">Srihari Sriraman</a>
-          
         </div>
         <div class="talk.venue">Strange Loop 2018</div>
       </div>
-   </div>
-  
-    <a name="Practical Generative Testing Patterns"></a>
-    <div class="bordered-section talk" data-section-link="Practical Generative Testing Patterns" data-section-title="Practical Generative Testing Patterns">        
-      <div class="talk-video">
+</div>    <a name="Practical Generative Testing Patterns"></a>
+<div class="bordered-section talk" data-section-link="Practical Generative Testing Patterns" data-section-title="Practical Generative Testing Patterns">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=zjbcayvTcKQ" target="_blank">
-          <img src="http://img.youtube.com/vi/zjbcayvTcKQ/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/zjbcayvTcKQ/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -159,19 +233,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#srihari">Srihari Sriraman</a>
-          
         </div>
         <div class="talk.venue">Dutch Clojure Days 2018</div>
       </div>
-   </div>
-  
-    <a name="Generative Tests in Clojure"></a>
-    <div class="bordered-section talk" data-section-link="Generative Tests in Clojure" data-section-title="Generative Tests in Clojure">        
-      <div class="talk-video">
+</div>    <a name="Generative Tests in Clojure"></a>
+<div class="bordered-section talk" data-section-link="Generative Tests in Clojure" data-section-title="Generative Tests in Clojure">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=uiGLdaZN39w" target="_blank">
-          <img src="http://img.youtube.com/vi/uiGLdaZN39w/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/uiGLdaZN39w/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -181,19 +250,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#shafeeq">Shafeeq Kunnakkadan</a>
-          
         </div>
         <div class="talk.venue">IN/Clojure 2018</div>
       </div>
-   </div>
-  
-    <a name="REPL driven mobile development <br> with Clojure(script)"></a>
-    <div class="bordered-section talk" data-section-link="REPL driven mobile development &lt;br&gt; with Clojure(script)" data-section-title="REPL driven mobile development &lt;br&gt; with Clojure(script)">        
-      <div class="talk-video">
+</div>    <a name="REPL driven mobile development <br> with Clojure(script)"></a>
+<div class="bordered-section talk" data-section-link="REPL driven mobile development &lt;br&gt; with Clojure(script)" data-section-title="REPL driven mobile development &lt;br&gt; with Clojure(script)">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=toGEegAzrZA" target="_blank">
-          <img src="http://img.youtube.com/vi/toGEegAzrZA/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/toGEegAzrZA/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -203,19 +267,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#srihari">Srihari Sriraman</a>
-          
         </div>
         <div class="talk.venue">Fragments 2017</div>
       </div>
-   </div>
-  
-    <a name="Moving People with Clojure"></a>
-    <div class="bordered-section talk" data-section-link="Moving People with Clojure" data-section-title="Moving People with Clojure">        
-      <div class="talk-video">
+</div>    <a name="Moving People with Clojure"></a>
+<div class="bordered-section talk" data-section-link="Moving People with Clojure" data-section-title="Moving People with Clojure">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=3y7xzH8jB8A" target="_blank">
-          <img src="http://img.youtube.com/vi/3y7xzH8jB8A/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/3y7xzH8jB8A/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -225,19 +284,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#abhinav">Abhinav Sarkar and Kartik Gupta (Go-Jek)</a>
-          
         </div>
         <div class="talk.venue">EuroClojure 2017</div>
       </div>
-   </div>
-  
-    <a name="A Postgres Orchestra"></a>
-    <div class="bordered-section talk" data-section-link="A Postgres Orchestra" data-section-title="A Postgres Orchestra">        
-      <div class="talk-video">
+</div>    <a name="A Postgres Orchestra"></a>
+<div class="bordered-section talk" data-section-link="A Postgres Orchestra" data-section-title="A Postgres Orchestra">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=oDB1rJD7pa0" target="_blank">
-          <img src="http://img.youtube.com/vi/oDB1rJD7pa0/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/oDB1rJD7pa0/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -247,19 +301,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#kitallis">Akshay Gupta</a>
-          
         </div>
         <div class="talk.venue">PGConf India 2017</div>
       </div>
-   </div>
-  
-    <a name="Transparency in Work"></a>
-    <div class="bordered-section talk" data-section-link="Transparency in Work" data-section-title="Transparency in Work">        
-      <div class="talk-video">
+</div>    <a name="Transparency in Work"></a>
+<div class="bordered-section talk" data-section-link="Transparency in Work" data-section-title="Transparency in Work">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=u__x4JjvJTo" target="_blank">
-          <img src="http://img.youtube.com/vi/u__x4JjvJTo/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/u__x4JjvJTo/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -269,19 +318,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#steven">Steven Deobald</a>
-          
         </div>
         <div class="talk.venue">Creative Mornings 2016</div>
       </div>
-   </div>
-  
-    <a name="Making Machines that Make Music"></a>
-    <div class="bordered-section talk" data-section-link="Making Machines that Make Music" data-section-title="Making Machines that Make Music">        
-      <div class="talk-video">
+</div>    <a name="Making Machines that Make Music"></a>
+<div class="bordered-section talk" data-section-link="Making Machines that Make Music" data-section-title="Making Machines that Make Music">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=ZvSSeuzN_b4" target="_blank">
-          <img src="http://img.youtube.com/vi/ZvSSeuzN_b4/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/ZvSSeuzN_b4/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -291,19 +335,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#srihari">Srihari Sriraman</a>
-          
         </div>
         <div class="talk.venue">EuroClojure 2016</div>
       </div>
-   </div>
-  
-    <a name="What I wish I knew as a newbie designer"></a>
-    <div class="bordered-section talk" data-section-link="What I wish I knew as a newbie designer" data-section-title="What I wish I knew as a newbie designer">        
-      <div class="talk-video">
+</div>    <a name="What I wish I knew as a newbie designer"></a>
+<div class="bordered-section talk" data-section-link="What I wish I knew as a newbie designer" data-section-title="What I wish I knew as a newbie designer">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=ZzB5-EK4sgQ" target="_blank">
-          <img src="http://img.youtube.com/vi/ZzB5-EK4sgQ/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/ZzB5-EK4sgQ/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -313,19 +352,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#noopur">Noopur Varma</a>
-          
         </div>
         <div class="talk.venue">Meta Refresh 2016</div>
       </div>
-   </div>
-  
-    <a name="On the building of a Postgres cluster"></a>
-    <div class="bordered-section talk" data-section-link="On the building of a Postgres cluster" data-section-title="On the building of a Postgres cluster">        
-      <div class="talk-video">
+</div>    <a name="On the building of a Postgres cluster"></a>
+<div class="bordered-section talk" data-section-link="On the building of a Postgres cluster" data-section-title="On the building of a Postgres cluster">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=sGJDg5ba0iI" target="_blank">
-          <img src="http://img.youtube.com/vi/sGJDg5ba0iI/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/sGJDg5ba0iI/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -335,19 +369,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#srihari">Srihari Sriraman</a>
-          
         </div>
         <div class="talk.venue">RootConf 2016</div>
       </div>
-   </div>
-  
-    <a name="Vipassana for Hackers"></a>
-    <div class="bordered-section talk" data-section-link="Vipassana for Hackers" data-section-title="Vipassana for Hackers">        
-      <div class="talk-video">
+</div>    <a name="Vipassana for Hackers"></a>
+<div class="bordered-section talk" data-section-link="Vipassana for Hackers" data-section-title="Vipassana for Hackers">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=1BWYqHbF00c" target="_blank">
-          <img src="http://img.youtube.com/vi/1BWYqHbF00c/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/1BWYqHbF00c/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -357,19 +386,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#steven">Steven Deobald</a>
-          
         </div>
         <div class="talk.venue">XTC 2016</div>
       </div>
-   </div>
-  
-    <a name="Two Years Wiser, The Nilenso Experiment"></a>
-    <div class="bordered-section talk" data-section-link="Two Years Wiser, The Nilenso Experiment" data-section-title="Two Years Wiser, The Nilenso Experiment">        
-      <div class="talk-video">
+</div>    <a name="Two Years Wiser, The Nilenso Experiment"></a>
+<div class="bordered-section talk" data-section-link="Two Years Wiser, The Nilenso Experiment" data-section-title="Two Years Wiser, The Nilenso Experiment">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=uYTFCSZb3Kc" target="_blank">
-          <img src="http://img.youtube.com/vi/uYTFCSZb3Kc/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/uYTFCSZb3Kc/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -379,19 +403,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#steven">Steven Deobald</a>
-          
         </div>
         <div class="talk.venue">The Fifth Elephant 2015</div>
       </div>
-   </div>
-  
-    <a name="Introduction To Concurrency In Haskell"></a>
-    <div class="bordered-section talk" data-section-link="Introduction To Concurrency In Haskell" data-section-title="Introduction To Concurrency In Haskell">        
-      <div class="talk-video">
+</div>    <a name="Introduction To Concurrency In Haskell"></a>
+<div class="bordered-section talk" data-section-link="Introduction To Concurrency In Haskell" data-section-title="Introduction To Concurrency In Haskell">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=uVK3t-5wWew" target="_blank">
-          <img src="http://img.youtube.com/vi/uVK3t-5wWew/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/uVK3t-5wWew/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -401,19 +420,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#abhinav">Abhinav Sarkar</a>
-          
         </div>
         <div class="talk.venue">Functional Conf 2015</div>
       </div>
-   </div>
-  
-    <a name="Building an Experimentation Platform <br> in Clojure"></a>
-    <div class="bordered-section talk" data-section-link="Building an Experimentation Platform &lt;br&gt; in Clojure" data-section-title="Building an Experimentation Platform &lt;br&gt; in Clojure">        
-      <div class="talk-video">
+</div>    <a name="Building an Experimentation Platform <br> in Clojure"></a>
+<div class="bordered-section talk" data-section-link="Building an Experimentation Platform &lt;br&gt; in Clojure" data-section-title="Building an Experimentation Platform &lt;br&gt; in Clojure">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=YjfXhhxw9Bs" target="_blank">
-          <img src="http://img.youtube.com/vi/YjfXhhxw9Bs/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/YjfXhhxw9Bs/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -423,19 +437,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#nid">Nivedita Priyadarshini & Srihari Sriraman</a>
-          
         </div>
         <div class="talk.venue">Functional Conf 2015</div>
       </div>
-   </div>
-  
-    <a name="Carnatic Music Synthesis In Clojure"></a>
-    <div class="bordered-section talk" data-section-link="Carnatic Music Synthesis In Clojure" data-section-title="Carnatic Music Synthesis In Clojure">        
-      <div class="talk-video">
+</div>    <a name="Carnatic Music Synthesis In Clojure"></a>
+<div class="bordered-section talk" data-section-link="Carnatic Music Synthesis In Clojure" data-section-title="Carnatic Music Synthesis In Clojure">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=12Uj6gpPA7k" target="_blank">
-          <img src="http://img.youtube.com/vi/12Uj6gpPA7k/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/12Uj6gpPA7k/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -445,19 +454,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             <a href="/people.html#srihari">Srihari Sriraman</a>
-          
         </div>
         <div class="talk.venue">Functional Conf 2015</div>
       </div>
-   </div>
-  
-    <a name="Resilient by Design"></a>
-    <div class="bordered-section talk" data-section-link="Resilient by Design" data-section-title="Resilient by Design">        
-      <div class="talk-video">
+</div>    <a name="Resilient by Design"></a>
+<div class="bordered-section talk" data-section-link="Resilient by Design" data-section-title="Resilient by Design">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=_yEz9-Vu8YM" target="_blank">
-          <img src="http://img.youtube.com/vi/_yEz9-Vu8YM/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/_yEz9-Vu8YM/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -467,19 +471,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             Smit Shah
-          
         </div>
         <div class="talk.venue">RailsConf 2015</div>
       </div>
-   </div>
-  
-    <a name="Monads you already use without knowing"></a>
-    <div class="bordered-section talk" data-section-link="Monads you already use without knowing" data-section-title="Monads you already use without knowing">        
-      <div class="talk-video">
+</div>    <a name="Monads you already use without knowing"></a>
+<div class="bordered-section talk" data-section-link="Monads you already use without knowing" data-section-title="Monads you already use without knowing">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=tmtKJ35N-TA" target="_blank">
-          <img src="http://img.youtube.com/vi/tmtKJ35N-TA/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/tmtKJ35N-TA/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -489,19 +488,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             Tejas Dinkar
-          
         </div>
         <div class="talk.venue">Functional Conf 2014</div>
       </div>
-   </div>
-  
-    <a name="Native Extensions Served 3 Ways"></a>
-    <div class="bordered-section talk" data-section-link="Native Extensions Served 3 Ways" data-section-title="Native Extensions Served 3 Ways">        
-      <div class="talk-video">
+</div>    <a name="Native Extensions Served 3 Ways"></a>
+<div class="bordered-section talk" data-section-link="Native Extensions Served 3 Ways" data-section-title="Native Extensions Served 3 Ways">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=bI5oJr4ueQc" target="_blank">
-          <img src="http://img.youtube.com/vi/bI5oJr4ueQc/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/bI5oJr4ueQc/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -511,19 +505,14 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             Tejas Dinkar
-          
         </div>
         <div class="talk.venue">Garden City RubyConf 2014</div>
       </div>
-   </div>
-  
-    <a name="The Tao of Ruby"></a>
-    <div class="bordered-section talk" data-section-link="The Tao of Ruby" data-section-title="The Tao of Ruby">        
-      <div class="talk-video">
+</div>    <a name="The Tao of Ruby"></a>
+<div class="bordered-section talk" data-section-link="The Tao of Ruby" data-section-title="The Tao of Ruby">      <div class="talk-video">
         <a href="https://www.youtube.com/watch?v=4A2nAK6H6BU" target="_blank">
-          <img src="http://img.youtube.com/vi/4A2nAK6H6BU/0.jpg" style="width: 200px"/>
+          <img src="https://img.youtube.com/vi/4A2nAK6H6BU/maxresdefault.jpg" style="width: 250px"/>
         </a>
       </div>
       <div class="talk-info">
@@ -533,15 +522,11 @@
           </a>
         </div>
         <div class="talk-speakers">
-          
             Steven Deobald and Akshay Gupta
-          
         </div>
         <div class="talk.venue">RubyConf India 2013</div>
       </div>
-   </div>
-  
-</div>
+</div></div>
 
 <div class="footer">
   <div class="section-content contact-info">

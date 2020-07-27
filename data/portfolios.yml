@@ -25,6 +25,14 @@
 -
   quote: ""
   quoter: ""
+  company: "Grofers"
+  company_nick: "grofers"
+  company_short_name: "grofers"
+  company_link: "https://grofers.com/"
+  logo: "images/client_logos/grofers.png"
+-
+  quote: ""
+  quoter: ""
   company: "Insider"
   company_nick: "insider"
   company_short_name: "insider"
