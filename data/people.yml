@@ -1,13 +1,4 @@
 -
-  nick: "abhik"
-  picture: "images/people/abhik-200.png"
-  github: "https://github.com/trycatcher"
-  name: "Abhik Khanra"
-  bio:
-  twitter: "https://twitter.com/Ryecatcher"
-  linkedin: "http://in.linkedin.com/in/kitallis"
-
--
   nick: "kitallis"
   picture: "images/people/kitallis-200.png"
   github: "http://github.com/kitallis"
@@ -18,6 +9,15 @@
     <p>He loves cycling, listening to noise rock, and has recently re-discovered his fondness for Snakeboarding.</p>
   twitter: "http://twitter.com/kitallis"
   linkedin: "http://in.linkedin.com/in/kitallis"
+
+-
+  nick: "dan"
+  picture: "images/people/dan-200.jpg"
+  github: "https://github.com/danySam"
+  name: "Dany Sam Salmon"
+  bio:
+  twitter: "https://twitter.com/_danySam"
+  linkedin: "https://www.linkedin.com/in/danysam/"
 
 -
   nick: "deepa"
