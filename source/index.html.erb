@@ -36,7 +36,7 @@ title: Home
   <p class="people-more section-content-more">
     <% data.people.each do |person| %>
       <a class="person-link" href="people.html#<%= person.nick %>">
-        <img alt="<%= person.name %> 200" class="human grayscale" src="images/people/<%= person.nick %>-200.png" />
+        <img alt="<%= person.name %> 200" class="human grayscale" src="<%= person.picture %>" />
       </a>
     <% end %>
   </p>
