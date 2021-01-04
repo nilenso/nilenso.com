@@ -4,13 +4,22 @@
   github: "https://github.com/adityaathalye"
   name: "Aditya Athalye"
   bio: >
-    <p>Aditya is a seasoned programmer and business mind with more than a decade and a half of work experience. He was previously an entrepreneur, strategy consultant, marketing and social media expert. For the past decade or us, he has focused his efforts on DevOps, Release engineering, Test engineering, and backend application development. He's partial to Functional Programming, with Clojure, Ansible, Terraform, Bash, and Kotlin being his tools of choice.</p>
-    <p>Someone who loves to share his knowledge, he has designed and taught workshops at Functional Conf, IN/Clojure, LambdaWorld (Seattle), and for staff education at work.</p> 
+    <p>Aditya is a suit-turned-software engineer, with over a decade and half of experience. He was variously a strategy consultant, entrepreneur, marketer, and project manager in the first half of his career. Since 2013, he's worked across DevOps, Release engineering, Test engineering, and backend application development.</p>
+    <p>A self-taught programmer, Aditya loves to learn and to share his knowledge. He has designed and taught workshops at Functional Conf, IN/Clojure, LambdaWorld (Seattle), and for staff education at work. He's partial to Functional Programmjng, and thus far he's made things using Clojure, Ansible, Terraform, some Kotlin, and a generous dash of Bash.</p> 
     <p>He uses both Emacs and Vim, but mainly Emacs ;)</p>
     <p>Aditya is too cool for social media.</p>
-  twitter: 
+  twitter:
   linkedin: 
 
+-
+  nick: "akshata"
+  picture: "images/people/akshatha-200.jpg"
+  github: "https://github.com/orgs/nilenso/people/qptr"
+  name: "Akshata Herle"
+  bio: >
+    <p>Akshatha is a Functional Programmer and ML enthusiast. In her spare time, she likes to tinker with MATLAB.</p>
+  twitter: 
+  linkedin: 
 
 -
   nick: "kitallis"
