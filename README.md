@@ -6,6 +6,7 @@
 brew install rbenv
 brew install ruby-build
 rbenv install 2.6.3
+rbenv init and follow the instructions
 gem install bundler
 bundle install
 ```

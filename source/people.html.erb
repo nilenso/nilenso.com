@@ -17,7 +17,9 @@ title: People
 
         <p class="person-social-links">
           <a class="person-social-link" href="<%= person.github %>"><i class="icon-github"></i></a>
-          <a class="person-social-link" href="<%= person.twitter %>"><i class="icon-twitter"></i></a>
+          <% if person.twitter.present? %>
+            <a class="person-social-link" href="<%= person.twitter %>"><i class="icon-twitter"></i></a>
+          <% end %>
           <% if person.linkedin.present? %>
             <a class="person-social-link" href="<%= person.linkedin %>"><i class="icon-linkedin"></i></a>
           <% end %>
