@@ -96,6 +96,15 @@
   linkedin: "http://in.linkedin.com/pub/jithu-gopal/b/119/842/"
 
 -
+  nick: "murtaza"
+  picture: "images/people/murtaza-200.png"
+  github: "https://github.com/murtaza0xFF"
+  name: "Murtaza Akbari"
+  bio:
+  twitter: "https://twitter.com/murtaza0xFF"
+  linkedin: "https://www.linkedin.com/in/murtaza-akbari-90597693/"
+
+-
   nick: "neha"
   picture: "images/people/neha-200.png"
   github: "http://github.com/Bodhisattva2-0"
@@ -124,6 +133,15 @@
     also likes to pursue his interests in quizzing, traveling, and cooking.
   twitter: "http://twitter.com/prashantwit"
   linkedin: "http://in.linkedin.com/pub/prashant-karpe/11/512/28a/"
+
+-
+  nick: "samrat"
+  picture: "images/people/samrat-200.png"
+  github: "https://github.com/samrat"
+  name: "Samrat Man Singh"
+  bio:
+  twitter: "https://twitter.com/samratmansingh"
+  linkedin: "https://www.linkedin.com/in/samrat-man-singh-a31664148/"
 
 -
   nick: "smit"

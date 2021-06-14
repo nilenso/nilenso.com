@@ -76,15 +76,6 @@
   linkedin: "https://www.linkedin.com/in/kirang89/"
 
 -
-  nick: "murtaza"
-  picture: "images/people/murtaza-200.png"
-  github: "https://github.com/murtaza0xFF"
-  name: "Murtaza Akbari"
-  bio:
-  twitter: "https://twitter.com/murtaza0xFF"
-  linkedin: "https://www.linkedin.com/in/murtaza-akbari-90597693/"
-
--
   nick: "nid"
   picture: "images/people/nid-200.png"
   github: "https://github.com/nid90"
@@ -114,15 +105,6 @@
   linkedin: "https://www.linkedin.com/in/prabhanshu-gupta/"
 
 -
-  nick: "samrat"
-  picture: "images/people/samrat-200.png"
-  github: "https://github.com/samrat"
-  name: "Samrat Man Singh"
-  bio:
-  twitter: "https://twitter.com/samratmansingh"
-  linkedin: "https://www.linkedin.com/in/samrat-man-singh-a31664148/"
-
--
   nick: "sandy"
   picture: "images/people/sandy-200.png"
   github: "https://github.com/jysandy"
@@ -149,6 +131,15 @@
     <p>To that end, we traded him an unlimited library, which he chews through like an industrial tree harvester, for a tempered approach to Free Software. He now builds software with Clojure and ClojureScript with the same passion we first saw in him.</p>"
   twitter: "https://twitter.com/shafeeq_k"
   linkedin: "https://www.linkedin.com/in/shafeeqk/"
+
+-
+  nick: "soumya"
+  picture: "images/people/soumya-400.png"
+  name: "Soumya Pillai"
+  bio: "<p>A product consultant who likes to think of herself as a creator, Soumya brings a passion for digital products as well as over a decade of experience across engineering, project and product management to nilenso. A checklist junkie, she is passionate about digital products and thinks of almost everybody as an end-user.</p>
+<p>Soumya engages her creative muscles by writing children’s books and cooking. Every day is a new normal and a chance at a new pet project for her.</p>"
+  twitter: "https://mobile.twitter.com/SoumyaPillai"
+  linkedin: "https://www.linkedin.com/in/soumya-pillai-2215735b/"
 
 -
   nick: "srihari"
