@@ -11,7 +11,7 @@
   line-height: 26px;
 }
 
-.job-post h1.section-heading, h2.section-heading, h3 {
+.job-post h1.section-heading, .job-post h2.section-heading, .job-post h3 {
   text-align: left;
   margin-bottom: 0.5em;
 }
