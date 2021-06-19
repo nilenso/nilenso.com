@@ -1,4 +1,4 @@
-.job-post a {
+.job-post a, .job-post .section-content strong {
   color: #f8337d;
 }
 
