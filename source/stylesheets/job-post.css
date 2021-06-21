@@ -32,3 +32,10 @@
 .job-post .section-content li {
   margin-bottom: 0.5em;
 }
+
+.job-post .section-content.action-item {
+  margin: 2em 0 0em;
+  border-top: 1px dotted #f8337d;
+  border-bottom: 1px dotted #f8337d;
+  padding: 1em 0;
+}
