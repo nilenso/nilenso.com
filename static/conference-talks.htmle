@@ -1,0 +1,232 @@
+<!doctype html>
+<html  lang="en">      
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    <meta name="msapplication-TileColor" content="#FF3D84">
+    <meta name="theme-color" content="#FF3D84">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Nilenso</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://dashpad.co/nilenso/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://dashpad.co/nilenso/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://dashpad.co/nilenso/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://dashpad.co/nilenso/site.webmanifest">
+    <link rel="stylesheet" href="https://use.typekit.net/fmw6nmr.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="antialiased bg-white md:max-w-[1366px] mx-auto w-full" style="font-family: museo-sans, sans-serif;">
+    
+    <main class=""> 
+        <header class="py-12 px-6 md:py-16 xl:py-20 md:px-12 bg-white">
+            <div class="md:hidden">
+                <nav  class="w-full items-center flex justify-between">
+                    <a href="https://dashpad.co/nilenso/index.html">
+                        <figure class="w-20">
+                                <img src="images/svg/logo.svg" alt="Logo" class="w-full">
+                        </figure>
+                    </a>
+                    <div id="menuToggle" class="flex items-center">
+                        <div>
+                            <input type="checkbox">
+                                <span class="bg-black w-5 h-0.5	 rounded-md mb-1 block relative z-10"></span>
+                                <span class="bg-black w-5 h-0.5	 rounded-md mb-1 block relative z-10"></span>
+                                <span class="bg-black w-5 h-0.5	 rounded-md mb-1 block relative z-10"></span>
+                                <div id="menu" class="absolute top-0 left-0 w-full h-screen pt-12 ">
+                                    <div class="relative">
+                                        <a href="https://dashpad.co/nilenso/index.html" class="px-6 block">
+                                            <figure class="w-20">
+                                                <img src="images/svg/logo.svg" alt="Logo" class="w-full">
+                                            </figure>
+                                        </a>
+                                        <ul class="pt-16 ">
+                                            <li><a href="https://dashpad.co/nilenso/index.html" class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b-1 border-gray-100 text-black hover:text-pink-500 transition ease-in duration-100 delay-100">home</a></li>
+                                            <li><a href="https://dashpad.co/nilenso/work.html" class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b-1 border-gray-100 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">work</a></li>
+                                            <li><a href="conference-talks.html" class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b-1 border-gray-100 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">talks</a></li>
+                                            <li><a href="https://dashpad.co/nilenso/people.html" class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b-1 border-gray-100 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">people</a></li>
+                                            <li><a href="https://dashpad.co/nilenso/jobs.html" class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b-1 border-gray-100 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">jobs</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="bg-pink-500 absolute bottom-0 py-12 w-full px-6">
+                                        <div class="flex justify-between items-center">
+                                            <h3 class="text-white font-light text-xl md:text-2xl leading-tight	lg:text-4xl md:leading-loose">india + canada</h3>
+                                            <ul>
+                                                <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70	pb-3"><a href="mailto:hello@nilenso.com">hello@nilenso.com</a></li>
+                                                <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70	pb-3"><a href="https://twitter.com/nilenso" target="_blank">@nilenso</a></li>
+                                                <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70"><a href="https://github.com/nilenso" target="_blank">github.com/nilenso</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                        </div>
+                    </div>
+                </nav>
+                </div>
+                <nav>
+                    <div class="hidden md:flex items-center justify-between">
+                        <a href="https://dashpad.co/nilenso/index.html">
+                            <figure>
+                                <img src="images/svg/logo.svg" alt="Logo" class="w-full">
+                            </figure>
+                        </a>
+                        <ul class="flex">
+                            <li><a href="https://dashpad.co/nilenso/index.html" class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">h<span class="font-bold text-pink-500">o</span>me</a></li>
+                            <li><a href="https://dashpad.co/nilenso/work.html" class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">work</a></li>
+                            <li><a href="conference-talks.html" class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">conference talks</a></li>
+                            <li><a href="https://dashpad.co/nilenso/people.html" class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">people</a></li>
+                            <li><a href="https://dashpad.co/nilenso/jobs.html" class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">jobs</a></li>
+                            <li><a href="https://dashpad.co/nilenso/jobs-more.html" class="font-normal text-base leading-tight tracking-wider text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+        </header>
+        <section class="py-10 px-6 md:py-10 md:px-8 lg:py-20 lg:px-12 bg-pink-500">
+            <div>
+                <h2 class="font-light text-xl leading-snug	 md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-white md:leading-tight tracking-tight	">members of the nilenso team have given talks at conferences around the world.</h2>
+            </div>
+        </section>
+        <section class="md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
+            <div class="flex items-center justify-between">
+                <div>
+                    <div class="flex">
+                        <h6 class="lg:text-3xl text-xl  leading-normal text-block">Sort </h6>
+                        <div class="flex justify-end lg:ml-8 md:ml-6 ml-4">
+                            <select style="background-image: url(images/svg/drop-down.svg);background-position: right 0 bottom 17px;background-size: 14px;" class="border-b-1 border-gray-700 lg:w-[19.125rem] md:w-40 w-20	 appearance-none bg-no-repeat bg-transparent text-pink-500 lg:text-2xl md:text-xl text-base leading-tight font-light focus:outline-none">
+                                <option>Latest</option>
+                                <option>Latest</option>
+                                <option>Latest</option>
+                                <option>Latest</option>
+                                <option>Latest</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <h6 class="lg:text-3xl text-xl  leading-normal text-block">Category </h6>
+                        <div class="flex justify-end lg:ml-8 md:ml-6 ml-4">
+                            <select style="background-image: url(images/svg/drop-down.svg);background-position: right 0 bottom 17px;background-size: 14px;" class="border-b-1 border-gray-700 lg:w-[19.125rem] md:w-40 w-20 appearance-none bg-no-repeat bg-transparent text-pink-500 lg:text-2xl md:text-xl text-base leading-tight font-light focus:outline-none">
+                                <option>Clojure</option>
+                                <option>Clojure</option>
+                                <option>Clojure</option>
+                                <option>Clojure</option>
+                                <option>Clojure</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+         </section>
+        <section class="lg:py-20  md:py-16 py-10 md:px-12 px-6">
+            <div>
+            <div class="sm:flex pb-6 md:pb-16">
+                <figure class="min-w-full sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
+                    <img src="images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
+                </figure>
+                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
+                    <div>
+                    <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">clojure is difficult, but worth it</h3>
+                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">10:17</p>
+                </div>
+                <div class="w-full sm:self-end pt-4">
+                    <a href="conference-talks.html#" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl text-base leading-normal">Sezal Jain</h3></a>
+                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">IN/Clojure 2020</p>
+                </div>
+                </div>
+            </div>
+            <div class="sm:flex py-6 md:py-16  border-t-1 border-gray-200">
+                <figure class="min-w-full sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
+                    <img src="images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
+                </figure>
+                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
+                    <div>
+                    <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">async/await in clojure using conquerant</h3>
+                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">10:19</p>
+                </div>
+                <div class="w-full sm:self-end pt-4">
+                    <a href="conference-talks.html#" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl text-base leading-normal ">Divyansh Prakash</h3></a>
+                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">IN/Clojure 2019</p>
+                </div>
+                </div>
+            </div>
+            <div class="sm:flex py-6 md:py-16  border-t-1 border-gray-200">
+                <figure class="min-w-full  sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
+                    <img src="images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
+                </figure>
+                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
+                    <div>
+                    <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">generative tests in clojure</h3>
+                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">35:19</p>
+                </div>
+                <div class="w-full sm:self-end pt-4">
+                    <a href="conference-talks.html#" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl text-base leading-normal ">Shafeeq Kunnakkadan</h3></a>
+                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">IN/Clojure 2018</p>
+                </div>
+                </div>
+            </div>
+            <div class="sm:flex py-6 md:py-16  border-t-1 border-gray-200">
+                <figure class="min-w-full sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
+                    <img src="images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
+                </figure>
+                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
+                    <div>
+                    <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">moving people with clojure</h3>
+                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">27:14</p>
+                </div>
+                <div class="w-full sm:self-end pt-4">
+                    <a href="conference-talks.html#" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl text-base leading-normal ">Abhinav Sarkar  &  Kartik Gupta (Go-Jek)</h3></a>
+                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">Functional Conf 2015</p>
+                </div>
+                </div>
+            </div>
+            <div class="sm:flex  py-6 md:py-16 border-t-1 border-gray-200">
+                <figure class="min-w-full sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
+                    <img src="images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
+                </figure>
+                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
+                    <div>
+                    <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">building an experimentation platform in clojure</h3>
+                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">49:40</p>
+                </div>
+                <div class="w-full sm:self-end pt-4">
+                    <a href="conference-talks.html#" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl text-base leading-normal ">Nivedita Priyadarshini & Srihari Sriraman</h3></a>
+                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">Functional Conf 2015</p>
+                </div>
+                </div>
+            </div>
+            <div class="sm:flex  pt-6 md:pt-16 lg:pt-16 border-t-1 border-gray-200">
+                <figure class="min-w-full sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
+                    <img src="images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
+                </figure>
+                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
+                    <div>
+                    <h3 class="text-black font-normal lg:text-3xl md:text-xl leading-normal">carnatic music synthesis in clojure</h3>
+                    <p class="text-black font-light lg:text-2xl md:text-xl leading-tight pt-2">49:40</p>
+                </div>
+                <div class="w-full sm:self-end pt-4">
+                    <a href="conference-talks.html#" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl leading-normal ">Srihari Sriraman</h3></a>
+                    <p class="text-black font-light lg:text-2xl md:text-xl leading-tight pt-2">Functional Conf 2015</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <footer class="py-12 pl-6 pr-8 mg:py-16 lg:py-20 bg-pink-500 md:pl-12 md:pr-52">
+            <div class="flex justify-between items-center">
+                <h3 class="text-white font-light text-xl md:text-2xl leading-tight	lg:text-4xl md:leading-loose">india + canada</h3>
+                <ul>
+                    <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight	pb-3 transition ease-in duration-100 delay-100 hover:opacity-70"><a href="mailto:hello@nilenso.com">hello@nilenso.com</a></li>
+                    <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight	pb-3 transition ease-in duration-100 delay-100 hover:opacity-70"><a href="https://twitter.com/nilenso" target="_blank">@nilenso</a></li>
+                    <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70"><a href="https://github.com/nilenso" target="_blank">github.com/nilenso</a></li>
+                </ul>
+            </div>
+
+        </footer>
+    </main>
+</body>
+
+</html>
