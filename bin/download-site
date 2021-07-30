@@ -1,0 +1,29 @@
+#!/bin/bash
+
+echo "Going to download from dashpad..."
+read -p "This is a destructive operation to the repo; are you sure? [y/n] " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    rm -rf static/*
+
+    wget -pk -P static/ https://dashpad.co/nilenso/index.html
+    wget -pk -P static/ https://dashpad.co/nilenso/work.html
+    wget -pk -P static/ https://dashpad.co/nilenso/people.html
+    wget -pk -P static/ https://dashpad.co/nilenso/jobs.html
+    wget -pk -P static/ https://dashpad.co/nilenso/jobs-more.html
+    wget -pk -P static/ https://dashpad.co/nilenso/conference-talks.html
+    wget -pk -P static/ https://dashpad.co/nilenso/style.css
+
+    # clean up dashpad hyperlinks
+    find static -name *.html -exec sed -ie 's#https://dashpad.co/nilenso/##g' {} \;
+
+    find static -name *.html -exec mv {} templates/ \;
+    cp -R static/dashpad.co/nilenso/* static/
+
+    rm -R static/dashpad.co
+
+    echo "Done!"
+else
+    echo "Exiting. Didn't do anything."
+fi
