@@ -9,12 +9,14 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{% block title %}Nilenso{% endblock %}</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+    {% block head %}
+    {% endblock head %}
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="https://use.typekit.net/fmw6nmr.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body class="antialiased bg-white md:max-w-[1366px] mx-auto w-full" style="font-family: museo-sans, sans-serif;">
@@ -25,7 +27,7 @@
                 <nav  class="w-full items-center flex justify-between">
                     <a href="index.html">
                         <figure class="w-20">
-                                <img src="images/svg/logo.svg" alt="Logo" class="w-full">
+                                <img src="/images/svg/logo.svg" alt="Logo" class="w-full">
                         </figure>
                     </a>
                     <div id="menuToggle" class="flex items-center">
