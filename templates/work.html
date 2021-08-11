@@ -1,95 +1,15 @@
-<!doctype html>
-<html class="" lang="en" >
-<head>
-    <meta name="robots" content="noindex">
-    <meta charset="utf-8">
-    <meta name="msapplication-config" content="/browserconfig.xml" />
-    <meta name="msapplication-TileColor" content="#FF3D84">
-    <meta name="theme-color" content="#FF3D84">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Nilenso</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="stylesheet" href="https://use.typekit.net/fmw6nmr.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+{% extends "base.html" %}
 
-<body class="antialiased bg-white md:max-w-[1366px] mx-auto w-full" style="font-family: museo-sans, sans-serif;">
-    
-    <main class=""> 
-        <header class="py-12 px-6 md:py-16 xl:py-20 md:px-12 bg-white">
-            <div class="md:hidden">
-                <nav  class="w-full items-center flex justify-between">
-                    <a href="index.html">
-                        <figure class="w-20">
-                                <img src="images/svg/logo.svg" alt="Logo" class="w-full">
-                        </figure>
-                    </a>
-                    <div id="menuToggle" class="flex items-center ">
-                        <div>
-                            <input type="checkbox">
-                                <span class="bg-black w-5 h-0.5	 rounded-md mb-1 block relative z-10"></span>
-                                <span class="bg-black w-5 h-0.5	 rounded-md mb-1 block relative z-10"></span>
-                                <span class="bg-black w-5 h-0.5	 rounded-md mb-1 block relative z-10"></span>
-                                <div id="menu" class="absolute top-0 left-0 w-full h-screen pt-12 ">
-                                    <div class="relative">
-                                        <a href="index.html" class="px-6 block">
-                                            <figure class="w-20">
-                                                <img src="images/svg/logo.svg" alt="Logo" class="w-full">
-                                            </figure>
-                                        </a>
-                                        <ul class="pt-16 ">
-                                            <li><a href="index.html" class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b-1 border-gray-100 text-black hover:text-pink-500 transition ease-in duration-100 delay-100">home</a></li>
-                                            <li><a href="work.html" class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b-1 border-gray-100 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">work</a></li>
-                                            <li><a href="conference-talks.html" class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b-1 border-gray-100 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">talks</a></li>
-                                            <li><a href="people.html" class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b-1 border-gray-100 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">people</a></li>
-                                            <li><a href="jobs.html" class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b-1 border-gray-100 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">jobs</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="bg-pink-500 absolute bottom-0 py-12 w-full px-6">
-                                        <div class="flex justify-between items-center">
-                                            <h3 class="text-white font-light text-xl md:text-2xl leading-tight	lg:text-4xl md:leading-loose">india + canada</h3>
-                                            <ul>
-                                                <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70	pb-3"><a href="mailto:hello@nilenso.com">hello@nilenso.com</a></li>
-                                                <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70	pb-3"><a href="https://twitter.com/nilenso" target="_blank">@nilenso</a></li>
-                                                <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70"><a href="https://github.com/nilenso" target="_blank">github.com/nilenso</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                              
-                        </div>
-                    </div>
-                </nav>
-                </div>
-                <nav>
-                    <div class="hidden md:flex items-center justify-between">
-                        <a href="index.html">
-                            <figure>
-                                <img src="images/svg/logo.svg" alt="Logo" class="w-full">
-                            </figure>
-                        </a>
-                        <ul class="flex">
-                            <li><a href="index.html" class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">h<span class="font-bold text-pink-500">o</span>me</a></li>
-                            <li><a href="work.html" class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">work</a></li>
-                            <li><a href="conference-talks.html" class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">conference talks</a></li>
-                            <li><a href="people.html" class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">people</a></li>
-                            <li><a href="jobs.html" class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">jobs</a></li>
-                            <li><a href="jobs-more.html" class="font-normal text-base leading-tight tracking-wider text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-        </header>
+{% block header %}
         <section class="bg-black py-10 md:py-16 lg:py-20 px-6 md:px-10 lg:px-12">
             <div>
             <h2 class="font-light text-xl leading-snug	 md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-white md:leading-tight">our expertise is in delivering highly available, scalable systems in high throughput environments.</h2>
             <p class="pt-6  lg:pt-10 text-pink-500 font-light text-base md:text-xl lg:text-2xl leading-normal	 md:leading-tight w-full max-w-[48rem] tracking-tight">Some of the major services we've built include a multivariate testing/ experimentation platform, a ride-share driver-allocation service, multiple machine learning runtimes, and a variety of ETL and analytics systems. Take a look at a selection of recent projects below</p>
             </div>
         </section>
+{% endblock header %}
+
+{% block content %}
         <section class="logo-slider">
             
            <div class="swiper-container tabs-buttons md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
@@ -428,19 +348,6 @@
         <section class="xl:py-24 md:py-16 py-10 md:px-12 border-t-1 border-gray-200 px-6">
             <h5 class="font-normal text-sm md:text-xl text-black leading-tight ">Want to know more? our open source is available <a href="https://github.com/nilenso" target="_blank" class="underline hover:text-pink-500 transition ease-in duration-100 delay-100">here</a></h5>
         </section>
-        <footer class="py-12 pl-6 pr-8 mg:py-16 lg:py-20 bg-pink-500 md:pl-12 md:pr-52">
-            <div class="flex justify-between items-center">
-                <h3 class="text-white font-light text-xl md:text-2xl leading-tight	lg:text-4xl md:leading-loose">india + canada</h3>
-                <ul>
-                    <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight	pb-3 transition ease-in duration-100 delay-100 hover:opacity-70"><a href="mailto:hello@nilenso.com">hello@nilenso.com</a></li>
-                    <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight	pb-3 transition ease-in duration-100 delay-100 hover:opacity-70"><a href="https://twitter.com/nilenso" target="_blank">@nilenso</a></li>
-                    <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70"><a href="https://github.com/nilenso" target="_blank">github.com/nilenso</a></li>
-                </ul>
-            </div>
-
-        </footer>
-    </main>
-    <!-- <script type="module" src="https://cdn.skypack.dev/twind/shim"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
     <script>
         var tabs = document.querySelector('.tabs-buttons .swiper-wrapper');
@@ -490,7 +397,4 @@ var tabContent = new Swiper('.tabs-content', {
   }
 });
     </script>
-
-    </body>
-
-</html>
+{% endblock content %}
