@@ -1,3 +1,4 @@
+{% import "macros.html" as macros %}
 {% extends "base.html" %}
 
 {% block header %}
@@ -8,7 +9,7 @@
         </section>
 {% endblock header %}
 {% block content %}
-        <section class="md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
+        <!--section class="md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
             <div class="flex items-center justify-between">
                 <div>
                     <div class="flex">
@@ -30,19 +31,16 @@
                         <div class="flex justify-end lg:ml-8 md:ml-6 ml-4">
                             <select style="background-image: url(images/svg/drop-down.svg);background-position: right 0 bottom 17px;background-size: 14px;" class="border-b-1 border-gray-700 lg:w-[19.125rem] md:w-40 w-20 appearance-none bg-no-repeat bg-transparent text-pink-500 lg:text-2xl md:text-xl text-base leading-tight font-light focus:outline-none">
                                 <option>Clojure</option>
-                                <option>Clojure</option>
-                                <option>Clojure</option>
-                                <option>Clojure</option>
-                                <option>Clojure</option>
                             </select>
                         </div>
                     </div>
                 </div>
                     
             </div>
-         </section>
+         </section -->
         <section class="lg:py-20  md:py-16 py-10 md:px-12 px-6">
             <div>
+            {{ macros::speaker(title="Doing great") }}
             <div class="sm:flex pb-6 md:pb-16">
                 <figure class="min-w-full sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
                     <img src="/images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
