@@ -1,0 +1,17 @@
+{% macro speaker(title) %}
+<div class="sm:flex pb-6 md:pb-16">
+    <figure class="min-w-full sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
+        <img src="/images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
+    </figure>
+    <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
+        <div>
+          <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">{{title}}</h3>
+        <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">10:17</p>
+    </div>
+    <div class="w-full sm:self-end pt-4">
+        <a href="/people/#sezal-jain" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl text-base leading-normal">Sezal Jain</h3></a>
+        <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">IN/Clojure 2020</p>
+    </div>
+    </div>
+</div>
+{% endmacro input %}
