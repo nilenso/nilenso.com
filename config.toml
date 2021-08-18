@@ -14,5 +14,5 @@ tabs = [
     {name="conference talks",path="/conference-talks/"},
     {name="people",path="/people/"},
     {name="jobs",path="/jobs/"},
-    {name="contact",path="/contact/"}
+    {name="contact",path="#contact"}
 ]
