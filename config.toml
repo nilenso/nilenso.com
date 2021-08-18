@@ -8,3 +8,11 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+tabs = [
+    {name="home",path="/"},
+    {name="work",path="/work/"},
+    {name="conference talks",path="/conference-talks/"},
+    {name="people",path="/people/"},
+    {name="jobs",path="/jobs/"},
+    {name="contact",path="/contact/"}
+]
