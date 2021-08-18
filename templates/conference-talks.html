@@ -38,99 +38,196 @@
                     
             </div>
          </section -->
+  <script>
+    function showVideo(target) {
+      target.removeChild(target.getElementsByTagName("img")[0]);
+      target.getElementsByTagName("iframe")[0].removeAttribute("class");
+    }
+  </script>
         <section class="lg:py-20  md:py-16 py-10 md:px-12 px-6">
-            <div>
-            {{ macros::speaker(title="Doing great") }}
-            <div class="sm:flex pb-6 md:pb-16">
-                <figure class="min-w-full sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
-                    <img src="/images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
-                </figure>
-                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
-                    <div>
-                    <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">clojure is difficult, but worth it</h3>
-                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">10:17</p>
-                </div>
-                <div class="w-full sm:self-end pt-4">
-                    <a href="/people/#sezal-jain" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl text-base leading-normal">Sezal Jain</h3></a>
-                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">IN/Clojure 2020</p>
-                </div>
-                </div>
-            </div>
-            <div class="sm:flex py-6 md:py-16  border-t-1 border-gray-200">
-                <figure class="min-w-full sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
-                    <img src="/images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
-                </figure>
-                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
-                    <div>
-                    <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">async/await in clojure using conquerant</h3>
-                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">10:19</p>
-                </div>
-                <div class="w-full sm:self-end pt-4">
-                    <a href="conference-talks.html#" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl text-base leading-normal ">Divyansh Prakash</h3></a>
-                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">IN/Clojure 2019</p>
-                </div>
-                </div>
-            </div>
-            <div class="sm:flex py-6 md:py-16  border-t-1 border-gray-200">
-                <figure class="min-w-full  sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
-                    <img src="/images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
-                </figure>
-                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
-                    <div>
-                    <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">generative tests in clojure</h3>
-                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">35:19</p>
-                </div>
-                <div class="w-full sm:self-end pt-4">
-                    <a href="conference-talks.html#" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl text-base leading-normal ">Shafeeq Kunnakkadan</h3></a>
-                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">IN/Clojure 2018</p>
-                </div>
-                </div>
-            </div>
-            <div class="sm:flex py-6 md:py-16  border-t-1 border-gray-200">
-                <figure class="min-w-full sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
-                    <img src="/images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
-                </figure>
-                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
-                    <div>
-                    <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">moving people with clojure</h3>
-                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">27:14</p>
-                </div>
-                <div class="w-full sm:self-end pt-4">
-                    <a href="conference-talks.html#" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl text-base leading-normal ">Abhinav Sarkar  &  Kartik Gupta (Go-Jek)</h3></a>
-                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">Functional Conf 2015</p>
-                </div>
-                </div>
-            </div>
-            <div class="sm:flex  py-6 md:py-16 border-t-1 border-gray-200">
-                <figure class="min-w-full sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
-                    <img src="/images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
-                </figure>
-                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
-                    <div>
-                    <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">building an experimentation platform in clojure</h3>
-                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">49:40</p>
-                </div>
-                <div class="w-full sm:self-end pt-4">
-                    <a href="conference-talks.html#" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl text-base leading-normal ">Nivedita Priyadarshini & Srihari Sriraman</h3></a>
-                    <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">Functional Conf 2015</p>
-                </div>
-                </div>
-            </div>
-            <div class="sm:flex  pt-6 md:pt-16 lg:pt-16 border-t-1 border-gray-200">
-                <figure class="min-w-full sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25.4375rem]">
-                    <img src="/images/preview-img.png" alt="Image" class="w-full object-cover	object-center">
-                </figure>
-                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
-                    <div>
-                    <h3 class="text-black font-normal lg:text-3xl md:text-xl leading-normal">carnatic music synthesis in clojure</h3>
-                    <p class="text-black font-light lg:text-2xl md:text-xl leading-tight pt-2">49:40</p>
-                </div>
-                <div class="w-full sm:self-end pt-4">
-                    <a href="conference-talks.html#" class="inline-block"><h3 class="text-pink-500 underline font-normal lg:text-3xl md:text-xl leading-normal ">Srihari Sriraman</h3></a>
-                    <p class="text-black font-light lg:text-2xl md:text-xl leading-tight pt-2">Functional Conf 2015</p>
-                </div>
-                </div>
-            </div>
-        </div>
+            {{ macros::talk(title="Clojure is difficult, but worth it",
+            video_id="dgu4NPF_mNA",
+            speakers=macros::speaker(name="Sezal Jain", slug="sezal-jain"),
+            venue="IN/Clojure 2020",
+            duration="10:17") }}
+            {{ macros::talk(title="Generative tests in clojure",
+            video_id="uiGLdaZN39w",
+            speakers=macros::speaker(name="Shafeeq Kunnakkadan", slug="shafeeq-kunnakkadan"),
+            venue="IN/Clojure 2018",
+            duration="35:19") }}
+  {{macros::talk(
+title="After The Crash",
+speakers=macros::speaker(name="Ravi Chandra Padmala", slug="neena"),
+venue="Functional Conf 2019",
+duration="10:17",
+video_id="9nbPZOHBsK4")}}
+
+{{macros::talk(
+title= "Scalable distributed systems in Elixir",
+speakers=macros::speaker(name="Udit Kumar", slug="udit"),
+venue="Rootconf 2019",
+duration="10:17",
+video_id="yMJ2u6J3Cb0")}}
+
+{{macros::talk(
+title= "async/await in Clojure using conquerant",
+speakers=macros::speaker(name="Divyansh Prakash", slug="divyansh"),
+venue="IN/Clojure 2019",
+duration="10:17",
+video_id="kyvKOnxFoeY")}}
+
+{{macros::talk(
+title= "Reducing Accretion in Monoliths",
+speakers=macros::speaker(name="Akshay Gupta and Sourabh Ghorpade (Go-Jek)", slug="kitallis"),
+venue="clojureD 2019",
+duration="10:17",
+video_id="AOCoYf2TS5Q")}}
+
+{{macros::talk(
+title= "Generative Testing Patterns",
+speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
+venue="Functional Conf 2018",
+duration="10:17",
+video_id="8S5UKQr1dTM")}}
+  
+{{macros::talk(
+title= "Engineering to embrace change",
+speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
+venue="Meta Refresh 2018",
+duration="10:17",
+video_id="1FqOF9P0nEY")}}
+
+{{macros::talk(
+title= "Making machines that make music",
+speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
+venue="Strange Loop 2018",
+duration="10:17",
+video_id="u9CGcusOz60")}}
+
+{{macros::talk(
+title= "Practical Generative Testing Patterns",
+speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
+venue="Dutch Clojure Days 2018",
+duration="10:17",
+video_id="zjbcayvTcKQ")}}
+
+{{macros::talk(
+title= "Generative Tests in Clojure",
+speakers=macros::speaker(name="Shafeeq Kunnakkadan", slug="shafeeq"),
+venue="IN/Clojure 2018",
+duration="10:17",
+video_id="uiGLdaZN39w")}}
+
+{{macros::talk(
+title= "REPL driven mobile development with Clojure(script)",
+speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
+venue="Fragments 2017",
+duration="10:17",
+video_id="toGEegAzrZA")}}
+
+{{macros::talk(
+title= "Moving People with Clojure",
+speakers=[macros::speaker(name="Abhinav Sarkar", slug="abhinav"), ", Kartik Gupta (Go-Jek)"] | join(sep=""),
+venue="EuroClojure 2017",
+duration="10:17",
+video_id="3y7xzH8jB8A")}}
+
+{{macros::talk(
+title= "A Postgres Orchestra",
+speakers=macros::speaker(name="Akshay Gupta", slug="kitallis"),
+venue="PGConf India 2017",
+duration="10:17",
+video_id="oDB1rJD7pa0")}}
+
+{{macros::talk(
+title= "Transparency in Work",
+speakers=macros::speaker(name="Steven Deobald", slug="steven"),
+venue="Creative Mornings 2016",
+duration="10:17",
+video_id="u__x4JjvJTo")}}
+
+{{macros::talk(
+title= "Making Machines that Make Music",
+speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
+venue="EuroClojure 2016",
+duration="10:17",
+video_id="ZvSSeuzN_b4")}}
+
+{{macros::talk(
+title= "What I wish I knew as a newbie designer",
+speakers=macros::speaker(name="Noopur Varma", slug="noopur"),
+venue="Meta Refresh 2016",
+duration="10:17",
+video_id="ZzB5-EK4sgQ")}}
+
+{{macros::talk(
+title= "On the building of a Postgres cluster",
+speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
+venue="RootConf 2016",
+duration="10:17",
+video_id="sGJDg5ba0iI")}}
+
+{{macros::talk(
+title= "Vipassana for Hackers",
+speakers=macros::speaker(name="Steven Deobald", slug="steven"),
+duration="10:17",
+venue="XTC 2016",
+video_id="1BWYqHbF00c")}}
+
+{{macros::talk(
+title= "Two Years Wiser, The Nilenso Experiment",
+speakers=macros::speaker(name="Steven Deobald", slug="steven"),
+duration="10:17",
+venue="The Fifth Elephant 2015",
+video_id="uYTFCSZb3Kc")}}
+
+{{macros::talk(
+title= "Introduction To Concurrency In Haskell",
+speakers=macros::speaker(name="Abhinav Sarkar", slug="abhinav"),
+venue="Functional Conf 2015" ,
+duration="10:17",
+video_id="uVK3t-5wWew")}}
+
+{{macros::talk(
+title= "Building an Experimentation Platform <br> in Clojure",
+speakers=macros::speaker(name="Nivedita Priyadarshini & Srihari Sriraman", slug="nid"),
+venue="Functional Conf 2015",
+duration="10:17",
+video_id="YjfXhhxw9Bs")}}
+
+{{macros::talk(
+title= "Carnatic Music Synthesis In Clojure",
+speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
+venue="Functional Conf 2015",
+duration="10:17",
+video_id="12Uj6gpPA7k")}}
+
+{{macros::talk(
+  title="Resilient by Design",
+  speakers="Smit Shah",
+  venue="RailsConf 2015",
+duration="10:17",
+  video_id="_yEz9-Vu8YM")}}
+
+{{macros::talk(
+  title="Monads you already use without knowing",
+  speakers="Tejas Dinkar",
+  venue="Functional Conf 2014",
+duration="10:17",
+  video_id="tmtKJ35N-TA")}}
+
+{{macros::talk(
+  title="Native Extensions Served 3 Ways",
+  speakers="Tejas Dinkar",
+  venue="Garden City RubyConf 2014",
+duration="10:17",
+  video_id="bI5oJr4ueQc")}}
+
+{{macros::talk(
+  title="The Tao of Ruby",
+  speakers=["Steven Deobald, ", macros::speaker(name= "Akshay Gupta", slug="akshay-gupta")] | join(sep=""),
+  venue="RubyConf India 2013",
+duration="10:17",
+  video_id="4A2nAK6H6BU")}}
         </section>
 {% endblock content %}
