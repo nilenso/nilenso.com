@@ -2,232 +2,49 @@
 {% extends "base.html" %}
 
 {% block header %}
-        <section class="py-10 px-6 md:py-10 md:px-8 lg:py-20 lg:px-12 bg-pink-500">
-            <div>
-                <h2 class="font-light text-xl leading-snug	 md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-white md:leading-tight tracking-tight	">members of the nilenso team have given talks at conferences around the world.</h2>
-            </div>
-        </section>
+<section class="py-10 px-6 md:py-10 md:px-8 lg:py-20 lg:px-12 bg-pink-500">
+  <div>
+    <h2 class="font-light text-xl leading-snug	 md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-white md:leading-tight tracking-tight	">members of the nilenso team have given talks at conferences around the world.</h2>
+  </div>
+</section>
 {% endblock header %}
 {% block content %}
-        <!--section class="md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
-            <div class="flex items-center justify-between">
-                <div>
-                    <div class="flex">
-                        <h6 class="lg:text-3xl text-xl  leading-normal text-block">Sort </h6>
-                        <div class="flex justify-end lg:ml-8 md:ml-6 ml-4">
-                            <select style="background-image: url(images/svg/drop-down.svg);background-position: right 0 bottom 17px;background-size: 14px;" class="border-b-1 border-gray-700 lg:w-[19.125rem] md:w-40 w-20	 appearance-none bg-no-repeat bg-transparent text-pink-500 lg:text-2xl md:text-xl text-base leading-tight font-light focus:outline-none">
-                                <option>Latest</option>
-                                <option>Latest</option>
-                                <option>Latest</option>
-                                <option>Latest</option>
-                                <option>Latest</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="flex">
-                        <h6 class="lg:text-3xl text-xl  leading-normal text-block">Category </h6>
-                        <div class="flex justify-end lg:ml-8 md:ml-6 ml-4">
-                            <select style="background-image: url(images/svg/drop-down.svg);background-position: right 0 bottom 17px;background-size: 14px;" class="border-b-1 border-gray-700 lg:w-[19.125rem] md:w-40 w-20 appearance-none bg-no-repeat bg-transparent text-pink-500 lg:text-2xl md:text-xl text-base leading-tight font-light focus:outline-none">
-                                <option>Clojure</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                    
-            </div>
-         </section -->
-  <script>
-    function showVideo(target) {
-      target.removeChild(target.getElementsByTagName("img")[0]);
-      target.getElementsByTagName("iframe")[0].removeAttribute("class");
-    }
-  </script>
-        <section class="lg:py-20  md:py-16 py-10 md:px-12 px-6">
-            {{ macros::talk(title="Clojure is difficult, but worth it",
-            video_id="dgu4NPF_mNA",
-            speakers=macros::speaker(name="Sezal Jain", slug="sezal-jain"),
-            venue="IN/Clojure 2020",
-            duration="10:17") }}
-            {{ macros::talk(title="Generative tests in clojure",
-            video_id="uiGLdaZN39w",
-            speakers=macros::speaker(name="Shafeeq Kunnakkadan", slug="shafeeq-kunnakkadan"),
-            venue="IN/Clojure 2018",
-            duration="35:19") }}
-  {{macros::talk(
-title="After The Crash",
-speakers=macros::speaker(name="Ravi Chandra Padmala", slug="neena"),
-venue="Functional Conf 2019",
-duration="10:17",
-video_id="9nbPZOHBsK4")}}
-
-{{macros::talk(
-title= "Scalable distributed systems in Elixir",
-speakers=macros::speaker(name="Udit Kumar", slug="udit"),
-venue="Rootconf 2019",
-duration="10:17",
-video_id="yMJ2u6J3Cb0")}}
-
-{{macros::talk(
-title= "async/await in Clojure using conquerant",
-speakers=macros::speaker(name="Divyansh Prakash", slug="divyansh"),
-venue="IN/Clojure 2019",
-duration="10:17",
-video_id="kyvKOnxFoeY")}}
-
-{{macros::talk(
-title= "Reducing Accretion in Monoliths",
-speakers=macros::speaker(name="Akshay Gupta and Sourabh Ghorpade (Go-Jek)", slug="kitallis"),
-venue="clojureD 2019",
-duration="10:17",
-video_id="AOCoYf2TS5Q")}}
-
-{{macros::talk(
-title= "Generative Testing Patterns",
-speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
-venue="Functional Conf 2018",
-duration="10:17",
-video_id="8S5UKQr1dTM")}}
-  
-{{macros::talk(
-title= "Engineering to embrace change",
-speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
-venue="Meta Refresh 2018",
-duration="10:17",
-video_id="1FqOF9P0nEY")}}
-
-{{macros::talk(
-title= "Making machines that make music",
-speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
-venue="Strange Loop 2018",
-duration="10:17",
-video_id="u9CGcusOz60")}}
-
-{{macros::talk(
-title= "Practical Generative Testing Patterns",
-speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
-venue="Dutch Clojure Days 2018",
-duration="10:17",
-video_id="zjbcayvTcKQ")}}
-
-{{macros::talk(
-title= "Generative Tests in Clojure",
-speakers=macros::speaker(name="Shafeeq Kunnakkadan", slug="shafeeq"),
-venue="IN/Clojure 2018",
-duration="10:17",
-video_id="uiGLdaZN39w")}}
-
-{{macros::talk(
-title= "REPL driven mobile development with Clojure(script)",
-speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
-venue="Fragments 2017",
-duration="10:17",
-video_id="toGEegAzrZA")}}
-
-{{macros::talk(
-title= "Moving People with Clojure",
-speakers=[macros::speaker(name="Abhinav Sarkar", slug="abhinav"), ", Kartik Gupta (Go-Jek)"] | join(sep=""),
-venue="EuroClojure 2017",
-duration="10:17",
-video_id="3y7xzH8jB8A")}}
-
-{{macros::talk(
-title= "A Postgres Orchestra",
-speakers=macros::speaker(name="Akshay Gupta", slug="kitallis"),
-venue="PGConf India 2017",
-duration="10:17",
-video_id="oDB1rJD7pa0")}}
-
-{{macros::talk(
-title= "Transparency in Work",
-speakers=macros::speaker(name="Steven Deobald", slug="steven"),
-venue="Creative Mornings 2016",
-duration="10:17",
-video_id="u__x4JjvJTo")}}
-
-{{macros::talk(
-title= "Making Machines that Make Music",
-speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
-venue="EuroClojure 2016",
-duration="10:17",
-video_id="ZvSSeuzN_b4")}}
-
-{{macros::talk(
-title= "What I wish I knew as a newbie designer",
-speakers=macros::speaker(name="Noopur Varma", slug="noopur"),
-venue="Meta Refresh 2016",
-duration="10:17",
-video_id="ZzB5-EK4sgQ")}}
-
-{{macros::talk(
-title= "On the building of a Postgres cluster",
-speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
-venue="RootConf 2016",
-duration="10:17",
-video_id="sGJDg5ba0iI")}}
-
-{{macros::talk(
-title= "Vipassana for Hackers",
-speakers=macros::speaker(name="Steven Deobald", slug="steven"),
-duration="10:17",
-venue="XTC 2016",
-video_id="1BWYqHbF00c")}}
-
-{{macros::talk(
-title= "Two Years Wiser, The Nilenso Experiment",
-speakers=macros::speaker(name="Steven Deobald", slug="steven"),
-duration="10:17",
-venue="The Fifth Elephant 2015",
-video_id="uYTFCSZb3Kc")}}
-
-{{macros::talk(
-title= "Introduction To Concurrency In Haskell",
-speakers=macros::speaker(name="Abhinav Sarkar", slug="abhinav"),
-venue="Functional Conf 2015" ,
-duration="10:17",
-video_id="uVK3t-5wWew")}}
-
-{{macros::talk(
-title= "Building an Experimentation Platform <br> in Clojure",
-speakers=macros::speaker(name="Nivedita Priyadarshini & Srihari Sriraman", slug="nid"),
-venue="Functional Conf 2015",
-duration="10:17",
-video_id="YjfXhhxw9Bs")}}
-
-{{macros::talk(
-title= "Carnatic Music Synthesis In Clojure",
-speakers=macros::speaker(name="Srihari Sriraman", slug="srihari"),
-venue="Functional Conf 2015",
-duration="10:17",
-video_id="12Uj6gpPA7k")}}
-
-{{macros::talk(
-  title="Resilient by Design",
-  speakers="Smit Shah",
-  venue="RailsConf 2015",
-duration="10:17",
-  video_id="_yEz9-Vu8YM")}}
-
-{{macros::talk(
-  title="Monads you already use without knowing",
-  speakers="Tejas Dinkar",
-  venue="Functional Conf 2014",
-duration="10:17",
-  video_id="tmtKJ35N-TA")}}
-
-{{macros::talk(
-  title="Native Extensions Served 3 Ways",
-  speakers="Tejas Dinkar",
-  venue="Garden City RubyConf 2014",
-duration="10:17",
-  video_id="bI5oJr4ueQc")}}
-
-{{macros::talk(
-  title="The Tao of Ruby",
-  speakers=["Steven Deobald, ", macros::speaker(name= "Akshay Gupta", slug="akshay-gupta")] | join(sep=""),
-  venue="RubyConf India 2013",
-duration="10:17",
-  video_id="4A2nAK6H6BU")}}
-        </section>
+<script>
+  function showVideo(target) {
+    target.removeChild(target.getElementsByTagName("img")[0]);
+    target.getElementsByTagName("iframe")[0].removeAttribute("class");
+  }
+</script>
+{% set data = load_data(path="data/talks.toml", format="toml") %}
+<section class="lg:py-20  md:py-16 py-10 md:px-12 px-6">
+  {% for talk in data.talks %}
+  <div class="sm:flex pb-6 md:pb-16">
+    <figure onclick="showVideo(this)" class="min-w-max w-64 max-w-[18rem] sm:w-[12rem] md:w-[18rem] lg:w-[20rem]">
+      <img src="https://img.youtube.com/vi/{{talk.youtube_id}}/0.jpg" />
+      <iframe id="ytplayer"
+              loading="lazy"
+              type="text/html"
+              class="hidden w-64"
+              src="https://www.youtube.com/embed/{{ talk.youtube_id }}?autoplay=0"
+              width="480px"
+              height="360px"
+              frameborder="0"></iframe>
+    </figure>
+    <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
+      <div>
+        <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">{{talk.title}}</h3>
+        <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">{{talk.duration}}</p>
+      </div>
+      <div class="w-full sm:self-end pt-4">
+        <h3 class="text-pink-500 font-normal lg:text-3xl md:text-xl text-base leading-normal">
+          {% if talk.speakerhash %}<a href="/people/#{{talk.speakerhash}}" class="inline-block underline">{% endif %}
+            {{talk.speakers}}
+            {% if talk.speakerhash %}</a>{% endif %}
+        </h3>
+        <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">{{talk.venue}}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</section>
 {% endblock content %}
