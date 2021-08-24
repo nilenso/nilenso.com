@@ -4,6 +4,18 @@
   }
 }
 
+@media (min-width:1024px) {
+  .lg\:lg\:text-\[3\.5rem\] {
+    font-size: 3.5rem;
+  }
+}
+
+.text-pink-500 {
+    --tw-text-opacity: 1;
+    color: #FF3D84;
+    color: rgba(255,61,132,var(--tw-text-opacity));
+}
+
 /* Hand-written CSS for menus, carousels, etc */
 #menuToggle {
     z-index: 1;
