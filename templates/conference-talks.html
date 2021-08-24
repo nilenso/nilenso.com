@@ -15,7 +15,7 @@
     target.getElementsByTagName("iframe")[0].removeAttribute("class");
   }
 </script>
-{% set data = load_data(path="data/talks.toml", format="toml") %}
+{% set data = load_data(path="content/data/talks.toml", format="toml") %}
 <section class="lg:py-20  md:py-16 py-10 md:px-12 px-6">
   {% for talk in data.talks %}
   <div class="sm:flex pb-6 md:pb-16">

@@ -15,7 +15,7 @@
         <section class="avator-slider">
             <div class="swiper-container tabs-buttons md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
                 <div class="swiper-wrapper flex justify-between items-center">
-                  {% set data = load_data(path="data/people.toml", format="toml") %}
+                  {% set data = load_data(path="content/data/people.toml", format="toml") %}
                   {% for person in data.people %}
                   <div  class="w-16 h-16 rounded-full mr-10 swiper-slide bg-no-repeat opacity-40 bg-center {% if loop.index == 1 %} active-tab {% endif %} bg-no-repeat" style="background-image: url(/{{person.picture}}); background-size: 100px;"></div>
                   {% endfor %}
