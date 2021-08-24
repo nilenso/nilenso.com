@@ -1,0 +1,57 @@
+[[clients]]
+hash = "gojek"
+talks = [ { venue = "EuroClojure", title = "Moving people with Clojure", link = "https://www.youtube.com/watch?v=3y7xzH8jB8A" },
+{ venue = "ClojureD", title = "Reducing Accretion in Monoliths", link = "https://www.youtube.com/watch?v=AOCoYf2TS5Q" }]
+content = '''
+<p class="text-black text-base leading-normal	md:text-xl lg:text-2xl  xl:text-3xl font-normal pb-10 w-full max-w-[46rem] w-full">Gojek is the uber + swiggy + dunzo + grofers of south-east Asia. It is operational in 4 countries, and impacts 10s of millions of customers, millions of drivers, and half a million merchants/restaurants. </p>
+                            <div class="border-t-1 border-b-1 border-gray-200 py-10">
+                                <p class="text-pink-500 text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">We have been working with Gojek since 2015, and on multiple products: </p>
+                                <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-normal">   Allocation / match-making, and pooling <br>Food, and transport CMS, and OMS<br>Pricing<br>Experimentation, notiﬁcations, and bundles</p>
+                            </div>
+                            <div class="md:pt-12 md:pb-0 py-10">
+                                <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">Rewrote, and architected their central driver allocation system in a few months, with a generative testing suite.</p>
+                                <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> Brought Clojure expertise to Gojek, trained multiple teams in Clojure, and continue to advise on language semantics.</p>
+                                <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> Led, and supervised teams and product initiatives from the technical front, while working with product, business, ops, design, research, and data-science teams.</p>
+                                <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> Established processes and practices around designing architectures, project management, and tech debt management.</p>
+                                <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light ">Engineered large scale, low-latency, stateful systems, and data pipelines for ML runtimes.</p>
+                                
+                            </div>
+                            <div class="md:hidden block border-t-1 border-gray-200 pt-9">
+                                <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wider pb-8">talks</h6>
+                                <p class="text-sm text-pink-500 leading-tight	 font-light pb-4">
+                                    EuroClojure<br>
+                                    <span class="underline hover:text-pink-600 cursor-pointer	 transition ease-in duration-100 delay-100">Moving people with Clojure</span></p>
+                                <p class="text-sm text-pink-500 leading-tight	 font-light"> ClojureD<br>
+                                    <span class="underline hover:text-pink-600 cursor-pointer	 transition ease-in duration-100 delay-100">Reducing Accretion in Monoliths</span></p>
+                            </div>
+'''
+
+[[clients]]
+hash = "paytm-insider"
+talks = []
+content = ""
+
+[[clients]]
+hash = "juspay"
+talks = []
+content = ""
+
+[[clients]]
+hash = "simple"
+talks = []
+content = ""
+
+[[clients]]
+hash = "onmyway"
+talks = []
+content = ""
+
+[[clients]]
+hash = "quintype"
+talks = []
+content = ""
+
+[[clients]]
+hash = "staples"
+talks = []
+content = ""

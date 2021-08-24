@@ -15,67 +15,45 @@
 
 {% block content %}
         <section class="logo-slider">
-            
            <div class="swiper-container tabs-buttons md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
             <div class="swiper-wrapper flex justify-between items-center">
-              <div  class="swiper-slide active-tab bg-no-repeat opacity-40 bg-center" style="background-image: url(images/gojek.png); background-size: 119px;"></div>
-              <div   class="swiper-slide bg-no-repeat opacity-40 bg-center" style="background-image: url(images/paytm-insider.png); background-size: 119px;"></div>
-              <div  class="swiper-slide bg-no-repeat opacity-40 bg-center" style="background-image: url(images/juspay.png); background-size: 119px;"></div>
-              <div  class="swiper-slide bg-no-repeat opacity-40 bg-center" style="background-image: url(images/simple.png); background-size: 119px;"></div>
-              <div  class="swiper-slide bg-no-repeat opacity-40 bg-center" style="background-image: url(images/onmyway.png); background-size: 119px;"></div>
-              <div  class="swiper-slide bg-no-repeat opacity-40 bg-center" style="background-image: url(images/quintype.png); background-size: 119px;"></div>
-              <div  class="swiper-slide bg-no-repeat opacity-40 bg-center" style="background-image: url(images/staples.png); background-size: 119px;"></div>
+              {% set data = load_data(path="content/data/work.toml", format="toml") %}
+              {% for client in data.clients %}
+              <div  class="swiper-slide{% if loop.index == 1 %} active-tab{% endif %} bg-no-repeat opacity-40 bg-center" style='background-size: 119px; background-image: url("/images/{{client.hash}}.png");"'></div>
+              {% endfor %}
             </div>
             <div class="swiper-button-prev z-50"></div>
              <div class="swiper-button-next z-50"></div>
           </div>
           <div class="swiper-container tabs-content">
             <div class="swiper-wrapper">
-              <div class="swiper-slide" data-hash="gojek">
+              {% for client in data.clients %}
+              <div class="swiper-slide" data-hash="{{client.hash}}">
                 <div class="py-10 md:py-16 lg:py-20 px-6 md:px-12 ">
                     <div class="flex flex-wrap sm:flex-nowrap">
                         <div class="flex flex-wrap">
                             <figure class="w-36	md:w-40 lg:w-48	md:ml-0 lg:ml-16 mb-10 sm:mb-0">
-                                <img src="/images/gojek.png" alt="goJek" class="w-full">
+                              <img src="/images/{{client.hash}}.png" alt="{{client.hash}}" class="w-full">
                             </figure>
+                            {% if client.talks | length > 0 %}
                             <div class="hidden sm:block flex flex-col self-end	w-full">
-                                <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wider pb-10">talks</h6>
-                                <p class="text-2xl md:text-xl	text-pink-500 leading-tight	 font-light pb-8">
-                                    EuroClojure<br>
-                                    <span class="underline hover:text-pink-600 cursor-pointer	 transition ease-in duration-100 delay-100"> Moving people with Clojure</span></p>
-                                <p class="text-2xl md:text-xl	text-pink-500 leading-tight	 font-light"> ClojureD<br>
-                                    <span class="underline hover:text-pink-600 cursor-pointer	 transition ease-in duration-100 delay-100"> Reducing Accretion in Monoliths</span></p>
+                              <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wider pb-10">talks</h6>
+                              {% for talk in client.talks %}
+                              <p class="text-2xl md:text-xl	text-pink-500 leading-tight	 font-light pb-8">
+                              {{talk.venue}}<br>
+                              <a href="{{talk.link}}">
+                                <span class="underline hover:text-pink-600 cursor-pointer	 transition ease-in duration-100 delay-100">{{talk.title}}</span></a></p>
+                              {% endfor %}
                             </div>
+                            {% endif %}
                     </div>
-        
                         <div class="w-full ml-0 sm:ml-4 xl:ml-10">
-                            <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl  xl:text-3xl font-normal pb-10 w-full max-w-[46rem] w-full">Gojek is the uber + swiggy + dunzo + grofers of south-east Asia. It is operational in 4 countries, and impacts 10s of millions of customers, millions of drivers, and half a million merchants/restaurants. </p>
-                            <div class="border-t-1 border-b-1 border-gray-200 py-10">
-                                <p class="text-pink-500 text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">We have been working with Gojek since 2015, and on multiple products: </p>
-                                <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-normal">   Allocation / match-making, and pooling <br>Food, and transport CMS, and OMS<br>Pricing<br>Experimentation, notiﬁcations, and bundles</p>
-                            </div>
-                            <div class="md:pt-12 md:pb-0 py-10">
-                                <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">Rewrote, and architected their central driver allocation system in a few months, with a generative testing suite.</p>
-                                <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> Brought Clojure expertise to Gojek, trained multiple teams in Clojure, and continue to advise on language semantics.</p>
-                                <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> Led, and supervised teams and product initiatives from the technical front, while working with product, business, ops, design, research, and data-science teams.</p>
-                                <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> Established processes and practices around designing architectures, project management, and tech debt management.</p>
-                                <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light ">Engineered large scale, low-latency, stateful systems, and data pipelines for ML runtimes.</p>
-                                
-                            </div>
-                            <div class="md:hidden block border-t-1 border-gray-200 pt-9">
-                                <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wider pb-8">talks</h6>
-                                <p class="text-sm text-pink-500 leading-tight	 font-light pb-4">
-                                    EuroClojure<br>
-                                    <span class="underline hover:text-pink-600 cursor-pointer	 transition ease-in duration-100 delay-100">Moving people with Clojure</span></p>
-                                <p class="text-sm text-pink-500 leading-tight	 font-light"> ClojureD<br>
-                                    <span class="underline hover:text-pink-600 cursor-pointer	 transition ease-in duration-100 delay-100">Reducing Accretion in Monoliths</span></p>
-                            </div>
+                          {{ client.content | safe }}
                         </div>
-        
                     </div>
-        
                 </div>
               </div>
+              {% endfor %}
               <div class="swiper-slide" data-hash="paytm-insider">
                 <div class="py-10 md:py-16 lg:py-20 px-6 md:px-12 ">
                     <div class="flex flex-wrap sm:flex-nowrap">
