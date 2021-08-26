@@ -29,9 +29,9 @@
         <section class="py-10 px-6 md:py-20 md:px-12">
             <div>
                 <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wide">a selection of recent projects</h6>
-                <div class="flex items-center flex-wrap justify-between lg:justify-center">
-                  {% set data = load_data(path="content/data/projects.toml", format="toml") %}
-                  {% for project in data.recent %}
+                <div class="flex items-center flex-wrap justify-between lg:justify-start">
+                  {% set projects = load_data(path="content/data/projects.toml", format="toml") %}
+                  {% for project in projects.recent %}
                   <a href="{{project.url}}" target="_blank" class="mr-9 mt-9 lg:mr-20  xl:mr-24 md:mt-12 lg:mt-16 xl:mt-20">
                         <figure class="w-20 md:w-36 lg:w-40 xl:w-60">
                           <img src="{{project.image}}" alt="{{project.name}}" class="w-full">
@@ -45,7 +45,7 @@
             <div>
                 <h6 class="pb-8 pb-0 font-normal text-gray-600 text-base leading-tight tracking-wide">some of the people we’ve worked with</h6>
                 <div class="flex items-center flex-wrap justify-between lg:space-arround xl:justify-between">
-                  {% for project in data.past %}
+                  {% for project in projects.past %}
                   <a href="{{project.url}}"  target="_blank" class="mr-6 lg:mr-8 xl:mr-16 md:mt-8 lg:mt-10 xl:mt-16 mt-8">
                         <figure class="w-20 md:w-44">
                           <img src="{{project.image}}" alt="{{project.name}}" class="w-full">
