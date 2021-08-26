@@ -12,7 +12,7 @@ speakers = "Ravi Chandra Padmala"
 speakerhash = "neena"
 venue = "Functional Conf 2019"
 youtube_id = "9nbPZOHBsK4"
-duration = "10:17"
+duration = "43:33"
 
 [[talks]]
 title = "Scalable distributed systems in Elixir"
@@ -20,7 +20,7 @@ speakers = "Udit Kumar"
 speakerhash = "udit"
 venue = "Rootconf 2019"
 youtube_id = "yMJ2u6J3Cb0"
-duration = "10:17"
+duration = "26:29"
 
 [[talks]]
 title = "async/await in Clojure using conquerant"
@@ -28,7 +28,7 @@ speakers = "Divyansh Prakash"
 speakerhash = "divyansh"
 venue = "IN/Clojure 2019"
 youtube_id = "kyvKOnxFoeY"
-duration = "10:17"
+duration = "10:19"
 
 [[talks]]
 title = "Reducing Accretion in Monoliths"
@@ -36,7 +36,7 @@ speakers = "Akshay Gupta and Sourabh Ghorpade (Go-Jek)"
 speakerhash = "kitallis"
 venue = "clojureD 2019"
 youtube_id = "AOCoYf2TS5Q"
-duration = "10:17"
+duration = "41:51"
 
 [[talks]]
 title = "Generative Testing Patterns"
@@ -44,7 +44,7 @@ speakers = "Srihari Sriraman"
 speakerhash = "srihari"
 venue = "Functional Conf 2018"
 youtube_id = "8S5UKQr1dTM"
-duration = "10:17"
+duration = "50:00"
 
 [[talks]]
 title = "Engineering to embrace change"
@@ -52,7 +52,7 @@ speakers = "Srihari Sriraman"
 speakerhash = "srihari"
 venue = "Meta Refresh 2018"
 youtube_id = "1FqOF9P0nEY"
-duration = "10:17"
+duration = "36:11"
 
 [[talks]]
 title = "Making machines that make music"
@@ -60,7 +60,7 @@ speakers = "Srihari Sriraman"
 speakerhash = "srihari"
 venue = "Strange Loop 2018"
 youtube_id = "u9CGcusOz60"
-duration = "10:17"
+duration = "42:42"
 
 [[talks]]
 title = "Practical Generative Testing Patterns"
@@ -68,7 +68,7 @@ speakers = "Srihari Sriraman"
 speakerhash = "srihari"
 venue = "Dutch Clojure Days 2018"
 youtube_id = "zjbcayvTcKQ"
-duration = "10:17"
+duration = "45:42"
 
 [[talks]]
 title = "Generative Tests in Clojure"
@@ -76,7 +76,7 @@ speakers = "Shafeeq Kunnakkadan"
 speakerhash = "shafeeq"
 venue = "IN/Clojure 2018"
 youtube_id = "uiGLdaZN39w"
-duration = "10:17"
+duration = "35:19"
 
 [[talks]]
 title = "REPL driven mobile development <br> with Clojure(script)"
@@ -84,7 +84,7 @@ speakers = "Srihari Sriraman"
 speakerhash = "srihari"
 venue = "Fragments 2017"
 youtube_id = "toGEegAzrZA"
-duration = "10:17"
+duration = "43:34"
 
 [[talks]]
 title = "Moving People with Clojure"
@@ -92,7 +92,7 @@ speakers = "Abhinav Sarkar and Kartik Gupta (Go-Jek)"
 speakerhash = "abhinav"
 venue = "EuroClojure 2017"
 youtube_id = "3y7xzH8jB8A"
-duration = "10:17"
+duration = "27:14"
 
 [[talks]]
 title = "A Postgres Orchestra"
@@ -100,7 +100,7 @@ speakers = "Akshay Gupta"
 speakerhash = "kitallis"
 venue = "PGConf India 2017"
 youtube_id = "oDB1rJD7pa0"
-duration = "10:17"
+duration = "45:47"
 
 [[talks]]
 title = "Transparency in Work"
@@ -108,7 +108,7 @@ speakers = "Steven Deobald"
 speakerhash = "steven"
 venue = "Creative Mornings 2016"
 youtube_id = "u__x4JjvJTo"
-duration = "10:17"
+duration = "45:07"
 
 [[talks]]
 title = "Making Machines that Make Music"
@@ -116,7 +116,7 @@ speakers = "Srihari Sriraman"
 speakerhash = "srihari"
 venue = "EuroClojure 2016"
 youtube_id = "ZvSSeuzN_b4"
-duration = "10:17"
+duration = "40:52"
 
 [[talks]]
 title = "What I wish I knew as a newbie designer"
@@ -124,7 +124,7 @@ speakers = "Noopur Varma"
 speakerhash = "noopur"
 venue = "Meta Refresh 2016"
 youtube_id = "ZzB5-EK4sgQ"
-duration = "10:17"
+duration = "39:06"
 
 [[talks]]
 title = "On the building of a Postgres cluster"
@@ -132,7 +132,7 @@ speakers = "Srihari Sriraman"
 speakerhash = "srihari"
 venue = "RootConf 2016"
 youtube_id = "sGJDg5ba0iI"
-duration = "10:17"
+duration = "43:16"
 
 [[talks]]
 title = "Vipassana for Hackers"
@@ -140,7 +140,7 @@ speakers = "Steven Deobald"
 speakerhash = "steven"
 venue = "XTC 2016"
 youtube_id = "1BWYqHbF00c"
-duration = "10:17"
+duration = "94:19"
 
 [[talks]]
 title = "Two Years Wiser, The Nilenso Experiment"
@@ -148,7 +148,7 @@ speakers = "Steven Deobald"
 speakerhash = "steven"
 venue = "The Fifth Elephant 2015"
 youtube_id = "uYTFCSZb3Kc"
-duration = "10:17"
+duration = "59:57"
 
 [[talks]]
 title = "Introduction To Concurrency In Haskell"
@@ -156,7 +156,7 @@ speakers = "Abhinav Sarkar"
 speakerhash = "abhinav"
 venue = "Functional Conf 2015"
 youtube_id = "uVK3t-5wWew"
-duration = "10:17"
+duration = "52:52"
 
 [[talks]]
 title = "Building an Experimentation Platform <br> in Clojure"
@@ -164,7 +164,7 @@ speakers = "Nivedita Priyadarshini & Srihari Sriraman"
 speakerhash = "nid"
 venue = "Functional Conf 2015"
 youtube_id = "YjfXhhxw9Bs"
-duration = "10:17"
+duration = "49:40"
 
 [[talks]]
 title = "Carnatic Music Synthesis In Clojure"
@@ -172,32 +172,32 @@ speakers = "Srihari Sriraman"
 speakerhash = "srihari"
 venue = "Functional Conf 2015"
 youtube_id = "12Uj6gpPA7k"
-duration = "10:17"
+duration = "49:19"
 
 [[talks]]
 title = "Resilient by Design"
 speakers = "Smit Shah"
 venue = "RailsConf 2015"
 youtube_id = "_yEz9-Vu8YM"
-duration = "10:17"
+duration = "33:01"
 
 [[talks]]
 title = "Monads you already use without knowing"
 speakers = "Tejas Dinkar"
 venue = "Functional Conf 2014"
 youtube_id = "tmtKJ35N-TA"
-duration = "10:17"
+duration = "42:28"
 
 [[talks]]
 title = "Native Extensions Served 3 Ways"
 speakers = "Tejas Dinkar"
 venue = "Garden City RubyConf 2014"
 youtube_id = "bI5oJr4ueQc"
-duration = "10:17"
+duration = "28:45"
 
 [[talks]]
 title = "The Tao of Ruby"
 speakers = "Steven Deobald and Akshay Gupta"
 venue = "RubyConf India 2013"
 youtube_id = "4A2nAK6H6BU"
-duration = "10:17"
+duration = "40:50"
