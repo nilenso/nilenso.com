@@ -29,42 +29,15 @@
         <section class="py-10 px-6 md:py-20 md:px-12">
             <div>
                 <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wide">a selection of recent projects</h6>
-                <div class="flex items-center flex-wrap justify-between lg:justify-start">
-                    <a href="https://www.gojek.com/en-id/" target="_blank" class="mr-9 mt-9 lg:mr-20  xl:mr-24 md:mt-12 lg:mt-16 xl:mt-20">
+                <div class="flex items-center flex-wrap justify-between lg:justify-center">
+                  {% set data = load_data(path="content/data/projects.toml", format="toml") %}
+                  {% for project in data.recent %}
+                  <a href="{{project.url}}" target="_blank" class="mr-9 mt-9 lg:mr-20  xl:mr-24 md:mt-12 lg:mt-16 xl:mt-20">
                         <figure class="w-20 md:w-36 lg:w-40 xl:w-60">
-                            <img src="images/gojek.png" alt="goJek" class="w-full">
+                          <img src="{{project.image}}" alt="{{project.name}}" class="w-full">
                         </figure>
                     </a>
-                    <a href="https://insider.in/online" target="_blank" class="mr-9 mt-9 lg:mr-20  xl:mr-24 md:mt-12 lg:mt-16 xl:mt-20">
-                        <figure class="w-20  md:w-36 lg:w-40 xl:w-60">
-                            <img src="images/paytm-insider.png" alt="paytm-insider" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="https://juspay.in/" target="_blank" class="mt-9 lg:mr-20  xl:mr-24 md:mt-12 lg:mt-16 xl:mt-20">
-                        <figure class="w-20 md:w-36 lg:w-40 xl:w-60">
-                            <img src="images/juspay.png" alt="juspay" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="https://www.simple.org/" target="_blank" class="mr-9 mt-9 lg:mr-0 md:mt-12 lg:mt-16 xl:mt-20">
-                        <figure class="w-20 md:w-36 lg:w-40 xl:w-56">
-                            <img src="images/simple.png" alt="simple" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="http://omnyway.com/" target="_blank" class="mr-9 mt-9 lg:mr-20  xl:mr-24 md:mt-12 lg:mt-16 xl:mt-20">
-                        <figure class="w-20 md:w-36 lg:w-40 xl:w-60">
-                            <img src="images/onmyway.png" alt="onmyway" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="https://www.quintype.com/" target="_blank" class="mt-9 lg:mr-20  xl:mr-24 md:mt-12 lg:mt-16 xl:mt-20">
-                        <figure class="w-20 md:w-36 lg:w-40 xl:w-60">
-                            <img src="images/quintype.png" alt="quintype" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="http://www.staples.com/" target="_blank" class="mr-9 mt-9 lg:mr-20  xl:mr-24 md:mt-12 lg:mt-16 xl:mt-20">
-                        <figure class="w-20 md:w-36 lg:w-40 xl:w-60">
-                            <img src="images/staples.png" alt="staples" class="w-full">
-                        </figure>
-                    </a>
+                    {% endfor %}
                 </div>
             </div>
         </section>
@@ -72,56 +45,13 @@
             <div>
                 <h6 class="pb-8 pb-0 font-normal text-gray-600 text-base leading-tight tracking-wide">some of the people we’ve worked with</h6>
                 <div class="flex items-center flex-wrap justify-between lg:space-arround xl:justify-between">
-                    <a href="https://grofers.com/"  target="_blank" class="mr-6 lg:mr-8 xl:mr-16 md:mt-8 lg:mt-10 xl:mt-16 mt-8">
+                  {% for project in data.past %}
+                  <a href="{{project.url}}"  target="_blank" class="mr-6 lg:mr-8 xl:mr-16 md:mt-8 lg:mt-10 xl:mt-16 mt-8">
                         <figure class="w-20 md:w-44">
-                            <img src="images/grofers.png" alt="grofers" class="w-full">
+                          <img src="{{project.image}}" alt="{{project.name}}" class="w-full">
                         </figure>
                     </a>
-                    <a href="https://www.vitalstrategies.org/" target="_blank" class="mr-6 lg:mr-8 xl:mr-16 md:mt-8 lg:mt-10 xl:mt-16 mt-8">
-                        <figure class="w-20 md:w-44">
-                            <img src="images/vital-strategies.png" alt="gVital Strategies" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="http://www.oml.in/" target="_blank" class="lg:mr-8 xl:mr-16 md:mt-8 lg:mt-10 xl:mt-16 mt-8">
-                        <figure class="w-20 md:w-44">
-                            <img src="images/oml-logo.png" alt="OML_Logo_2016" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="https://www.flipkart.com/" target="_blank" class="mr-6 lg:mr-8 xl:mr-16 md:mt-8 lg:mt-10 xl:mt-16 mt-8">
-                        <figure class="w-20 md:w-44">
-                            <img src="images/flipkart.png" alt="Flipkart" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="https://home.quiklrn.com/" target="_blank" class="mr-6 md:mr-0 md:mt-8 lg:mt-10 xl:mt-16 mt-8">
-                        <figure class="w-20 md:w-44">
-                            <img src="images/quiklrn.png" alt="quiklrn" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="http://www.ashoka.org/" target="_blank" class=" lg:mr-8 xl:mr-16 md:mt-8 lg:mt-10 xl:mt-16 mt-8">
-                        <figure class="w-16 md:w-32">
-                            <img src="images/ashoka.png" alt="Ashoka" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="https://getzipline.com/" target="_blank" class="mr-6 lg:mr-8 xl:mr-16 md:mt-8 lg:mt-10 xl:mt-16 mt-8">
-                        <figure class="w-20 md:w-44">
-                            <img src="images/zipline.png" alt="zipline" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="https://milaap.org/" target="_blank" class="mr-6 lg:mr-8 xl:mr-16 md:mt-8 lg:mt-10 xl:mt-16 mt-8">
-                        <figure class="w-20 md:w-44">
-                            <img src="images/milaap.png" alt="Milaap" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="https://www.mapbox.com/" target="_blank" class=" lg:mr-8 xl:mr-16 md:mt-8 lg:mt-10 xl:mt-16 mt-8">
-                        <figure class="w-20 md:w-44">
-                            <img src="images/mapbox.png" alt="mapbox" class="w-full">
-                        </figure>
-                    </a>
-                    <a href="https://mightyhive.com/" target="_blank" class="mr-6 md:mr-0 md:mt-8 lg:mt-10 xl:mt-16 mt-8">
-                        <figure class="w-20 md:w-44">
-                            <img src="images/mightyhive.png" alt="mghtyhive" class="w-full">
-                        </figure>
-                    </a>
+                    {% endfor %}
                 </div>
                 <p class="font-normal text-sm md:text-xl text-black leading-tight pt-11 md:pt-20 lg:pt-24">Read more about our products and tech <a class="underline hover:text-pink-500 transition ease-in duration-100 delay-100" href="/work">here</a></p>
             </div>
