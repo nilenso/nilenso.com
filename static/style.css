@@ -16,6 +16,10 @@
     color: rgba(255,61,132,var(--tw-text-opacity));
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Hand-written CSS for menus, carousels, etc */
 #menuToggle {
     z-index: 1;
