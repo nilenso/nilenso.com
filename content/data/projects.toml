@@ -4,6 +4,11 @@ image = "/images/gojek.png"
 name = "Gojek"
 
 [[recent]]
+url = "https://www.vitalstrategies.org/"
+image = "/images/vital-strategies.png"
+name = "Vital Strategies"
+
+[[recent]]
 url = "https://insider.in/online"
 image = "/images/paytm-insider.png"
 name = "Paytm Insider"
@@ -14,9 +19,39 @@ image = "/images/juspay.png"
 name = "Juspay"
 
 [[recent]]
-url = "https://www.simple.org/"
-image = "/images/simple.png"
-name = "Simple"
+url = "http://www.staples.com/"
+image = "/images/staples.png"
+name = "Staples"
+
+[[recent]]
+url = "https://www.payu.in/"
+image = "/images/payu-svg.png"
+name = "PayU"
+
+[[recent]]
+url = "https://exotel.com/"
+image = "/images/exotel.png"
+name = "Exotel"
+
+[[recent]]
+url = "https://grofers.com/"
+image = "/images/grofers.png"
+name = "Grofers"
+
+[[recent]]
+url = "https://www.mapbox.com/"
+image = "/images/mapbox.png"
+name = "Mapbox"
+
+[[recent]]
+url = "https://www.flipkart.com/"
+image = "/images/flipkart.png"
+name = "Flipkart"
+
+[[recent]]
+url = "https://akvo.org/"
+image = "/images/akvo.png"
+name = "Akvo"
 
 [[recent]]
 url = "http://omnyway.com/"
@@ -24,15 +59,24 @@ image = "/images/onmyway.png"
 name = "Onmyway"
 
 [[recent]]
+url = "https://milaap.org/"
+image = "/images/milaap.png"
+name = "Milaap"
+
+[[recent]]
+url = "https://www.ashoka.org"
+image = "/images/ashoka.png"
+name = "Ashoka"
+
+[[recent]]
 url = "https://www.quintype.com/"
 image = "/images/quintype.png"
 name = "Quintype"
 
 [[recent]]
-url = "http://www.staples.com/"
-image = "/images/staples.png"
-name = "Staples"
-
+url = "https://www.rupeek.com/"
+image = "/images/rupeek.png"
+name = "Rupeek"
 
 [[past]]
 url = "https://grofers.com/"
