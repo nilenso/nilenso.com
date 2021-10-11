@@ -55,7 +55,7 @@ helpers do
   end
 
   def title_of_the_page_if_it_needs_to_be_shown
-    " - #{current_page.data.title}" unless current_page_home?
+    " #{current_page.data.title}" unless current_page_home?
   end
 
   def description_of_the_page_if_it_needs_to_be_shown
