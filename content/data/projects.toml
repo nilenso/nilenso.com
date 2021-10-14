@@ -78,50 +78,15 @@ url = "https://www.rupeek.com/"
 image = "/images/rupeek.png"
 name = "Rupeek"
 
-[[past]]
-url = "https://grofers.com/"
-image = "/images/grofers.png"
-name = "grofers"
-
-[[past]]
-url = "https://www.vitalstrategies.org/"
-image = "/images/vital-strategies.png"
-name = "Vital Strategies"
-
-[[past]]
-url = "http://www.oml.in/"
-image = "//images/oml-logo.png"
-name = "OML"
-
-[[past]]
-url = "https://www.flipkart.com/"
-image = "/images/flipkart.png"
-name = "Flipkart"
-
-[[past]]
-url = "https://home.quiklrn.com/"
-image = "/images/quiklrn.png"
-name = "Quiklrn"
-
-[[past]]
-url = "http://www.ashoka.org/"
-image = "/images/ashoka.png"
-name = "Ashoka"
-
-[[past]]
+[[recent]]
 url = "https://getzipline.com/"
 image = "/images/zipline.png"
 name = "Zipline"
 
 [[past]]
-url = "https://milaap.org/"
-image = "/images/milaap.png"
-name = "Milaap"
-
-[[past]]
-url = "https://www.mapbox.com/"
-image = "/images/mapbox.png"
-name = "Mapbox"
+url = "http://www.oml.in/"
+image = "//images/oml-logo.png"
+name = "OML"
 
 [[past]]
 url = "https://mightyhive.com/"
