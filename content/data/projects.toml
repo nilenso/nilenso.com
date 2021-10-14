@@ -64,11 +64,6 @@ image = "/images/milaap.png"
 name = "Milaap"
 
 [[recent]]
-url = "https://www.ashoka.org"
-image = "/images/ashoka.png"
-name = "Ashoka"
-
-[[recent]]
 url = "https://www.quintype.com/"
 image = "/images/quintype.png"
 name = "Quintype"
@@ -82,6 +77,11 @@ name = "Rupeek"
 url = "https://getzipline.com/"
 image = "/images/zipline.png"
 name = "Zipline"
+
+[[recent]]
+url = "https://www.ashoka.org"
+image = "/images/ashoka.png"
+name = "Ashoka"
 
 [[past]]
 url = "http://www.oml.in/"

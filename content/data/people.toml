@@ -1,24 +1,10 @@
 [[people]]
-nick = "adi"
-hash = "aditya-athalye"
-picture = "images/people/aditya.png"
-github = "https://github.com/adityaathalye"
-name = "Aditya Athalye"
-bio = '''
-  <p>Aditya is a suit-turned-software engineer, with over a decade and half of experience. He was variously a strategy consultant, entrepreneur, marketer, and project manager in the first half of his career. Since 2013, he's worked across DevOps, release engineering, test engineering, and backend application development.</p>
-  <p>A self-taught programmer, Aditya loves to learn and to share his knowledge. He has designed and taught workshops at Functional Conf, IN/Clojure, LambdaWorld (Seattle), and for staff education at work. He's partial to Functional Programming, and thus far he's made things using Clojure, Ansible, Terraform, some Kotlin, and a generous dash of Bash.</p>
-  <p>He uses both Emacs and Vim, but mainly Emacs ;)</p>
-  <p>Aditya is too cool for social media.</p>
-'''
-
-[[people]]
 nick = "akshatha"
 hash = "akshatha-herle"
 picture = "images/people/akshatha.jpeg"
 github = "https://github.com/qptr"
 name = "Akshatha Herle"
 bio = '''
-  <p>Akshatha is a Functional Programmer and ML enthusiast. In her spare time, she likes to tinker with MATLAB.</p>
 '''
 
 [[people]]
@@ -28,9 +14,14 @@ picture = "images/people/kitallis.png"
 github = "http://github.com/kitallis"
 name = "Akshay Gupta (kitty)"
 bio = '''
-  <p>Kitty started writing code with Borland Turbo C++ and Visual Basic in high-school, but then quickly moved to Ruby when he discovered <a href='http://mislav.uniqpath.com/poignant-guide/'>_why's poignant guide</a>. He was a part of GSOC'2011, and contributed to <a href='http://live.gnome.org/AkshayGupta_GnomeShell_Document'>GNOME</a>.</p>
-  <p>Since then, he has hacked a fair bit of Ruby, consulted on a variety of Ruby on Rails projects, and helped build <a href='http://rubymonk.com'>RubyMonk</a>.</p>
-  <p>He loves cycling, listening to noise rock, and has recently re-discovered his fondness for Snakeboarding.</p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Kitty is a modern-day aesthete and F/OSS hacker, long time Rubyist, sufficiently long time Clojure programmer, and a recently turned DBA. He strives for simplicity in his code and architecture designs.
+  </p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    He has worked on energy saving projects, large-scale multi-variate testing platforms with tight SLAs, highly concurrent OMS for logistic companies, high throughput microservices to handle India-scale SMS sending, and difficult database problems. He has also contributed to <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='http://live.gnome.org/AkshayGupta_GnomeShell_Document'>GNOME</a> and <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://www.haiku-os.org/'>Haiku</a>.
+  </p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    He loves making music, listening to noise rock, and snakeboarding, and has recently discovered his fondness for Brazilian Jiu-jitsu.</p>
 '''
 twitter = "http://twitter.com/kitallis"
 linkedin = "http://in.linkedin.com/in/kitallis"
@@ -41,7 +32,17 @@ hash = "dany-sam"
 picture = "images/people/dan.jpeg"
 github = "https://github.com/danySam"
 name = "Dany Sam Salmon"
-bio = ""
+bio = '''
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Dan is your go-to guy to stay organised and on track. If you ask him nicely, he will automate your life to make sure you don’t miss anything important.
+  </p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    At nilenso, Dan has worked with the kernel team at Southeast Asia’s decacorn Gojek and at the fintech company Rupeek. He has also worked on <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='http://simple.org'>Simple<a/> for a short while. Check out his open source file sharing service: <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://github.com/nilenso/receive'>receive</a>.
+  </p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Before joining us, Dan worked at <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='askerbot.com'>askerbot</a> where he helped build and scale an IVR platform used by e-commerce and logistics companies like Myntra, DHL, Delhivery, etc. on NodeJS.
+</p>
+'''
 twitter = "https://twitter.com/_danySam"
 linkedin = "https://www.linkedin.com/in/danysam/"
 
@@ -52,9 +53,6 @@ picture = "images/people/deepa.png"
 github = "http://github.com/dvenkatr"
 name = "Deepa Venkatraman"
 bio = '''
-  <p>Like a rock. Which is to say, she has tenacity. Not the way a Ford is "like a rock". Deepa drives. One supposes a Ford drives, too. But Deepa will outlast even a gas guzzler from the 60's. So she's more like a rock than a ford. In both ways.</p>
-  <p>Deepa's got a rainbow-coloured past. Starting startups, running businesses, crunching big numbers, building robots, and tearing up backroads in a cloud of dust that implies the closing credits will scroll by soon with a really kickin' outtro. At nilenso, she's tasked with figuring out how to turn us from a cute little boutique software consultancy into a dominant multinational co-operative corporation. No big deal.</p>
-  <p>Deepa is a stealth semi-luddite, so don't be surprised if she convinces you your smartphone is not the future of your life -- or that data expiry and encryption should be an everyday concern. Oh, she also speaks half a dozen languages and knows everyone you know but she is almost definitely probably not a secret agent.</p>
 '''
 twitter = "https://twitter.com/deepa_v"
 linkedin = "https://uk.linkedin.com/in/deepavenkatraman"
@@ -66,9 +64,6 @@ picture = "images/people/govind.png"
 github = "http://github.com/govindkrjoshi"
 name = "Govind Joshi"
 bio = '''
-  <p>Govind will never assault you with words, but he is always listening intently to what you have to say... which is often a pleasant counterbalance to the rest of us. One doesn't usually consider thoughtful and considered commentary an essential skill, but he has a way of making it appear so.</p>
-  <p>Govind is actually a Biologist in disguise. He's spent most of his career in BioTech and found his way into hardcore software development through an inherent love of Category Theory and Haskell.</p>
-  <p>If you see Govind riding his bicycle around town to get to a local classical music performance, we suggest you follow him.</p>
 '''
 twitter = "https://twitter.com/govindkrjoshi"
 linkedin = ""
@@ -79,7 +74,8 @@ hash = "kiran-gangadharan"
 picture = "images/people/kiran.png"
 github = "https://github.com/kirang89"
 name = "Kiran Gangadharan"
-bio = ""
+bio = '''
+'''
 twitter = "https://twitter.com/kirang89"
 linkedin = "https://www.linkedin.com/in/kirang89/"
 
@@ -90,7 +86,6 @@ picture = "images/people/nid.png"
 github = "https://github.com/nid90"
 name = "Nivedita Priyadarshini"
 bio = '''
- <p>Nivedita joined nilenso straight after finishing her engineering in computer science. She learned programming by building a school project in C++. Fortunately, C++ didn't have as adverse an impact on her as one would imagine. She loves learning new stuff, knits a lot and can these days be seen writing Clojure with great happiness.</p>
 '''
 twitter = "http://twitter.com/nid90"
 linkedin = "http://in.linkedin.com/pub/nivedita-priyadarshini/47/524/386/"
@@ -102,7 +97,15 @@ picture = "images/people/neena.png"
 github = "https://github.com/neenaoffline"
 name = "Ravi Chandra (neena) Padmala"
 bio = '''
-<p>Neena has worked on a rails application that pander to competitive programmers, on libraries that help developers control anonymity software, on backend systems written in Lisp that enables efficient spamming.</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Ravi, known better by his moniker neena, has worked on building a neo bank, a next-gen dashboard that handles streaming data, a geospatial indexing service and libraries that help developers control anonymity.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    neena speaks Clojure, Java, Haskell, Go, Rails, Elixir, JavaScript and more. He loves learning new things: programming languages, human languages, musical instruments, climbing, biking, yoga and martial arts.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    A self-professed tsundoku aficionado, neena owns more books than you can count, and a whole host of musical instruments to boot. A specialist in the second hand trade, his olx skills can give you a run for your money.
+</p>
 '''
 twitter = "http://twitter.com/neenaoffline"
 linkedin = "https://www.linkedin.com/in/ravichandrapadmala"
@@ -113,7 +116,8 @@ hash = "prabhanshu-gupta"
 picture = "images/people/prabhanshu.png"
 github = "https://github.com/prabhanshuguptagit"
 name = "Prabhanshu Gupta"
-bio = ""
+bio = '''
+'''
 twitter = "https://twitter.com/twomogambo"
 linkedin = "https://www.linkedin.com/in/prabhanshu-gupta/"
 
@@ -123,7 +127,26 @@ hash = "sandilya-jandhyala"
 picture = "images/people/sandy.png"
 github = "https://github.com/jysandy"
 name = "Sandilya Jandhyala"
-bio = "<p>Sandy interned at Cisco and Zopper before joining nilenso. An early riser and a straight shooter, Sandy loves writing Clojure, riding his bicycle, breakfasting at MTR, and fixing his bicycle (in that order). He only uses editors that were created after he was born.</p>"
+bio = '''
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Sandy has worked professionally with Clojure, ClojureScript, Ruby, Go, Python and JavaScript. Outside of that, he has worked with C# and C++.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    A passionate educator, Sandy has conducted workshops and recorded videos to help people upskill on Clojure.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    At nilenso, he worked with fintech company Rupeek, delivering business-critical software and introducing best practices that allowed them to deploy with confidence. He has previously worked with Gojek’s ridesharing and growth teams. His work on the multi-variate testing platform at Staples’ machine learning division helped Staples' data science team perform experiments to test the efficacy of their machine learning models.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Prior to nilenso, Sandy was at Cisco, where he worked on automating manufacturing tests of hardware products.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    A straight shooter, Sandy loves writing Clojure, playing old-school arena shooter games, breakfasting at MTR, and fixing his bicycle (in that order).
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    He only uses editors that were created after he was born.
+</p>
+'''
 twitter = "https://twitter.com/jysandilya"
 linkedin = "https://www.linkedin.com/in/jysandy/"
 
@@ -133,7 +156,8 @@ hash = "sezal-jain"
 picture = "images/people/sezal.png"
 github = "https://github.com/sezaljain"
 name = "Sezal Jain"
-bio = ""
+bio = '''
+'''
 twitter = "https://twitter.com/sezal_jain"
 linkedin = "https://www.linkedin.com/in/sezal-jain-80823511/"
 
@@ -143,18 +167,53 @@ hash = "shafeeq-kunnakkadan"
 picture = "images/people/shafeeq.png"
 github = "https://github.com/shafeeq"
 name = "Shafeeq Kunnakkadan"
-bio = '''<p>Shafeeq's quiet confidence and smiling demeanor belie an ember of passion searing just beneath the surface. When he first joined us, he was loath to engage the ethically treacherous Java ecosystem and longed for the purity of Python. He is no fan of Oracle, no fan of yesteryear's software meatgrinder, and no fan of ignorance. Neither are we.</p>
-  <p>To that end, we traded him an unlimited library, which he chews through like an industrial tree harvester, for a tempered approach to Free Software. He now builds software with Clojure and ClojureScript with the same passion we first saw in him.</p>'''
+bio = '''
+'''
 twitter = "https://twitter.com/shafeeq_k"
 linkedin = "https://www.linkedin.com/in/shafeeqk/"
+
+[[people]]
+nick = "shivam"
+hash = "shivam-singhal"
+picture = ""
+github = "https://github.com/shhivam"
+name = "Shivam Singhal"
+bio = '''
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Shivam started working in the software industry in 2019, right after high school. As a freelancer, Shivam was partial to the MERN stack and no-code tools.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    At this time, Shivam consulted for the Central India Head Division of the Indian Railways, where he automated the manual process of chart preparation, bringing it down from 40 minutes to just 3 seconds. During COVID, he worked on a community-led initiative to help streamline and effectively manage vaccination centre information and volunteers.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Soon after, Shivam joined nilenso to hone his skills in backend engineering (he was still in college at the time, with a couple of years of consulting experience under his belt!).
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    In his free time, Shivam tinkers with Raspberry Pi and Arduino, and has built some pretty cool stuff (ask him what it was like to work on an interactive floor projection).
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    He loves reading books, meeting new people, and is always working on an exciting side project. You can’t help but feel energised by his infectious enthusiasm.
+</p>
+'''
+twitter = "https://twitter.com/shivam_310"
+linkedin = "https://www.linkedin.com/in/shivam-singhal12/"
 
 [[people]]
 nick = "soumya"
 hash = "soumya-pillai"
 picture = "images/people/soumya.png"
 name = "Soumya Pillai"
-bio = '''<p>A product consultant who likes to think of herself as a creator, Soumya brings a passion for digital products as well as over a decade of experience across engineering, project and product management to nilenso. A checklist junkie, she is passionate about digital products and thinks of almost everybody as an end-user.</p>
-<p>Soumya engages her creative muscles by writing children’s books and cooking. Every day is a new normal and a chance at a new pet project for her.</p>'''
+bio = '''
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    A product consultant who thinks of herself as a creator, Soumya brings a passion for digital products as well as over a decade of experience across engineering, project and product management.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    A checklist junkie, she is passionate about digital products and applies an end-user lens to almost everything around her.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Soumya engages her creative muscles by writing children’s books. Every day is a new normal and a chance at a new pet project for her.
+</p>
+'''
 twitter = "https://mobile.twitter.com/SoumyaPillai"
 linkedin = "https://www.linkedin.com/in/soumya-pillai-2215735b/"
 
@@ -164,7 +223,8 @@ hash = "srihari-sriraman"
 picture = "images/people/srihari.png"
 github = "http://github.com/ssrihari"
 name = "Srihari Sriraman"
-bio = "<p>Srihari is a FOSS enthusiast, Gnome, and Gimp lover. He contributed to <a href='https://github.com/ssrihari/Assignment-Management'>eclipse</a> in GSoC'2011, made a spotlight-like <a href='https://github.com/ssrihari/gimp-tito'>tool</a> for gimp, and contributes occasionally to <a href='https://github.com/diaspora/diaspora/commits?author=ssrihari'>diaspora</a>. He practices minimalistic and user centric design for the web. He loves products and seeks the thrill in solving people's problems. He <a href='http://sriharisriraman.in'>blogs</a>, plays basketball, and performs carnatic music ocassionally.</p>"
+bio = '''
+'''
 twitter = "http://twitter.com/SrihariSriraman"
 linkedin = "http://www.linkedin.com/in/sriharisriraman"
 
@@ -174,7 +234,17 @@ hash = "udit-kumar"
 picture = "images/people/udit.png"
 github = "https://github.com/yudistrange"
 name = "Udit Kumar"
-bio = "<p>Udit honed his skills at Amazon and Tally before finally making his way to nilenso. He hasn't looked back since. Udit has worked on Staples' experimentation platform, Mapbox's open source mapping tool and a live quizzing platform. Elixir is Udit's latest passion.</p>"
+bio = '''
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Udit honed his skills at the Transactional Risk Management team at Amazon and at Tally before finally making his way to nilenso. He hasn't looked back since.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Udit led the effort to scale Grofers’ logistics and delivery platform. He has also worked on building a live quizzing platform, an experimentation platform, and an offer authoring portal. His open source work includes contributions to the desktop editing tool for open street maps JOSM and database failover library agrajag.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    His favourite pastime is writing bytecode to run on the JVM using Clojure REPLs.
+</p>
+'''
 twitter = "https://twitter.com/yudistrange"
 linkedin = "https://www.linkedin.com/in/udit-kumar-01690127/"
 
@@ -184,6 +254,7 @@ hash = "vikram-chintalapati"
 picture = "images/people/vkrm.png"
 github = "https://github.com/vkrmis"
 name = "Vikram Chintalapati"
-bio = ""
+bio = '''
+'''
 twitter = "https://twitter.com/cvikram"
 linkedin = "https://www.linkedin.com/in/vikram-chintalapati-23764111a/"
