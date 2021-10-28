@@ -6,6 +6,9 @@ command = "zola build"
 # Set the version name that you want to use and Netlify will automatically use it.
 ZOLA_VERSION = "0.14.0"
 
+[build.processing.images]
+compress = true
+
 # The magic for deploying previews of branches.
 # We need to override the base url with whatever url Netlify assigns to our
 # preview site.  We do this using the Netlify environment variable
