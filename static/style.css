@@ -2,16 +2,12 @@
     .md\:max-w-\[1366px\] {
         max-width: 1366px;
     }
-
-    .recent-proj-item > :nth-child(4n+4) { margin-right: 0; }
 }
 
 @media (min-width: 1024px) {
     .lg\:lg\:text-\[3\.5rem\] {
         font-size: 3.5rem;
     }
-
-    .recent-proj-item > :nth-child(4n+4) { margin-right: 0; }
 }
 
 .text-pink-500 {
