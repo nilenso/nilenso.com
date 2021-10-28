@@ -4,7 +4,7 @@ talks = [ { venue = "EuroClojure", title = "Moving people with Clojure", link = 
 { venue = "ClojureD", title = "Reducing Accretion in Monoliths", link = "https://www.youtube.com/watch?v=AOCoYf2TS5Q" }]
 content = '''
 <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl  xl:text-3xl font-normal pb-10 w-full max-w-[46rem] w-full">Gojek is a ride-hailing, food, and grocery delivery platform that has grown into one of Southeast Asia's decacorns. Operational in 5 countries, it impacts the lives of 10s of millions of customers, drivers, and merchants. </p>
-                            <div class="border-t-1 border-b-1 border-gray-200 py-10">
+                            <div class="border-t border-b border-gray-200 py-10">
                                 <p class="text-pink-500 text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">Since 2015, we have worked with Gojek on many of Gojek's products and services including allocation, pooling, order management, pricing and experimentation.</p>
                             </div>
 
@@ -18,7 +18,7 @@ content = '''
                                 <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> Some of our major projects include rewriting, and architecting the central driver allocation system in a few months, with a generative testing suite.</p>
 
                                 <p class="text-black text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> We're also happy to have introduced and trained multiple teams at Gojek in Clojure.</p>
-                                
+
                             </div>
 '''
 
@@ -28,13 +28,13 @@ talks = [ { venue = "Functional Conf", title = "After the Crash", link = "https:
 { venue = "RootConf", title = "Scalable distributed systems in Elixir", link = "https://www.youtube.com/watch?v=yMJ2u6J3Cb0" }]
 content = '''
 <p class="text-black text-base leading-normal      md:text-xl lg:text-2xl  xl:text-3xl font-normal pb-10 w-full max-w-[46rem] w-full">PayTM Insider is India's largest online ticketing and events company. Insider approached nilenso with a pioneering concept for its time: to take their live, interactive events online.  </p>
-                            <div class="border-t-1 border-b-1 border-gray-200 py-10">
+                            <div class="border-t border-b border-gray-200 py-10">
                                 <p class="text-pink-500 text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">We worked with Insider to build a digital platform for live events, with the objective of “streaming interactive video to one million concurrent users”.</p>
                             </div>
 
                             <div class="md:pt-0 md:pb-0 py-10">
                                 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">  The pilot was a real-time quiz that thousands of users would participate in. In addition to all the challenges that come with live video, we had to ensure that all participants received the questions at the same time.</p>
-                            
+
                                 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">Our solution involved a dashboard from where a producer could run the quiz, publish questions and answers to a massive live audience, and coordinate transitions from one question to the next.</p>
 
                                 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> We also built video transcoding into the platform using mimoLive and Wowza Cloud, so the live video stream from the quiz master could be streamed to all participants.</p>
@@ -53,13 +53,13 @@ hash = "juspay"
 talks = []
 content = '''
 <p class="text-black text-base leading-normal      md:text-xl lg:text-2xl  xl:text-3xl font-normal pb-10 w-full max-w-[46rem] w-full">Juspay is a fintech offering a suite of end-to-end payment solutions that power over 4 million transactions a day.  </p>
-                            <div class="border-t-1 border-b-1 border-gray-200 py-10">
+                            <div class="border-t border-b border-gray-200 py-10">
                                 <p class="text-pink-500 text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">We have worked with Juspay in various capacities, including a wizard-like framework to build mobile apps, a real-time analytics dashboard, a DSL to build apps for banking clients and pilot solutions for ride sharing apps using an open specification.</p>
                             </div>
 
                             <div class="md:pt-0 md:pb-0 py-10">
                                 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">  We initially consulted with Juspay on optimising the performance of their Postgres DB to handle high volumes.</p>
-                            
+
                                 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">Subsequently, we worked with them on building a PureScript framework to create mobile apps declaratively.</p>
 
                                 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> We also led the product and engineering initiative to build a next-gen dashboard to offer big-picture and action-oriented views for merchant PMs and customer support teams.</p>
@@ -79,13 +79,13 @@ talks = [ { venue = "Meta Refresh", title = "Engineering to embrace change", lin
 ]
 content = '''
 <p class="text-black text-base leading-normal      md:text-xl lg:text-2xl  xl:text-3xl font-normal pb-10 w-full max-w-[46rem] w-full">Simple.org is a non-profit initiative funded by the Zuckerberg, Gates and Bloomberg foundations to improve global cardio-vascular health.</p>
-                            <div class="border-t-1 border-b-1 border-gray-200 py-10">
+                            <div class="border-t border-b border-gray-200 py-10">
                                 <p class="text-pink-500 text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">Simple is an offline-first Android app and web dashboard that enables policy makers to monitor and improve hypertension and diabetes outcomes.</p>
                             </div>
 
                             <div class="md:pt-0 md:pb-0 py-10">
                                 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7"> nilenso has worked with Simple since its inception in 2018, from building the first prototype, to launching the pilot solution, iteratively developing features, managing scale, as well as playing a pivotal role in Simple's expansion beyond India to other countries.</p>
-                            
+
                                 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> We designed the fully offline-first sync APIs that allow for the app to be used in rural areas with limited internet connectivity.</p>
 
                                 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> In addition, we built the dashboards that support both population-level administration by policy experts as well as more granular monitoring by health officials.</p>
@@ -102,13 +102,13 @@ talks = [ { venue = "Functional Conf", title = "Building an Experimentation Plat
 ]
 content = '''
 <p class="text-black text-base leading-normal      md:text-xl lg:text-2xl  xl:text-3xl font-normal pb-10 w-full max-w-[46rem] w-full">Staples is one of the world's largest office retail companies.</p>
-                            <div class="border-t-1 border-b-1 border-gray-200 py-10">
+                            <div class="border-t border-b border-gray-200 py-10">
                                 <p class="text-pink-500 text-base leading-normal	md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">We worked with Staples on their recommendation engine, experimentation platform, as well as several other products, over a period of 4 years.</p>
                             </div>
 
                             <div class="md:pt-0 md:pb-0 py-10">
                                 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7"> We built Staples' highly available experimentation platform with automatic failovers. The platform incorporated research from white papers from Google, Microsoft and Netflix.</p>
-                            
+
                                 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> We also built and maintained machine learning runtimes for Staples' email recommendation engine.</p>
 
                                 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7"> The experimentation platform included a simulation testing harness and framework that we wrote using Causatum, Simulant and Datomic.</p>
