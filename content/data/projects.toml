@@ -49,9 +49,9 @@ image = "/images/flipkart.png"
 name = "Flipkart"
 
 [[recent]]
-url = "https://akvo.org/"
-image = "/images/akvo.png"
-name = "Akvo"
+url = "https://www.ashoka.org"
+image = "/images/ashoka.png"
+name = "Ashoka"
 
 [[recent]]
 url = "http://omnyway.com/"
@@ -74,14 +74,14 @@ image = "/images/rupeek.png"
 name = "Rupeek"
 
 [[recent]]
+url = "https://akvo.org/"
+image = "/images/akvo.png"
+name = "Akvo"
+
+[[recent]]
 url = "https://getzipline.com/"
 image = "/images/zipline.png"
 name = "Zipline"
-
-[[recent]]
-url = "https://www.ashoka.org"
-image = "/images/ashoka.png"
-name = "Ashoka"
 
 [[past]]
 url = "http://www.oml.in/"
