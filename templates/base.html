@@ -4,7 +4,7 @@
 <head>
     <meta name="robots" content="noindex">
     <meta charset="utf-8">
-    <meta name="msapplication-config" content="/browserconfig.xml" />
+    <meta name="msapplication-config" content="/browserconfig.xml"/>
     <meta name="msapplication-TileColor" content="#FF3D84">
     <meta name="theme-color" content="#FF3D84">
     <meta name="description" content="">
@@ -22,115 +22,111 @@
 </head>
 
 <body class="antialiased bg-white md:max-w-[1366px] mx-auto w-full" style="font-family: museo-sans, sans-serif;">
-    <main class="">
-        <header class="py-12 px-6 md:py-16 xl:py-20 md:px-12 bg-white">
-            <div class="md:hidden">
-                <nav class="w-full items-center flex justify-between">
-                    <a href="/">
-                        <figure class="w-20">
-                            <img src="/images/svg/logo.svg" alt="Logo" class="w-full">
-                        </figure>
-                    </a>
-                    <div id="menuToggle" class="flex items-center">
-                        <div>
-                            <input type="checkbox">
-                            <span class="bg-black w-5 h-0.5	 rounded-md mb-1 block relative z-10"></span>
-                            <span class="bg-black w-5 h-0.5	 rounded-md mb-1 block relative z-10"></span>
-                            <span class="bg-black w-5 h-0.5	 rounded-md mb-1 block relative z-10"></span>
-                            <div id="menu" class="absolute top-0 left-0 w-full h-screen pt-12 ">
-                                <div class="relative">
-                                    <a href="/" class="px-6 block">
-                                        <figure class="w-20">
-                                            <img src="/images/svg/logo.svg" alt="Logo" class="w-full">
-                                        </figure>
-                                    </a>
-                                    <ul class="pt-16 ">
-                                        {% for tab in config.extra.tabs %}
-                                        <li><a href="{{tab.path}}"
-                                                class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b border-gray-100 text-black hover:text-pink-500 transition ease-in duration-100 delay-100">{{tab.name}}</a>
+<main class="">
+    <header class="py-12 px-6 md:py-16 xl:py-20 md:px-12 bg-white">
+        <div class="md:hidden">
+            <nav class="w-full items-center flex justify-between">
+                <a href="/">
+                    <figure class="w-20">
+                        <img src="/images/svg/logo.svg" alt="Logo" class="w-full">
+                    </figure>
+                </a>
+                <div id="menuToggle" class="flex items-center">
+                    <div>
+                        <input type="checkbox">
+                        <span class="bg-black w-5 h-0.5 rounded-md mb-1 block relative z-10"></span>
+                        <span class="bg-black w-5 h-0.5 rounded-md mb-1 block relative z-10"></span>
+                        <span class="bg-black w-5 h-0.5 rounded-md mb-1 block relative z-10"></span>
+                        <div id="menu" class="absolute top-0 left-0 w-full h-screen pt-12 ">
+                            <div class="relative">
+                                <a href="/" class="px-6 block">
+                                    <figure class="w-20">
+                                        <img src="/images/svg/logo.svg" alt="Logo" class="w-full">
+                                    </figure>
+                                </a>
+                                <ul class="pt-16 ">
+                                    {% for tab in config.extra.tabs %}
+                                        <li>
+                                            <a href="{{ tab.path }}"
+                                               class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b border-gray-100 text-black hover:text-pink-300 transition ease-in duration-100 delay-100">
+                                                {{ tab.name }}
+                                            </a>
                                         </li>
-                                        {% endfor %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="bg-pink-500 absolute bottom-0 py-12 w-full px-6">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-white font-light text-xl md:text-2xl leading-tight	lg:text-4xl md:leading-loose">
+                                        india + canada</h3>
+                                    <ul>
+                                        <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70	pb-3">
+                                            <a href="mailto:hello@nilenso.com">hello@nilenso.com</a>
+                                        </li>
+                                        <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70	pb-3">
+                                            <a href="https://twitter.com/nilenso" target="_blank">@nilenso</a>
+                                        </li>
+                                        <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70">
+                                            <a href="https://github.com/nilenso"
+                                               target="_blank">github.com/nilenso</a>
+                                        </li>
                                     </ul>
                                 </div>
-                                <div class="bg-pink-500 absolute bottom-0 py-12 w-full px-6">
-                                    <div class="flex justify-between items-center">
-                                        <h3
-                                            class="text-white font-light text-xl md:text-2xl leading-tight	lg:text-4xl md:leading-loose">
-                                            india + canada</h3>
-                                        <ul>
-                                            <li
-                                                class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70	pb-3">
-                                                <a href="mailto:hello@nilenso.com">hello@nilenso.com</a>
-                                            </li>
-                                            <li
-                                                class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70	pb-3">
-                                                <a href="https://twitter.com/nilenso" target="_blank">@nilenso</a>
-                                            </li>
-                                            <li
-                                                class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70">
-                                                <a href="https://github.com/nilenso"
-                                                    target="_blank">github.com/nilenso</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
                             </div>
-
                         </div>
+
                     </div>
-                </nav>
-            </div>
-            <nav>
-                <div class="hidden md:flex items-center justify-between">
-                    <a href="/">
-                        <figure>
-                            <img src="/images/svg/logo.svg" alt="Logo" class="w-full">
-                        </figure>
-                    </a>
-                    <ul class="flex">
-                        {% for tab in config.extra.tabs %}
+                </div>
+            </nav>
+        </div>
+        <nav>
+            <div class="hidden md:flex items-center justify-between">
+                <a href="/">
+                    <figure>
+                        <img src="/images/svg/logo.svg" alt="Logo" class="w-full">
+                    </figure>
+                </a>
+                <ul class="flex">
+                    {% for tab in config.extra.tabs %}
                         <li>
                             <a href="{{ tab.path }}"
-                                class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">
+                               class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">
                                 {% if current_path == tab.path %}
-                                {{ tab.name
+                                    {{ tab.name
                                 | replace(from="o", to="<span class='font-bold text-pink-500'>o</span>")
-                                | safe}}
+                                | safe }}
                                 {% else %}
-                                {{tab.name}}
+                                    {{ tab.name }}
                                 {% endif %}
                             </a>
                         </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        {% block header %} {% endblock %}
-        {% block content %} {% endblock %}
-        {% block footer %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </nav>
+    </header>
+    {% block header %} {% endblock %}
+    {% block content %} {% endblock %}
+    {% block footer %}
         <footer id="contact" class="py-12 pl-6 pr-8 mg:py-16 lg:py-20 bg-pink-500 md:pl-12 md:pr-52">
             <div class="flex justify-between items-center">
                 <h3 class="text-white font-light text-xl md:text-2xl leading-tight lg:text-4xl md:leading-loose">india +
                     canada</h3>
                 <ul>
-                    <li
-                        class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight	pb-3 transition ease-in duration-100 delay-100 hover:opacity-70">
+                    <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight	pb-3 transition ease-in duration-100 delay-100 hover:opacity-70">
                         <a href="mailto:hello@nilenso.com">hello@nilenso.com</a>
                     </li>
-                    <li
-                        class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight	pb-3 transition ease-in duration-100 delay-100 hover:opacity-70">
+                    <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight	pb-3 transition ease-in duration-100 delay-100 hover:opacity-70">
                         <a href="https://twitter.com/nilenso" target="_blank">@nilenso</a>
                     </li>
-                    <li
-                        class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70">
+                    <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70">
                         <a href="https://github.com/nilenso" target="_blank">github.com/nilenso</a>
                     </li>
                 </ul>
             </div>
         </footer>
-        {% endblock %}
-    </main>
+    {% endblock %}
+</main>
 </body>
 
 </html>
