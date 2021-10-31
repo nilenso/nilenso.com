@@ -1,27 +1,60 @@
 {% extends "base.html" %}
 
 {% block header %}
-        <section class="pt-6 pb-10 px-6 md:py-12 md:px-8 lg:py-20 lg:pl-12 lg:pr-28 bg-gray-100">
-            <div>
-            <h2 class="font-light text-xl leading-snug tracking-tight md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-black md:leading-tight"><span class="text-pink-500">we're passionate, curious folk looking to work with passionate, curious folk.</span>  get in touch at <a href="mailto:careers@nilenso.com" class="underline hover:text-pink-500 transition ease-in duration-100 delay-100">careers@nilenso.com</a></h2>
+    <section class="bg-black py-10 md:py-16 lg:py-20 px-6 md:px-10 lg:px-12">
+        <div>
+            <h2 class="font-light text-xl leading-snug md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-white md:leading-tight">
+                we're passionate, curious folk looking to work with passionate, curious folk.
+            </h2>
+            <p class="pt-6 lg:pt-10 text-pink-500 font-light text-base md:text-xl lg:text-2xl leading-normal md:leading-tight w-full max-w-[48rem] tracking-tight">
+                get in touch at
+                <a href="mailto:careers@nilenso.com" class="underline hover:text-pink-300 transition ease-in duration-100 delay-100">
+                careers@nilenso.com
+                </a>
+            </p>
         </div>
-        </section>
+    </section>
 {% endblock header %}
 {% block content %}
-        <section class="px-6 py-10 lg:py-20 md:px-12 md:py-16">
-            <div class="md:flex flex flex-wrap">
-                <div class="w-full pb-10 md:pb-0 md:w-1/2 md:pr-8 lg:pr-12 xl:pr-32 border-b md:border-b-0 md:border-r border-gray-200">
-                    <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wider pb-9 md:pb-8">what we do</h6>
-                    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">We write Clojure / ClojureScript, Elixir, Go with a dash of Haskell /PureScript, Javascript, Java and Ruby / Rails where those languages make sense.</p>
-                    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">We've spent significant time scaling and squeezing runtime performance out of Postgres and analytics performance out of HBase and Redshift. Most of our code is on the backend, and it makes a lot of sense to us to write backend code in a LISP on the JVM, but we're not wedded to it. Best tool for the job applies at nilenso, but the best tool needs to be quantified with facts. </p>
-                    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light">We might be knee-deep in Swift or Rust or C (who knows) next year and we're looking for other open-minded developers to share their excitement with us.</p>
-                </div>
-                <div class="pt-10 md:pt-0 w-full md:w-1/2 md:pl-8 lg:pl-12 xl:pl-24">
-                    <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wider pb-9 md:pb-8">our philosophy</h6>
-                    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">nilenso is an employee-owned cooperative. This means, we are a completely transparent organisation that believes in self governance.</p>
-                    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light">Being a part of nilenso means that there are no corporate secrets: we go out of our way to inform everyone in the company of our financial position, salaries and future plans. Everyone in the company has authority and autonomy. Everyone with authority is responsible for how they wield it.</p>
-                    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-normal pt-4 md:pt-20 lg:pt-48">read more about the essentials and decisions <a href="/jobs/more"  class="underline hover:text-pink-500 transition ease-in duration-100 delay-100">here</a></p>
-                </div>
+    <section class="px-6 py-10 lg:py-20 md:px-12 md:py-16">
+        <div class="md:flex flex flex-wrap">
+            <div class="w-full pb-10 md:pb-0 md:w-1/2 md:pr-8 lg:pr-12 xl:pr-32 border-b md:border-b-0 md:border-r border-gray-200">
+                <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wider pb-9 md:pb-8">what we
+                    do
+                </h6>
+                <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+                    We write Clojure / ClojureScript, Elixir, Go with a dash of Haskell /PureScript, Javascript, Java
+                    and Ruby / Rails where those languages make sense.
+                </p>
+                <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+                    We've spent significant time scaling and squeezing runtime performance out of Postgres and analytics
+                    performance out of HBase and Redshift. Most of our code is on the backend, and it makes a lot of
+                    sense to us to write backend code in a LISP on the JVM, but we're not wedded to it. Best tool for
+                    the job applies at nilenso, but the best tool needs to be quantified with facts.
+                </p>
+                <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light">We
+                    might be knee-deep in Swift or Rust or C (who knows) next year and we're looking for other
+                    open-minded developers to share their excitement with us.
+                </p>
             </div>
-        </section>
+            <div class="pt-10 md:pt-0 w-full md:w-1/2 md:pl-8 lg:pl-12 xl:pl-24">
+                <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wider pb-9 md:pb-8">our
+                    philosophy
+                </h6>
+                <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+                    nilenso is an employee-owned cooperative. This means, we are a completely transparent organisation
+                    that believes in self governance.
+                </p>
+                <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light">Being a
+                    part of nilenso means that there are no corporate secrets: we go out of our way to inform everyone
+                    in the company of our financial position, salaries and future plans. Everyone in the company has
+                    authority and autonomy. Everyone with authority is responsible for how they wield it.
+                </p>
+                <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-normal pt-4 md:pt-20 lg:pt-48">
+                    read more about the essentials and decisions
+                    <a href="/jobs/more" class="underline hover:text-pink-500 transition ease-in duration-100 delay-100">here</a>
+                </p>
+            </div>
+        </div>
+    </section>
 {% endblock content %}

@@ -5,138 +5,151 @@
 {% endblock head %}
 
 {% block header %}
-        <section class="pt-6 pb-10 px-6 md:py-10 md:px-8 lg:py-16 lg:pl-12 lg:pr-28">
-            <div>
-                <h2 class="font-light text-xl leading-snug tracking-tight		md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-black md:leading-tight"><span class="text-pink-500">we care about making an impact.</span> We are a team bonded by deeply held values.</h2>
-            </div>
-            </section>
+    <section class="bg-black py-10 md:py-16 lg:py-20 px-6 md:px-10 lg:px-12">
+        <div>
+            <h2 class="font-light text-xl leading-snug tracking-tight md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-black md:leading-tight">
+                    <span class="text-pink-500">
+                    we care about making an impact.
+                    </span>
+                We are a team bonded by deeply held values.
+            </h2>
+        </div>
+    </section>
 {% endblock header %}
 {% block content %}
-        <section class="avator-slider">
-            <div class="swiper-container tabs-buttons md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
-                <div class="swiper-wrapper flex justify-between items-center">
-                  {% set data = load_data(path="content/data/people.toml", format="toml") %}
-                  {% for person in data.people %}
-                  <div  class="w-16 h-16 rounded-full mr-10 swiper-slide bg-no-repeat opacity-40 bg-center {% if loop.index == 1 %} active-tab {% endif %} bg-no-repeat" style="background-image: url(/{{person.picture}}); background-size: 100px;"></div>
-                  {% endfor %}
-                </div>
-                <div class="swiper-button-prev z-50"></div>
-                 <div class="swiper-button-next z-50"></div>
-              </div>
-              <div class="swiper-container tabs-content">
-                <div class="swiper-wrapper">
-                  {% for person in data.people %}
-                  <div class="swiper-slide" data-hash="{{person.hash}}">
-                    <div class="py-10 md:py-16 lg:py-20 px-6 md:px-12">
-                        <div class="sm:flex">
-                            <div class="flex sm:block sm:max-w-[12rem]">
-                                <figure class="w-48">
-                                  <img src="/{{person.picture}}" alt="{{person.name}}" class="w-full">
-                                </figure>
-                                <div class="pl-6 sm:pl-0 flex flex-wrap sm:block">
-                                  <h3 class="sm:py-8 md:pb-12  lg:pb-16 text-2xl md:text-3xl lg:text-4xl text-pink-500 font-light leading-tight	">{{person.name}}</h3>
-                                  <div class="flex gap-3 self-end w-full">
-                                    {% if person.github %}
-                                      <a href="{{person.github}}" target="_blank">
-                                        <figure><img src="/images/svg/github.svg" alt="github"></figure>
-                                      </a>
-                                    {% endif %}
-                                    {% if person.twitter %}
-                                      <a href="{{person.twitter}}">
-                                        <figure>
-                                          <img src="/images/svg/twitter-black.svg" width=32 alt="twitter">
-                                        </figure>
-                                      </a>
-                                    {% endif %}
-                                    {% if person.linkedin %}
-                                      <a href="{{person.linkedin}}">
-                                        <figure>
-                                          <img src="/images/svg/linkedin.svg" width=32 alt="linkedin">
-                                        </figure>
-                                      </a>
-                                    {% endif %}
-                                  </div>
+    <section class="avator-slider">
+        <div class="swiper-container tabs-buttons md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
+            <div class="swiper-wrapper flex justify-between items-center">
+                {% set data = load_data(path="content/data/people.toml", format="toml") %}
+                {% for person in data.people %}
+                    <div class="w-16 h-16 rounded-full mr-10 swiper-slide bg-no-repeat opacity-40 bg-center {% if loop.index == 1 %} active-tab {% endif %} bg-no-repeat"
+                         style="background-image: url(/{{ person.picture }}); background-size: 100px;"></div>
+                {% endfor %}
+            </div>
+            <div class="swiper-button-prev z-50"></div>
+            <div class="swiper-button-next z-50"></div>
+        </div>
+        <div class="swiper-container tabs-content">
+            <div class="swiper-wrapper">
+                {% for person in data.people %}
+                    <div class="swiper-slide" data-hash="{{ person.hash }}">
+                        <div class="py-10 md:py-16 lg:py-20 px-6 md:px-12">
+                            <div class="sm:flex">
+                                <div class="flex sm:block sm:max-w-[12rem]">
+                                    <figure class="w-48">
+                                        <img src="/{{ person.picture }}" alt="{{ person.name }}" class="w-full">
+                                    </figure>
+                                    <div class="pl-6 sm:pl-0 flex flex-wrap sm:block">
+                                        <h3 class="sm:py-8 md:pb-12 lg:pb-16 text-2xl md:text-3xl lg:text-4xl text-pink-500 font-light leading-tight">
+                                            {{ person.name }}
+                                        </h3>
+                                        <div class="flex gap-3 self-end w-full">
+                                            {% if person.github %}
+                                                <a href="{{ person.github }}" target="_blank">
+                                                    <figure><img src="/images/svg/github.svg" alt="github"></figure>
+                                                </a>
+                                            {% endif %}
+                                            {% if person.twitter %}
+                                                <a href="{{ person.twitter }}">
+                                                    <figure>
+                                                        <img src="/images/svg/twitter-black.svg" width=32 alt="twitter">
+                                                    </figure>
+                                                </a>
+                                            {% endif %}
+                                            {% if person.linkedin %}
+                                                <a href="{{ person.linkedin }}">
+                                                    <figure>
+                                                        <img src="/images/svg/linkedin.svg" width=32 alt="linkedin">
+                                                    </figure>
+                                                </a>
+                                            {% endif %}
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="pt-10 sm:pt-0 sm:pl-10 md:pl-20 lg:pl-40 xl:pl-56">
-                              <div class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light md:pb-7">
-                                {{person.bio | safe}}
-                              </div>
+                                <div class="pt-10 sm:pt-0 sm:pl-10 md:pl-20 lg:pl-40 xl:pl-56">
+                                    <div class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light md:pb-7">
+                                        {{ person.bio | safe }}
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
-                  </div>
-                  {% endfor %}
-                </div>
-        </section>
-        <section class="xl:py-24 md:py-16 py-10 md:px-12 border-t border-gray-200 px-6">
-            <h5 class="font-normal text-sm md:text-xl text-black leading-tight w-full md:max-w-[46rem]">we’ve been fortunate to have worked with a whole lot of incredible people. meet our alumni  <a href="jobs.html"  class="underline hover:text-pink-500 transition ease-in duration-100 delay-100">here</a></h5>
-        </section>
+                {% endfor %}
+            </div>
+    </section>
+    <section class="xl:py-24 md:py-16 py-10 md:px-12 border-t border-gray-200 px-6">
+        <h5 class="font-normal text-sm md:text-xl text-black leading-tight w-full md:max-w-[46rem]">we’ve been fortunate
+            to have worked with a whole lot of incredible people. meet our alumni
+            <a href="jobs.html" class="underline hover:text-pink-500 transition ease-in duration-100 delay-100">here</a>
+        </h5>
+    </section>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
     <script>
         var tabs = document.querySelector('.tabs-buttons .swiper-wrapper');
-        new Swiper('.swiper-container',{ hashNav:true })
+        new Swiper('.swiper-container', {hashNav: true})
 
-var tabButtons = new Swiper('.tabs-buttons', {
-  slidesPerView: '12',
-  freeMode: true,
-  nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        paginationClickable: true,
-  hashNavigation: {
-          watchState: true,
-        },
-        breakpoints: {
-            320: {
-            slidesPerView: 4,
-            spaceBetween: 6
-            },
-            375: {
-            slidesPerView: 4,
-            spaceBetween: 23
-            },
-            414: {
-            slidesPerView: 5,
-            spaceBetween: 12
-            },
-            580: {
-            slidesPerView: 4,
-            spaceBetween: 30
+        var tabButtons = new Swiper('.tabs-buttons', {
+            slidesPerView: '12',
+            freeMode: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            paginationClickable: true,
+            hashNavigation: {
+                watchState: true,
             },
 
-            767: {
-            slidesPerView: 7,
-            spaceBetween: 40
+            breakpoints: {
+                320: {
+                    slidesPerView: 4,
+                    spaceBetween: 6
+                },
+                375: {
+                    slidesPerView: 4,
+                    spaceBetween: 23
+                },
+                414: {
+                    slidesPerView: 5,
+                    spaceBetween: 12
+                },
+                580: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                },
+
+                767: {
+                    slidesPerView: 7,
+                    spaceBetween: 40
+                },
+                991: {
+                    slidesPerView: 8,
+                    spaceBetween: 25
+                },
+                1024: {
+                    slidesPerView: 9,
+                    spaceBetween: 40
+                }
             },
-            991: {
-            slidesPerView: 8,
-            spaceBetween: 25
-            },
-            1024:{
-                slidesPerView: 9,
-                spaceBetween: 40
+            // scrollbar: '.swiper-scrollbar',
+            mousewheelControl: true,
+            onTap: function (swiper, event) {
+                if (event.target.classList.contains('swiper-slide') && !event.target.classList.contains('active-tab')) {
+                    event.target.parentElement.querySelector('.active-tab').classList.remove('active-tab');
+                    event.target.classList.add('active-tab');
+                    tabContent.slideTo(swiper.clickedIndex);
+                }
             }
-        },
-  // scrollbar: '.swiper-scrollbar',
-  mousewheelControl: true,
-  onTap: function(swiper, event) {
-    if ( event.target.classList.contains('swiper-slide') && !event.target.classList.contains('active-tab') ) {
-      event.target.parentElement.querySelector('.active-tab').classList.remove('active-tab');
-      event.target.classList.add('active-tab');
-      tabContent.slideTo(swiper.clickedIndex);
-    }
-  }
-});
+        });
 
-var tabContent = new Swiper('.tabs-content', {
-    hashnav: true,
-  onSlideChangeStart: function(swiper, event) {
-    tabs.children[swiper.previousIndex].classList.remove('active','active-tab');
-    tabs.children[swiper.activeIndex].classList.add('active','active-tab');
-    tabButtons.slideTo(swiper.activeIndex);
-  }
-});
+        var tabContent = new Swiper('.tabs-content', {
+            hashnav: true,
+            onSlideChangeStart: function (swiper, event) {
+                tabs.children[swiper.previousIndex].classList.remove('active', 'active-tab');
+                tabs.children[swiper.activeIndex].classList.add('active', 'active-tab');
+                tabButtons.slideTo(swiper.activeIndex);
+            }
+        });
 
     </script>
 {% endblock content %}

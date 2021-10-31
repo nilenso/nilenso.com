@@ -5,108 +5,129 @@
 {% endblock head %}
 
 {% block header %}
-        <section class="bg-black py-10 md:py-16 lg:py-20 px-6 md:px-10 lg:px-12">
-            <div>
-            <h2 class="font-light text-xl leading-snug	 md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-white md:leading-tight">we think about products in a holistic manner, and deliver systems that stand the test of time.</h2>
-            <p class="pt-6  lg:pt-10 text-pink-500 font-light text-base md:text-xl lg:text-2xl leading-normal	 md:leading-tight w-full max-w-[48rem] tracking-tight">We are product managers and product engineers who have designed, managed and built highly available, scalable and extensible services across domains such as ecommerce, logistics, healthcare, fintech, telecom and more. Read about some of our recent projects below</p>
-            </div>
-        </section>
+    <section class="bg-black py-10 md:py-16 lg:py-20 px-6 md:px-10 lg:px-12">
+        <div>
+            <h2 class="font-light text-xl leading-snug md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-white md:leading-tight">
+                we think about products in a holistic manner, and deliver systems that stand the test of time.
+            </h2>
+            <p class="pt-6  lg:pt-10 text-pink-500 font-light text-base md:text-xl lg:text-2xl leading-normal md:leading-tight w-full max-w-[48rem] tracking-tight">
+                We are product managers and product engineers who have designed, managed and built highly available,
+                scalable and extensible services across domains such as ecommerce, logistics, healthcare, fintech,
+                telecom and more. Read about some of our recent projects below
+            </p>
+        </div>
+    </section>
 {% endblock header %}
 
 {% block content %}
-<section class="logo-slider">
-  <div class="swiper-container tabs-buttons md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
-    <div class="swiper-wrapper flex justify-between items-center">
-      {% set data = load_data(path="content/data/work.toml", format="toml") %}
-      {% for client in data.clients %}
-      <div  class="swiper-slide{% if loop.index == 1 %} active-tab{% endif %} bg-no-repeat opacity-40 bg-center" style='background-size: 119px; background-image: url("/images/{{client.hash}}.png");"'></div>
-      {% endfor %}
-    </div>
-    <div class="swiper-button-prev z-50"></div>
-    <div class="swiper-button-next z-50"></div>
-  </div>
-  <div class="swiper-container tabs-content">
-    <div class="swiper-wrapper">
-      {% for client in data.clients %}
-      <div class="swiper-slide" data-hash="{{client.hash}}">
-        <div class="py-10 md:py-16 lg:py-20 px-6 md:px-12 ">
-          <div class="flex flex-wrap sm:flex-nowrap">
-            <div class="flex flex-wrap">
-              <figure class="w-36	md:w-40 lg:w-48	md:ml-0 lg:ml-16 mb-10 sm:mb-0">
-                <img src="/images/{{client.hash}}.png" alt="{{client.hash}}" class="w-full" />
-              </figure>
-              {% if client.talks | length > 0 %}
-              <div class="hidden sm:block flex flex-col self-end	w-full">
-                <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wider pb-10">talks</h6>
-                {% for talk in client.talks %}
-                <p class="text-2xl md:text-xl	text-pink-500 leading-tight	 font-light pb-8">
-                {{talk.venue}}<br>
-                <a href="{{talk.link}}">
-                  <span class="underline hover:text-pink-600 cursor-pointer	 transition ease-in duration-100 delay-100">{{talk.title}}</span></a></p>
+    <section class="logo-slider">
+        <div class="swiper-container tabs-buttons md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
+            <div class="swiper-wrapper flex justify-between items-center">
+                {% set data = load_data(path="content/data/work.toml", format="toml") %}
+                {% for client in data.clients %}
+                    <div class="swiper-slide{% if loop.index == 1 %} active-tab{% endif %} bg-no-repeat opacity-40 bg-center"
+                         style='background-size: 119px; background-image: url("/images/{{ client.hash }}.png");"'></div>
                 {% endfor %}
-              </div>
-              {% endif %}
             </div>
-            <div class="w-full ml-0 sm:ml-4 xl:ml-10">
-              {{ client.content | safe }}
-            </div>
-          </div>
+            <div class="swiper-button-prev z-50"></div>
+            <div class="swiper-button-next z-50"></div>
         </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-        <section class="xl:py-24 md:py-16 py-10 md:px-12 border-t border-gray-200 px-6">
-            <h5 class="font-normal text-sm md:text-xl text-black leading-tight ">Want to know more? our open source is available <a href="https://github.com/nilenso" target="_blank" class="underline hover:text-pink-500 transition ease-in duration-100 delay-100">here</a></h5>
-        </section>
+        <div class="swiper-container tabs-content">
+            <div class="swiper-wrapper">
+                {% for client in data.clients %}
+                    <div class="swiper-slide" data-hash="{{ client.hash }}">
+                        <div class="py-10 md:py-16 lg:py-20 px-6 md:px-12 ">
+                            <div class="flex flex-wrap sm:flex-nowrap">
+                                <div class="flex flex-wrap">
+                                    <figure class="w-36 md:w-40 lg:w-48 md:ml-0 lg:ml-16 mb-10 sm:mb-0">
+                                        <img src="/images/{{ client.hash }}.png" alt="{{ client.hash }}"
+                                             class="w-full"/>
+                                    </figure>
+                                    {% if client.talks | length > 0 %}
+                                        <div class="hidden sm:block flex flex-col self-end w-full">
+                                            <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wider pb-10">
+                                                talks</h6>
+                                            {% for talk in client.talks %}
+                                                <p class="text-2xl md:text-xl text-pink-500 leading-tight  font-light pb-8">
+                                                    {{ talk.venue }}<br>
+                                                    <a href="{{ talk.link }}">
+                                                        <span class="underline hover:text-pink-600 cursor-pointer transition ease-in duration-100 delay-100">
+                                                            {{ talk.title }}
+                                                        </span>
+                                                    </a>
+                                                </p>
+                                            {% endfor %}
+                                        </div>
+                                    {% endif %}
+                                </div>
+                                <div class="w-full ml-0 sm:ml-4 xl:ml-10">
+                                    {{ client.content | safe }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <section class="xl:py-24 md:py-16 py-10 md:px-12 border-t border-gray-200 px-6">
+        <h5 class="font-normal text-sm md:text-xl text-black leading-tight ">
+            Want to know more? our open source is available
+            <a href="https://github.com/nilenso" target="_blank"
+               class="underline hover:text-pink-500 transition ease-in duration-100 delay-100">
+                here
+            </a>
+        </h5>
+    </section>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
     <script>
         var tabs = document.querySelector('.tabs-buttons .swiper-wrapper');
 
-var tabButtons = new Swiper('.tabs-buttons', {
-  slidesPerView: '8',
-  freeMode: true,
-  hashNavigation: {
-          watchState: true,
-        },
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        paginationClickable: true,
-          //hash navigation attributes
+        var tabButtons = new Swiper('.tabs-buttons', {
+            slidesPerView: '8',
+            freeMode: true,
+            hashNavigation: {
+                watchState: true,
+            },
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            paginationClickable: true,
 
-        breakpoints: {
-            580: {
-                slidesPerView: 3,
-                spaceBetween: 10
+            // hash navigation attributes
+            breakpoints: {
+                580: {
+                    slidesPerView: 3,
+                    spaceBetween: 10
+                },
+                991: {
+                    slidesPerView: 5,
+                    spaceBetween: 20
+                },
+                1024: {
+                    slidesPerView: 6,
+                    spaceBetween: 20
+                }
             },
-            991: {
-                slidesPerView: 5,
-                spaceBetween: 20
-            },
-            1024:{
-                slidesPerView: 6,
-                spaceBetween: 20
+
+            // scrollbar: '.swiper-scrollbar',
+            mousewheelControl: true,
+            onTap: function (swiper, event) {
+                if (event.target.classList.contains('swiper-slide') && !event.target.classList.contains('active-tab')) {
+                    event.target.parentElement.querySelector('.active-tab').classList.remove('active-tab');
+                    event.target.classList.add('active-tab');
+                    tabContent.slideTo(swiper.clickedIndex);
+                }
             }
-        },
-  // scrollbar: '.swiper-scrollbar',
-  mousewheelControl: true,
-  onTap: function(swiper, event) {
-    if ( event.target.classList.contains('swiper-slide') && !event.target.classList.contains('active-tab') ) {
-      event.target.parentElement.querySelector('.active-tab').classList.remove('active-tab');
-      event.target.classList.add('active-tab');
-      tabContent.slideTo(swiper.clickedIndex);
-    }
-  }
-});
+        });
 
-var tabContent = new Swiper('.tabs-content', {
-    hashnav: true,
-  onSlideChangeStart: function(swiper, event) {
-    tabs.children[swiper.previousIndex].classList.remove('active','active-tab');
-    tabs.children[swiper.activeIndex].classList.add('active','active-tab');
-    tabButtons.slideTo(swiper.activeIndex);
-  }
-});
+        var tabContent = new Swiper('.tabs-content', {
+            hashnav: true,
+            onSlideChangeStart: function (swiper, event) {
+                tabs.children[swiper.previousIndex].classList.remove('active', 'active-tab');
+                tabs.children[swiper.activeIndex].classList.add('active', 'active-tab');
+                tabButtons.slideTo(swiper.activeIndex);
+            }
+        });
     </script>
 {% endblock content %}
