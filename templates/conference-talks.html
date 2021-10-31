@@ -2,49 +2,58 @@
 {% extends "base.html" %}
 
 {% block header %}
-<section class="py-10 px-6 md:py-10 md:px-8 lg:py-20 lg:px-12 bg-pink-500">
-  <div>
-    <h2 class="font-light text-xl leading-snug	 md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-white md:leading-tight tracking-tight	">members of the nilenso team have given talks at conferences around the world.</h2>
-  </div>
-</section>
+    <section class="bg-black py-10 md:py-16 lg:py-20 px-6 md:px-10 lg:px-12">
+        <div>
+            <h2 class="font-light text-xl leading-snug md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-white md:leading-tight tracking-tight">
+                members of the nilenso team have given talks at conferences around the world.</h2>
+        </div>
+    </section>
 {% endblock header %}
 {% block content %}
-<script>
-  function showVideo(target) {
-    target.removeChild(target.getElementsByTagName("img")[0]);
-    target.getElementsByTagName("iframe")[0].removeAttribute("class");
-  }
-</script>
-{% set data = load_data(path="content/data/talks.toml", format="toml") %}
-<section class="lg:py-20  md:py-16 py-10 md:px-12 px-6">
-  {% for talk in data.talks %}
-  <div class="sm:flex pb-6 md:pb-16">
-    <figure onclick="showVideo(this)" class="min-w-max w-64 max-w-[18rem] sm:w-[12rem] md:w-[18rem] lg:w-[20rem]">
-      <img src="https://img.youtube.com/vi/{{talk.youtube_id}}/0.jpg" />
-      <iframe id="ytplayer"
-              loading="lazy"
-              type="text/html"
-              class="hidden w-64"
-              src="https://www.youtube.com/embed/{{ talk.youtube_id }}?autoplay=0"
-              width="480px"
-              height="360px"
-              frameborder="0"></iframe>
-    </figure>
-    <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
-      <div>
-        <h3 class="text-black font-normal lg:text-3xl md:text-xl text-base leading-normal">{{talk.title}}</h3>
-        <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">{{talk.duration}}</p>
-      </div>
-      <div class="w-full sm:self-end pt-4">
-        <h3 class="text-pink-500 font-normal lg:text-3xl md:text-xl text-base leading-normal">
-          {% if talk.speakerhash %}<a href="/people/#{{talk.speakerhash}}" class="inline-block underline">{% endif %}
-            {{talk.speakers}}
-            {% if talk.speakerhash %}</a>{% endif %}
-        </h3>
-        <p class="text-black font-light lg:text-2xl md:text-xl text-base leading-tight pt-2">{{talk.venue}}</p>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-</section>
+    <script>
+        function showVideo(target) {
+            let thumbnail = target.getElementsByTagName("img")[0];
+            target.removeChild(thumbnail);
+            let videoIframe = target.getElementsByTagName("iframe")[0];
+            videoIframe.removeAttribute("class");
+            videoIframe.width = thumbnail.width;
+            videoIframe.height = thumbnail.height;
+        }
+    </script>
+    {% set data = load_data(path="content/data/talks.toml", format="toml") %}
+    <section class="lg:py-20 md:py-16 py-10 md:px-12 px-6">
+        {% for talk in data.talks %}
+            <div class="sm:flex py-6 md:py-16 first:border-t-0 border-t">
+                <figure onclick="showVideo(this)"
+                        class="min-w-full md:min-w-max lg:min-w-max xl:min-w-max sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25rem]">
+                    <img src="https://img.youtube.com/vi/{{ talk.youtube_id }}/0.jpg"/>
+                    <iframe id="ytplayer"
+                            loading="lazy"
+                            type="text/html"
+                            class="hidden w-64"
+                            src="https://www.youtube.com/embed/{{ talk.youtube_id }}?autoplay=0"
+                            frameborder="0">
+                    </iframe>
+                </figure>
+                <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
+                    <div>
+                        <h3 class="text-black font-normal lg:text-3xl md:text-2xl text-base leading-normal">{{ talk.title }}</h3>
+                        <p class="text-black font-light lg:text-1xl md:text-xl text-base leading-tight pt-2">
+                            ⏱ {{ talk.duration }}</p>
+                    </div>
+
+                    <div class="w-full sm:self-end pt-4">
+                        <h4 class="text-pink-500 font-normal lg:text-1xl md:text-xl text-base leading-normal">
+                            {% if talk.speakerhash %}
+                                <a href="/people/#{{ talk.speakerhash }}" class="inline-block underline">{% endif %}
+                            {{ talk.speakers }}
+                            {% if talk.speakerhash %}</a>{% endif %}
+                        </h4>
+
+                        <p class="text-black font-light lg:text-1xl md:text-xl text-base leading-tight pt-2">{{ talk.venue }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </section>
 {% endblock content %}
