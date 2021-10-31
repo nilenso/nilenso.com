@@ -16,18 +16,18 @@
             let thumbnail = target.getElementsByTagName("img")[0];
             target.removeChild(thumbnail);
             let videoIframe = target.getElementsByTagName("iframe")[0];
-            videoIframe.removeAttribute("class");
             videoIframe.width = thumbnail.width;
             videoIframe.height = thumbnail.height;
+            videoIframe.removeAttribute("class");
         }
     </script>
     {% set data = load_data(path="content/data/talks.toml", format="toml") %}
     <section class="lg:py-20 md:py-16 py-10 md:px-12 px-6">
         {% for talk in data.talks %}
-            <div class="sm:flex py-6 md:py-16 first:border-t-0 border-t">
+            <div class="talk-item sm:flex py-6 md:py-16 border-t">
                 <figure onclick="showVideo(this)"
                         class="min-w-full md:min-w-max lg:min-w-max xl:min-w-max sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25rem]">
-                    <img src="https://img.youtube.com/vi/{{ talk.youtube_id }}/0.jpg"/>
+                    <img src="/images/talks/{{ talk.youtube_id }}.jpg"/>
                     <iframe id="ytplayer"
                             loading="lazy"
                             type="text/html"

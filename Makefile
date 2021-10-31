@@ -3,8 +3,11 @@
 serve:
 	zola serve
 
-download:
+get-site:
 	./bin/download-site
+
+get-yt-thumbnails:
+	./bin/download-yt-thumbnails $(CURDIR)
 
 help: ?
 
@@ -13,6 +16,7 @@ help: ?
 	@echo " nilenso.com \\ help"
 	@echo "===================="
 	@echo
-	@echo "download ........... Downloads the raw site from dashpad"
-	@echo "serve .............. Start dev server locally"
+	@echo "get-site ............ Downloads the raw site from dashpad"
+	@echo "get-yt-thumbnails ... Downloads the YouTube image thumbnails"
+	@echo "serve ............... Start dev server locally"
 	@echo
