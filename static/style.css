@@ -154,6 +154,10 @@ html {
     display: none;
 }
 
+.talk-item:first-child {
+    border-top: 0px;
+}
+
 @media (max-width: 1024px) {
     .logo-slider .tabs-buttons .swiper-slide {
         width: 138px !important;
