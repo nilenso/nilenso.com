@@ -32,7 +32,7 @@ duration = "10:19"
 
 [[talks]]
 title = "Reducing Accretion in Monoliths"
-speakers = "Akshay Gupta and Sourabh Ghorpade (Go-Jek)"
+speakers = "Akshay Gupta & Sourabh Ghorpade (Go-Jek)"
 speakerhash = "kitallis"
 venue = "clojureD 2019"
 youtube_id = "AOCoYf2TS5Q"
@@ -79,7 +79,7 @@ youtube_id = "uiGLdaZN39w"
 duration = "35:19"
 
 [[talks]]
-title = "REPL driven mobile development <br> with Clojure(script)"
+title = "REPL driven mobile development with Clojure(script)"
 speakers = "Srihari Sriraman"
 speakerhash = "srihari"
 venue = "Fragments 2017"
@@ -88,7 +88,7 @@ duration = "43:34"
 
 [[talks]]
 title = "Moving People with Clojure"
-speakers = "Abhinav Sarkar and Kartik Gupta (Go-Jek)"
+speakers = "Abhinav Sarkar & Kartik Gupta (Go-Jek)"
 speakerhash = "abhinav"
 venue = "EuroClojure 2017"
 youtube_id = "3y7xzH8jB8A"
@@ -159,7 +159,7 @@ youtube_id = "uVK3t-5wWew"
 duration = "52:52"
 
 [[talks]]
-title = "Building an Experimentation Platform <br> in Clojure"
+title = "Building an Experimentation Platform in Clojure"
 speakers = "Nivedita Priyadarshini & Srihari Sriraman"
 speakerhash = "nid"
 venue = "Functional Conf 2015"
@@ -197,7 +197,7 @@ duration = "28:45"
 
 [[talks]]
 title = "The Tao of Ruby"
-speakers = "Steven Deobald and Akshay Gupta"
+speakers = "Steven Deobald & Akshay Gupta"
 venue = "RubyConf India 2013"
 youtube_id = "4A2nAK6H6BU"
 duration = "40:50"
