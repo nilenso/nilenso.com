@@ -38,6 +38,29 @@ twitter = "http://twitter.com/kitallis"
 linkedin = "http://in.linkedin.com/in/kitallis"
 
 [[people]]
+nick = "alisha"
+hash = "alisha-mohanty"
+picture = ""
+github = ""
+name = "Alisha Mohanty"
+bio = '''
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Alisha is Neo incarnate; she visualises the world in code. She was first drawn to programming because of how logical it was. Today, she is driven by the idea that the code she writes can make a difference in someone’s life.
+  </p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Alisha is an old school open source enthusiast. As an Outreachy intern, she worked on the <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='http://fedoraproject.org'>Fedora project</a>. Since then, she has been a <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://codein.withgoogle.com'>Google Code-In</a> mentor, <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://www.girlscript.techGirlScript'>GirlScript</a> mentor, helping new folks get acquainted with working on open source projects, guiding them with beginner-friendly resources, as well as reviewing PRs. She loves introducing people (and women in particular) to programming, and has spoken at various conferences. Alisha is a big believer in the power of community.
+  </p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Alisha joined us with experience working at <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://uncopied.art/fr/about'>uncopied.art</a> and Accenture.
+</p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    She loves music, and can be seen strumming the ukulele to her favourite songs. She is partial to old Bollywood songs, though lofi is her latest goto. :)
+</p>
+'''
+twitter = "https://twitter.com/alisham__"
+linkedin = "https://github.com/alishamohanty"
+
+[[people]]
 nick = "dan"
 hash = "dany-sam"
 picture = "images/people/dan.jpeg"
@@ -245,6 +268,12 @@ picture = "images/people/sezal.png"
 github = "https://github.com/sezaljain"
 name = "Sezal Jain"
 bio = '''
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Sezal is a full range engineer, having worked with hardware, embedded software, web applications and AI algorithms. Talk to her about anything ranging from edge detection algorithms to autonomous river exploration, helicopter landing, home delivery of healthcare, strawberry farming or scaling logistics solutions.
+  </p>
+    <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    An IIT grad, she went on to work in robotics at Carnegie Mellon, and led a healthcare startup as AVP of Technology before joining nilenso.
+  </p>
 '''
 twitter = "https://twitter.com/sezal_jain"
 linkedin = "https://www.linkedin.com/in/sezal-jain-80823511/"
@@ -256,6 +285,15 @@ picture = "images/people/shafeeq.png"
 github = "https://github.com/shafeeq"
 name = "Shafeeq Kunnakkadan"
 bio = '''
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Shafeeq's quiet confidence and smiling demeanor belie an ember of passion searing just beneath the surface. When he first joined us, he was loath to engage the ethically treacherous Java ecosystem and longed for the purity of Python. He is no fan of Oracle, no fan of yesteryear's software meatgrinder, and no fan of ignorance. Neither are we.
+  </p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    To that end, we traded him an unlimited library, which he chews through like an industrial tree harvester, for a tempered approach to Free Software.
+  </p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Shafeeq has worked on complex fintech solutions that involved working with payment processors including banks, PayPal, WeChat and IBM. He has also built systems that handle concurrency at scale.
+  </p>
 '''
 twitter = "https://twitter.com/shafeeq_k"
 linkedin = "https://www.linkedin.com/in/shafeeqk/"
@@ -312,6 +350,18 @@ picture = "images/people/srihari.png"
 github = "http://github.com/ssrihari"
 name = "Srihari Sriraman"
 bio = '''
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Srihari is the person that’s constantly asking: “why not?”, and in doing so, makes the impossible happen.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    He practices minimalistic and user centric system design for the web. He loves products and seeks the thrill in solving people's problems. He also likes building and running software teams.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Srihari devotes a considerable portion of his boundless energy to evangelizing Clojure and Postgres so everyone can appreciate their simplicity and effectiveness as much as he does.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    In a past life, he was a FOSS enthusiast, and a GIMP contributor. A semi-professional carnatic vocalist and amateur ukulele-ist , he performs occasionally.
+</p>
 '''
 twitter = "http://twitter.com/SrihariSriraman"
 linkedin = "http://www.linkedin.com/in/sriharisriraman"
@@ -343,6 +393,18 @@ picture = "images/people/vkrm.png"
 github = "https://github.com/vkrmis"
 name = "Vikram Chintalapati"
 bio = '''
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    An engineer with an entrepreneurial spirit, Vikram brings a worldview stemming from his experience working in domains such as biotech and genomics, as well as running companies to nilenso.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Vikram has an even-keeled temperament that makes him the ideal partner on complex projects.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    At nilenso, Vikram has worked with Vital Strategies on <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://resolvetosavelives.org/'>Resolve to Save Lives</a>, an initiative that focuses on improving cardiovascular health globally. Here, he led the efforts around building a lightweight medical inventory system and enabling the delivery of services via telemedicine.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    A geopolitics and history buff, he is also passionate about football. Pet peeve: hardware isn’t open sourced nearly enough!
+</p>
 '''
 twitter = "https://twitter.com/cvikram"
 linkedin = "https://www.linkedin.com/in/vikram-chintalapati-23764111a/"
