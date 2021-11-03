@@ -88,18 +88,18 @@
                 </a>
                 <ul class="flex">
                     {% for tab in config.extra.tabs %}
-                        <li>
-                            <a href="{{ tab.path }}"
-                               class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">
-                                {% if current_path == tab.path %}
-                                    {{ tab.name
-                                | replace(from="o", to="<span class='font-bold text-pink-500'>o</span>")
-                                | safe }}
-                                {% else %}
-                                    {{ tab.name }}
-                                {% endif %}
-                            </a>
-                        </li>
+                        {% if tab.nav %}
+                            <li>
+                                <a href="{{ tab.path }}"
+                                   class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">
+                                    {% if current_path == tab.path %}
+                                        {{ tab.name | replace(from="o", to="<span class='font-bold text-pink-500'>o</span>") | replace(from="alumni", to="alum<span class='font-bold text-pink-500'>nil</span>") | safe }}
+                                    {% else %}
+                                        {{ tab.name }}
+                                    {% endif %}
+                                </a>
+                            </li>
+                        {% endif %}
                     {% endfor %}
                 </ul>
             </div>
