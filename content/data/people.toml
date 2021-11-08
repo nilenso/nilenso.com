@@ -6,7 +6,7 @@ github = "https://github.com/qptr"
 name = "Akshatha Herle"
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    Akshatha is an electronics engineer turned functional Programmer and ML enthusiast. In her spare time, she likes to tinker with MATLAB, and has built a binary digital signal encoder that converts signals to line codes.
+    Akshatha is an electronics engineer turned functional Programmer.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
     Check out her book tracking app <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://github.com/nilenso/athenaeum'>athenaeum</a> and <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://github.com/nilenso/reader'>web page reader app</a>, both written in Clojure / ClojureScript.
@@ -87,6 +87,15 @@ picture = "images/people/deepa.png"
 github = "http://github.com/dvenkatr"
 name = "Deepa Venkatraman"
 bio = '''
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Like a rock. Which is to say, she has tenacity. Not the way a Ford is "like a rock". Deepa drives. One supposes a Ford drives, too. But Deepa will outlast even a gas guzzler from the 60's. So she's more like a rock than a ford. In both ways.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Deepa's got a rainbow-coloured past. Founding startups, running businesses, crunching big numbers, building robots, and tearing up backroads in a cloud of dust that implies the closing credits will scroll by soon with a really kickin' outtro. At nilenso, she’s tasked with figuring out how to turn us from a cute little boutique software consultancy into a dominant multinational co-operative corporation. No big deal.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Deepa is a stealth semi-luddite, so don't be surprised if she convinces you your smartphone is not the future of your life -- or that data expiry and encryption should be an everyday concern. Oh, she also speaks half a dozen languages and knows everyone you know but she is almost definitely probably not a secret agent.
+</p>
 '''
 twitter = "https://twitter.com/deepa_v"
 linkedin = "https://uk.linkedin.com/in/deepavenkatraman"
@@ -182,32 +191,24 @@ twitter = ""
 linkedin = ""
 
 [[people]]
-nick = "neena"
-hash = "ravi-chandra-padmala"
-picture = "images/people/neena.png"
-github = "https://github.com/neenaoffline"
-name = "Ravi Chandra (neena) Padmala"
-bio = '''
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    Ravi, known better by his moniker neena, has worked on building a neo bank, a next-gen dashboard that handles streaming data, a geospatial indexing service and libraries that help developers control anonymity.
-</p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    neena speaks Clojure, Java, Haskell, Go, Rails, Elixir, JavaScript and more. He loves learning new things: programming languages, human languages, musical instruments, climbing, biking, yoga and martial arts.
-</p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    A self-professed tsundoku aficionado, neena owns more books than you can count, and a whole host of musical instruments to boot. A specialist in the second hand trade, his olx skills can give you a run for your money.
-</p>
-'''
-twitter = "http://twitter.com/neenaoffline"
-linkedin = "https://www.linkedin.com/in/ravichandrapadmala"
-
-[[people]]
 nick = "prabhanshu"
 hash = "prabhanshu-gupta"
 picture = "images/people/prabhanshu.png"
 github = "https://github.com/prabhanshuguptagit"
 name = "Prabhanshu Gupta"
 bio = '''
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Prabhanshu appreciates artistry in all its forms. A composer and musician, he plays several instruments and mixes music in his spare time.
+  </p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Prabhanshu is passionate about building for the web. Prior to joining nilenso, his favourite pastime was to hack up prototypes for his friends’ startups.
+  </p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    At nilenso, Prabhanshu has worked with Vital Strategies on Resolve to Save Lives, an initiative that focuses on improving cardiovascular health globally.
+  </p>
+ <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Prabhanshu loves writing tests.
+  </p>
 '''
 twitter = "https://twitter.com/twomogambo"
 linkedin = "https://www.linkedin.com/in/prabhanshu-gupta/"
@@ -231,6 +232,26 @@ bio = '''
 '''
 twitter = "https://twitter.com/KiniPriyanga"
 linkedin = "https://www.linkedin.com/in/priyangapkini/"
+
+[[people]]
+nick = "neena"
+hash = "ravi-chandra-padmala"
+picture = "images/people/neena.png"
+github = "https://github.com/neenaoffline"
+name = "Ravi Chandra (neena) Padmala"
+bio = '''
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    Ravi, known better by his moniker neena, has worked on building a neo bank, a next-gen dashboard that handles streaming data, a geospatial indexing service and libraries that help developers control anonymity.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    neena speaks Clojure, Java, Haskell, Go, Rails, Elixir, JavaScript and more. He loves learning new things: programming languages, human languages, musical instruments, climbing, biking, yoga and martial arts.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    A self-professed tsundoku aficionado, neena owns more books than you can count, and a whole host of musical instruments to boot. A specialist in the second hand trade, his olx skills can give you a run for your money.
+</p>
+'''
+twitter = "http://twitter.com/neenaoffline"
+linkedin = "https://www.linkedin.com/in/ravichandrapadmala"
 
 [[people]]
 nick = "sandy"
