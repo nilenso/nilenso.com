@@ -216,7 +216,7 @@ linkedin = "https://www.linkedin.com/in/prabhanshu-gupta/"
 [[people]]
 nick = "priyanga"
 hash = "priyanga-kini"
-picture = ""
+picture = "images/people/priyanga.png"
 github = "https://github.com/Priyangapkini"
 name = "Priyanga Kini"
 bio = '''
@@ -322,7 +322,7 @@ linkedin = "https://www.linkedin.com/in/shafeeqk/"
 [[people]]
 nick = "shivam"
 hash = "shivam-singhal"
-picture = ""
+picture = "images/people/shivam.png"
 github = "https://github.com/shhivam"
 name = "Shivam Singhal"
 bio = '''
