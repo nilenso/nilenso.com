@@ -6,13 +6,13 @@ github = "https://github.com/qptr"
 name = "Akshatha Herle"
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    Akshatha is an electronics engineer turned functional Programmer.
+    Akshatha is an electronics engineer turned functional programmer.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
     Check out her book tracking app <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://github.com/nilenso/athenaeum'>athenaeum</a> and <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://github.com/nilenso/reader'>web page reader app</a>, both written in Clojure / ClojureScript.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    More recently, Akshatha has been sinking her teeth into the telecom industry, where she has worked on services from SMS post request throttling, to various types of error handling, validation and logging.
+    More recently, Akshatha has been sinking her teeth into the telecom industry, where she is currently working on messaging services.
   </p>
 '''
 twitter = ""
