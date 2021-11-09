@@ -40,7 +40,7 @@ linkedin = "http://in.linkedin.com/in/kitallis"
 [[people]]
 nick = "alisha"
 hash = "alisha-mohanty"
-picture = ""
+picture = "images/people/alisha.jpg"
 github = ""
 name = "Alisha Mohanty"
 bio = '''
@@ -173,7 +173,7 @@ linkedin = "http://in.linkedin.com/pub/nivedita-priyadarshini/47/524/386/"
 [[people]]
 nick = "pavithra"
 hash = "pavithra-iyer"
-picture = ""
+picture = "images/people/pavithra.png"
 github = ""
 name = "Pavithra Iyer"
 bio = '''
