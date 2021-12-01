@@ -105,12 +105,12 @@ html {
     opacity: 1;
 }
 
-.avator-slider .tabs-buttons .swiper-slide {
+.avatar-slider .tabs-buttons .swiper-slide {
     padding: 1rem 2rem;
     width: 64px !important;
 }
 
-.avator-slider .tabs-buttons .active-tab {
+.avatar-slider .tabs-buttons .active-tab {
     opacity: 1;
     border: 1px solid #FF3D84;
 }
@@ -165,7 +165,7 @@ html {
 }
 
 @media (max-width: 991px) {
-    .avator-slider .tabs-buttons .swiper-slide {
+    .avatar-slider .tabs-buttons .swiper-slide {
         background-size: 100px !important;
     }
 
@@ -192,7 +192,7 @@ html {
         left: 10px;
     }
 
-    .avator-slider .tabs-buttons .swiper-slide {
+    .avatar-slider .tabs-buttons .swiper-slide {
         background-size: 80px !important;
     }
 
@@ -203,7 +203,7 @@ html {
         margin-top: -10px;
     }
 
-    .avator-slider .tabs-buttons .swiper-slide {
+    .avatar-slider .tabs-buttons .swiper-slide {
         height: 62px;
         width: 62px !important;
     }
