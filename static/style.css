@@ -93,10 +93,6 @@ html {
     width: 100%;
 }
 
-.tabs-buttons {
-    height: auto;
-}
-
 .tabs-buttons .swiper-slide {
     padding: 1rem 2rem;
 }
