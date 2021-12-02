@@ -23,7 +23,7 @@
 
 <body class="antialiased bg-white md:max-w-[1366px] mx-auto w-full" style="font-family: museo-sans, sans-serif;">
 <main class="">
-    <header class="py-12 px-6 md:py-16 xl:py-20 md:px-12 bg-white">
+    <header class="py-12 pl-6 pr-8 mg:py-16 lg:py-20 md:px-12 bg-white">
         <div class="md:hidden">
             <nav class="w-full items-center flex justify-between">
                 <a href="/">
@@ -47,8 +47,7 @@
                                 <ul class="pt-16 ">
                                     {% for tab in config.extra.tabs %}
                                         <li>
-                                            <a href="{{ tab.path }}"
-                                               class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b border-gray-100 text-black hover:text-pink-300 transition ease-in duration-100 delay-100">
+                                            <a href="{{ tab.path }}" class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b border-gray-100 text-black hover:text-pink-300 transition ease-in duration-100 delay-100">
                                                 {{ tab.name }}
                                             </a>
                                         </li>
@@ -93,7 +92,7 @@
                                 <a href="{{ tab.path }}"
                                    class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 transition ease-in duration-100 delay-100 ">
                                     {% if current_path == tab.path %}
-                                        {{ tab.name | replace(from="o", to="<span class='font-bold text-pink-500'>o</span>") | replace(from="alumni", to="alum<span class='font-bold text-pink-500'>nil</span>") | safe }}
+                                        {{ tab.name | replace(from="o", to="<span class='font-bold text-pink-500'>o</span>") | safe }}
                                     {% else %}
                                         {{ tab.name }}
                                     {% endif %}
@@ -108,21 +107,37 @@
     {% block header %} {% endblock %}
     {% block content %} {% endblock %}
     {% block footer %}
-        <footer id="contact" class="py-12 pl-6 pr-8 mg:py-16 lg:py-20 bg-pink-500 md:pl-12 md:pr-52">
+        <footer id="contact" class="py-12 pl-6 pr-8 mg:py-16 lg:py-20 md:px-12 bg-pink-500 ">
             <div class="flex justify-between items-center">
-                <h3 class="text-white font-light text-xl md:text-2xl leading-tight lg:text-4xl md:leading-loose">india +
-                    canada</h3>
-                <ul>
-                    <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight pb-3 transition ease-in duration-100 delay-100 hover:opacity-70">
-                        <a href="mailto:hello@nilenso.com">hello@nilenso.com</a>
-                    </li>
-                    <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight pb-3 transition ease-in duration-100 delay-100 hover:opacity-70">
-                        <a href="https://twitter.com/nilenso" target="_blank">@nilenso</a>
-                    </li>
-                    <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70">
-                        <a href="https://github.com/nilenso" target="_blank">github.com/nilenso</a>
-                    </li>
-                </ul>
+                <h3 class="text-white font-light text-xl md:text-2xl leading-tight lg:text-4xl md:leading-loose">
+                    <a href="https://goo.gl/maps/Ywcrdb2bziw2iage6">india</a> + <a href="https://goo.gl/maps/HjgF6V9tBFKpnBTT8">canada</a>
+                </h3>
+
+                <div class="grid grid-cols-2 gap-0 grid-flow-col md:divide-x">
+                    <ul class="invisible md:visible">
+                        <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight pb-3 transition ease-in duration-100 delay-100 hover:opacity-70">
+                            <a href="mailto:hello@nilenso.com">alumni</a>
+                        </li>
+
+                        <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight pb-3 transition ease-in duration-100 delay-100 hover:opacity-70">
+                            <a href="https://github.com/nilenso" target="_blank">open source</a>
+                        </li>
+
+                        <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight transition ease-in duration-100 delay-100 hover:opacity-70">
+                            <a href="https://vyakaran.nilenso.com" target="_blank">vyakaran: handbook</a>
+                        </li>
+                    </ul>
+
+                    <ul class="pl-6 md:pl-10 lg:pl-10 xl:pl-10">
+                        <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight pb-3 transition ease-in duration-100 delay-100 hover:opacity-70">
+                            <a href="mailto:hello@nilenso.com">hello@nilenso.com</a>
+                        </li>
+
+                        <li class="text-white font-light text-base md:text-xl lg:text-2xl leading-tight pb-3 transition ease-in duration-100 delay-100 hover:opacity-70">
+                            <a href="https://twitter.com/nilenso" target="_blank">@nilenso</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </footer>
     {% endblock %}
