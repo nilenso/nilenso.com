@@ -20,15 +20,15 @@
 {% block content %}
     <section class="logo-slider">
         <div class="swiper-container tabs-buttons md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
-            <div class="swiper-wrapper flex justify-between items-center">
+            <div id="logo-tab-buttons" class="grid grid-cols-5 grid-flow-row">
                 {% set data = load_data(path="content/data/work.toml", format="toml") %}
                 {% for client in data.clients %}
+                <div class="py-3">
                     <div class="swiper-slide{% if loop.index == 1 %} active-tab{% endif %} bg-no-repeat opacity-40 bg-center"
                          style='background-size: 119px; background-image: url("/images/{{ client.hash }}.png");"'></div>
+                </div>
                 {% endfor %}
             </div>
-            <div class="swiper-button-prev z-50"></div>
-            <div class="swiper-button-next z-50"></div>
         </div>
         <div class="swiper-container tabs-content">
             <div class="swiper-wrapper">
@@ -80,51 +80,20 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
     <script>
-        var tabs = document.querySelector('.tabs-buttons .swiper-wrapper');
+        var tabButtons = document.getElementById('logo-tab-buttons');
 
-        var tabButtons = new Swiper('.tabs-buttons', {
-            slidesPerView: '8',
-            freeMode: true,
-            hashNavigation: {
-                watchState: true,
-            },
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            paginationClickable: true,
-
-            // hash navigation attributes
-            breakpoints: {
-                580: {
-                    slidesPerView: 3,
-                    spaceBetween: 10
-                },
-                991: {
-                    slidesPerView: 5,
-                    spaceBetween: 20
-                },
-                1024: {
-                    slidesPerView: 6,
-                    spaceBetween: 20
-                }
-            },
-
-            // scrollbar: '.swiper-scrollbar',
-            mousewheelControl: true,
-            onTap: function (swiper, event) {
-                if (event.target.classList.contains('swiper-slide') && !event.target.classList.contains('active-tab')) {
-                    event.target.parentElement.querySelector('.active-tab').classList.remove('active-tab');
-                    event.target.classList.add('active-tab');
-                    tabContent.slideTo(swiper.clickedIndex);
-                }
+        for (let clientNum = 0, len = tabButtons.children.length; clientNum < len; clientNum++) {
+            tabButtons.children[clientNum].onclick = function () {
+                tabContent.slideTo(clientNum);
             }
-        });
+
+        }
 
         var tabContent = new Swiper('.tabs-content', {
             hashnav: true,
-            onSlideChangeStart: function (swiper, event) {
-                tabs.children[swiper.previousIndex].classList.remove('active', 'active-tab');
-                tabs.children[swiper.activeIndex].classList.add('active', 'active-tab');
-                tabButtons.slideTo(swiper.activeIndex);
+            onSlideChangeStart: function (swiper, _event) {
+                tabButtons.children[swiper.previousIndex].children[0].classList.remove('active', 'active-tab');
+                tabButtons.children[swiper.activeIndex].children[0].classList.add('active', 'active-tab');
             }
         });
     </script>
