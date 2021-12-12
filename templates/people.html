@@ -19,7 +19,7 @@
 {% block content %}
     <section class="avatar-slider">
         <div class="tabs-buttons md:py-10 py-5 lg:py-10 bg-gray-100 md:px-15 px-3">
-            <div id="people-list" class="grid grid-flow-row grid-cols-6 lg:grid-cols-9 xl:grid-cols-9 place-items-center">
+            <div id="people-list" class="grid grid-flow-row grid-cols-4 md:grid-cols-6 lg:grid-cols-9 xl:grid-cols-9 place-items-center">
                 {% set data = load_data(path="content/data/people.toml", format="toml") %}
                 {% for person in data.people %}
                     <div class="py-3">
