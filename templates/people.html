@@ -25,8 +25,8 @@
                 {% set data = load_data(path="content/data/people.toml", format="toml") %}
                 {% for person in data.people %}
                     <div class="py-3">
-                        <div class="person w-16 h-16 py-5 rounded-full bg-no-repeat opacity-40 bg-center {% if loop.index == 1 %} active-tab {% endif %} bg-no-repeat"
-                             style="background-image: url(/{{ person.picture }}); background-size: 100px;"></div>
+                        <button class="hover:opacity-100 person w-16 h-16 py-5 rounded-full bg-no-repeat opacity-40 bg-center {% if loop.index == 1 %} active-tab {% endif %} bg-no-repeat"
+                             style="background-image: url(/{{ person.picture }}); background-size: 100px;"></button>
                     </div>
                 {% endfor %}
             </div>

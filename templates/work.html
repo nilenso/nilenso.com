@@ -24,9 +24,9 @@
             <div id="logo-tab-buttons" class="grid grid-cols-3 md:grid-cols-5 grid-flow-row">
                 {% set data = load_data(path="content/data/work.toml", format="toml") %}
                 {% for client in data.clients %}
-                    <div class="py-3">
-                        <div class="swiper-slide{% if loop.index == 1 %} active-tab{% endif %} bg-no-repeat opacity-40 bg-center"
-                             style='background-size: 119px; background-image: url("/images/{{ client.hash }}.png");"'></div>
+                    <div class="py-3 hover:cursor-pointer">
+                        <button class="hover:opacity-100 swiper-slide{% if loop.index == 1 %} active-tab{% endif %} bg-no-repeat opacity-40 bg-center"
+                             style='background-size: 119px; background-image: url("/images/{{ client.hash }}.png");"'></button>
                     </div>
                 {% endfor %}
             </div>
