@@ -3,155 +3,137 @@ nick = "abhik"
 picture = "images/alumni/abhik.png"
 github = "https://github.com/trycatcher"
 name = "Abhik Khanra"
-twitter = "https://twitter.com/Ryecatcher"
-linkedin = "https://in.linkedin.com/in/abhik-khanra-7738964"
+link = "https://twitter.com/Ryecatcher"
 
 [[people]]
 nick = "adi"
 picture = "images/alumni/aditya.png"
 github = "https://github.com/adityaathalye"
 name = "Aditya Athalye"
-twitter = "https://www.evalapply.org"
-linkedin = ""
+link = "https://www.evalapply.org"
 
 [[people]]
 nick = "abhinav"
 picture = "images/alumni/abhinav.png"
 github = "http://github.com/abhin4v"
 name = "Abhinav Sarkar"
-twitter = "http://twitter.com/abhin4v"
-linkedin = "http://in.linkedin.com/in/abhinavsarkar"
+link = "http://twitter.com/abhin4v"
 
 [[people]]
 nick = "aninda"
 picture = "images/alumni/aninda.png"
 github = "http://github.com/spacefugitive"
 name = "Aninda Kundu"
-twitter = "http://twitter.com/aninda42"
-linkedin = "http://in.linkedin.com/pub/aninda-kundu/36/231/15"
+link = "http://twitter.com/aninda42"
 
 [[people]]
 nick = "arnab"
 picture = "images/alumni/arnab.png"
 github = "http://github.com/arnab"
 name = "Arnab Deka"
-twitter = "http://twitter.com/or9ob"
-linkedin = "https://www.linkedin.com/in/arnab1981"
+link = "http://twitter.com/or9ob"
 
 [[people]]
 nick = "asif"
 picture = "images/alumni/asif.png"
 github = "http://github.com/asifkalam"
 name = "Asif Kalam"
-twitter = "http://twitter.com/asifskalam"
-linkedin = "http://www.linkedin.com/in/asifskalam"
+link = "http://twitter.com/asifskalam"
 
 [[people]]
 nick = "jasim"
 picture = "images/alumni/jasim.png"
 github = "http://github.com/jasim"
 name = "Jasim Basheer"
-twitter = "http://twitter.com/jasim_ab"
+link = "http://twitter.com/jasim_ab"
 
 [[people]]
 nick = "jithu"
 picture = "images/alumni/jithu.png"
 github = "http://github.com/jithugopal"
 name = "Jithu Gopal"
-twitter = "http://twitter.com/poxypen"
-linkedin = "http://in.linkedin.com/pub/jithu-gopal/b/119/842/"
+link = "http://twitter.com/poxypen"
 
 [[people]]
 nick = "murtaza"
 picture = "images/alumni/murtaza.png"
 github = "https://github.com/murtaza0xFF"
 name = "Murtaza Akbari"
-twitter = "https://twitter.com/murtaza0xFF"
-linkedin = "https://www.linkedin.com/in/murtaza-akbari-90597693/"
+link = "https://twitter.com/murtaza0xFF"
 
 [[people]]
 nick = "neha"
 picture = "images/alumni/neha.png"
 github = "http://github.com/Bodhisattva2-0"
 name = "Neha Kumari"
-twitter = "http://twitter.com/__Neha"
-linkedin = "http://in.linkedin.com/in/nehabits"
+link = "http://twitter.com/__Neha"
 
 [[people]]
 nick = "noopur"
 picture = "images/alumni/noopur.png"
 github = "https://github.com/noopurvarma"
 name = "Noopur Varma"
-twitter = "https://twitter.com/9porcupine"
-linkedin = "http://in.linkedin.com/in/noopurvarma"
+link = "https://twitter.com/9porcupine"
 
 [[people]]
 nick = "prashant"
 picture = "images/alumni/prashant.png"
 github = "https://github.com/prashantkarpe"
 name = "Prashant Karpe"
-twitter = "http://twitter.com/prashantwit"
-linkedin = "http://in.linkedin.com/pub/prashant-karpe/11/512/28a/"
+link = "http://twitter.com/prashantwit"
 
 [[people]]
 nick = "samrat"
 picture = "images/alumni/samrat.png"
 github = "https://github.com/samrat"
 name = "Samrat Man Singh"
-twitter = "https://twitter.com/samratmansingh"
-linkedin = "https://www.linkedin.com/in/samrat-man-singh-a31664148/"
+link = "https://twitter.com/samratmansingh"
 
 [[people]]
 nick = "smit"
 picture = "images/alumni/smit.png"
 github = "http://github.com/who828"
 name = "Smit Shah"
-twitter = "http://twitter.com/who828"
-linkedin = "https://www.linkedin.com/in/who828"
+link = "http://twitter.com/who828"
 
 [[people]]
 nick = "srushti"
 picture = "images/alumni/srushti.png"
 github = "http://github.com/srushti"
 name = "Srushti Ambekallu"
-twitter = "https://twitter.com/srshti"
-linkedin = "http://www.linkedin.com/in/srshti"
+link = "https://twitter.com/srshti"
 
 [[people]]
 nick = "steven"
 picture = "images/alumni/steven.png"
 github = "http://github.com/deobald"
 name = "Steven Deobald"
-twitter = "http://twitter.com/deobald"
+link = "http://twitter.com/deobald"
 
 [[people]]
 nick = "gja"
 picture = "images/alumni/gja.png"
 github = "http://github.com/gja"
 name = "Tejas Dinkar"
-twitter = "http://twitter.com/tdinkar"
-linkedin = "http://www.linkedin.com/in/tdinkar"
+link = "http://twitter.com/tdinkar"
 
 [[people]]
 nick = "tim"
 picture = "images/alumni/tim.png"
 github = "https://github.com/timothyandrew"
 name = "Timothy Andrew"
-twitter = "http://twitter.com/timothyandrew"
-linkedin = "http://www.linkedin.com/in/timothyandrew"
+link = "http://twitter.com/timothyandrew"
 
 [[people]]
 nick = "unni"
 picture = "images/alumni/unni.png"
 github = "https://github.com/krish8664"
 name = "Unnikrishnan G"
-twitter = "http://twitter.com/krish8664"
-linkedin = "https://in.linkedin.com/in/unnikrishnan-gg-a3136028"
+link = "http://twitter.com/krish8664"
 
 [[people]]
 nick = "varun"
 picture = "images/alumni/varun.jpg"
 github = "https://github.com/irrational-pai"
 name = "Varun Pai"
-twitter = "http://twitter.com/irrational_pai"
-linkedin = "https://in.linkedin.com/in/varunpai"
+link = "http://twitter.com/irrational_pai"

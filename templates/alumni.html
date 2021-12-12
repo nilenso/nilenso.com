@@ -19,14 +19,14 @@
             {% set alumni = load_data(path="content/data/alumni.toml", format="toml") %}
             {% for person in alumni.people %}
                 <div class="m-2 md:mt-2 md:m-12">
-                    <a href="{{ person.twitter }}" target="_blank">
+                    <a href="{{ person.link }}" target="_blank">
                         <figure class="border-transparent border-dotted border-2 rounded-sm hover:border-pink-500">
                             <img src="/{{ person.picture }}" alt="{{ person.name }}" class="hover:rounded-none w-full rounded-sm">
                         </figure>
                     </a>
 
-                    <div class="pl-6 sm:pl-0 flex flex-wrap sm:block">
-                        <h3 class="text-2xl text-pink-500 font-light md:mt-2">
+                    <div class="flex flex-wrap sm:block">
+                        <h3 class="text-lg md:text-2xl text-pink-500 font-light md:mt-2">
                             {{ person.name }}
                         </h3>
                     </div>
