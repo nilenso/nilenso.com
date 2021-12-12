@@ -9,7 +9,7 @@ bio = '''
     Akshatha is an electronics engineer turned programmer.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    Check out her book tracking app <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://github.com/nilenso/athenaeum'>athenaeum</a> and <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://github.com/nilenso/reader'>web page reader app</a>, both written in Clojure / ClojureScript.
+    Check out her book tracking app <a class='underline hover:text-pink-500' href='https://github.com/nilenso/athenaeum'>athenaeum</a> and <a class='underline hover:text-pink-500' href='https://github.com/nilenso/reader'>web page reader app</a>, both written in Clojure / ClojureScript.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
     More recently, Akshatha has been sinking her teeth into the telecom industry, where she is currently working on messaging services.
@@ -29,7 +29,7 @@ bio = '''
     Kitty is a modern-day aesthete and F/OSS hacker, long time Rubyist, sufficiently long time Clojure programmer, and a recently turned DBA. He strives for simplicity in his code and architecture designs.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    He has worked on energy saving projects, large-scale multi-variate testing platforms with tight SLAs, highly concurrent OMS for logistic companies, high throughput microservices to handle India-scale SMS sending, and difficult database problems. He has also contributed to <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='http://live.gnome.org/AkshayGupta_GnomeShell_Document'>GNOME</a> and <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://www.haiku-os.org/'>Haiku</a>.
+    He has worked on energy saving projects, large-scale multi-variate testing platforms with tight SLAs, highly concurrent OMS for logistic companies, high throughput microservices to handle India-scale SMS sending, and difficult database problems. He has also contributed to <a class='underline hover:text-pink-500' href='http://live.gnome.org/AkshayGupta_GnomeShell_Document'>GNOME</a> and <a class='underline hover:text-pink-500' href='https://www.haiku-os.org/'>Haiku</a>.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
     He loves making music, listening to noise rock, and snakeboarding, and has recently discovered his fondness for Brazilian Jiu-jitsu.</p>
@@ -48,10 +48,10 @@ bio = '''
     Alisha is Neo incarnate; she visualises the world in code. She was first drawn to programming because of how logical it was. Today, she is driven by the idea that the code she writes can make a difference in someone’s life.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    Alisha is an old school open source enthusiast. As an Outreachy intern, she worked on the <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='http://fedoraproject.org'>Fedora project</a>. Since then, she has been a <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://codein.withgoogle.com'>Google Code-In</a> mentor, <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://www.girlscript.techGirlScript'>GirlScript</a> mentor, helping new folks get acquainted with working on open source projects, guiding them with beginner-friendly resources, as well as reviewing PRs. She loves introducing people (and women in particular) to programming, and has spoken at various conferences. Alisha is a big believer in the power of community.
+    Alisha is an old school open source enthusiast. As an Outreachy intern, she worked on the <a class='underline hover:text-pink-500' href='http://fedoraproject.org'>Fedora project</a>. Since then, she has been a <a class='underline hover:text-pink-500' href='https://codein.withgoogle.com'>Google Code-In</a> mentor, <a class='underline hover:text-pink-500' href='https://www.girlscript.techGirlScript'>GirlScript</a> mentor, helping new folks get acquainted with working on open source projects, guiding them with beginner-friendly resources, as well as reviewing PRs. She loves introducing people (and women in particular) to programming, and has spoken at various conferences. Alisha is a big believer in the power of community.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    Alisha joined us with experience working at <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://uncopied.art/fr/about'>uncopied.art</a> and Accenture.
+    Alisha joined us with experience working at <a class='underline hover:text-pink-500' href='https://uncopied.art/fr/about'>uncopied.art</a> and Accenture.
 </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
     She loves music, and can be seen strumming the ukulele to her favourite songs. She is partial to old Bollywood songs, though lofi is her latest goto. :)
@@ -71,10 +71,10 @@ bio = '''
     Dan is your go-to guy to stay organised and on track. If you ask him nicely, he will automate your life to make sure you don’t miss anything important.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    At nilenso, Dan has worked with the kernel team at Southeast Asia’s decacorn Gojek and at the fintech company Rupeek. He has also worked on <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='http://simple.org'>Simple<a/> for a short while. Check out his open source file sharing service: <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://github.com/nilenso/receive'>receive</a>.
+    At nilenso, Dan has worked with the kernel team at Southeast Asia’s decacorn Gojek and at the fintech company Rupeek. He has also worked on <a class='underline hover:text-pink-500' href='http://simple.org'>Simple<a/> for a short while. Check out his open source file sharing service: <a class='underline hover:text-pink-500' href='https://github.com/nilenso/receive'>receive</a>.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    Before joining us, Dan worked at <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='askerbot.com'>askerbot</a> where he helped build and scale an IVR platform used by e-commerce and logistics companies like Myntra, DHL, Delhivery, etc. on NodeJS.
+    Before joining us, Dan worked at <a class='underline hover:text-pink-500' href='askerbot.com'>askerbot</a> where he helped build and scale an IVR platform used by e-commerce and logistics companies like Myntra, DHL, Delhivery, etc. on NodeJS.
 </p>
 '''
 twitter = "https://twitter.com/_danySam"
@@ -114,7 +114,7 @@ bio = '''
     Govind is actually a biologist in disguise. He's spent his early career in Biotech and found his way into hardcore software development through an inherent love of Category Theory and Haskell.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    Govind was part of the team that kicked off <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='http://simple.org'>Simple</a>, architecting several critical pieces of their software solution, including designing the data schema and performant reporting dashboards, as well as the permissions framework. His most recent role was leading the team building scalable solutions for one of India’s hottest fintech startups.
+    Govind was part of the team that kicked off <a class='underline hover:text-pink-500' href='http://simple.org'>Simple</a>, architecting several critical pieces of their software solution, including designing the data schema and performant reporting dashboards, as well as the permissions framework. His most recent role was leading the team building scalable solutions for one of India’s hottest fintech startups.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
     If you see Govind riding his bicycle around town to get to a local classical music performance, we suggest you follow him.
@@ -219,7 +219,7 @@ github = "https://github.com/pratul"
 name = "Pratul Kalia"
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-  Pratul was a web developer, Linux sysadmin, and contributor to the Drupal project before he moved to mobile engineering. Prior to joining nilenso, Pratul was co-founder of design and engineering consultancy <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://obvious.in/'>Obvious</a>.
+  Pratul was a web developer, Linux sysadmin, and contributor to the Drupal project before he moved to mobile engineering. Prior to joining nilenso, Pratul was co-founder of design and engineering consultancy <a class='underline hover:text-pink-500' href='https://obvious.in/'>Obvious</a>.
   </p>
    <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
     Pratul lives by the credo that while technology can better lives, and that great products involve more than merely writing and maintaining code. He has applied this belief system to helping clients such Ola Cabs, Dunzo, Myntra, and Flipkart deliver products that continue to improve and evolve.
@@ -442,7 +442,7 @@ bio = '''
     Vikram has an even-keeled temperament that makes him the ideal partner on complex projects.
 </p>
 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
-    At nilenso, Vikram has worked with Vital Strategies on <a class='underline hover:text-pink-500 transition ease-in duration-100 delay-100' href='https://resolvetosavelives.org/'>Resolve to Save Lives</a>, an initiative that focuses on improving cardiovascular health globally. Here, he led the efforts around building a lightweight medical inventory system and enabling the delivery of services via telemedicine.
+    At nilenso, Vikram has worked with Vital Strategies on <a class='underline hover:text-pink-500' href='https://resolvetosavelives.org/'>Resolve to Save Lives</a>, an initiative that focuses on improving cardiovascular health globally. Here, he led the efforts around building a lightweight medical inventory system and enabling the delivery of services via telemedicine.
 </p>
 <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
     A geopolitics and history buff, he is also passionate about football. Pet peeve: hardware isn’t open sourced nearly enough!
