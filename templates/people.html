@@ -16,10 +16,12 @@
         </div>
     </section>
 {% endblock header %}
+
 {% block content %}
     <section class="avatar-slider">
         <div class="tabs-buttons md:py-10 py-5 lg:py-10 bg-gray-100 md:px-15 px-3">
-            <div id="people-list" class="grid grid-flow-row grid-cols-4 md:grid-cols-6 lg:grid-cols-9 xl:grid-cols-9 place-items-center">
+            <div id="people-list"
+                 class="grid grid-flow-row grid-cols-4 md:grid-cols-6 lg:grid-cols-9 xl:grid-cols-9 place-items-center">
                 {% set data = load_data(path="content/data/people.toml", format="toml") %}
                 {% for person in data.people %}
                     <div class="py-3">
@@ -54,14 +56,16 @@
                                             {% if person.twitter %}
                                                 <a href="{{ person.twitter }}">
                                                     <figure class="rounded-full border-2 border-gray-100 opacity-70 hover:opacity-100 hover:border-gray-200">
-                                                        <img class="w-8 h-8" src="/images/png/twitter.png" width=32 alt="twitter">
+                                                        <img class="w-8 h-8" src="/images/png/twitter.png" width=32
+                                                             alt="twitter">
                                                     </figure>
                                                 </a>
                                             {% endif %}
                                             {% if person.linkedin %}
                                                 <a href="{{ person.linkedin }}">
                                                     <figure class="rounded-full border-2 border-gray-100 opacity-70 hover:opacity-100 hover:border-gray-200">
-                                                        <img class="w-8 h-8" src="/images/png/linkedin.png" width=32 alt="linkedin">
+                                                        <img class="w-8 h-8" src="/images/png/linkedin.png" width=32
+                                                             alt="linkedin">
                                                     </figure>
                                                 </a>
                                             {% endif %}
@@ -79,6 +83,7 @@
                 {% endfor %}
             </div>
     </section>
+
     <section class="xl:py-24 md:py-16 py-10 md:px-12 border-t border-gray-200 px-6">
         <h5 class="font-normal text-sm md:text-xl text-black leading-tight w-full md:max-w-[46rem]">
             We’ve been fortunate to have worked with a whole lot of incredible people. Meet our alumni

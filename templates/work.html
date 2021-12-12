@@ -11,7 +11,8 @@
                 our finest.
             </h2>
             <p class="pt-6 lg:pt-10 text-pink-500 font-light text-base md:text-xl lg:text-2xl leading-normal md:leading-tight w-full max-w-[48rem] tracking-tight">
-                we deliver products that stand the test of time: from healthcare to live video to ecommerce, our work is everywhere
+                we deliver products that stand the test of time: from healthcare to live video to ecommerce, our work is
+                everywhere
             </p>
         </div>
     </section>
@@ -23,10 +24,10 @@
             <div id="logo-tab-buttons" class="grid grid-cols-3 md:grid-cols-5 grid-flow-row">
                 {% set data = load_data(path="content/data/work.toml", format="toml") %}
                 {% for client in data.clients %}
-                <div class="py-3">
-                    <div class="swiper-slide{% if loop.index == 1 %} active-tab{% endif %} bg-no-repeat opacity-40 bg-center"
-                         style='background-size: 119px; background-image: url("/images/{{ client.hash }}.png");"'></div>
-                </div>
+                    <div class="py-3">
+                        <div class="swiper-slide{% if loop.index == 1 %} active-tab{% endif %} bg-no-repeat opacity-40 bg-center"
+                             style='background-size: 119px; background-image: url("/images/{{ client.hash }}.png");"'></div>
+                    </div>
                 {% endfor %}
             </div>
         </div>
@@ -68,6 +69,7 @@
             </div>
         </div>
     </section>
+
     <section class="xl:py-24 md:py-16 py-10 md:px-12 border-t border-gray-200 px-6">
         <h5 class="font-normal text-sm md:text-xl text-black leading-tight ">
             Want to know more? All our open-source code is up
