@@ -47,7 +47,8 @@
                                 <ul class="pt-16 ">
                                     {% for tab in config.extra.tabs %}
                                         <li>
-                                            <a href="{{ tab.path }}" class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b border-gray-100 text-black hover:text-pink-300">
+                                            <a href="{{ tab.path }}"
+                                               class="font-normal text-base leading-tight tracking-wider px-6 py-3 block border-b border-gray-100 text-black hover:text-pink-300">
                                                 {{ tab.name }}
                                             </a>
                                         </li>
@@ -73,7 +74,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </nav>
@@ -104,13 +104,18 @@
             </div>
         </nav>
     </header>
-    {% block header %} {% endblock %}
-    {% block content %} {% endblock %}
+    {% block header %}
+    {% endblock %}
+
+    {% block content %}
+    {% endblock %}
+
     {% block footer %}
         <footer id="contact" class="py-12 pl-6 pr-8 mg:py-16 lg:py-20 md:px-12 bg-pink-500 ">
             <div class="flex justify-between items-center">
                 <h3 class="text-white font-light text-xl md:text-2xl leading-tight lg:text-4xl md:leading-loose">
-                    <a href="https://goo.gl/maps/Ywcrdb2bziw2iage6">india</a> + <a href="https://goo.gl/maps/HjgF6V9tBFKpnBTT8">canada</a>
+                    <a href="https://goo.gl/maps/Ywcrdb2bziw2iage6">india</a> + <a
+                        href="https://goo.gl/maps/HjgF6V9tBFKpnBTT8">canada</a>
                 </h3>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-0 grid-flow-col md:divide-x">
@@ -143,5 +148,4 @@
     {% endblock %}
 </main>
 </body>
-
 </html>
