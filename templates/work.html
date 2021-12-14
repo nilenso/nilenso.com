@@ -21,7 +21,7 @@
 {% block content %}
     <section class="logo-slider">
         <div class="swiper-container tabs-buttons md:py-16 py-10 lg:py-20 bg-gray-100 md:px-12 px-6">
-            <div id="logo-tab-buttons" class="grid grid-cols-3 md:grid-cols-5 grid-flow-row">
+            <div id="logo-tab-buttons" class="grid grid-cols-3 md:grid-cols-5">
                 {% set data = load_data(path="content/data/work.toml", format="toml") %}
                 {% for client in data.clients %}
                     <div class="py-3 hover:cursor-pointer">
@@ -36,15 +36,15 @@
                 {% for client in data.clients %}
                     <div class="swiper-slide" data-hash="{{ client.hash }}">
                         <div class="py-8 md:py-16 lg:py-28 px-6 md:px-12">
-                            <div class="flex flex-wrap sm:flex-nowrap md:grid md:grid-cols-5 md:gap-3 xl:divide-x">
-                                <div class="flex flex-wrap">
-                                    <figure class="w-48 mb-10 sm:mb-0">
+                            <div class="md:grid md:grid-cols-5 md:gap-3 xl:divide-x">
+                                <div class="flex flex-wrap justify-center md:justify-start">
+                                    <figure class="w-40 mb-10 sm:mb-0">
                                         <img src="/images/{{ client.hash }}.png" alt="{{ client.hash }}"
                                              class="w-full"/>
                                     </figure>
                                     {% if client.talks | length > 0 %}
                                         <div class="hidden sm:block flex flex-col self-end w-full">
-                                            <h6 class="font-normal text-gray-600 text-2xl leading-tight tracking-wider pb-10">
+                                            <h6 class="font-normal text-gray-600 text-xl md:text-2xl leading-tight tracking-wider pb-10">
                                                 talks</h6>
                                             {% for talk in client.talks %}
                                                 <p class="text-lg md:text-xl text-pink-500 leading-tight font-medium pb-8">
