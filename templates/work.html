@@ -26,7 +26,7 @@
                 {% for client in data.clients %}
                     <div class="py-3 hover:cursor-pointer">
                         <button class="hover:opacity-100 swiper-slide{% if loop.index == 1 %} active-tab{% endif %} bg-no-repeat opacity-40 bg-center"
-                             style='background-size: 119px; background-image: url("/images/{{ client.hash }}.png");"'></button>
+                                style='background-size: 119px; background-image: url("/images/{{ client.hash }}.png");"'></button>
                     </div>
                 {% endfor %}
             </div>
@@ -35,22 +35,22 @@
             <div class="swiper-wrapper">
                 {% for client in data.clients %}
                     <div class="swiper-slide" data-hash="{{ client.hash }}">
-                        <div class="py-10 md:py-16 lg:py-20 px-6 md:px-12 ">
-                            <div class="flex flex-wrap sm:flex-nowrap">
+                        <div class="py-8 md:py-16 lg:py-28 px-6 md:px-12">
+                            <div class="flex flex-wrap sm:flex-nowrap md:grid md:grid-cols-5 md:gap-3 xl:divide-x">
                                 <div class="flex flex-wrap">
-                                    <figure class="w-36 md:w-40 lg:w-48 mb-10 sm:mb-0">
+                                    <figure class="w-48 mb-10 sm:mb-0">
                                         <img src="/images/{{ client.hash }}.png" alt="{{ client.hash }}"
                                              class="w-full"/>
                                     </figure>
                                     {% if client.talks | length > 0 %}
                                         <div class="hidden sm:block flex flex-col self-end w-full">
-                                            <h6 class="font-normal text-gray-600 text-base leading-tight tracking-wider pb-10">
+                                            <h6 class="font-normal text-gray-600 text-2xl leading-tight tracking-wider pb-10">
                                                 talks</h6>
                                             {% for talk in client.talks %}
-                                                <p class="text-2xl md:text-xl text-pink-500 leading-tight  font-light pb-8">
+                                                <p class="text-lg md:text-xl text-pink-500 leading-tight font-medium pb-8">
                                                     {{ talk.venue }}<br>
                                                     <a href="{{ talk.link }}">
-                                                        <span class="underline hover:text-pink-600 cursor-pointer">
+                                                        <span class="underline hover:text-pink-600 font-light cursor-pointer">
                                                             {{ talk.title }}
                                                         </span>
                                                     </a>
@@ -59,7 +59,7 @@
                                         </div>
                                     {% endif %}
                                 </div>
-                                <div class="w-full ml-0 sm:ml-4 xl:ml-10">
+                                <div class="pt-10 sm:pt-0 sm:pl-10 md:pl-18 lg:pl-38 xl:pl-14 md:col-span-4">
                                     {{ client.content | safe }}
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
 
     <section class="xl:py-24 md:py-16 py-10 md:px-12 border-t border-gray-200 px-6">
         <h5 class="font-normal text-sm md:text-xl text-black leading-tight ">
-            Want to know more? All our open-source code is up
+            Want to know more? Our open-source code is up
             <a href="https://github.com/nilenso" target="_blank"
                class="underline hover:text-pink-500">
                 here</a>.
