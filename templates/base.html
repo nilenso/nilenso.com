@@ -27,7 +27,7 @@
         <div class="md:hidden">
             <nav class="w-full items-center flex justify-between">
                 <a href="/">
-                    <figure class="w-20">
+                    <figure class="w-36">
                         <img src="/images/svg/logo.svg" alt="Logo" class="w-full">
                     </figure>
                 </a>
@@ -40,11 +40,11 @@
                         <div id="menu" class="overflow-hidden fixed top-0 left-0 bottom-0 w-full h-screen pt-12">
                             <div class="relative">
                                 <a href="/" class="px-6 block">
-                                    <figure class="w-20">
+                                    <figure class="w-36">
                                         <img src="/images/svg/logo.svg" alt="Logo" class="w-full">
                                     </figure>
                                 </a>
-                                <ul class="pt-16 ">
+                                <ul class="pt-16">
                                     {% for tab in config.extra.tabs %}
                                         <li>
                                             <a href="{{ tab.path }}"
@@ -73,7 +73,7 @@
                         {% if tab.nav %}
                             <li>
                                 <a href="{{ tab.path }}"
-                                   class="font-normal text-base leading-tight tracking-wider md:pr-2 lg:pr-4 xl:pr-8 text-black hover:text-pink-500 ">
+                                   class="font-normal text-base leading-tight tracking-wider md:pr-4 lg:pr-8 xl:pr-8 text-black hover:text-pink-500 ">
                                     {% if current_path == tab.path %}
                                         {{ tab.name | replace(from="o", to="<span class='font-bold text-pink-500'>o</span>") | safe }}
                                     {% else %}
