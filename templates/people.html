@@ -37,34 +37,37 @@
                     <div class="swiper-slide" data-hash="{{ person.hash }}">
                         <div class="py-8 md:py-16 lg:py-28 px-6 md:px-12">
                             <div class="sm:flex xl:divide-x">
-                                <div class="flex sm:block xl:pr-28 sm:max-w-[12rem]">
-                                    <figure class="w-48">
-                                        <img src="/{{ person.picture }}" alt="{{ person.name }}" class="w-full">
+                                <div class="flex sm:block xl:pr-20 sm:max-w-[12rem]">
+                                    <figure class="w-44">
+                                        <img src="/{{ person.picture }}" alt="{{ person.name }}" class="w-full rounded-sm">
                                     </figure>
                                     <div class="pl-6 sm:pl-0 flex flex-wrap sm:block">
                                         <h3 class="sm:py-4 md:pb-4 lg:pb-4 text-2xl md:text-3xl lg:text-4xl text-pink-500 font-light leading-tight">
                                             {{ person.name }}
                                         </h3>
                                         <div class="flex gap-3 self-end w-full">
-                                            {% if person.github %}
-                                                <a href="{{ person.github }}" target="_blank">
-                                                    <figure class="rounded-full border-2 border-gray-100 opacity-70 hover:opacity-100 hover:border-gray-200">
-                                                        <img class="w-8 h-8" src="/images/png/github.png" alt="github">
-                                                    </figure>
-                                                </a>
-                                            {% endif %}
                                             {% if person.twitter %}
                                                 <a href="{{ person.twitter }}">
                                                     <figure class="rounded-full border-2 border-gray-100 opacity-70 hover:opacity-100 hover:border-gray-200">
-                                                        <img class="w-8 h-8" src="/images/png/twitter.png" width=32
+                                                        <img class="w-6 h-6 md:w-8 md:h-8"
+                                                             src="/images/png/twitter.png" width=32
                                                              alt="twitter">
+                                                    </figure>
+                                                </a>
+                                            {% endif %}
+                                            {% if person.github %}
+                                                <a href="{{ person.github }}" target="_blank">
+                                                    <figure class="rounded-full border-2 border-gray-100 opacity-70 hover:opacity-100 hover:border-gray-200">
+                                                        <img class="w-6 h-6 md:w-8 md:h-8"
+                                                             src="/images/png/github.png" alt="github">
                                                     </figure>
                                                 </a>
                                             {% endif %}
                                             {% if person.linkedin %}
                                                 <a href="{{ person.linkedin }}">
                                                     <figure class="rounded-full border-2 border-gray-100 opacity-70 hover:opacity-100 hover:border-gray-200">
-                                                        <img class="w-8 h-8" src="/images/png/linkedin.png" width=32
+                                                        <img class="w-6 h-6 md:w-8 md:h-8"
+                                                             src="/images/png/linkedin.png" width=32
                                                              alt="linkedin">
                                                     </figure>
                                                 </a>
@@ -72,7 +75,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="pt-10 sm:pt-0 sm:pl-10 md:pl-20 lg:pl-40 xl:pl-16">
+                                <div class="pt-10 sm:pt-0 sm:pl-10 md:pl-18 lg:pl-38 xl:pl-14">
                                     <div class="text-black text-base leading-relaxed md:text-xl lg:text-2xl md:leading-snug font-light md:pb-7">
                                         {{ person.bio | safe }}
                                     </div>
