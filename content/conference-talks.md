@@ -1,3 +1,0 @@
-+++
-template = "conference-talks.html"
-+++
