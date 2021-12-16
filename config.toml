@@ -11,8 +11,8 @@ highlight_code = true
 tabs = [
     {name="work",path="/work/",nav=true},
     {name="conference talks",path="/conference-talks/",nav=false},
-    {name="jobs",path="/jobs/",nav=true},
     {name="people",path="/people/",nav=true},
+    {name="jobs",path="/jobs/",nav=true},
     {name="alumni",path="/alumni/",nav=false},
     {name="contact",path="#contact",nav=true},
     {name="senior developer",path="/senior-developer/",nav=false}
