@@ -14,6 +14,6 @@ tabs = [
     {name="jobs",path="/jobs/",nav=true},
     {name="people",path="/people/",nav=true},
     {name="alumni",path="/alumni/",nav=false},
-    {name="contact",path="#contact",nav=false},
+    {name="contact",path="#contact",nav=true},
     {name="senior developer",path="/senior-developer/",nav=false}
 ]
