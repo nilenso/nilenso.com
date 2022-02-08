@@ -10,6 +10,11 @@
     }
 }
 
+body {
+    transform-origin: top center;
+    transform: scale(80%);
+  }
+  
 .text-pink-500 {
     --tw-text-opacity: 1;
     color: #FF3D84;
