@@ -13,6 +13,7 @@ tabs = [
     {name="conference talks",path="/conference-talks/",nav=false},
     {name="people",path="/people/",nav=true},
     {name="jobs",path="/jobs/",nav=true},
+    {name="blog",path="http://blog.nilenso.com/",nav=true},
     {name="alumni",path="/alumni/",nav=false},
     {name="contact",path="#contact",nav=true},
     {name="senior developer",path="/senior-developer/",nav=false}
