@@ -97,6 +97,12 @@ name = "Smit Shah"
 link = "http://twitter.com/who828"
 
 [[people]]
+nick = "soumya"
+picture = "images/alumni/soumya.png"
+name = "Soumya Pillai"
+link = "http://twitter.com/SoumyaPillai"
+
+[[people]]
 nick = "srushti"
 picture = "images/alumni/srushti.png"
 github = "http://github.com/srushti"
