@@ -387,25 +387,6 @@ twitter = "https://twitter.com/shivam_310"
 linkedin = "https://www.linkedin.com/in/shivam-singhal12/"
 
 [[people]]
-nick = "soumya"
-hash = "soumya-pillai"
-picture = "images/people/soumya.png"
-name = "Soumya Pillai"
-bio = '''
-<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    A product consultant who thinks of herself as a creator, Soumya brings a passion for digital products as well as over a decade of experience across engineering, project and product management.
-</p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    A checklist junkie, she is passionate about digital products and applies an end-user lens to almost everything around her.
-</p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Soumya engages her creative muscles by writing children’s books. Every day is a new normal and a chance at a new pet project for her.
-</p>
-'''
-twitter = "https://mobile.twitter.com/SoumyaPillai"
-linkedin = "https://www.linkedin.com/in/soumya-pillai-2215735b/"
-
-[[people]]
 nick = "srihari"
 hash = "srihari-sriraman"
 picture = "images/people/srihari.png"
