@@ -41,7 +41,7 @@ linkedin = "http://in.linkedin.com/in/kitallis"
 nick = "alisha"
 hash = "alisha-mohanty"
 picture = "images/people/alisha.png"
-github = ""
+github = "https://github.com/alishamohanty"
 name = "Alisha Mohanty"
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
@@ -58,7 +58,19 @@ bio = '''
 </p>
 '''
 twitter = "https://twitter.com/alisham__"
-linkedin = "https://github.com/alishamohanty"
+linkedin = "https://www.linkedin.com/in/alisha-mohanty-573197140/"
+
+[[people]]
+nick = "atharva"
+hash = "atharva-raykar"
+picture = "images/people/atharva.jpg"
+github = "https://github.com/tfidfwastaken"
+name = "Atharva Raykar"
+bio = '''
+
+'''
+twitter = "https://twitter.com/atharvaraykar"
+linkedin = "https://www.linkedin.com/in/atharvaraykar/"
 
 [[people]]
 nick = "dan"
@@ -450,3 +462,36 @@ bio = '''
 '''
 twitter = "https://twitter.com/cvikram"
 linkedin = "https://www.linkedin.com/in/vikram-chintalapati-23764111a/"
+
+
+[[people]]
+nick = "yogi"
+hash = "yogiraj-hendre"
+picture = "images/people/yogi.jpg"
+github = "https://github.com/yogirajh007"
+name = "Yogiraj Hendre"
+bio = '''
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    Fresh CS Graduate, joined nilenso after a brief stint at a MNC
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    Used to do C++ a lot in college.
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    Participated in various hackathons - Winner of SIH2020 & TRAI Hackathon
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    Interested in Computer Networks
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    I like to go on treks - Do multiple treks every monsoon, watch movies and Binge watch TV shows
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    When I am not programming or studying, I am either learning cool stuff in Physics, or maybe reading a book (mostly fiction).
+</p>
+<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    I find physics riveting - especially Astronomy. Recently bought a telescope
+</p>
+'''
+twitter = "https://twitter.com/yogirajhendre"
+linkedin = "https://linkedin.com/in/yogirajhendre/"
