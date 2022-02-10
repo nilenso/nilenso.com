@@ -85,6 +85,14 @@ html {
     transform: none;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: white;
+}
+
 .swiper-container {
     z-index: 0;
 }

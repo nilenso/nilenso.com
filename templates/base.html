@@ -24,6 +24,7 @@
 <body class="antialiased bg-white md:max-w-[1092px] mx-auto w-full" style="font-family: museo-sans, sans-serif;">
 <main>
     <header class="py-12 pl-6 pr-8 mg:py-16 lg:py-16 md:px-12 bg-white">
+        <!-- Mobile navbar -->
         <div class="md:hidden">
             <nav class="w-full items-center flex justify-between">
                 <a href="/">
@@ -61,6 +62,7 @@
             </nav>
         </div>
 
+        <!-- Desktop Navbar -->
         <nav>
             <div class="hidden md:flex items-center justify-between">
                 <a href="/">
@@ -83,6 +85,25 @@
                             </li>
                         {% endif %}
                     {% endfor %}
+                    <div class="dropdown font-normal text-base leading-tight tracking-wider md:pr-4 lg:pr-8 xl:pr-8 text-black hover:text-pink-500 ">
+                        <span> more » </span>
+                        <ul class="dropdown-menu absolute hidden h-auto flex pt-1 ">
+                            {% for tab in config.extra.tabs %}
+                            {% if not tab.nav %}
+                                <li class="pt-3">
+                                    <a href="{{ tab.path }}"
+                                    class="font-normal text-base leading-tight tracking-wider md:pr-4 lg:pr-8 xl:pr-8 text-black hover:text-pink-500 ">
+                                        {% if current_path == tab.path %}
+                                            {{ tab.name | replace(from="o", to="<span class='font-bold text-pink-500'>o</span>") | safe }}
+                                        {% else %}
+                                            {{ tab.name }}
+                                        {% endif %}
+                                    </a>
+                                </li>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
                 </ul>
             </div>
         </nav>
