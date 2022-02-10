@@ -5,13 +5,13 @@ picture = "images/people/akshatha.jpeg"
 github = "https://github.com/qptr"
 name = "Akshatha H"
 bio = '''
-  <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Akshatha is an electronics engineer turned programmer.
   </p>
-  <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Check out her book tracking app <a class='underline hover:text-pink-500' href='https://github.com/nilenso/athenaeum'>athenaeum</a> and <a class='underline hover:text-pink-500' href='https://github.com/nilenso/reader'>web page reader app</a>, both written in Clojure / ClojureScript.
   </p>
-  <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     More recently, Akshatha has been sinking her teeth into the telecom industry, where she is currently working on messaging services.
   </p>
 '''
@@ -25,13 +25,13 @@ picture = "images/people/kitallis.png"
 github = "http://github.com/kitallis"
 name = "Akshay Gupta (kitty)"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Kitty is a modern-day aesthete and F/OSS hacker, long time Rubyist, sufficiently long time Clojure programmer, and a recently turned DBA. He strives for simplicity in his code and architecture designs.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     He has worked on energy saving projects, large-scale multi-variate testing platforms with tight SLAs, highly concurrent OMS for logistic companies, high throughput microservices to handle India-scale SMS sending, and difficult database problems. He has also contributed to <a class='underline hover:text-pink-500' href='http://live.gnome.org/AkshayGupta_GnomeShell_Document'>GNOME</a> and <a class='underline hover:text-pink-500' href='https://www.haiku-os.org/'>Haiku</a>.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     He loves making music, listening to noise rock, and snakeboarding, and has recently discovered his fondness for Brazilian Jiu-jitsu.</p>
 '''
 twitter = "http://twitter.com/kitallis"
@@ -44,16 +44,16 @@ picture = "images/people/alisha.png"
 github = "https://github.com/alishamohanty"
 name = "Alisha Mohanty"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Alisha is Neo incarnate; she visualises the world in code. She was first drawn to programming because of how logical it was. Today, she is driven by the idea that the code she writes can make a difference in someone’s life.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Alisha is an old school open source enthusiast. As an Outreachy intern, she worked on the <a class='underline hover:text-pink-500' href='http://fedoraproject.org'>Fedora project</a>. Since then, she has been a <a class='underline hover:text-pink-500' href='https://codein.withgoogle.com'>Google Code-In</a> mentor, <a class='underline hover:text-pink-500' href='https://www.girlscript.techGirlScript'>GirlScript</a> mentor, helping new folks get acquainted with working on open source projects, guiding them with beginner-friendly resources, as well as reviewing PRs. She loves introducing people (and women in particular) to programming, and has spoken at various conferences. Alisha is a big believer in the power of community.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Alisha joined us with experience working at <a class='underline hover:text-pink-500' href='https://uncopied.art/fr/about'>uncopied.art</a> and Accenture.
 </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     She loves music, and can be seen strumming the ukulele to her favourite songs. She is partial to old Bollywood songs, though lofi is her latest goto. :)
 </p>
 '''
@@ -67,13 +67,13 @@ picture = "images/people/atharva.jpg"
 github = "https://github.com/tfidfwastaken"
 name = "Atharva Raykar"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
   Atharva wants to make the world a happier place with code. The hacker culture of the 60s and 70s inspired him to build inclusive Open Source communities in his college days.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
   His foray into Open Source continued with his contributions to the Git project, where he learnt how code can be the ultimate force multiplier—with the work of a tiny core team powering millions of the world's code repositories.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
   When he isn't debugging like a stoic, he is usually found writing and publishing his strange thoughts on the internet, or making grimy digital art.
   </p>
 '''
@@ -87,13 +87,13 @@ picture = "images/people/dan.jpeg"
 github = "https://github.com/danySam"
 name = "Dany Sam Salmon"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Dan is your go-to guy to stay organised and on track. If you ask him nicely, he will automate your life to make sure you don’t miss anything important.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     At nilenso, Dan has worked with the kernel team at Southeast Asia’s decacorn Gojek and at the fintech company Rupeek. He has also worked on <a class='underline hover:text-pink-500' href='http://simple.org'>Simple<a/> for a short while. Check out his open source file sharing service: <a class='underline hover:text-pink-500' href='https://github.com/nilenso/receive'>receive</a>.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Before joining us, Dan worked at <a class='underline hover:text-pink-500' href='askerbot.com'>askerbot</a> where he helped build and scale an IVR platform used by e-commerce and logistics companies like Myntra, DHL, Delhivery, etc. on NodeJS.
 </p>
 '''
@@ -107,13 +107,13 @@ picture = "images/people/deepa.png"
 github = "http://github.com/dvenkatr"
 name = "Deepa Venkatraman"
 bio = '''
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Like a rock. Which is to say, she has tenacity. Not the way a Ford is "like a rock". Deepa drives. One supposes a Ford drives, too. But Deepa will outlast even a gas guzzler from the 60's. So she's more like a rock than a ford. In both ways.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Deepa's got a rainbow-coloured past. Founding startups, running businesses, crunching big numbers, building robots, and tearing up backroads in a cloud of dust that implies the closing credits will scroll by soon with a really kickin' outtro. At nilenso, she’s tasked with figuring out how to turn us from a cute little boutique software consultancy into a dominant multinational co-operative corporation. No big deal.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Deepa is a stealth semi-luddite, so don't be surprised if she convinces you your smartphone is not the future of your life -- or that data expiry and encryption should be an everyday concern. Oh, she also speaks half a dozen languages and knows everyone you know but she is almost definitely probably not a secret agent.
 </p>
 '''
@@ -127,16 +127,16 @@ picture = "images/people/govind.png"
 github = "http://github.com/govindkrjoshi"
 name = "Govind Joshi"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Govind will never assault you with words, but he is always listening intently to what you have to say. One doesn't usually consider thoughtful commentary an essential skill, but he has a way of making it appear so.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Govind is actually a biologist in disguise. He's spent his early career in Biotech and found his way into hardcore software development through an inherent love of Category Theory and Haskell.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Govind was part of the team that kicked off <a class='underline hover:text-pink-500' href='http://simple.org'>Simple</a>, architecting several critical pieces of their software solution, including designing the data schema and performant reporting dashboards, as well as the permissions framework. His most recent role was leading the team building scalable solutions for one of India’s hottest fintech startups.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     If you see Govind riding his bicycle around town to get to a local classical music performance, we suggest you follow him.
   </p>
 '''
@@ -150,16 +150,16 @@ picture = "images/people/kiran.png"
 github = "https://github.com/kirang89"
 name = "Kiran Gangadharan"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     A web and mobile engineer, Kiran has experience in Clojure, Clojurescript, Go, Python, Java, Objective C and Kotlin.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     At nilenso, Kiran sharpened his skills in freight logistics, where he advised a company on how to model their schema and build APIs to connect the schema with their interface. Since then, he has worked in the interactive streaming space and the hyperlocal industry in various capacities including the incentive and pricing initiatives. Most recently, Kiran has shifted focus to the telecom industry, where he spends his time on contact centre solutions.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Kiran descended into the emacs rabbit hole, and, after spending much time exploring its nooks and crevices, emerged through the looking glass older, and wiser. He is now content to live out his days in relative simplicity.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Kiran joined nilenso with significant experience working with startups (Komli Mobile, WalletKit and Appsdock).
   </p>
 
@@ -174,16 +174,16 @@ picture = "images/people/nid.png"
 github = "https://github.com/nid90"
 name = "Nivedita Priyadarshini"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Nid has a wealth of experience in programming, leading teams and running a company, which reflects in her well-considered and insightful approach to building just about anything.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Most recently, Nid engineered Exotel’s IAM service from the ground up. She previously worked with Grofers where she led the effort to scale their delivery platform. Prior to that, she led the allocations and driver incentives team at Go-Jek, and various teams at Staples.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Before joining nilenso, Nid worked with the consulting firm C42.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     She loves knitting and playing with her cats.
   </p>
 '''
@@ -197,13 +197,13 @@ picture = "images/people/pavithra.png"
 github = ""
 name = "Pavithra Iyer"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Pavithra brings over a decade of operations, finance and management experience from firms such as Polaris, Volvo and Khyateh to nilenso, and is the engine (often behind the scenes) ensuring that we run smoothly.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     An enthusiastic person, she can find you anything you need: be it beetroot chips or a courier that will deliver a cumbersome package to an isolated location overnight.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     She is also an entrepreneur (chocolateer) who enjoys spending time with her kids.
   </p>
 '''
@@ -217,14 +217,14 @@ picture = "images/people/prabhanshu.png"
 github = "https://github.com/prabhanshuguptagit"
 name = "Prabhanshu Gupta"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Prabhanshu appreciates artistry in all its forms and is passionate about building things for the web.
     He enjoyed hacking away at prototypes for friends prior to nilenso, when his quest to write software like a professional brought him here.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     At nilenso, Prabhanshu has worked with Vital Strategies on Resolve to Save Lives, an initiative that focuses on improving cardiovascular health globally.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     He likes to play music and makes bleeps and bloops in his pastime. He also likes writing tests.
   </p>
 '''
@@ -238,16 +238,16 @@ picture = "images/people/pratul.png"
 github = "https://github.com/pratul"
 name = "Pratul Kalia"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
   Pratul was a web developer, Linux sysadmin, and contributor to the Drupal project before he moved to mobile engineering. Prior to joining nilenso, Pratul was co-founder of design and engineering consultancy <a class='underline hover:text-pink-500' href='https://obvious.in/'>Obvious</a>.
   </p>
-   <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Pratul lives by the credo that while technology can better lives, and that great products involve more than merely writing and maintaining code. He has applied this belief system to helping clients such Ola Cabs, Dunzo, Myntra, and Flipkart deliver products that continue to improve and evolve.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     His consulting experience and participation in the open-source movement have shaped his thoughts on software engineering, creating productive teams at scale, and nurturing communities.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Pratul joined nilenso in 2021 to focus on building Tramline, a release management system to enable continuous delivery for mobile applications.
   </p>
 '''
@@ -261,13 +261,13 @@ picture = "images/people/priyanga.png"
 github = "https://github.com/Priyangapkini"
 name = "Priyanga Kini"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Priyanga is an engineering graduate from Model Engineering College in Kochi.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Passionate about building useful and usable software, her curiosity in digging into anything that felt like “magic” is what drove her to backend engineering. Her note-taking skills are legendary.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     A huge foodie, she’s partial to sweets that are not too sweet -- her favourite pastime is tucking into yellow jalebi. To chill out, she likes to sketch and listen to mood appropriate music.
   </p>
 '''
@@ -281,13 +281,13 @@ picture = "images/people/neena.png"
 github = "https://github.com/neenaoffline"
 name = "Ravi Chandra (neena) Padmala"
 bio = '''
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Ravi, known better by his moniker neena, has worked on building a neo bank, a next-gen dashboard that handles streaming data, a geospatial indexing service and libraries that help developers control anonymity.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     neena speaks Clojure, Java, Haskell, Go, Rails, Elixir, JavaScript and more. He loves learning new things: programming languages, human languages, musical instruments, climbing, biking, yoga and martial arts.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     A self-professed tsundoku aficionado, neena owns more books than you can count, and a whole host of musical instruments to boot. A specialist in the second hand trade, his olx skills can give you a run for your money.
 </p>
 '''
@@ -301,22 +301,22 @@ picture = "images/people/sandilya.png"
 github = "https://github.com/jysandy"
 name = "Sandilya Jandhyala"
 bio = '''
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Sandy has worked professionally with Clojure, ClojureScript, Ruby, Go, Python and JavaScript. Outside of that, he has worked with C# and C++.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     A passionate educator, Sandy has conducted workshops and recorded videos to help people upskill on Clojure.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     At nilenso, he worked with fintech company Rupeek, delivering business-critical software and introducing best practices that allowed them to deploy with confidence. He has previously worked with Gojek’s ridesharing and growth teams. His work on the multi-variate testing platform at Staples’ machine learning division helped Staples' data science team perform experiments to test the efficacy of their machine learning models.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Prior to nilenso, Sandy was at Cisco, where he worked on automating manufacturing tests of hardware products.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     A straight shooter, Sandy loves writing Clojure, playing old-school arena shooter games, breakfasting at MTR, and fixing his bicycle (in that order).
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     He only uses editors that were created after he was born.
 </p>
 '''
@@ -330,10 +330,10 @@ picture = "images/people/sezal.png"
 github = "https://github.com/sezaljain"
 name = "Sezal Jain"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Sezal is a full range engineer, having worked with hardware, embedded software, web applications and AI algorithms. Talk to her about anything ranging from edge detection algorithms to autonomous river exploration, helicopter landing, home delivery of healthcare, strawberry farming or scaling logistics solutions.
   </p>
-    <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     An IIT grad, she went on to work in robotics at Carnegie Mellon, and led a healthcare startup as AVP of Technology before joining nilenso.
   </p>
 '''
@@ -347,13 +347,13 @@ picture = "images/people/shafeeq.png"
 github = "https://github.com/shafeeq"
 name = "Shafeeq Kunnakkadan"
 bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Shafeeq's quiet confidence and smiling demeanor belie an ember of passion searing just beneath the surface. When he first joined us, he was loath to engage the ethically treacherous Java ecosystem and longed for the purity of Python. He is no fan of Oracle, no fan of yesteryear's software meatgrinder, and no fan of ignorance. Neither are we.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     To that end, we traded him an unlimited library, which he chews through like an industrial tree harvester, for a tempered approach to Free Software.
   </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Shafeeq has worked on complex fintech solutions that involved working with payment processors including banks, PayPal, WeChat and IBM. He has also built systems that handle concurrency at scale.
   </p>
 '''
@@ -367,19 +367,19 @@ picture = "images/people/shivam.png"
 github = "https://github.com/shhivam"
 name = "Shivam Singhal"
 bio = '''
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Shivam started working in the software industry in 2019, right after high school. As a freelancer, Shivam was partial to the MERN stack and no-code tools.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     At this time, Shivam consulted for the Central India Head Division of the Indian Railways, where he automated the manual process of chart preparation, bringing it down from 40 minutes to just 3 seconds. During COVID, he worked on a community-led initiative to help streamline and effectively manage vaccination centre information and volunteers.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Soon after, Shivam joined nilenso to hone his skills in backend engineering (he was still in college at the time, with a couple of years of consulting experience under his belt!).
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     In his free time, Shivam tinkers with Raspberry Pi and Arduino, and has built some pretty cool stuff (ask him what it was like to work on an interactive floor projection).
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     He loves reading books, meeting new people, and is always working on an exciting side project. You can’t help but feel energised by his infectious enthusiasm.
 </p>
 '''
@@ -392,13 +392,13 @@ hash = "soumya-pillai"
 picture = "images/people/soumya.png"
 name = "Soumya Pillai"
 bio = '''
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     A product consultant who thinks of herself as a creator, Soumya brings a passion for digital products as well as over a decade of experience across engineering, project and product management.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     A checklist junkie, she is passionate about digital products and applies an end-user lens to almost everything around her.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Soumya engages her creative muscles by writing children’s books. Every day is a new normal and a chance at a new pet project for her.
 </p>
 '''
@@ -412,16 +412,16 @@ picture = "images/people/srihari.png"
 github = "http://github.com/ssrihari"
 name = "Srihari Sriraman"
 bio = '''
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Srihari is the person that’s constantly asking: “why not?”, and in doing so, makes the impossible happen.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     He practices minimalistic and user centric system design for the web. He loves products and seeks the thrill in solving people's problems. He also likes building and running software teams.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Srihari devotes a considerable portion of his boundless energy to evangelizing Clojure and Postgres so everyone can appreciate their simplicity and effectiveness as much as he does.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     In a past life, he was a FOSS enthusiast, and a GIMP contributor. A semi-professional carnatic vocalist and amateur ukulele-ist , he performs occasionally.
 </p>
 '''
@@ -435,13 +435,13 @@ picture = "images/people/udit.png"
 github = "https://github.com/yudistrange"
 name = "Udit Kumar"
 bio = '''
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Udit honed his skills at the Transactional Risk Management team at Amazon and at Tally before finally making his way to nilenso. He hasn't looked back since.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Udit led the effort to scale Grofers’ logistics and delivery platform. He has also worked on building a live quizzing platform, an experimentation platform, and an offer authoring portal. His open source work includes contributions to the desktop editing tool for open street maps JOSM and database failover library agrajag.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     His favourite pastime is writing bytecode to run on the JVM using Clojure REPLs.
 </p>
 '''
@@ -455,16 +455,16 @@ picture = "images/people/vkrm.png"
 github = "https://github.com/vkrmis"
 name = "Vikram Chintalapati"
 bio = '''
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     An engineer with an entrepreneurial spirit, Vikram brings a worldview stemming from his experience working in domains such as biotech and genomics, as well as running companies to nilenso.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Vikram has an even-keeled temperament that makes him the ideal partner on complex projects.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     At nilenso, Vikram has worked with Vital Strategies on <a class='underline hover:text-pink-500' href='https://resolvetosavelives.org/'>Resolve to Save Lives</a>, an initiative that focuses on improving cardiovascular health globally. Here, he led the efforts around building a lightweight medical inventory system and enabling the delivery of services via telemedicine.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     A geopolitics and history buff, he is also passionate about football. Pet peeve: hardware isn’t open sourced nearly enough!
 </p>
 '''
@@ -479,25 +479,25 @@ picture = "images/people/yogi.jpg"
 github = "https://github.com/yogirajh007"
 name = "Yogiraj Hendre"
 bio = '''
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Fresh CS Graduate, joined nilenso after a brief stint at a MNC
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Used to do C++ a lot in college.
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Participated in various hackathons - Winner of SIH2020 & TRAI Hackathon
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Interested in Computer Networks
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     I like to go on treks - Do multiple treks every monsoon, watch movies and Binge watch TV shows
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     When I am not programming or studying, I am either learning cool stuff in Physics, or maybe reading a book (mostly fiction).
 </p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     I find physics riveting - especially Astronomy. Recently bought a telescope
 </p>
 '''
