@@ -1,20 +1,15 @@
 @media (min-width: 768px) {
-    .md\:max-w-\[1366px\] {
-        max-width: 1366px;
+    .md\:max-w-\[1092px\] {
+        max-width: 1092px;
     }
 }
 
 @media (min-width: 1024px) {
     .lg\:lg\:text-\[3\.5rem\] {
-        font-size: 3.5rem;
+        font-size: 2.8rem;
     }
 }
 
-body {
-    transform-origin: top center;
-    transform: scale(80%);
-  }
-  
 .text-pink-500 {
     --tw-text-opacity: 1;
     color: #FF3D84;
