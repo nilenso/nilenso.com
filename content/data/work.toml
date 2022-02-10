@@ -5,34 +5,34 @@ talks = [
 {venue = "ClojureD", title = "Reducing Accretion in Monoliths", link = "https://www.youtube.com/watch?v=AOCoYf2TS5Q"}
 ]
 content = '''
-<p class="text-black text-base leading-normal md:text-xl lg:text-2xl xl:text-3xl font-normal pb-10 w-full max-w-[46rem] w-full">
+<p class="text-black text-base leading-normal md:text-xl lg:text-2xl xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full">
     Gojek is a ride-hailing, food, and grocery delivery platform that has grown into one of Southeast Asia's decacorns. Operational in 5 countries, it impacts the lives of 10s of millions of customers, drivers, and merchants.
 </p>
 
 <div class="border-t border-b border-gray-200 py-10">
-    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         Since 2015, we have worked with Gojek on many of Gojek's products and services including allocation, pooling, order management, pricing and experimentation.
     </p>
 </div>
 
 <div class="md:pt-0 md:pb-0 py-10">
-    <p class="md:pt-12 text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="md:pt-12 text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         During our multi-year partnership, we led, and supervised product initiatives on the technical front, while collaborating with business, product, ops, design, research, and data-science teams.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         Our primary role was in engineering large scale, low-latency, stateful systems, and data pipelines for ML runtimes.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         In addition, we established processes around designing software, project management, documentation and tech debt management.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         Some of our major projects include rewriting, and architecting the central driver allocation system in a few months, with a generative testing suite.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         We're also happy to have introduced and trained multiple teams at Gojek in Clojure.
     </p>
 </div>
@@ -45,38 +45,38 @@ talks = [
 {venue = "RootConf", title = "Scalable distributed systems in Elixir", link = "https://www.youtube.com/watch?v=yMJ2u6J3Cb0"}
 ]
 content = '''
-<p class="text-black text-base leading-normal md:text-xl lg:text-2xl xl:text-3xl font-normal pb-10 w-full max-w-[46rem] w-full">
+<p class="text-black text-base leading-normal md:text-xl lg:text-2xl xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full">
     PayTM Insider is India's largest online ticketing and events company. Insider approached nilenso with a pioneering concept for its time: to take their live, interactive events online.
 </p>
 
 <div class="border-t border-b border-gray-200 py-10">
-    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         We worked with Insider to build a digital platform for live events, with the objective of “streaming interactive video to one million concurrent users”.
     </p>
 </div>
 
 <div class="md:pt-0 md:pb-0 py-10">
-    <p class="md:pt-12 text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    <p class="md:pt-12 text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light tpb-4 md:pb-7">
         The pilot was a real-time quiz that thousands of users would participate in. In addition to all the challenges that come with live video, we had to ensure that all participants received the questions at the same time.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         Our solution involved a dashboard from where a producer could run the quiz, publish questions and answers to a massive live audience, and coordinate transitions from one question to the next.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         We also built video transcoding into the platform using mimoLive and Wowza Cloud, so the live video stream from the quiz master could be streamed to all participants.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         The quiz and video were synchronized by stamping metadata onto the stream, self-identifying sync time, and compensating for server-side transcoding delays on mobile clients.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         In order to load test the system, we built a Mob Simulator, that simulated hundreds of thousands of concurrent users.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light">
         The service was transitioned to an in-house team over months, while coaching them on Elixir, and OTP as well.
     </p>
 </div>
@@ -86,38 +86,38 @@ content = '''
 hash = "juspay"
 talks = []
 content = '''
-<p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-3xl font-normal pb-10 w-full max-w-[46rem] w-full">
+<p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full">
     Juspay is a fintech offering a suite of end-to-end payment solutions that power over 4 million transactions a day.
 </p>
 
 <div class="border-t border-b border-gray-200 py-10">
-    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         We have worked with Juspay in various capacities, including a wizard-like framework to build mobile apps, a real-time analytics dashboard, a DSL to build apps for banking clients and pilot solutions for ride sharing apps using an open specification.
     </p>
 </div>
 
 <div class="md:pt-0 md:pb-0 py-10">
-    <p class="md:pt-12 text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    <p class="md:pt-12 text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light tpb-4 md:pb-7">
         We initially consulted with Juspay on optimising the performance of their Postgres DB to handle high volumes.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         Subsequently, we worked with them on building a PureScript framework to create mobile apps declaratively.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         We also led the product and engineering initiative to build a next-gen dashboard to offer big-picture and action-oriented views for merchant PMs and customer support teams.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         We engineered the data pipelines that aggregated data (including streaming data) from various sources.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         While working on the dashboard project, we also created generic components that enabled other teams to quickly build dashboards for other products at Juspay.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light ">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light ">
         Lastly, we partnered with Juspay to build and launch pilot ride booking and final mile delivery marketplace solutions based on an open protocol for location-aware commerce.
     </p>
 </div>
@@ -129,30 +129,30 @@ talks = [
 {venue = "Meta Refresh", title = "Engineering to embrace change", link = "https://www.youtube.com/watch?v=1FqOF9P0nEY"},
 ]
 content = '''
-<p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-3xl font-normal pb-10 w-full max-w-[46rem] w-full">
+<p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full">
     Simple.org is a non-profit initiative funded by the Zuckerberg, Gates and Bloomberg foundations to improve global cardio-vascular health.
 </p>
 
 <div class="border-t border-b border-gray-200 py-10">
-    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         Simple is an offline-first Android app and web dashboard that enables policy makers to monitor and improve hypertension and diabetes outcomes.
     </p>
 </div>
 
 <div class="md:pt-0 md:pb-0 py-10">
-    <p class="md:pt-12 text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    <p class="md:pt-12 text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light tpb-4 md:pb-7">
         nilenso has worked with Simple since its inception in 2018, from building the first prototype, to launching the pilot solution, iteratively developing features, managing scale, as well as playing a pivotal role in Simple's expansion beyond India to other countries.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         We designed the fully offline-first sync APIs that allow for the app to be used in rural areas with limited internet connectivity.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         In addition, we built the dashboards that support both population-level administration by policy experts as well as more granular monitoring by health officials.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         The dashboards were engineered for performance as well as accuracy using ETL pipelines as well as Russian doll caching.
     </p>
 </div>
@@ -165,28 +165,28 @@ talks = [
 {venue = "Root Conf", title = "Building a PostgreSQL cluster", link = "https://www.youtube.com/watch?v=sGJDg5ba0iI"}
 ]
 content = '''
-<p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-3xl font-normal pb-10 w-full max-w-[46rem] w-full">
+<p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full">
 Staples is one of the world's largest office retail companies.
 </p>
 
 <div class="border-t border-b border-gray-200 py-10">
-    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">We worked with Staples on their recommendation engine, experimentation platform, as well as several other products, over a period of 4 years.</p>
+    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">We worked with Staples on their recommendation engine, experimentation platform, as well as several other products, over a period of 4 years.</p>
 </div>
 
 <div class="md:pt-0 md:pb-0 py-10">
-    <p class="md:pt-12 text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light tpb-4 md:pb-7">
+    <p class="md:pt-12 text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light tpb-4 md:pb-7">
         We built Staples' highly available experimentation platform with automatic failovers. The platform incorporated research from white papers from Google, Microsoft and Netflix.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         We also built and maintained machine learning runtimes for Staples' email recommendation engine.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         The experimentation platform included a simulation testing harness and framework that we wrote using Causatum, Simulant and Datomic.
     </p>
 
-    <p class="text-black text-base leading-normal md:text-xl lg:text-2xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
         Yet another project involved orchestrating a web crawler and scraper that would deal with unstructured datasets on the web and provide insights into categorisation as well as pricing on a daily basis.
     </p>
 </div>
