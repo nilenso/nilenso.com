@@ -16,5 +16,5 @@ tabs = [
     {name="blog",path="http://blog.nilenso.com/",nav=true},
     {name="alumni",path="/alumni/",nav=false},
     {name="contact",path="#contact",nav=true},
-    {name="senior developer",path="/senior-developer/",nav=false}
+    {name="senior developer",path="/jobs/senior-developer/",nav=false}
 ]
