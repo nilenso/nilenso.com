@@ -2,12 +2,12 @@
 {% import "macros.html" as macros %}
 
 {% block header %}
-    <section class="bg-black py-10 md:py-16 lg:py-20 px-6 md:px-10 lg:px-12">
+    <section class="bg-black py-10 md:py-16 lg:py-16 px-6 md:px-10 lg:px-9">
         <div>
-            <h2 class="font-light text-xl leading-snug md:text-4xl lg:lg:text-[3.5rem] lg:leading-snug text-white md:leading-tight">
+            <h2 class="font-light text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-white md:leading-tight">
                 telling stories.
             </h2>
-            <p class="pt-6 lg:pt-10 text-pink-500 font-light text-base md:text-xl lg:text-2xl leading-normal md:leading-tight w-full max-w-[48rem] tracking-tight">
+            <p class="pt-6 lg:pt-10 text-pink-500 font-light text-base md:text-xl lg:text-xl leading-normal md:leading-tight w-full max-w-[48rem] tracking-tight">
                 our members regularly speak at conferences around the world
             </p>
         </div>
@@ -27,7 +27,7 @@
     </script>
 
     {% set data = load_data(path="content/data/talks.toml", format="toml") %}
-    <section class="lg:py-20 md:py-16 py-10 md:px-12 px-6">
+    <section class="lg:py-16 md:py-16 py-10 md:px-9 px-6">
         {% for talk in data.talks %}
             <div class="talk-item sm:flex py-6 md:py-16 border-t">
                 <figure onclick="showVideo(this)"
@@ -36,23 +36,23 @@
                     <iframe id="ytplayer"
                             loading="lazy"
                             type="text/html"
-                            class="hidden w-64"
+                            class="hidden w-52"
                             src="https://www.youtube.com/embed/{{ talk.youtube_id }}?autoplay=0"
                             frameborder="0">
                     </iframe>
                 </figure>
                 <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
                     <div>
-                        <h3 class="text-black font-normal lg:text-3xl md:text-2xl text-base leading-normal">
+                        <h3 class="text-black font-normal lg:text-2xl md:text-2xl text-base leading-normal">
                             {{ talk.title }}
                         </h3>
-                        <p class="text-black font-light lg:text-1xl md:text-xl text-base leading-tight pt-2">
+                        <p class="text-black font-light md:text-lg text-base leading-tight pt-2">
                             ⏱ {{ talk.duration }}
                         </p>
                     </div>
 
                     <div class="w-full sm:self-end pt-4">
-                        <h4 class="text-pink-500 font-normal lg:text-1xl md:text-xl text-base leading-normal">
+                        <h4 class="text-pink-500 font-normal md:text-xl text-base leading-normal">
                             {% if talk.speakerhash %}
                                 <a href="/people/#{{ talk.speakerhash }}" class="inline-block underline">
                             {% endif %}
@@ -60,7 +60,7 @@
                             {% if talk.speakerhash %}</a>{% endif %}
                         </h4>
 
-                        <p class="text-black font-light lg:text-1xl md:text-xl text-base leading-tight pt-2">
+                        <p class="text-black font-light md:text-xl text-base leading-tight pt-2">
                             {{ talk.venue }}
                         </p>
                     </div>
