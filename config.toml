@@ -10,7 +10,7 @@ highlight_code = true
 # Put all your custom variables here
 tabs = [
     {name="work",path="/work/",nav=true},
-    {name="conference talks",path="/conference-talks/",nav=false},
+    {name="conference talks",path="/talks/",nav=false},
     {name="people",path="/people/",nav=true},
     {name="jobs",path="/jobs/",nav=true},
     {name="blog",path="http://blog.nilenso.com/",nav=true},
