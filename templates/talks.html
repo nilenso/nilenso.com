@@ -7,7 +7,7 @@
             <h2 class="font-light text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-white md:leading-tight">
                 telling stories.
             </h2>
-            <p class="pt-6 lg:pt-10 text-pink-500 font-light text-base md:text-l lg:text-xl leading-normal md:leading-tight w-full max-w-[48rem] tracking-tight">
+            <p class="pt-6 lg:pt-10 text-pink-500 font-light text-base lg:text-xl leading-normal md:leading-tight w-full max-w-[48rem] tracking-tight">
                 our members regularly speak at conferences around the world
             </p>
         </div>
@@ -46,20 +46,20 @@
                         <h3 class="text-black font-normal md:text-xl lg:text-2xl text-base leading-normal">
                             {{ talk.title }}
                         </h3>
-                        <p class="text-black font-light md:text-l lg:text-l text-base leading-tight pt-2">
+                        <p class="text-black font-light text-base leading-tight pt-2">
                             ⏱ {{ talk.duration }}
                         </p>
                     </div>
 
                     <div class="w-full sm:self-end pt-4">
-                        <h4 class="text-pink-500 font-normal md:text-l text-base leading-normal">
+                        <h4 class="text-pink-500 font-normal text-base leading-normal">
                             {% if talk.speakerhash %}
                                 <a href="/people/#{{ talk.speakerhash }}" class="inline-block underline">
                             {% endif %}
                             {{ talk.speakers }}
                             {% if talk.speakerhash %}</a>{% endif %}
                         </h4>
-                        <p class="text-black font-light md:text-l text-base leading-tight pt-2">
+                        <p class="text-black font-light text-base leading-tight pt-2">
                             {{ talk.venue }}
                         </p>
                     </div>
