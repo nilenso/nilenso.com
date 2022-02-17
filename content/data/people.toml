@@ -480,25 +480,10 @@ github = "https://github.com/yogirajh007"
 name = "Yogiraj Hendre"
 bio = '''
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Fresh CS Graduate, joined nilenso after a brief stint at a MNC
+   As a versatile engineer with a passion for problem solving, Yogi loves to participates in hackathons, and has won a few of them too.
 </p>
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Used to do C++ a lot in college.
-</p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Participated in various hackathons - Winner of SIH2020 & TRAI Hackathon
-</p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Interested in Computer Networks
-</p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    I like to go on treks - Do multiple treks every monsoon, watch movies and Binge watch TV shows
-</p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    When I am not programming or studying, I am either learning cool stuff in Physics, or maybe reading a book (mostly fiction).
-</p>
-<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    I find physics riveting - especially Astronomy. Recently bought a telescope
+   He enjoys trekking during the monsoon months, and binge-watching TV shows and movies. Learning cool stuff about the universe with his Telescope, and reading physics books is favourite pastime.
 </p>
 '''
 twitter = "https://twitter.com/yogirajhendre"
