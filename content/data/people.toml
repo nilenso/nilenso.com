@@ -1,7 +1,7 @@
 [[people]]
 nick = "akshatha"
 hash = "akshatha-h"
-picture = "images/people/akshatha.jpeg"
+picture = "images/people/akshatha.webp"
 github = "https://github.com/qptr"
 name = "Akshatha H"
 bio = '''
@@ -21,7 +21,7 @@ linkedin = ""
 [[people]]
 nick = "kitallis"
 hash = "akshay-gupta"
-picture = "images/people/kitallis.png"
+picture = "images/people/kitallis.webp"
 github = "http://github.com/kitallis"
 name = "Akshay Gupta (kitty)"
 bio = '''
@@ -40,7 +40,7 @@ linkedin = "http://in.linkedin.com/in/kitallis"
 [[people]]
 nick = "alisha"
 hash = "alisha-mohanty"
-picture = "images/people/alisha.png"
+picture = "images/people/alisha.webp"
 github = "https://github.com/alishamohanty"
 name = "Alisha Mohanty"
 bio = '''
@@ -63,7 +63,7 @@ linkedin = "https://www.linkedin.com/in/alisha-mohanty-573197140/"
 [[people]]
 nick = "atharva"
 hash = "atharva-raykar"
-picture = "images/people/atharva.jpg"
+picture = "images/people/atharva.webp"
 github = "https://github.com/tfidfwastaken"
 name = "Atharva Raykar"
 bio = '''
@@ -83,7 +83,7 @@ linkedin = "https://www.linkedin.com/in/atharvaraykar/"
 [[people]]
 nick = "dan"
 hash = "dany-sam"
-picture = "images/people/dan.jpeg"
+picture = "images/people/dan.webp"
 github = "https://github.com/danySam"
 name = "Dany Sam Salmon"
 bio = '''
@@ -103,7 +103,7 @@ linkedin = "https://www.linkedin.com/in/danysam/"
 [[people]]
 nick = "deepa"
 hash = "deepa-venkataraman"
-picture = "images/people/deepa.png"
+picture = "images/people/deepa.webp"
 github = "http://github.com/dvenkatr"
 name = "Deepa Venkatraman"
 bio = '''
@@ -123,7 +123,7 @@ linkedin = "https://uk.linkedin.com/in/deepavenkatraman"
 [[people]]
 nick = "govind"
 hash = "govind-joshi"
-picture = "images/people/govind.png"
+picture = "images/people/govind.webp"
 github = "http://github.com/govindkrjoshi"
 name = "Govind Joshi"
 bio = '''
@@ -146,7 +146,7 @@ linkedin = ""
 [[people]]
 nick = "kiran"
 hash = "kiran-gangadharan"
-picture = "images/people/kiran.png"
+picture = "images/people/kiran.webp"
 github = "https://github.com/kirang89"
 name = "Kiran Gangadharan"
 bio = '''
@@ -170,7 +170,7 @@ linkedin = "https://www.linkedin.com/in/kirang89/"
 [[people]]
 nick = "nid"
 hash = "nivedita-priyadarshini"
-picture = "images/people/nid.png"
+picture = "images/people/nid.webp"
 github = "https://github.com/nid90"
 name = "Nivedita Priyadarshini"
 bio = '''
@@ -193,7 +193,7 @@ linkedin = "http://in.linkedin.com/pub/nivedita-priyadarshini/47/524/386/"
 [[people]]
 nick = "pavithra"
 hash = "pavithra-iyer"
-picture = "images/people/pavithra.png"
+picture = "images/people/pavithra.webp"
 github = ""
 name = "Pavithra Iyer"
 bio = '''
@@ -213,7 +213,7 @@ linkedin = ""
 [[people]]
 nick = "prabhanshu"
 hash = "prabhanshu-gupta"
-picture = "images/people/prabhanshu.png"
+picture = "images/people/prabhanshu.webp"
 github = "https://github.com/prabhanshuguptagit"
 name = "Prabhanshu Gupta"
 bio = '''
@@ -234,7 +234,7 @@ linkedin = "https://www.linkedin.com/in/prabhanshu-gupta/"
 [[people]]
 nick = "pratul"
 hash = "pratul-kalia"
-picture = "images/people/pratul.png"
+picture = "images/people/pratul.webp"
 github = "https://github.com/pratul"
 name = "Pratul Kalia"
 bio = '''
@@ -257,7 +257,7 @@ linkedin = "https://in.linkedin.com/in/pratulkalia"
 [[people]]
 nick = "priyanga"
 hash = "priyanga-kini"
-picture = "images/people/priyanga.png"
+picture = "images/people/priyanga.webp"
 github = "https://github.com/Priyangapkini"
 name = "Priyanga Kini"
 bio = '''
@@ -277,7 +277,7 @@ linkedin = "https://www.linkedin.com/in/priyangapkini/"
 [[people]]
 nick = "neena"
 hash = "ravi-chandra-padmala"
-picture = "images/people/neena.png"
+picture = "images/people/neena.webp"
 github = "https://github.com/neenaoffline"
 name = "Ravi Chandra (neena) Padmala"
 bio = '''
@@ -292,12 +292,12 @@ bio = '''
 </p>
 '''
 twitter = "http://twitter.com/neenaoffline"
-linkedin = "https://www.linkedin.com/in/ravichandrapadmala"
+linkedin = ""
 
 [[people]]
 nick = "sandy"
 hash = "sandilya-jandhyala"
-picture = "images/people/sandilya.png"
+picture = "images/people/sandilya.webp"
 github = "https://github.com/jysandy"
 name = "Sandilya Jandhyala"
 bio = '''
@@ -326,7 +326,7 @@ linkedin = "https://www.linkedin.com/in/jysandy/"
 [[people]]
 nick = "sezal"
 hash = "sezal-jain"
-picture = "images/people/sezal.png"
+picture = "images/people/sezal.webp"
 github = "https://github.com/sezaljain"
 name = "Sezal Jain"
 bio = '''
@@ -343,7 +343,7 @@ linkedin = "https://www.linkedin.com/in/sezal-jain-80823511/"
 [[people]]
 nick = "shafeeq"
 hash = "shafeeq-kunnakkadan"
-picture = "images/people/shafeeq.png"
+picture = "images/people/shafeeq.webp"
 github = "https://github.com/shafeeq"
 name = "Shafeeq Kunnakkadan"
 bio = '''
@@ -363,7 +363,7 @@ linkedin = "https://www.linkedin.com/in/shafeeqk/"
 [[people]]
 nick = "shivam"
 hash = "shivam-singhal"
-picture = "images/people/shivam.png"
+picture = "images/people/shivam.webp"
 github = "https://github.com/shhivam"
 name = "Shivam Singhal"
 bio = '''
@@ -384,12 +384,12 @@ bio = '''
 </p>
 '''
 twitter = "https://twitter.com/shivam_310"
-linkedin = "https://www.linkedin.com/in/shivam-singhal12/"
+linkedin = "https://www.linkedin.com/in/shivam310/"
 
 [[people]]
 nick = "srihari"
 hash = "srihari-sriraman"
-picture = "images/people/srihari.png"
+picture = "images/people/srihari.webp"
 github = "http://github.com/ssrihari"
 name = "Srihari Sriraman"
 bio = '''
@@ -412,7 +412,7 @@ linkedin = "http://www.linkedin.com/in/sriharisriraman"
 [[people]]
 nick = "udit"
 hash = "udit-kumar"
-picture = "images/people/udit.png"
+picture = "images/people/udit.webp"
 github = "https://github.com/yudistrange"
 name = "Udit Kumar"
 bio = '''
@@ -432,7 +432,7 @@ linkedin = "https://www.linkedin.com/in/udit-kumar-01690127/"
 [[people]]
 nick = "vkrm"
 hash = "vikram-chintalapati"
-picture = "images/people/vkrm.png"
+picture = "images/people/vkrm.webp"
 github = "https://github.com/vkrmis"
 name = "Vikram Chintalapati"
 bio = '''
@@ -456,7 +456,7 @@ linkedin = "https://www.linkedin.com/in/vikram-chintalapati-23764111a/"
 [[people]]
 nick = "yogi"
 hash = "yogiraj-hendre"
-picture = "images/people/yogi.jpg"
+picture = "images/people/yogi.webp"
 github = "https://github.com/yogirajh007"
 name = "Yogiraj Hendre"
 bio = '''
