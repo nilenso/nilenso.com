@@ -24,6 +24,8 @@
 <body class="antialiased bg-white md:max-w-[1092px] mx-auto w-full" style="font-family: museo-sans, sans-serif;">
 <main>
     <header class="py-12 pl-6 pr-8 mg:py-16 lg:py-16 md:px-12 bg-white">
+
+        <!-- Mobile Menu -->
         <div class="md:hidden">
             <nav class="w-full items-center flex justify-between">
                 <a href="/">
@@ -33,7 +35,7 @@
                 </a>
                 <div id="menuToggle" class="flex items-center">
                     <div>
-                        <input type="checkbox">
+                        <input id="hamburgerMenuState" type="checkbox">
                         <span class="bg-black w-5 h-0.5 rounded-md mb-1 block relative z-10"></span>
                         <span class="bg-black w-5 h-0.5 rounded-md mb-1 block relative z-10"></span>
                         <span class="bg-black w-5 h-0.5 rounded-md mb-1 block relative z-10"></span>
@@ -59,8 +61,14 @@
                     </div>
                 </div>
             </nav>
+            <script>
+                document.querySelectorAll("#menu li a").forEach(navLink => {
+                    navLink.addEventListener("click", () => document.querySelector("#hamburgerMenuState").click());
+                });
+            </script>
         </div>
 
+        <!-- Desktop Navbar -->
         <nav>
             <div class="hidden md:flex items-center justify-between">
                 <a href="/">
