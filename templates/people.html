@@ -25,7 +25,7 @@
                 {% set data = load_data(path="content/data/people.toml", format="toml") %}
                 {% for person in data.people %}
                     <div class="py-3">
-                        <button class="hover:opacity-100 person w-16 h-16 py-5 rounded-full bg-no-repeat opacity-40 bg-center {% if loop.index == 1 %} active-tab {% endif %} bg-no-repeat"
+                        <button class="profile-img hover:opacity-100 person w-16 h-16 py-5 rounded-full bg-no-repeat opacity-40 bg-center {% if loop.index == 1 %} active-tab {% endif %} bg-no-repeat"
                              style="background-image: url(/{{ person.picture }}); background-size: 100px;"></button>
                     </div>
                 {% endfor %}
@@ -35,7 +35,7 @@
             <div class="swiper-wrapper">
                 {% for person in data.people %}
                     <div class="swiper-slide" data-hash="{{ person.hash }}">
-                        <div class="py-8 md:py-16 lg:py-28 px-6 md:px-9">
+                        <div class="py-8 px-6 md:px-9">
                             <div class="sm:flex xl:divide-x">
                                 <div class="flex sm:block xl:pr-8 sm:max-w-[12rem]">
                                     <figure class="w-40 xl:w-44">
