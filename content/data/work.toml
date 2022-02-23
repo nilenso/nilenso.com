@@ -17,7 +17,7 @@ content = '''
 
 <div class="md:pt-0 md:pb-0 py-10">
     <p class="md:pt-12 text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-        During our multi-year partnership, we led, and supervised product initiatives on the technical front, while collaborating with business, product, ops, design, research, and data-science teams.
+        During our multi-year partnership, we led, and supervised product initiatives on the technical front, while collaborating with business, product, ops, design, research, and data science teams.
     </p>
 
     <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
@@ -29,7 +29,7 @@ content = '''
     </p>
 
     <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-        Some of our major projects include rewriting, and architecting the central driver allocation system in a few months, with a generative testing suite.
+        Some of our major projects include rewriting and architecting the central driver allocation system in a few months, with a generative testing suite.
     </p>
 
     <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
@@ -65,7 +65,7 @@ content = '''
     </p>
 
     <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-        We also built video transcoding into the platform using mimoLive and Wowza Cloud, so the live video stream from the quiz master could be streamed to all participants.
+        We also built video transcoding into the platform using mimoLive and Wowza Cloud, so the live video stream from the quizmaster could be streamed to all participants.
     </p>
 
     <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
@@ -130,7 +130,7 @@ talks = [
 ]
 content = '''
 <p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full">
-    Simple.org is a non-profit initiative funded by the Zuckerberg, Gates and Bloomberg foundations to improve global cardio-vascular health.
+    Simple.org is a non-profit initiative funded by the Zuckerberg, Gates and Bloomberg foundations to improve global cardio    vascular health.
 </p>
 
 <div class="border-t border-b border-gray-200 py-10">

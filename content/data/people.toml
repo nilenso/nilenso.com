@@ -208,7 +208,7 @@ bio = '''
   </p>
 '''
 twitter = ""
-linkedin = ""
+linkedin = "https://www.linkedin.com/in/pavithra-prabhakar-iyer-4a7607b7/"
 
 [[people]]
 nick = "prabhanshu"
