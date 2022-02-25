@@ -219,3 +219,7 @@ html {
         width: 110px !important;
     }
 }
+
+.no_highlights {
+    -webkit-tap-highlight-color: transparent;
+}
