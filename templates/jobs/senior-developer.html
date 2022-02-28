@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block header %}
+    <section class="bg-black py-10 md:py-16 lg:py-16 px-6 md:px-10 lg:px-9">
+        <div>
+            <h2 class="font-light text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-white md:leading-tight">
+                job post: senior developer.
+            </h2>
+            <p class="pt-6 lg:pt-10 text-pink-500 font-light text-base lg:text-xl leading-normal md:leading-tight w-full max-w-[48rem] tracking-tight">
+                if you share our interests, we want to hear from you; get in touch at
+                <a href="mailto:careers@nilenso.com" class="underline hover:text-pink-300 transition ease-in duration-100 delay-100">
+                careers@nilenso.com
+                </a>
+            </p>
+        </div>
+    </section>
+{% endblock header %}
+{% block content %}
+    <section class="px-6 py-10 lg:py-20 md:px-12 md:py-16">
+        <h6 class="font-normal text-gray-600 md:text-xl leading-tight tracking-wider pb-5 md:pb-8">
+            who we are
+        </h6>
+        <ul class="list-disc text-black text-base leading-normal lg:text-xl md:leading-snug font-light pb-4 md:pb-7 pl-4 md:pl-7 space-y-2 md:space-y-4">
+            <!-- TODO: Link "technical details" to our client case studies -->
+            <li>
+                We want to work on hard technical problems, and have a track record of doing deeply technical work. We have designed, built, and delivered
+                complex, distributed, scalable backend systems for the web that have stood the test of time.
+            </li>
+            <li>
+                We are product engineers. We collaborate with business, product, data science, design and other engineering teams to figure out the whys,
+                whats and hows of product. We understand trade-offs.
+            </li>
+            <li>
+                We build teams. We make incremental improvements to processes, upskill the people we work with, maintain open lines of communication, and
+                build long lasting client relationships.
+            </li>
+            <li>
+                We create high level designs, write down <a href="https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions" target="_blank" class="underline hover:text-pink-500">architecture decisions,</a>
+            tech specs, <a href="https://en.wikipedia.org/wiki/Product_requirements_document" target="_blank" class="underline hover:text-pink-500">product specs</a> where necessary, break them down into user
+                stories, pair on building and writing tests, take things into production, and iterate.
+            </li>
+            <li>
+                We have written production code in Clojure/ClojureScript, Haskell, Elixir, Ruby/Rails, Python, Go, and Javascript, and are partial to
+                a functional approach to programming.
+            </li>
+            <li>
+                While every project is a little different, all our engineers, regardless of seniority, ship code, and are responsible for keeping it
+                running in production.
+            </li>
+        </ul>
+
+        <h6 class="font-normal text-gray-600 text-l md:text-xl leading-tight tracking-wider pb-5 md:pb-8">
+            you'd be a good fit if
+        </h6>
+        <ul class="list-disc text-black text-base leading-normal lg:text-xl md:leading-snug font-light pb-4 md:pb-7 pl-4 md:pl-7 space-y-2 md:space-y-4">
+            <li>
+                Everything you’ve read so far resonates with you, including running a company like nilenso. Here are some <a href="https://vyakaran.nilenso.com/career/faqs#how-are-company-responsibilities-shared-at-nilenso" target="_blank"
+                class="underline hover:text-pink-500">FAQs</a>
+                on what it’s like to work with us; we’re happy to talk more about what this entails during the interview.
+            </li>
+            <li>
+                You have one or two programming languages under your belt that you are very comfortable in. You can reflect on the language runtime,
+                developer ecosystem, choice of libraries, and quality of code and tests.
+            </li>
+            <li>
+                You can reason about systems holistically, taking into account maintainability, speed of delivery, and performance goals.
+            </li>
+            <li>
+                You are comfortable ramping up on unfamiliar tech stacks, digging into legacy codebases, identifying the good, bad and ugly parts of a
+                codebase and making improvements incrementally.
+            </li>
+            <li>You have mentored folks either formally through training or informally, while working with them.</li>
+        </ul>
+
+    </section>
+
+{% endblock content %}

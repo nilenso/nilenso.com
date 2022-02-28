@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block header %}
+    <section class="pt-6 pb-10 px-6 md:py-10 md:px-8 lg:py-20 lg:px-12">
+        <div>
+            <h6 class="font-normal text-gray-600 md:text-xl leading-tight tracking-wider pb-3 md:pb-7">about</h6>
+            <h2 class="font-light text-l leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-black md:leading-tight">
+                <span class="text-pink-500">nilenso is a boutique technology consultancy based in India and Canada.</span>
+                We build thoughtful, well-crafted products for your organization.
+            </h2>
+        </div>
+    </section>
+{% endblock header %}
+
+{% block content %}
+    <section class="px-6 py-10 lg:py-20 md:px-12 md:py-16 border-t border-b border-gray-200">
+        <div class="md:flex flex flex-wrap">
+            <div class="w-full pb-10 md:pb-0 md:w-1/2 md:pr-8 lg:pr-12 xl:pr-32 border-b md:border-b-0 md:border-r border-gray-200">
+                <h6 class="font-normal text-gray-600 md:text-xl leading-tight tracking-wider pb-5 md:pb-8">
+                    philosophy
+                </h6>
+                <p class="text-black text-base leading-normal lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+                    <span class="text-pink-500">
+                        We are an employee-owned organisation that cares about the impact we create in the world.
+                    </span>
+                </p>
+                <p class="text-black text-base leading-normal lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+                    We enjoy sinking our teeth into hard challenges, and believe that technology is a powerful tool to
+                    address real-world problems.
+                </p>
+                <p class="text-black text-base leading-normal lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+                    We build and launch products, regularly speak at industry conferences, make music, knit sweaters,
+                    write children’s books, and climb mountains.
+                </p>
+                <p class="text-black text-base leading-normal lg:text-xl md:leading-snug font-light">
+                    If you are working on interesting problems and believe we can help, 
+                    <a href="#contact" class="underline font-normal hover:text-pink-500">
+                        get in touch!
+                    </a>
+                </p>
+
+            </div>
+            <div class="pt-10 md:pt-0 w-full md:w-1/2 md:pl-8 lg:pl-12 xl:pl-32">
+                <h6 class="font-normal text-gray-600 md:text-xl leading-tight tracking-wider pb-5 md:pb-8">
+                    expertise</h6>
+                <p class="text-black text-base leading-normal lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+                    <span class="text-pink-500">
+                        We have worked on both greenfield projects as well as services operating in high throughput environments.
+                    </span>
+                </p>
+                <p class="text-black text-base leading-normal lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+                    We have led and shaped projects in e-commerce, machine learning, healthcare, payments and education,
+                    which we delivered in a variety of languages and platforms.
+                </p>
+                <p class="text-black text-base leading-normal lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+                    We are tool agnostic, and have extensive experience in Clojure, Ruby, Go, Haskell, Elixir, and
+                    JavaScript, but are partial to a functional approach to programming.
+                </p>
+                <p class="text-black text-base leading-normal lg:text-xl md:leading-snug font-light">Read
+                    about our
+                    <a href="/people" class="underline font-normal hover:text-pink-500">
+                        team</a> and some of the
+                    <a href="/conference-talks" class="underline font-normal hover:text-pink-500">
+                        talks we've given.
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10 px-6 md:py-20 md:px-12">
+        <div>
+            <h6 class="font-normal text-gray-600 md:text-xl leading-tight tracking-wide">recent work</h6>
+            <div class="grid grid-flow-row grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 place-items-center justify-items-center">
+                {% set projects = load_data(path="content/data/projects.toml", format="toml") %}
+                {% for project in projects.recent %}
+                    <div class="mr-2 md:mr-2 lg:mr-25 xl:mr-25 mt-9 md:mt-12 lg:mt-16 xl:mt-20 justify-center">
+                        <a href="{{ project.url }}" target="_blank">
+                            <figure class="w-36 md:w-40 lg:w-44 xl:w-48  border-dotted box-border p-4 border-transparent border-2 rounded-sm hover:border-pink-500">
+                                <img src="{{ project.image }}" alt="{{ project.name }}" class="w-full">
+                            </figure>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10 px-6 md:py-20 md:px-12 border-t border-gray-200">
+        <p class="font-normal text-sm md:text-xl text-black leading-tight">Read about some of our projects
+            <a class="underline hover:text-pink-500" href="/work">here</a>.
+        </p>
+    </section>
+{% endblock content %}

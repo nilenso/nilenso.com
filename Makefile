@@ -1,49 +1,22 @@
-.PHONY:	help ? tests
-
-build:
-	bundle exec middleman build
+.PHONY:	download ? serve
 
 serve:
-	bundle exec middleman
+	zola serve
 
-clean:
-	rm -rf build
+get-site:
+	./bin/download-site
 
-deploy:
-	git push production master
-
-install-planet-sh: /home/deploy/bin/generate-planet.sh
-	@echo "Run this in '/home/deploy':"
-	@echo "git clone https://github.com/nilenso/blog.nilenso.com"
-	@echo "Add the following line to the 'deploy' user with 'crontab -e':"
-	@echo "*/10 * * * * /home/deploy/bin/generate-planet.sh"
-
-/home/deploy/bin/generate-planet.sh: /home/deploy/bin /home/deploy/log
-	cp bin/generate-planet.sh $@
-	chmod +x $@
-
-/home/deploy/bin:
-	mkdir $@
-
-/home/deploy/log:
-	mkdir $@
-
-add-remote:
-	git remote add production ssh://deploy@nilenso.com/home/deploy/nilenso.com
-
-print-server-hook:
-	@echo \#!/bin/sh
-	@echo git --work-tree=/home/www/nilenso.com --git-dir=/home/www/repos/nilenso.com.git checkout -f
+get-yt-thumbnails:
+	./bin/download-yt-thumbnails $(CURDIR)
 
 help: ?
 
 ?:
+	@echo "===================="
+	@echo " nilenso.com \\ help"
+	@echo "===================="
 	@echo
-	@echo "add-remote .......... Add the production server as a git remote"
-	@echo "print-server-hook ... Print the hook to add the production server"
-	@echo "clean ............... Clean before building"
-	@echo "serve ............... Serve up nilenso.com locally"
-	@echo "build ............... Build nilenso.com static site"
-	@echo "deploy .............. Deploy to nilenso.com production server"
-	@echo "install-planet-sh ... Install planet nilenso blog (run as deply)"
+	@echo "get-site ............ Downloads the raw site from dashpad"
+	@echo "get-yt-thumbnails ... Downloads the YouTube image thumbnails"
+	@echo "serve ............... Start dev server locally"
 	@echo

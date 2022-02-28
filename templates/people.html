@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+{% endblock head %}
+
+{% block header %}
+    <section class="bg-black py-10 md:py-16 lg:py-16 px-6 md:px-10 lg:px-9">
+        <div>
+            <h2 class="font-light text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-white md:leading-tight">
+                our tribe
+            </h2>
+            <p class="pt-6 lg:pt-10 text-pink-500 font-light text-base md:text-xl lg:text-xl leading-normal md:leading-tight w-full max-w-[48rem] tracking-tight">
+                we build and launch products, sing carnatic music, and climb mountains.
+            </p>
+        </div>
+    </section>
+{% endblock header %}
+
+{% block content %}
+    <section class="avatar-slider">
+        <div class="tabs-buttons md:py-10 py-5 lg:py-10 bg-gray-100 md:px-15 px-3">
+            <div id="people-list"
+                 class="grid grid-flow-row grid-cols-4 md:grid-cols-6 lg:grid-cols-9 xl:grid-cols-9 place-items-center">
+                {% set data = load_data(path="content/data/people.toml", format="toml") %}
+                {% for person in data.people %}
+                    <div class="py-3">
+                        <button class="profile-img hover:opacity-100 no_highlights person w-16 h-16 py-5 rounded-full bg-no-repeat opacity-40 bg-center {% if loop.index == 1 %} active-tab {% endif %} bg-no-repeat"
+                             style="background-image: url(/{{ person.picture }}); background-size: 100px;"></button>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="swiper-container people-content tabs-content">
+            <div class="swiper-wrapper">
+                {% for person in data.people %}
+                    <div class="swiper-slide" data-hash="{{ person.hash }}">
+                        <div class="py-8 px-6 md:px-9">
+                            <div class="sm:flex xl:divide-x">
+                                <div class="flex sm:block xl:pr-8 sm:max-w-[12rem]">
+                                    <figure class="w-40 xl:w-44">
+                                        <img src="/{{ person.picture }}" alt="{{ person.name }}" class="w-full rounded-sm">
+                                    </figure>
+                                    <div class="pl-6 sm:pl-0 flex flex-wrap sm:block">
+                                        <h3 class="sm:py-4 md:pb-4 lg:pb-4 text-xl md:text-xl lg:text-xl text-pink-500 font-light text-center leading-tight">
+                                            {{ person.name }}
+                                        </h3>
+                                        <div class="flex items-center justify-center gap-3">
+                                            {% if person.twitter %}
+                                                <a href="{{ person.twitter }}">
+                                                    <figure class="rounded-full border-2 border-gray-100 opacity-70 hover:opacity-100 hover:border-gray-200">
+                                                        <img class="w-6 h-6 md:w-7 md:h-7"
+                                                             src="/images/png/twitter.png" width=32
+                                                             alt="twitter">
+                                                    </figure>
+                                                </a>
+                                            {% endif %}
+                                            {% if person.github %}
+                                                <a href="{{ person.github }}" target="_blank">
+                                                    <figure class="rounded-full border-2 border-gray-100 opacity-70 hover:opacity-100 hover:border-gray-200">
+                                                        <img class="w-6 h-6 md:w-7 md:h-7"
+                                                             src="/images/png/github.png" alt="github">
+                                                    </figure>
+                                                </a>
+                                            {% endif %}
+                                            {% if person.linkedin %}
+                                                <a href="{{ person.linkedin }}">
+                                                    <figure class="rounded-full border-2 border-gray-100 opacity-70 hover:opacity-100 hover:border-gray-200">
+                                                        <img class="w-6 h-6 md:w-7 md:h-7"
+                                                             src="/images/png/linkedin.png" width=32
+                                                             alt="linkedin">
+                                                    </figure>
+                                                </a>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-10 sm:pt-0 sm:pl-10 md:pl-18 lg:pl-38 xl:pl-8">
+                                    <div class="text-black text-base leading-relaxed md:text-xl lg:text-2xl md:leading-snug font-light md:pb-7">
+                                        {{ person.bio | safe }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+    </section>
+
+    <section class="xl:py-24 md:py-16 py-10 md:px-12 border-t border-gray-200 px-6">
+        <h5 class="font-normal text-sm md:text-xl text-black leading-tight w-full md:max-w-[46rem]">
+            Meet our alumni <a href="/alumni" class="underline hover:text-pink-500">here</a>.
+        </h5>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+    <script>
+        const peopleList = document.getElementById('people-list');
+
+        for (let personNum = 0, len = peopleList.children.length; personNum < len; personNum++) {
+            peopleList.children[personNum].onclick = function () {
+                peopleContent.slideTo(personNum);
+            }
+        }
+
+        const peopleContent = new Swiper('.people-content', {
+            hashnav: true,
+            autoHeight: false,
+            onSlideChangeStart: function (swiper, _evt) {
+                peopleList.children[swiper.previousIndex].children[0].classList.remove('active', 'active-tab');
+                peopleList.children[swiper.activeIndex].children[0].classList.add('active', 'active-tab');
+            }
+        });
+
+        new Swiper('.swiper-container', {hashNav: true, autoHeight: false});
+    </script>
+{% endblock content %}

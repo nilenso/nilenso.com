@@ -1,0 +1,12 @@
+#!/bin/bash
+
+curdir=$1
+talks_config=$curdir/content/data/talks.toml
+talks_imgs=$curdir/static/images/talks
+yt_url=https://img.youtube.com/vi
+youtube_ids=$(awk -F'[  = "]+' '$1 == "youtube_id" { print $2 }' "$talks_config")
+
+for id in $youtube_ids
+do
+    wget -O "$talks_imgs"/"$id".jpg "$yt_url"/"$id"/hqdefault.jpg
+done
