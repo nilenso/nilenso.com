@@ -72,6 +72,15 @@
                                                     </figure>
                                                 </a>
                                             {% endif %}
+                                            {% if person.goodreads %}
+                                                <a href="{{ person.goodreads }}" target="_blank">
+                                                    <figure class="rounded-full border-2 border-gray-100 opacity-70 hover:opacity-100 hover:border-gray-200">
+                                                        <img class="w-6 h-6 md:w-7 md:h-7"
+                                                            src="/images/png/goodreads.png"
+                                                            alt="goodreads">
+                                                    </figure>
+                                                </a>
+                                            {% endif %}
                                         </div>
                                     </div>
                                 </div>
