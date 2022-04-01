@@ -1,10 +1,10 @@
 [[people]]
-nick = "akshat"
-hash = "olttwa"
+nick = "gujju"
+hash = "gujju"
 picture = "images/people/olttwa.webp"
 github = "https://github.com/olttwa"
 goodreads = "https://www.goodreads.com/olttwa"
-name = "Akshat Shah (olttwa)"
+name = "Akshat Shah <gujju>"
 bio = '''
   <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Akshat believes in the immeasurable impact a code can create. He was part of a 6666x growth journey with South-east Asian Decacorn GoTo, where he realised true potential of software.
@@ -246,6 +246,20 @@ bio = '''
 '''
 twitter = "https://twitter.com/twomogambo"
 linkedin = "https://www.linkedin.com/in/prabhanshu-gupta/"
+
+[[people]]
+nick = "priti"
+hash = "priti-nayak"
+picture = "images/people/priti.webp"
+github = "https://github.com/priti"
+name = "Priti Nayak"
+bio = '''
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+    Priti is awesome!
+  </p>
+'''
+twitter = "https://twitter.com/priti"
+linkedin = "https://www.linkedin.com/in/priti/"
 
 [[people]]
 nick = "priyanga"
