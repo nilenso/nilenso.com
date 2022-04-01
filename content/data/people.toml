@@ -229,29 +229,6 @@ twitter = "https://twitter.com/twomogambo"
 linkedin = "https://www.linkedin.com/in/prabhanshu-gupta/"
 
 [[people]]
-nick = "pratul"
-hash = "pratul-kalia"
-picture = "images/people/pratul.webp"
-github = "https://github.com/pratul"
-name = "Pratul Kalia"
-bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-  Pratul was a web developer, Linux sysadmin, and contributor to the Drupal project before he moved to mobile engineering. Prior to joining nilenso, Pratul was co-founder of design and engineering consultancy <a class='underline hover:text-pink-500' href='https://obvious.in/'>Obvious</a>.
-  </p>
-   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Pratul lives by the credo that while technology can better lives, and that great products involve more than merely writing and maintaining code. He has applied this belief system to helping clients such Ola Cabs, Dunzo, Myntra, and Flipkart deliver products that continue to improve and evolve.
-  </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    His consulting experience and participation in the open-source movement have shaped his thoughts on software engineering, creating productive teams at scale, and nurturing communities.
-  </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Pratul joined nilenso in 2021 to focus on building Tramline, a release management system to enable continuous delivery for mobile applications.
-  </p>
-'''
-twitter = "https://twitter.com/prxtl"
-linkedin = "https://in.linkedin.com/in/pratulkalia"
-
-[[people]]
 nick = "priyanga"
 hash = "priyanga-kini"
 picture = "images/people/priyanga.webp"
@@ -336,26 +313,6 @@ bio = '''
 '''
 twitter = "https://twitter.com/sezal_jain"
 linkedin = "https://www.linkedin.com/in/sezal-jain-80823511/"
-
-[[people]]
-nick = "shafeeq"
-hash = "shafeeq-kunnakkadan"
-picture = "images/people/shafeeq.webp"
-github = "https://github.com/shafeeq"
-name = "Shafeeq Kunnakkadan"
-bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Shafeeq's quiet confidence and smiling demeanor belie an ember of passion searing just beneath the surface. When he first joined us, he was loath to engage the ethically treacherous Java ecosystem and longed for the purity of Python. He is no fan of Oracle, no fan of yesteryear's software meatgrinder, and no fan of ignorance. Neither are we.
-  </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    To that end, we traded him an unlimited library, which he chews through like an industrial tree harvester, for a tempered approach to Free Software.
-  </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Shafeeq has worked on complex fintech solutions that involved working with payment processors including banks, PayPal, WeChat and IBM. He has also built systems that handle concurrency at scale.
-  </p>
-'''
-twitter = "https://twitter.com/shafeeq_k"
-linkedin = "https://www.linkedin.com/in/shafeeqk/"
 
 [[people]]
 nick = "shivam"

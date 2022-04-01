@@ -83,11 +83,25 @@ name = "Prashant Karpe"
 link = "http://twitter.com/prashantwit"
 
 [[people]]
+nick = "prtl"
+picture = "images/alumni/pratul.webp"
+github = "https://github.com/pratul"
+name = "Pratul Kalia"
+link = "http://twitter.com/prxtl"
+
+[[people]]
 nick = "samrat"
 picture = "images/alumni/samrat.webp"
 github = "https://github.com/samrat"
 name = "Samrat Man Singh"
 link = "https://twitter.com/samratmansingh"
+
+[[people]]
+nick = "shafeeq"
+picture = "images/alumni/shafeeq.webp"
+github = "https://github.com/shafeeq"
+name = "Shafeeq Kunnakkadan"
+link = "http://twitter.com/shafeeq_k"
 
 [[people]]
 nick = "smit"
