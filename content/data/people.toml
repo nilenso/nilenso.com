@@ -10,7 +10,7 @@ bio = '''
     Akshat believes in the immeasurable impact a code can create. He was part of a 6666x growth journey with South-east Asian Decacorn GoTo, where he realised true potential of software.
   </p>
   <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    He likes building easy-to-use products, scalable architecture. A philosopher at heart, he believes 1+1 is greater than 2 and is an ardent follower of the boy-scout rule.
+    He likes building easy-to-use products and scalable architecture. A philosopher at heart, he believes 1+1 is greater than 2 and is an ardent follower of the boy-scout rule.
   </p>
   <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Outside work, Akshat spends time with family & friends, likes community building, is a fitness-buff & strong advocator of home-cooked food, travels, plays cards & football.
@@ -39,7 +39,7 @@ nick = "kitallis"
 hash = "akshay-gupta"
 picture = "images/people/kitallis.webp"
 github = "http://github.com/kitallis"
-name = "Akshay Gupta (kitty)"
+name = "Akshay Gupta <kitty>"
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Kitty is a modern-day aesthete and F/OSS hacker, long time Rubyist, sufficiently long time Clojure programmer, and a recently turned DBA. He strives for simplicity in his code and architecture designs.
@@ -248,20 +248,6 @@ twitter = "https://twitter.com/twomogambo"
 linkedin = "https://www.linkedin.com/in/prabhanshu-gupta/"
 
 [[people]]
-nick = "priti"
-hash = "priti-nayak"
-picture = "images/people/priti.webp"
-github = "https://github.com/priti"
-name = "Priti Nayak"
-bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Priti is awesome!
-  </p>
-'''
-twitter = "https://twitter.com/priti"
-linkedin = "https://www.linkedin.com/in/priti/"
-
-[[people]]
 nick = "priyanga"
 hash = "priyanga-kini"
 picture = "images/people/priyanga.webp"
@@ -286,7 +272,7 @@ nick = "neena"
 hash = "ravi-chandra-padmala"
 picture = "images/people/neena.webp"
 github = "https://github.com/neenaoffline"
-name = "Ravi Chandra (neena) Padmala"
+name = "Ravi Chandra <neena> Padmala"
 bio = '''
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Ravi, known better by his moniker neena, has worked on building a neo bank, a next-gen dashboard that handles streaming data, a geospatial indexing service and libraries that help developers control anonymity.
