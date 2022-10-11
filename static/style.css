@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
 @media (min-width: 768px) {
     .md\:max-w-\[1092px\] {
         max-width: 1092px;
@@ -222,4 +224,16 @@ html {
 
 .no_highlights {
     -webkit-tap-highlight-color: transparent;
+}
+
+p.text-black.text-base {
+    font-weight: 400;
+}
+
+p.text-black.text-base.company-blurb {
+    font-weight: 500;
+}
+
+a.underline, span.underline {
+    text-underline-offset: 3px;
 }

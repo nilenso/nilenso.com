@@ -5,7 +5,7 @@ talks = [
 {venue = "ClojureD", title = "Reducing Accretion in Monoliths", link = "https://www.youtube.com/watch?v=AOCoYf2TS5Q"}
 ]
 content = '''
-<p class="text-black text-base leading-normal md:text-xl lg:text-2xl xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full">
+<p class="text-black text-base leading-normal md:text-xl lg:text-2xl xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full company-blurb">
     Gojek is a ride-hailing, food, and grocery delivery platform that has grown into one of Southeast Asia's decacorns. Operational in 5 countries, it impacts the lives of 10s of millions of customers, drivers, and merchants.
 </p>
 
@@ -45,7 +45,7 @@ talks = [
 {venue = "RootConf", title = "Scalable distributed systems in Elixir", link = "https://www.youtube.com/watch?v=yMJ2u6J3Cb0"}
 ]
 content = '''
-<p class="text-black text-base leading-normal md:text-xl lg:text-2xl xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full">
+<p class="text-black text-base leading-normal md:text-xl lg:text-2xl xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full company-blurb">
     PayTM Insider is India's largest online ticketing and events company. Insider approached nilenso with a pioneering concept for its time: to take their live, interactive events online.
 </p>
 
@@ -86,7 +86,7 @@ content = '''
 hash = "juspay"
 talks = []
 content = '''
-<p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full">
+<p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full company-blurb">
     Juspay is a fintech offering a suite of end-to-end payment solutions that power over 4 million transactions a day.
 </p>
 
@@ -129,7 +129,7 @@ talks = [
 {venue = "Meta Refresh", title = "Engineering to embrace change", link = "https://www.youtube.com/watch?v=1FqOF9P0nEY"},
 ]
 content = '''
-<p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full">
+<p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full company-blurb">
     <a class='underline hover:text-pink-500' href='https://simple.org/'>Simple</a> is a contextual digital platform supported by <a class='underline hover:text-pink-500' href='https://resolvetosavelives.org/'>Resolve To Save Lives (RTSL),</a> a non-profit venture of <a class='underline hover:text-pink-500' href='https://www.vitalstrategies.org/'>Vital Strategies,</a> whose mission is to improve global cardiovascular health.
 </p>
 
@@ -165,7 +165,7 @@ talks = [
 {venue = "Root Conf", title = "Building a PostgreSQL cluster", link = "https://www.youtube.com/watch?v=sGJDg5ba0iI"}
 ]
 content = '''
-<p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full">
+<p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full company-blurb">
 Staples is one of the world's largest office retail companies.
 </p>
 
