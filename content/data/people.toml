@@ -5,6 +5,7 @@ picture = "images/people/olttwa.webp"
 github = "https://github.com/olttwa"
 goodreads = "https://www.goodreads.com/olttwa"
 name = "Akshat Shah <gujju>"
+shortbio = "Yak shaver. Bottleneck-remover."
 bio = '''
   <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Akshat believes in the immeasurable impact a code can create. He was part of a 6666x growth journey with South-east Asian Decacorn GoTo, where he realised true potential of software.
@@ -23,6 +24,7 @@ hash = "akshatha-h"
 picture = "images/people/akshatha.webp"
 github = "https://github.com/qptr"
 name = "Akshatha H"
+shortbio = "A deadpan humourist electronics engineer turned programmer."
 bio = '''
    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     At nilenso, Akshatha has been sinking her teeth into the telecom industry, and is currently working on messaging services.
@@ -40,6 +42,7 @@ hash = "alisha-mohanty"
 picture = "images/people/alisha.webp"
 github = "https://github.com/alishamohanty"
 name = "Alisha Mohanty"
+shortbio = "An open-sourcerer who puts the lo-fi in your bollywood songs."
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Alisha is Neo incarnate; she visualises the world in code. She was first drawn to programming because of how logical it was. Today, she is driven by the idea that the code she writes can make a difference in someone’s life.
@@ -63,6 +66,7 @@ hash = "atharva-raykar"
 picture = "images/people/atharva.webp"
 github = "https://github.com/tfidfwastaken"
 name = "Atharva Raykar"
+shortbio = "A craftsperson and stoic debugger who creates questionable art."
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
   Atharva wants to make the world a happier place with code. The hacker culture of the 60s and 70s inspired him to build inclusive Open Source communities in his college days.
@@ -83,6 +87,7 @@ hash = "dany-sam"
 picture = "images/people/dan.webp"
 github = "https://github.com/danySam"
 name = "Dany Sam Salmon"
+shortbio = "He will automate your life if you ask him nicely."
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Dan is your go-to guy to stay organised and on track. If you ask him nicely, he will automate your life to make sure you don’t miss anything important.
@@ -103,6 +108,7 @@ hash = "deepa-venkataraman"
 picture = "images/people/deepa.jpg"
 github = "http://github.com/dvenkatr"
 name = "Deepa Venkatraman"
+shortbio = "She speaks half a dozen languages and knows everyone you know."
 bio = '''
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Like a rock. Which is to say, she has tenacity. Not the way a Ford is "like a rock". Deepa drives. One supposes a Ford drives, too. But Deepa will outlast even a gas guzzler from the 60's. So she's more like a rock than a ford. In both ways.
@@ -123,6 +129,7 @@ hash = "govind-joshi"
 picture = "images/people/govind.webp"
 github = "http://github.com/govindkrjoshi"
 name = "Govind Joshi"
+shortbio = "Secretly a biologist; always follow him to a classical music performance."
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Govind will never assault you with words, but he is always listening intently to what you have to say. One doesn't usually consider thoughtful commentary an essential skill, but he has a way of making it appear so.
@@ -146,6 +153,7 @@ hash = "kiran-gangadharan"
 picture = "images/people/kiran.webp"
 github = "https://github.com/kirang89"
 name = "Kiran Gangadharan"
+shortbio = "His Emacs config has been dragged across many industries."
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     A web and mobile engineer, Kiran has experience in Clojure, Clojurescript, Go, Python, Java, Objective C and Kotlin.
@@ -170,6 +178,7 @@ hash = "pavithra-iyer"
 picture = "images/people/pavithra.webp"
 github = ""
 name = "Pavithra Iyer"
+shortbio = "The operations engine at nilenso who can find you anything you want."
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Pavithra brings over a decade of operations, finance and management experience from firms such as Polaris, Volvo and Khyateh to nilenso, and is the engine (often behind the scenes) ensuring that we run smoothly.
@@ -190,6 +199,7 @@ hash = "prabhanshu-gupta"
 picture = "images/people/prabhanshu.webp"
 github = "https://github.com/prabhanshuguptagit"
 name = "Prabhanshu Gupta"
+shortbio = "Builder of web things, maker of bleeps and bloops, writer of tests."
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Prabhanshu appreciates artistry in all its forms and is passionate about building things for the web.
@@ -211,6 +221,7 @@ hash = "priti-nayak"
 picture = "images/people/priti.webp"
 github = ""
 name = "Priti Nayak"
+shortbio = "A chemistry professor turned PM; also an aspiring Martian."
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Priti is a chemistry teacher turned Product Manager. Her transition to Product Management was initially fueled by her passion for teaching: she recognised the need for better customer experience, and content on edtech platforms.
@@ -235,6 +246,7 @@ hash = "priyanga-kini"
 picture = "images/people/priyanga.webp"
 github = "https://github.com/Priyangapkini"
 name = "Priyanga Kini"
+shortbio = "She’ll debunk the magic in your programs."
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Priyanga is an engineering graduate from Model Engineering College in Kochi.
@@ -255,6 +267,7 @@ hash = "ravi-chandra-padmala"
 picture = "images/people/neena.webp"
 github = "https://github.com/neenaoffline"
 name = "Ravi Chandra <neena> Padmala"
+shortbio = "A philomath, tsundoku aficionado and second hand trader."
 bio = '''
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Ravi, known better by his moniker neena, has worked on building a neo bank, a next-gen dashboard that handles streaming data, a geospatial indexing service and libraries that help developers control anonymity.
@@ -275,6 +288,7 @@ hash = "sandilya-jandhyala"
 picture = "images/people/sandilya.webp"
 github = "https://github.com/jysandy"
 name = "Sandilya Jandhyala"
+shortbio = "A straight-shooting programmer and passionate educator."
 bio = '''
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Sandy has worked professionally with Clojure, ClojureScript, Ruby, Go, Python and JavaScript. Outside of that, he has worked with C# and C++.
@@ -304,6 +318,7 @@ hash = "sezal-jain"
 picture = "images/people/sezal.webp"
 github = "https://github.com/sezaljain"
 name = "Sezal Jain"
+shortbio = "She’s worked with the web, embedded software and computer vision."
 bio = '''
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Sezal is a full range engineer, having worked with hardware, embedded software, web applications and AI algorithms. Talk to her about anything ranging from edge detection algorithms to autonomous river exploration, helicopter landing, home delivery of healthcare, strawberry farming or scaling logistics solutions.
@@ -321,6 +336,7 @@ hash = "shivam-singhal"
 picture = "images/people/shivam.webp"
 github = "https://github.com/shhivam"
 name = "Shivam Singhal"
+shortbio = "Life hack: Make your work exciting by working with Shivam."
 bio = '''
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Shivam started working in the software industry in 2019, right after high school. As a freelancer, Shivam was partial to the MERN stack and no-code tools.
@@ -347,6 +363,7 @@ hash = "srihari-sriraman"
 picture = "images/people/srihari.webp"
 github = "http://github.com/ssrihari"
 name = "Srihari Sriraman"
+shortbio = "Magical problem-solver who makes the impossible happen and sings while he does it."
 bio = '''
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Srihari is the person that’s constantly asking: “why not?”, and in doing so, makes the impossible happen.
@@ -370,6 +387,7 @@ hash = "udit-kumar"
 picture = "images/people/udit.webp"
 github = "https://github.com/yudistrange"
 name = "Udit Kumar"
+shortbio = "nilenso’s logistics guru; fiddles with JVM bytecode for fun."
 bio = '''
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     Udit honed his skills at the Transactional Risk Management team at Amazon and at Tally before finally making his way to nilenso. He hasn't looked back since.
@@ -390,6 +408,7 @@ hash = "vikram-chintalapati"
 picture = "images/people/vkrm.webp"
 github = "https://github.com/vkrmis"
 name = "Vikram Chintalapati"
+shortbio = "Entrepreneurial engineer; loves history, geopolitics and football."
 bio = '''
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     An engineer with an entrepreneurial spirit, Vikram brings a worldview stemming from his experience working in domains such as biotech and genomics, as well as running companies to nilenso.
@@ -414,6 +433,7 @@ hash = "yogiraj-hendre"
 picture = "images/people/yogi.webp"
 github = "https://github.com/yogirajh007"
 name = "Yogiraj Hendre"
+shortbio = "Engineer with a love for the outdoors and stargazing."
 bio = '''
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
    As a versatile engineer with a passion for problem solving, Yogi loves to participates in hackathons, and has won a few of them too.
@@ -424,3 +444,27 @@ bio = '''
 '''
 twitter = "https://twitter.com/yogirajhendre"
 linkedin = "https://linkedin.com/in/yogirajhendre/"
+
+
+
+# -----------------------------
+# Tile data for the people page
+# -----------------------------
+#
+# Edit these to change the content of the text and images in the people page grid. Adding new custom tiles
+# will require modifications to the `people.html` template.
+
+[text_tile_1]
+url = "https://blog.nilenso.com/blog/2022/11/08/small-stalk/"
+text = "From the fertile soil of discomposure and ennui sprouts a new article by @jysandilya"
+
+[text_tile_2]
+url = "/jobs"
+text = "We are hiring!"
+
+[image_tile_1]
+url = "https://blog.nilenso.com/blog/2022/08/07/everyday-recipes-for-cooking-noobs/"
+img_src = "https://blog.nilenso.com/images/blog/everyday-recipes-for-cooking-noobs/khichdi.jpg"
+
+[wide_image]
+img_src = "/images/people/nilenso-chikmagalur.jpg"
