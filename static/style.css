@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital@0;1&family=Poppins:wght@100;300;400;500;700&display=swap');
 
 @media (min-width: 768px) {
     .md\:max-w-\[1092px\] {
@@ -236,4 +236,95 @@ p.text-black.text-base.company-blurb {
 
 a.underline, span.underline {
     text-underline-offset: 3px;
+}
+
+.people-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    /* grid-auto-columns: 1fr; */
+    grid-auto-rows: 135px;
+    grid-auto-flow: dense;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.people-tiles > * {
+    grid-area: span 1 / span 1;
+    transition: grid-area 0.5s;
+}
+
+.people-tiles .misctile {
+    grid-area: span 2 / span 2;
+}
+
+@media (max-width: 470px) {
+    .people-tiles .misctile {
+        grid-area: span 2 / span 1;
+    }
+}
+
+.people-tiles .bigsquare {
+    grid-area: span 2 / span 1;
+}
+
+.person {
+    justify-self: stretch;
+    background-color: #f3f3f3;
+    max-height: 135px;
+    min-width: 240px;
+    overflow: auto;
+    transition: transform 0.3s;
+}
+
+.person p {
+    margin-top: 10px;
+    font-size: 0.7em;
+}
+
+.person .sub {
+    margin-top: 10px;
+    align-items: baseline;
+    font-size: 0.7em;
+    font-family: Aleo, serif;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.person img {
+    float: left;
+    margin-right: 10px;
+    max-width: 135px;
+}
+
+.person:hover {
+    transform: scale(105%);
+    cursor: pointer;
+}
+
+.misctile img {
+    height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.bigsquare {
+    background-color: #ec4899;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.6em;
+    font-family: Aleo, serif;
+}
+
+.bigsquare img {
+    height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.bigsquare * {
+    margin: 5px;
 }
