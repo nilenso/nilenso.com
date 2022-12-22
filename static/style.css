@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
 
+:root {
+    --nilenso-pink: #FF3D84;
+}
+
 @media (min-width: 768px) {
     .md\:max-w-\[1092px\] {
         max-width: 1092px;
@@ -12,10 +16,15 @@
     }
 }
 
-.text-pink-500 {
-    --tw-text-opacity: 1;
-    color: #FF3D84;
-    color: rgba(255, 61, 132, var(--tw-text-opacity));
+.text-pink-500,
+.hover\:text-pink-500:hover,
+.hover\:text-pink-300:hover,
+.hover\:border-pink-500:hover {
+    color: var(--nilenso-pink)
+}
+
+.bg-pink-500 {
+    background-color: var(--nilenso-pink)
 }
 
 html {
@@ -110,7 +119,7 @@ html {
 
 .avatar-slider .tabs-buttons .active-tab {
     opacity: 1;
-    border: 1px solid #FF3D84;
+    border: 1px solid var(--nilenso-pink);
 }
 
 .swiper-button-next, .swiper-button-prev {
