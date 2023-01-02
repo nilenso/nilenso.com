@@ -20,6 +20,13 @@ name = "Abhinav Sarkar"
 link = "http://twitter.com/abhin4v"
 
 [[people]]
+nick = "kitallis"
+picture = "images/alumni/kitallis.webp"
+github = "http://github.com/kitallis"
+name = "Akshay Gupta"
+link = "http://twitter.com/kitallis"
+
+[[people]]
 nick = "aninda"
 picture = "images/alumni/aninda.webp"
 github = "http://github.com/spacefugitive"
@@ -67,6 +74,13 @@ picture = "images/alumni/neha.webp"
 github = "http://github.com/Bodhisattva2-0"
 name = "Neha Kumari"
 link = "http://twitter.com/__Neha"
+
+[[people]]
+nick = "nid"
+picture = "images/alumni/nid.webp"
+github = "https://github.com/nid90"
+name = "Nivedita Priyadarshini"
+link = "http://twitter.com/nid90"
 
 [[people]]
 nick = "noopur"

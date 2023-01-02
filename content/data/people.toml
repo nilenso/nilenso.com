@@ -35,25 +35,6 @@ twitter = ""
 linkedin = ""
 
 [[people]]
-nick = "kitallis"
-hash = "akshay-gupta"
-picture = "images/people/kitallis.webp"
-github = "http://github.com/kitallis"
-name = "Akshay Gupta <kitty>"
-bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Kitty is a modern-day aesthete and F/OSS hacker, long time Rubyist, sufficiently long time Clojure programmer, and a recently turned DBA. He strives for simplicity in his code and architecture designs.
-  </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    He has worked on energy saving projects, large-scale multi-variate testing platforms with tight SLAs, highly concurrent OMS for logistic companies, high throughput microservices to handle India-scale SMS sending, and difficult database problems. He has also contributed to <a class='underline hover:text-pink-500' href='http://live.gnome.org/AkshayGupta_GnomeShell_Document'>GNOME</a> and <a class='underline hover:text-pink-500' href='https://www.haiku-os.org/'>Haiku</a>.
-  </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    He loves making music, listening to noise rock, and snakeboarding, and has recently discovered his fondness for Brazilian Jiu-jitsu.</p>
-'''
-twitter = "http://twitter.com/kitallis"
-linkedin = "http://in.linkedin.com/in/kitallis"
-
-[[people]]
 nick = "alisha"
 hash = "alisha-mohanty"
 picture = "images/people/alisha.webp"
@@ -182,29 +163,6 @@ bio = '''
 '''
 twitter = "https://twitter.com/kirang89"
 linkedin = "https://www.linkedin.com/in/kirang89/"
-
-[[people]]
-nick = "nid"
-hash = "nivedita-priyadarshini"
-picture = "images/people/nid.webp"
-github = "https://github.com/nid90"
-name = "Nivedita Priyadarshini"
-bio = '''
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Nid has a wealth of experience in programming, leading teams and running a company, which reflects in her well-considered and insightful approach to building just about anything.
-  </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Most recently, Nid engineered Exotel’s IAM service from the ground up. She previously worked with Grofers where she led the effort to scale their delivery platform. Prior to that, she led the allocations and driver incentives team at Go-Jek, and various teams at Staples.
-  </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Before joining nilenso, Nid worked with the consulting firm C42.
-  </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    She loves knitting and playing with her cats.
-  </p>
-'''
-twitter = "http://twitter.com/nid90"
-linkedin = "http://in.linkedin.com/pub/nivedita-priyadarshini/47/524/386/"
 
 [[people]]
 nick = "pavithra"
