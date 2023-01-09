@@ -2,6 +2,7 @@
 
 :root {
     --nilenso-pink: #FF3D84;
+    --nilenso-white: #FFFFFF;
 }
 
 @media (min-width: 768px) {
@@ -21,6 +22,10 @@
 .hover\:text-pink-300:hover,
 .hover\:border-pink-500:hover {
     color: var(--nilenso-pink)
+}
+
+.text-white {
+    color: var(--nilenso-white);
 }
 
 .bg-pink-500 {

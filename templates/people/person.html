@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block header %}
+<section class="bg-black py-10 md:py-16 lg:py-16 px-6 md:px-10 lg:px-9">
+    <div>
+        <h2
+            class="font-light text-pink-500 text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-pink-500 md:leading-tight">
+            our tribe.
+            <span
+                class="font-light text-white text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-white md:leading-tight">
+                we build and launch products, sing carnatic music and climb mountains.
+            </span>
+        </h2>
+
+    </div>
+</section>
+{% endblock header %}
+
+{% block content %}
+
+<div class="py-8 px-6 flex flex-col md:gap-10 md:flex-row md:px-4 lg:px-0">
+    <div class="w-24">
+        <a href="/people"><img src="/images/svg/left-complete-arrow.svg" alt="left-arrow" /></a>
+    </div>
+    <div class="sm:flex mt-10">
+        <div class="flex flex-col items-center xl:pr-8 sm:block sm:max-w-[12rem]">
+            <figure class="w-40 xl:w-44">
+                <img src="/{{ page.extra.picture }}" alt="{{ page.extra.name }}" class="w-full rounded-sm">
+            </figure>
+            <div class="flex flex-wrap flex-col items-center mt-5 sm:block">
+                <h3 class="text-xl md:text-xl lg:text-xl font-medium leading-tight">
+                    {{ page.extra.name }}
+                </h3>
+                {% if page.extra.nick %}
+                    <div class="text-lg font-medium"> &lt{{ page.extra.nick }}&gt</div>
+                {% endif %}
+                <div class="flex items-start gap-3 sm: mt-5">
+                    {% if page.extra.twitter %}
+                    <a href="{{ page.extra.twitter }}">
+                        <figure>
+                            <img class="w-6 h-6 md:w-7 md:h-7" src="/images/svg/pink-twitter.svg" width=32
+                                alt="twitter">
+                        </figure>
+                    </a>
+                    {% endif %}
+                    {% if page.extra.github %}
+                    <a href="{{ page.extra.github }}" target="_blank">
+                        <figure>
+                            <img class="w-6 h-6 md:w-7 md:h-7" src="/images/svg/github.svg" alt="github">
+                        </figure>
+                    </a>
+                    {% endif %}
+                    {% if page.extra.linkedin %}
+                    <a href="{{ page.extra.linkedin }}">
+                        <figure>
+                            <img class="w-6 h-6 md:w-7 md:h-7" src="/images/svg/pink-linkedin.svg" width=32
+                                alt="linkedin">
+                        </figure>
+                    </a>
+                    {% endif %}
+                    {% if page.extra.goodreads %}
+                    <a href="{{ page.extra.goodreads }}" target="_blank">
+                        <figure>
+                            <img class="w-6 h-6 md:w-7 md:h-7" src="/images/svg/pink-goodreads.svg" alt="goodreads">
+                        </figure>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="pt-10 sm:pt-0 sm:pl-10 md:pl-18 lg:pl-38 xl:px-8">
+            <div class="text-black text-base leading-relaxed md:text-xl lg:text-2xl md:leading-snug font-light md:pb-7">
+                {{ page.content | safe }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
