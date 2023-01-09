@@ -1,0 +1,23 @@
++++
+[extra]
+type = "person"
+nick = "priyanga"
+hash = "priyanga-kini"
+picture = "images/people/priyanga.webp"
+github = "https://github.com/Priyangapkini"
+twitter="https://twitter.com/KiniPriyanga"
+linkedin="https://www.linkedin.com/in/priyangapkini/"
+goodreads = ""
+name = "Priyanga Kini"
++++
+
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+    Priyanga is an engineering graduate from Model Engineering College in Kochi.
+  </p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+    Passionate about building useful and usable software, her curiosity in digging into anything that felt like “magic” is what drove her to backend engineering. Her note-taking skills are legendary.
+  </p>
+  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+    A huge foodie, she’s partial to sweets that are not too sweet -- her favourite pastime is tucking into yellow jalebi. To chill out, she likes to sketch and listen to mood appropriate music.
+  </p>
+
