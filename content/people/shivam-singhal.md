@@ -1,7 +1,7 @@
 +++
 [extra]
 type = "person"
-nick = "shivam"
+nick = "ss"
 hash = "shivam-singhal"
 picture = "images/people/shivam.webp"
 github = "https://github.com/shhivam"

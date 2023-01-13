@@ -1,7 +1,7 @@
 +++
 [extra]
 type = "person"
-nick = "udit"
+nick = ""
 hash = "udit-kumar"
 picture = "images/people/udit.webp"
 github = "https://github.com/yudistrange"

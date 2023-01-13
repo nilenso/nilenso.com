@@ -1,14 +1,14 @@
 +++
 [extra]
 type = "person"
-nick = "kitallis"
+nick = "kitty"
 hash = "akshay-gupta"
 picture = "images/people/kitallis.webp"
 github = "http://github.com/kitallis"
 twitter="http://twitter.com/kitallis"
 linkedin="http://in.linkedin.com/in/kitallis"
 goodreads = ""
-name = "Akshay Gupta <kitty>"
+name = "Akshay Gupta"
 +++
 
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

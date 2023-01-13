@@ -1,7 +1,7 @@
 +++
 [extra]
 type = "person"
-nick = "atharva"
+nick = ""
 hash = "atharva-raykar"
 picture = "images/people/atharva.webp"
 github = "https://github.com/tfidfwastaken"
