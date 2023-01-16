@@ -1,5 +1,7 @@
 +++
+title = "Pavithra Iyer"
 [extra]
+shortbio = "The operations engine at nilenso who can find you anything you want."
 type = "person"
 nick = ""
 hash = "pavithra-iyer"
@@ -8,7 +10,6 @@ github = ""
 twitter=""
 linkedin="https://www.linkedin.com/in/pavithra-prabhakar-iyer-4a7607b7/"
 goodreads = ""
-name = "Pavithra Iyer"
 +++
 
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

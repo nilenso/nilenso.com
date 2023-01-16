@@ -1,14 +1,15 @@
 +++
+title = "Atharva Raykar"
 [extra]
+shortbio = "A craftsperson and stoic debugger who creates questionable art."
 type = "person"
 nick = ""
 hash = "atharva-raykar"
 picture = "images/people/atharva.webp"
 github = "https://github.com/tfidfwastaken"
-twitter="https://twitter.com/atharvaraykar"
-linkedin="https://www.linkedin.com/in/atharvaraykar/"
+twitter=""
+linkedin=""
 goodreads = ""
-name = "Atharva Raykar"
 +++
 
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

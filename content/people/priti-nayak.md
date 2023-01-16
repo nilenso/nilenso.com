@@ -1,5 +1,7 @@
 +++
+title = "Priti Nayak"
 [extra]
+shortbio = "A chemistry professor turned PM; also an aspiring Martian."
 type = "person"
 nick = ""
 hash = "priti-nayak"
@@ -8,7 +10,6 @@ github = ""
 twitter="https://twitter.com/Pritisn0"
 linkedin="linkedin.com/in/pritinayak"
 goodreads = ""
-name = "Priti Nayak"
 +++
 
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

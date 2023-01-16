@@ -1,5 +1,7 @@
 +++
+title = "Govind Joshi"
 [extra]
+shortbio = "Secretly a biologist; always follow him to a classical music performance."
 type = "person"
 nick = ""
 hash = "govind-joshi"
@@ -8,7 +10,6 @@ github = "http://github.com/govindkrjoshi"
 twitter="https://twitter.com/govindkrjoshi"
 linkedin=""
 goodreads = ""
-name = "Govind Joshi"
 +++
 
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

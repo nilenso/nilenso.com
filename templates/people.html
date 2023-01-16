@@ -29,28 +29,28 @@
 
     <section id="people-page-grid">
 
-    {% set data = load_data(path="content/data/people.toml", format="toml") %}
-    {% set tileset = data.people | slice(end=6) %}
+    {% set data = load_data(path="/content/data/people-page-tile-contents.toml", format="toml") %}
+    {% set people_section = get_section(path="people/_index.md") %}
+    {% set tileset = people_section.pages | slice(end=6) %}
 
     {{ macros::gen_people_tiles(tileset=tileset) }}
 
     {{ macros::text_link_tile(url=data.text_tile_1.url, text=data.text_tile_1.text) }}
 
-    {% set tileset = data.people | slice(start=6, end=9) %}
+    {% set tileset = people_section.pages | slice(start=6, end=9) %}
     {{ macros::gen_people_tiles(tileset=tileset) }}
 
     {{ macros::wide_image(img_src=data.wide_image.img_src) }}
 
-    {% set tileset = data.people | slice(start=9, end=16) %}
+    {% set tileset = people_section.pages | slice(start=9, end=16) %}
     {{ macros::gen_people_tiles(tileset=tileset) }}
 
     {{ macros::image_link_tile(url=data.image_tile_1.url, img_src=data.image_tile_1.img_src) }}
 
     {{ macros::text_link_tile(url=data.text_tile_2.url, text=data.text_tile_2.text) }}
 
-    {% set tileset = data.people | slice(start=16) %}
+    {% set tileset = people_section.pages | slice(start=16) %}
     {{ macros::gen_people_tiles(tileset=tileset) }}
-
     </section>
 
     <section class="xl:py-24 md:py-16 py-10 md:px-12 border-t border-gray-200 px-6">

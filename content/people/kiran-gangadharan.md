@@ -1,5 +1,7 @@
 +++
+title = "Kiran Gangadharan"
 [extra]
+shortbio = "His Emacs config has been dragged across many industries."
 type = "person"
 nick = ""
 hash = "kiran-gangadharan"
@@ -8,7 +10,6 @@ github = "https://github.com/kirang89"
 twitter="https://twitter.com/kirang89"
 linkedin="https://www.linkedin.com/in/kirang89/"
 goodreads = ""
-name = "Kiran Gangadharan"
 +++
 
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

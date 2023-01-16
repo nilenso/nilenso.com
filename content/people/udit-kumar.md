@@ -1,5 +1,7 @@
 +++
+title = "Udit Kumar"
 [extra]
+shortbio = "nilenso’s logistics guru; fiddles with JVM bytecode for fun."
 type = "person"
 nick = ""
 hash = "udit-kumar"
@@ -8,7 +10,6 @@ github = "https://github.com/yudistrange"
 twitter="https://twitter.com/yudistrange"
 linkedin="https://www.linkedin.com/in/udit-kumar-01690127/"
 goodreads = ""
-name = "Udit Kumar"
 +++
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

@@ -1,5 +1,7 @@
 +++
+title = "Sezal Jain"
 [extra]
+shortbio = "She’s worked with the web, embedded software and computer vision."
 type = "person"
 nick = ""
 hash = "sezal-jain"
@@ -8,7 +10,6 @@ github = "https://github.com/sezaljain"
 twitter="https://twitter.com/sezal_jain"
 linkedin="https://www.linkedin.com/in/sezal-jain-80823511/"
 goodreads = ""
-name = "Sezal Jain"
 +++
 
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

@@ -1,5 +1,7 @@
 +++
+title = "Alisha Mohanty"
 [extra]
+shortbio = "An open-sourcerer who puts the lo-fi in your bollywood songs."
 type = "person"
 nick = ""
 hash = "alisha-mohanty"
@@ -8,7 +10,6 @@ github = "https://github.com/alishamohanty"
 twitter="https://twitter.com/alisham__"
 linkedin="https://www.linkedin.com/in/alisha-mohanty-573197140/"
 goodreads = ""
-name = "Alisha Mohanty"
 +++
 
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

@@ -1,5 +1,7 @@
 +++
+title = "Ravi Chandra Padmala"
 [extra]
+shortbio = "A philomath, tsundoku aficionado and second hand trader."
 type = "person"
 nick = "neena"
 hash = "ravi-chandra-padmala"
@@ -8,7 +10,6 @@ github = "https://github.com/neenaoffline"
 twitter="http://twitter.com/neenaoffline"
 linkedin=""
 goodreads = ""
-name = "Ravi Chandra Padmala"
 +++
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

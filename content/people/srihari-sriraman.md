@@ -1,5 +1,7 @@
 +++
+title = "Srihari Sriraman"
 [extra]
+shortbio = "Magical problem-solver who makes the impossible happen and sings while he does it."
 type = "person"
 nick = ""
 hash = "srihari-sriraman"
@@ -8,7 +10,6 @@ github = "http://github.com/ssrihari"
 twitter="http://twitter.com/SrihariSriraman"
 linkedin="http://www.linkedin.com/in/sriharisriraman"
 goodreads = ""
-name = "Srihari Sriraman"
 +++
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
