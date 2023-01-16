@@ -1,0 +1,32 @@
+{# macro that takes iterates over a collection of tile objects and renders them on a grid #}
+{% macro gen_people_tiles(tileset) %}
+    {% for person in tileset %}
+    <a href="/people/{{ person.extra.hash }}">
+        <div class="person-tile">
+            <img src="/{{ person.extra.picture }}">
+            <div class="person-name">{{ person.title }}</div>
+            <div class="shortbio">{{ person.extra.shortbio }}</div>
+        </div>
+    </a>
+    {% endfor %}
+{% endmacro %}
+
+{% macro text_link_tile(url, text) %}
+    <a class="tile-1x2" href="{{ url }}">
+        <div>
+          {{ text }}
+        </div>
+    </a>
+{% endmacro %}
+
+{% macro image_link_tile(url, img_src) %}
+    <a class="tile-1x2" href="{{ url }}">
+        <img src="{{ img_src }}">
+    </a>
+{% endmacro %}
+
+{% macro wide_image(img_src) %}
+    <div class="tile-2x2">
+        <img src="{{ img_src }}">
+    </div>
+{% endmacro %}

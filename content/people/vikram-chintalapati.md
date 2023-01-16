@@ -1,5 +1,7 @@
 +++
+title = "Vikram Chintalapati"
 [extra]
+shortbio = "Entrepreneurial engineer; loves history, geopolitics and football."
 type = "person"
 nick = "vkrm"
 hash = "vikram-chintalapati"
@@ -8,7 +10,6 @@ github = "https://github.com/vkrmis"
 twitter="https://twitter.com/cvikram"
 linkedin="https://www.linkedin.com/in/vikram-chintalapati-23764111a/"
 goodreads = ""
-name = "Vikram Chintalapati"
 +++
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

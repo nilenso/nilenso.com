@@ -1,5 +1,7 @@
 +++
+title = "Akshatha H"
 [extra]
+shortbio = "A deadpan humourist electronics engineer turned programmer."
 type = "person"
 nick = ""
 hash = "akshatha-h"
@@ -8,7 +10,6 @@ github = "https://github.com/qptr"
 twitter=""
 linkedin=""
 goodreads = ""
-name = "Akshatha H"
 +++
 
    <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

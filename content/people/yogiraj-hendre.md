@@ -1,5 +1,7 @@
 +++
+title = "Yogiraj Hendre"
 [extra]
+shortbio = "Engineer with a love for the outdoors and stargazing."
 type = "person"
 nick = "yogi"
 hash = "yogiraj-hendre"
@@ -8,7 +10,6 @@ github = "https://github.com/yogirajh007"
 twitter="https://twitter.com/yogirajhendre"
 linkedin="https://linkedin.com/in/yogirajhendre/"
 goodreads = ""
-name = "Yogiraj Hendre"
 +++
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

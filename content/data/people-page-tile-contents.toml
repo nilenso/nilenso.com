@@ -1,0 +1,21 @@
+# -----------------------------
+# Tile data for the people page
+# -----------------------------
+#
+# Edit these to change the content of the text and images in the people page grid. Adding new custom tiles
+# will require modifications to the `people.html` template.
+
+[text_tile_1]
+url = "https://blog.nilenso.com/blog/2022/11/08/small-stalk/"
+text = "From the fertile soil of discomposure and ennui sprouts a new article by @jysandilya"
+
+[text_tile_2]
+url = "/jobs"
+text = "We are hiring!"
+
+[image_tile_1]
+url = "https://blog.nilenso.com/blog/2022/08/07/everyday-recipes-for-cooking-noobs/"
+img_src = "https://blog.nilenso.com/images/blog/everyday-recipes-for-cooking-noobs/khichdi.jpg"
+
+[wide_image]
+img_src = "/images/people/nilenso-chikmagalur.jpg"

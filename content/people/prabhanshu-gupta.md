@@ -1,5 +1,7 @@
 +++
+title = "Prabhanshu Gupta"
 [extra]
+shortbio = "Builder of web things, maker of bleeps and bloops, writer of tests."
 type = "person"
 nick = ""
 hash = "prabhanshu-gupta"
@@ -8,7 +10,6 @@ github = "https://github.com/prabhanshuguptagit"
 twitter="https://twitter.com/twomogambo"
 linkedin="https://www.linkedin.com/in/prabhanshu-gupta/"
 goodreads = ""
-name = "Prabhanshu Gupta"
 +++
 
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

@@ -25,11 +25,11 @@
     <div class="sm:flex mt-10">
         <div class="flex flex-col items-center xl:pr-8 sm:block sm:max-w-[12rem]">
             <figure class="w-40 xl:w-44">
-                <img src="/{{ page.extra.picture }}" alt="{{ page.extra.name }}" class="w-full rounded-sm">
+                <img src="/{{ page.extra.picture }}" alt="{{ page.title }}" class="w-full rounded-sm">
             </figure>
             <div class="flex flex-wrap flex-col items-center mt-5 sm:block">
                 <h3 class="text-xl md:text-xl lg:text-xl font-medium leading-tight">
-                    {{ page.extra.name }}
+                    {{ page.title }}
                 </h3>
                 {% if page.extra.nick %}
                     <div class="text-lg font-medium"> &lt{{ page.extra.nick }}&gt</div>

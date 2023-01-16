@@ -1,5 +1,7 @@
 +++
+title = "Shivam Singhal"
 [extra]
+shortbio = "Life hack: Make your work exciting by working with Shivam."
 type = "person"
 nick = "ss"
 hash = "shivam-singhal"
@@ -8,7 +10,6 @@ github = "https://github.com/shhivam"
 twitter="https://twitter.com/shivam_310"
 linkedin="https://www.linkedin.com/in/shivam310/"
 goodreads = ""
-name = "Shivam Singhal"
 +++
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

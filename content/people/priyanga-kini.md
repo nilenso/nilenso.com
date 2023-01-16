@@ -1,5 +1,7 @@
 +++
+title = "Priyanga Kini"
 [extra]
+shortbio = "She’ll debunk the magic in your programs."
 type = "person"
 nick = ""
 hash = "priyanga-kini"
@@ -8,7 +10,6 @@ github = "https://github.com/Priyangapkini"
 twitter="https://twitter.com/KiniPriyanga"
 linkedin="https://www.linkedin.com/in/priyangapkini/"
 goodreads = ""
-name = "Priyanga Kini"
 +++
 
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

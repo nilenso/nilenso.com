@@ -1,5 +1,7 @@
 +++
+title = "Dany Sam Salmon"
 [extra]
+shortbio = "He will automate your life if you ask him nicely."
 type = "person"
 nick = "dan"
 hash = "dany-sam"
@@ -8,7 +10,6 @@ github = "https://github.com/danySam"
 twitter="https://twitter.com/_danySam"
 linkedin="https://www.linkedin.com/in/danysam/"
 goodreads = ""
-name = "Dany Sam Salmon"
 +++
 
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

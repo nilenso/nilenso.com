@@ -1,5 +1,7 @@
 +++
+title = "Akshat Shah"
 [extra]
+shortbio = "Yak shaver. Bottleneck-remover."
 type = "person"
 nick = "gujju"
 hash = "gujju"
@@ -8,7 +10,6 @@ github = "https://github.com/olttwa"
 twitter=""
 linkedin=""
 goodreads = "https://www.goodreads.com/olttwa"
-name = "Akshat Shah"
 +++
 
   <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

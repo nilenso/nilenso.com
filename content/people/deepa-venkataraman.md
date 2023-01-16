@@ -1,5 +1,7 @@
 +++
+title = "Deepa Venkatraman"
 [extra]
+shortbio = "She speaks half a dozen languages and knows everyone you know."
 type = "person"
 nick = ""
 hash = "deepa-venkataraman"
@@ -8,7 +10,6 @@ github = "http://github.com/dvenkatr"
 twitter="https://twitter.com/deepa_v"
 linkedin="https://uk.linkedin.com/in/deepavenkatraman"
 goodreads = ""
-name = "Deepa Venkatraman"
 +++
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">

@@ -1,5 +1,7 @@
 +++
+title = "Sandilya Jandhyala"
 [extra]
+shortbio = "A straight-shooting programmer and passionate educator."
 type = "person"
 nick = "sandy"
 hash = "sandilya-jandhyala"
@@ -8,7 +10,6 @@ github = "https://github.com/jysandy"
 twitter="https://twitter.com/jysandilya"
 linkedin="https://www.linkedin.com/in/jysandy/"
 goodreads = ""
-name = "Sandilya Jandhyala"
 +++
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
