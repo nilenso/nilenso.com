@@ -6,8 +6,8 @@
 }
 
 @media (min-width: 768px) {
-    .md\:max-w-\[1192px\] {
-        max-width: 1192px;
+    .md\:max-w-\[1366px\] {
+        max-width: 1366px;
     }
 }
 
@@ -254,7 +254,7 @@ a.underline, span.underline {
 
 #people-page-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
     grid-auto-rows: 135px;
     grid-auto-flow: dense;
     gap: 10px;
@@ -284,9 +284,8 @@ a.underline, span.underline {
     justify-self: stretch;
     background-color: #f3f3f3;
     max-height: 135px;
-    min-width: 270px;
-    overflow: auto;
-    transition: transform 0.3s;
+    min-width: 295px;
+    overflow: hidden;
 }
 
 .person-tile .person-name {
@@ -309,14 +308,19 @@ a.underline, span.underline {
 }
 
 .person-tile:hover {
-    transform: scale(105%);
     cursor: pointer;
+    background-color: #d7d7d7;
+    box-shadow: 0 0 0 2px #d7d7d7;
 }
 
 .tile-2x2 img {
     height: 100%;
     min-width: 100%;
     object-fit: cover;
+}
+
+.tile-1x2:hover {
+    box-shadow: 0 0 0 2px #d7d7d7;
 }
 
 .tile-1x2 {
@@ -329,6 +333,7 @@ a.underline, span.underline {
     font-size: 1em;
     font-style: italic;
     font-family: Aleo, serif;
+    font-weight: 400;
 }
 
 .tile-1x2 img {
