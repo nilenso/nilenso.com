@@ -12,6 +12,7 @@ then
     wget -pk -P static/ https://dashpad.co/nilenso/people.html
     wget -pk -P static/ https://dashpad.co/nilenso/jobs.html
     wget -pk -P static/ https://dashpad.co/nilenso/jobs-more.html
+    wget -pk -P static/ https://dashpad.co/nilenso/perks.html
     wget -pk -P static/ https://dashpad.co/nilenso/conference-talks.html
     wget -pk -P static/ https://dashpad.co/nilenso/style.css
 
