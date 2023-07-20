@@ -44,11 +44,6 @@ image = "/images/mapbox.png"
 name = "Mapbox"
 
 [[recent]]
-url = "https://www.dunzo.com/"
-image = "/images/dunzo.png"
-name = "Dunzo"
-
-[[recent]]
 url = "https://www.clarisights.com/"
 image = "/images/clarisights.png"
 name = "Clarisights"
