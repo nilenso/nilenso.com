@@ -48,7 +48,7 @@
 
     {{ macros::image_link_tile(url=data.image_tile_1.url, img_src=data.image_tile_1.img_src) }}
 
-    {{ macros::text_link_tile(url=data.text_tile_2.url, text=data.text_tile_2.text) }}
+    <!-- {{ macros::text_link_tile(url=data.text_tile_2.url, text=data.text_tile_2.text) }} -->
 
     {% set tileset = people_section.pages | slice(start=16) %}
     {{ macros::gen_people_tiles(tileset=tileset) }}
