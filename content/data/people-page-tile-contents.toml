@@ -6,12 +6,12 @@
 # will require modifications to the `people.html` template.
 
 [text_tile_1]
-url = "https://blog.nilenso.com/blog/2022/11/08/small-stalk/"
-text = "From the fertile soil of discomposure and ennui sprouts a new article by @jysandilya"
+url = "/alumni"
+text = "Meet our alumni →"
 
 [text_tile_2]
 url = "/jobs"
-text = "We are hiring!"
+text = "We are hiring →"
 
 [image_tile_1]
 url = "https://blog.nilenso.com/blog/2022/08/07/everyday-recipes-for-cooking-noobs/"

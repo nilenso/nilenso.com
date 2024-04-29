@@ -295,8 +295,7 @@ a.underline, span.underline {
 
 .person-tile .shortbio {
     align-items: baseline;
-    font-size: 0.8em;
-    font-family: Aleo, serif;
+    font-size: 0.75em;
     font-weight: 400;
     padding: 5px;
 }
@@ -313,39 +312,18 @@ a.underline, span.underline {
     box-shadow: 0 0 0 2px #d7d7d7;
 }
 
-.tile-2x2 img {
-    height: 100%;
-    min-width: 100%;
-    object-fit: cover;
-}
-
-.tile-1x2:hover {
-    box-shadow: 0 0 0 2px #d7d7d7;
-}
-
-.tile-1x2 {
-    background-color: var(--nilenso-pink);
+.text-tile {
+    background-color: black;
     color: white;
     display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-size: 1em;
-    font-style: italic;
-    font-family: Aleo, serif;
-    font-weight: 400;
+    padding-left: 1.5rem;    
+    padding-top: 1.8rem;    
+    font-weight: normal;
 }
 
-.tile-1x2 img {
+.tile-img {
     height: 100%;
     min-width: 100%;
     object-fit: cover;
 }
 
-.tile-1x2 * {
-    margin: 5px;
-}
-
-.tile-1x2:hover {
-    text-shadow: #fff 0 0 8px;
-}
