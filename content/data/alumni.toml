@@ -111,6 +111,13 @@ name = "Samrat Man Singh"
 link = "https://twitter.com/samratmansingh"
 
 [[people]]
+nick = "sandy"
+picture = "images/people/sandilya.webp"
+github = "https://github.com/jysandy"
+name = "Sandilya Jandhyala"
+link = "https://www.linkedin.com/in/jysandy/"
+
+[[people]]
 nick = "shafeeq"
 picture = "images/alumni/shafeeq.webp"
 github = "https://github.com/shafeeq"
