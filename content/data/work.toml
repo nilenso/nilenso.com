@@ -10,7 +10,7 @@ content = '''
 </p>
 
 <div class="border-t border-b border-gray-200 py-10">
-    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light">
         Since 2015, we have worked with Gojek on many of Gojek's products and services including allocation, pooling, order management, pricing and experimentation.
     </p>
 </div>
@@ -50,7 +50,7 @@ content = '''
 </p>
 
 <div class="border-t border-b border-gray-200 py-10">
-    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light">
         We worked with Insider to build a digital platform for live events, with the objective of “streaming interactive video to one million concurrent users”.
     </p>
 </div>
@@ -91,7 +91,7 @@ content = '''
 </p>
 
 <div class="border-t border-b border-gray-200 py-10">
-    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light">
         We have worked with Juspay in various capacities, including a wizard-like framework to build mobile apps, a real-time analytics dashboard, a DSL to build apps for banking clients and pilot solutions for ride sharing apps using an open specification.
     </p>
 </div>
@@ -134,7 +134,7 @@ content = '''
 </p>
 
 <div class="border-t border-b border-gray-200 py-10">
-    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light">
         Simple is an offline-first Android app and web dashboard that enables policy makers to monitor and improve hypertension and diabetes outcomes.
     </p>
 </div>
@@ -170,7 +170,7 @@ Staples is one of the world's largest office retail companies.
 </p>
 
 <div class="border-t border-b border-gray-200 py-10">
-    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">We worked with Staples on their recommendation engine, experimentation platform, as well as several other products, over a period of 4 years.</p>
+    <p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light">We worked with Staples on their recommendation engine, experimentation platform, as well as several other products, over a period of 4 years.</p>
 </div>
 
 <div class="md:pt-0 md:pb-0 py-10">
