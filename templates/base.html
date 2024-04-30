@@ -96,48 +96,48 @@
 
     {% block content %}
     {% endblock %}
-
-    {% block footer %}
-        <footer id="contact" class="py-12 pl-6 pr-8 mg:py-16 lg:py-16 md:px-12 bg-pink-500 ">
-            <div class="flex justify-between items-center">
-                <h3 class="text-white font-normal text-xl md:text-2xl leading-tight lg:text-3xl md:leading-loose">
-                    india + canada
-                </h3>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-0 grid-flow-col md:divide-x">
-                    <ul class="hidden md:block">
-                        <p class="text-white pb-2.5">Links</p>
-                        <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
-                            <a href="https://vyakaran.nilenso.com" target="_blank">vyakaran: handbook</a>
-                        </li>
-
-                        <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
-                            <a href="/talks/">talks</a>
-                        </li>
-
-                        <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
-                            <a href="/alumni/">alumni</a>
-                        </li>
-                    </ul>
-
-                    <ul class="pl-6 md:pl-10 lg:pl-10 xl:pl-10">
-                        <p class="text-white pb-2.5">Contact</p>
-                        <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
-                            <a href="mailto:hello@nilenso.com">hello@nilenso.com</a>
-                        </li>
-
-                        <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
-                            <a href="https://twitter.com/nilenso" target="_blank">@nilenso</a>
-                        </li>
-
-                        <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
-                            <a href="https://github.com/nilenso" target="_blank">github.com/nilenso</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    {% endblock %}
 </main>
 </body>
+
+{% block footer %}
+<footer id="contact" class="py-12 pl-6 pr-8 mg:py-16 lg:py-16 md:px-12 bg-pink-500 ">
+    <div class="flex justify-between items-center">
+        <h3 class="text-white font-normal text-xl md:text-2xl leading-tight lg:text-3xl md:leading-loose">
+            india + canada
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-0 grid-flow-col md:divide-x">
+            <ul class="hidden md:block">
+                <p class="text-white pb-2.5">Links</p>
+                <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
+                    <a href="https://vyakaran.nilenso.com" target="_blank">vyakaran: handbook</a>
+                </li>
+
+                <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
+                    <a href="/talks/">talks</a>
+                </li>
+
+                <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
+                    <a href="/alumni/">alumni</a>
+                </li>
+            </ul>
+
+            <ul class="pl-6 md:pl-10 lg:pl-10 xl:pl-10">
+                <p class="text-white pb-2.5">Contact</p>
+                <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
+                    <a href="mailto:hello@nilenso.com">hello@nilenso.com</a>
+                </li>
+
+                <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
+                    <a href="https://twitter.com/nilenso" target="_blank">@nilenso</a>
+                </li>
+
+                <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
+                    <a href="https://github.com/nilenso" target="_blank">github.com/nilenso</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+{% endblock %}
 </html>

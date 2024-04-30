@@ -36,6 +36,10 @@ html {
     scroll-behavior: smooth;
 }
 
+main {
+    min-height: 75vh;
+}
+
 #menuToggle {
     z-index: 1;
     -webkit-user-select: none;
