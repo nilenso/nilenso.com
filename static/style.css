@@ -316,7 +316,7 @@ a.underline, span.underline {
     background-color: black;
     color: white;
     display: flex;
-    padding-left: 1.5rem;    
+    padding-left: 1.2rem;
     padding-top: 1.8rem;    
     font-weight: normal;
 }
