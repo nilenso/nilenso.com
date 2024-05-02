@@ -294,14 +294,15 @@ a.underline, span.underline {
 
 .person-tile .person-name {
     margin-top: 10px;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    padding-bottom: 6px;
 }
 
 .person-tile .shortbio {
     align-items: baseline;
     font-size: 0.75em;
     font-weight: 400;
-    padding: 5px;
+    padding: 7px;
 }
 
 .person-tile img {

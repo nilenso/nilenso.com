@@ -1,7 +1,7 @@
 +++
 title = "Sezal Jain"
 [extra]
-shortbio = "Engineer, entrepreneur and a lazy person"
+shortbio = "Engineer, entrepreneur and a lazy person."
 type = "person"
 nick = ""
 hash = "sezal-jain"
