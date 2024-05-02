@@ -28,7 +28,7 @@
         people objects and looping and generating those again. Rinse and repeat.
     #}
 
-    <section id="people-page-grid">
+    <section id="people-page-grid" class="px-4 md:px-0">
 
     {% set data = load_data(path="/content/data/people-page-tile-contents.toml", format="toml") %}
     {% set people_section = get_section(path="people/_index.md") %}
