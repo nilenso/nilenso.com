@@ -1,4 +1,12 @@
 [[talks]]
+title = "Growing Clojure inside the company"
+speakers = "Srihari Sriraman"
+speakerhash = "srihari-sriraman"
+venue = "reClojure 2022"
+youtube_id = "yEHBGQd33o4"
+duration = "25:30"
+
+[[talks]]
 title = "Clojure is difficult, but worth it"
 speakers = "Sezal Jain"
 speakerhash = "sezal-jain"
