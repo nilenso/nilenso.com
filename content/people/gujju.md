@@ -13,7 +13,7 @@ goodreads = "https://www.goodreads.com/olttwa"
 +++
 
   <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Akshat believes in the immeasurable impact a code can create. He was part of a 6666x growth journey with South-east Asian Decacorn GoTo, where he realised true potential of software.
+    Akshat believes in the immeasurable impact code can create. He was part of a 6666x growth journey with South-east Asian Decacorn GoTo, where he realised true potential of software.
   </p>
   <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
     He likes building easy-to-use products and scalable architecture. A philosopher at heart, he believes 1+1 is greater than 2 and is an ardent follower of the boy-scout rule.

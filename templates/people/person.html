@@ -32,13 +32,13 @@
                     {{ page.title }}
                 </h3>
                 {% if page.extra.nick %}
-                    <div class="text-lg font-medium"> &lt{{ page.extra.nick }}&gt</div>
+                    <div class="font-medium text-center"> &lt{{ page.extra.nick }}&gt</div>
                 {% endif %}
-                <div class="flex items-start gap-3 sm: mt-5">
+                <div class="flex items-start gap-3 sm: mt-5 justify-center">
                     {% if page.extra.twitter %}
                     <a href="{{ page.extra.twitter }}">
                         <figure>
-                            <img class="w-6 h-6 md:w-7 md:h-7" src="/images/svg/pink-twitter.svg" width=32
+                            <img class="w-6 h-6" src="/images/svg/pink-twitter.svg" width=32
                                 alt="twitter">
                         </figure>
                     </a>
@@ -46,14 +46,14 @@
                     {% if page.extra.github %}
                     <a href="{{ page.extra.github }}" target="_blank">
                         <figure>
-                            <img class="w-6 h-6 md:w-7 md:h-7" src="/images/svg/github.svg" alt="github">
+                            <img class="w-6 h-6" src="/images/svg/github.svg" alt="github">
                         </figure>
                     </a>
                     {% endif %}
                     {% if page.extra.linkedin %}
                     <a href="{{ page.extra.linkedin }}">
                         <figure>
-                            <img class="w-6 h-6 md:w-7 md:h-7" src="/images/svg/pink-linkedin.svg" width=32
+                            <img class="w-6 h-6" src="/images/svg/pink-linkedin.svg" width=32
                                 alt="linkedin">
                         </figure>
                     </a>
@@ -61,7 +61,7 @@
                     {% if page.extra.goodreads %}
                     <a href="{{ page.extra.goodreads }}" target="_blank">
                         <figure>
-                            <img class="w-6 h-6 md:w-7 md:h-7" src="/images/svg/pink-goodreads.svg" alt="goodreads">
+                            <img class="w-6 h-6" src="/images/svg/pink-goodreads.svg" alt="goodreads">
                         </figure>
                     </a>
                     {% endif %}
