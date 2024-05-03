@@ -295,6 +295,7 @@ a.underline, span.underline {
 .person-tile .person-name {
     margin-top: 10px;
     font-size: 0.9em;
+    font-weight: normal;
     padding-bottom: 6px;
 }
 
