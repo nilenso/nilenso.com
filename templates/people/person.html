@@ -18,7 +18,7 @@
 
 {% block content %}
 
-<div class="py-8 px-6 flex flex-col md:gap-10 md:flex-row md:px-4 lg:px-0">
+<div class="py-8 px-6 flex flex-col md:gap-10 md:flex-row md:px-4">
     <div class="w-24">
         <a href="/people"><img src="/images/svg/left-complete-arrow.svg" alt="left-arrow" /></a>
     </div>
@@ -27,8 +27,8 @@
             <figure class="w-40 xl:w-44">
                 <img src="/{{ page.extra.picture }}" alt="{{ page.title }}" class="w-full rounded-sm">
             </figure>
-            <div class="flex flex-wrap flex-col items-center mt-5 sm:block">
-                <h3 class="text-xl md:text-xl lg:text-xl font-medium leading-tight">
+            <div class="flex flex-wrap flex-col mt-5 sm:block">
+                <h3 class="text-xl md:text-xl lg:text-xl font-medium leading-tight text-center">
                     {{ page.title }}
                 </h3>
                 {% if page.extra.nick %}

@@ -5,12 +5,9 @@
 {% block header %}
     <section class="bg-black py-10 md:py-16 lg:py-16 px-6 md:px-10 lg:px-9">
         <div>
-            <h1 class="font-light text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-white md:leading-tight">
-                telling stories
+            <h1 class="font-light text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug md:leading-tight text-pink-500">
+                our conference talks.
             </h1>
-            <p class="pt-6 lg:pt-10 text-pink-500 font-light text-base md:text-xl lg:text-xl leading-normal md:leading-tight w-full max-w-[48rem] tracking-tight">
-                our members regularly speak at conferences around the world.
-            </p>
         </div>
     </section>
 {% endblock header %}
@@ -28,12 +25,12 @@
     </script>
 
     {% set data = load_data(path="content/data/talks.toml", format="toml") %}
-    <section class="lg:py-16 md:py-16 py-10 md:px-9 px-6">
+    <section class="py-6 md:px-9 px-6">
         {% for talk in data.talks %}
-            <div class="talk-item sm:flex py-6 md:py-16 border-t">
+            <div class="talk-item sm:flex py-6 border-t">
                 <figure onclick="showVideo(this)"
-                        class="min-w-full md:min-w-max lg:min-w-max xl:min-w-max sm:min-w-[18rem] md:min-w-[20rem] lg:min-w-[25rem]">
-                    <img alt="talk_image" src="/images/talks/{{ talk.youtube_id }}.jpg"/>
+                        class="min-w-full md:min-w-max lg:min-w-max xl:min-w-max">
+                    <img alt="talk_image" src="/images/talks/{{ talk.youtube_id }}.jpg" style="width: 300px; cursor: pointer"/>
                     <iframe id="ytplayer"
                             loading="lazy"
                             type="text/html"
@@ -44,7 +41,7 @@
                 </figure>
                 <div class="pt-4 md:pt-0 sm:pl-6 flex flex-wrap">
                     <div>
-                        <h3 class="text-black font-normal md:text-xl lg:text-2xl text-base leading-normal">
+                        <h3 class="text-pink-500 underline font-normal md:text-xl text-base leading-normal">
                             <a href="https://www.youtube.com/watch?v={{talk.youtube_id}}" target="_blank">{{ talk.title }}</a>
                         </h3>
                         <p class="text-black font-light text-base leading-tight pt-2">
@@ -55,7 +52,7 @@
                     <div class="w-full sm:self-end pt-4">
                         <h4 class="text-pink-500 font-normal text-base leading-normal">
                             {% if talk.speakerhash %}
-                                <a href="/people/#{{ talk.speakerhash }}" class="inline-block underline">
+                                <a href="/people/{{ talk.speakerhash }}" class="inline-block underline">
                             {% endif %}
                             {{ talk.speakers }}
                             {% if talk.speakerhash %}</a>{% endif %}
