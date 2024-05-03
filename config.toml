@@ -15,6 +15,6 @@ tabs = [
     {name="people",path="/people/",nav=true},
     {name="blog",path="http://blog.nilenso.com/",nav=true},
     {name="alumni",path="/alumni/",nav=false},
-    {name="talks",path="/talks/",nav=false},
+    {name="talks",path="/talks/",nav=true},
     {name="contact",path="#contact",nav=true},
 ]
