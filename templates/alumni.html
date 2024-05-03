@@ -19,18 +19,14 @@
         <div class="grid grid-flow-row grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-1">
             {% set alumni = load_data(path="content/data/alumni.toml", format="toml") %}
             {% for person in alumni.people %}
-                <div class="m-2 md:mt-2 md:m-10">
-                    <a href="{{ person.link }}" target="_blank">
-                        <figure class="border-transparent border-dotted border-2 rounded-sm hover:border-pink-500">
-                            <img src="/{{ person.picture }}" alt="{{ person.name }}" class="hover:rounded-none w-full rounded-sm">
-                        </figure>
-                    </a>
+                <a href="{{ person.link }}" target="_blank" class="font-normal m-2 md:mt-2 md:m-10 hover:text-pink-500">
+                    <img src="/{{ person.picture }}" alt="{{ person.name }}" class="hover:rounded-none w-full rounded-sm">
                     <div class="flex flex-wrap justify-center">
-                        <p class="text-black text-base leading-normal mt-2 text-center">
+                        <p class="text-normal mt-2 text-center">
                             {{ person.name }}
                         </p>
                     </div>
-                </div>
+                </a>
             {% endfor %}
         </div>
     </section>
