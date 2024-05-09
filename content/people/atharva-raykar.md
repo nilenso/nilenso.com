@@ -12,13 +12,15 @@ linkedin=""
 goodreads = ""
 +++
 
+<p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+  Atharva is the type of guy who bookmarks webpages in his head instead of the browser.
+</p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-  Atharva has always looked up to practitioners and craftsmen. In his college days, he helped build an Open Source community of tinkerers to relieve himself from the misery of sitting in lectures.
+  His first exposure to serious software development was with the Git project, where he rewrote parts of the submodule functionality by emailing patches to the maintainer.
+
+  While at nilenso, he worked with a hyperlocal delivery startup to revamp their payout systems. He currently pulls metaphorical levers with code at Resolve To Save Lives, an initiative to improve cardiovascular health globally.
   </p>
   <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-  His foray into Open Source continued with his contributions to the Git project, where he honed his craft with gnarly C and email patches. While at nilenso, he has worked with a hyperlocal delivery startup to revamp their delivery systems.
-  </p>
-  <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-  When he isn't debugging like a stoic, he is usually found writing blogs appreciating Comic Sans, creating grimy digital art, or making questionable beats with Indian truck horns and autotuned baby sounds.
+  When he isn't debugging like a stoic, he usually writes blogs appreciating Comic Sans, creates grimy digital art and makes questionable beats with Indian truck horns and autotuned baby sounds.
   </p>
 
