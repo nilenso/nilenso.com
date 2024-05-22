@@ -21,7 +21,8 @@
 .hover\:text-pink-500:hover,
 .hover\:text-pink-300:hover,
 .hover\:border-pink-500:hover {
-    color: var(--nilenso-pink)
+    color: var(--nilenso-pink);
+    font-weight: 400;
 }
 
 .text-white {
@@ -38,6 +39,20 @@ html {
 
 main {
     min-height: 75vh;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1.25rem;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #menuToggle {
