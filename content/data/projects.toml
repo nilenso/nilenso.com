@@ -4,9 +4,24 @@ image = "/images/gojek.png"
 name = "Gojek"
 
 [[recent]]
+url = "https://grofers.com/"
+image = "/images/grofers.png"
+name = "Grofers"
+
+[[recent]]
+url = "https://www.clarisights.com/"
+image = "/images/clarisights.png"
+name = "Clarisights"
+
+[[recent]]
 url = "https://www.vitalstrategies.org/"
 image = "/images/vital-strategies.png"
 name = "Vital Strategies"
+
+[[recent]]
+url = "https://exotel.com/"
+image = "/images/exotel.svg"
+name = "Exotel"
 
 [[recent]]
 url = "https://insider.in/online"
@@ -18,7 +33,7 @@ url = "https://juspay.in/"
 image = "/images/juspay.png"
 name = "Juspay"
 
-[[recent]]
+[[past]]
 url = "http://www.staples.com/"
 image = "/images/staples.png"
 name = "Staples"
@@ -28,73 +43,58 @@ url = "https://www.payu.in/"
 image = "/images/payu-svg.png"
 name = "PayU"
 
-[[recent]]
-url = "https://exotel.com/"
-image = "/images/exotel.png"
-name = "Exotel"
 
-[[recent]]
-url = "https://grofers.com/"
-image = "/images/grofers.png"
-name = "Grofers"
-
-[[recent]]
+[[past]]
 url = "https://www.mapbox.com/"
 image = "/images/mapbox.png"
 name = "Mapbox"
 
-[[recent]]
-url = "https://www.clarisights.com/"
-image = "/images/clarisights.png"
-name = "Clarisights"
-
-[[recent]]
+[[past]]
 url = "https://www.flipkart.com/"
-image = "/images/flipkart.png"
+image = "/images/flipkart.svg"
 name = "Flipkart"
 
-[[recent]]
+[[past]]
 url = "https://www.ashoka.org"
 image = "/images/ashoka.png"
 name = "Ashoka"
 
-[[recent]]
+[[past]]
 url = "http://omnyway.com/"
 image = "/images/onmyway.png"
-name = "Onmyway"
+name = "Omnyway"
 
-[[recent]]
+[[past]]
 url = "https://milaap.org/"
 image = "/images/milaap.png"
 name = "Milaap"
+
+[[recent]]
+url = "https://www.porter.in/"
+image = "/images/porter.svg"
+name = "Porter"
 
 [[recent]]
 url = "https://www.quintype.com/"
 image = "/images/quintype.png"
 name = "Quintype"
 
-[[recent]]
-url = "https://www.rupeek.com/"
-image = "/images/rupeek.png"
-name = "Rupeek"
-
-[[recent]]
+[[past]]
 url = "https://akvo.org/"
 image = "/images/akvo.png"
 name = "Akvo"
 
-[[recent]]
+[[past]]
 url = "https://getzipline.com/"
 image = "/images/zipline.png"
 name = "Zipline"
 
-[[past]]
+[[hidden]]
 url = "http://www.oml.in/"
-image = "//images/oml-logo.png"
+image = "/images/oml-logo.png"
 name = "OML"
 
-[[past]]
+[[hidden]]
 url = "https://mightyhive.com/"
 image = "/images/mightyhive.png"
 name = "Mightyhive"
-
