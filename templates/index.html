@@ -67,11 +67,7 @@
     <section class="py-10 px-6 md:py-20 md:px-12">
         <div>
             <h6 class="font-normal text-gray-600 md:text-xl leading-tight tracking-wide">recent work</h6>
-            <div style="display: flex;
-                flex-wrap: wrap;
-                column-gap: 4rem;
-                justify-content: center;
-                align-items: center;">
+            <div class="recent-work-logo">
                 {% set projects = load_data(path="content/data/projects.toml", format="toml") %}
                 {% for project in projects.recent %}
                     <div class="mr-2 md:mr-2 lg:mr-25 xl:mr-25 mt-4 md:mt-12 justify-center">
@@ -84,25 +80,25 @@
                 {% endfor %}
             </div>
         </div>
-        <!-- <div class="pt-10 md:pt-20">
-            <h6 class="font-normal text-gray-600 md:text-xl leading-tight tracking-wide">we've also worked with</h6>
-            <div class="" style="display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            ">
-                {% set projects = load_data(path="content/data/projects.toml", format="toml") %}
-                {% for project in projects.past %}
-                    <div class="mr-2 md:mr-2 lg:mr-25 xl:mr-25 mt-9 md:mt-12 justify-center">
-                        <a href="{{ project.url }}" target="_blank">
-                            <figure class="w-36 border-dotted box-border p-4 border-transparent border-2 rounded-sm hover:border-pink-500">
-                                <img src="{{ project.image }}" alt="{{ project.name }}" class="w-full" style="filter:grayscale(100)">
-                            </figure>
-                        </a>
-                    </div>
-                {% endfor %}
-            </div>
-            </div> -->
+        <input type="checkbox" id="toggle-see-more-logos">
+        <div class="see-more-logos">
+            <div class="recent-work-logo">
+            {% set projects = load_data(path="content/data/projects.toml", format="toml") %}
+            {% for project in projects.past %}
+                <div class="mr-2 md:mr-2 lg:mr-25 xl:mr-25 mt-4 md:mt-12 justify-center">
+                    <a href="{{ project.url }}" target="_blank">
+                        <figure class="w-36 md:w-40 lg:w-44 xl:w-48  border-dotted box-border p-4 border-transparent border-2 rounded-sm hover:border-pink-500">
+                            <img src="{{ project.image }}" alt="{{ project.name }}" class="w-11/12">
+                        </figure>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+        </div>
+        <label for="toggle-see-more-logos" class="toggle-see-more-logos-label font-normal text-gray-600 leading-tight tracking-wide cursor-pointer">
+            <span class="see-more">see more</span>
+            <span class="hide">see less</span>
+        </label>
     </section>
 
     <section class="py-10 px-6 md:py-20 md:px-12 border-t border-gray-200">

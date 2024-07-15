@@ -1,17 +1,7 @@
 [[recent]]
-url = "https://www.gojek.com/en-id/"
-image = "/images/gojek.png"
-name = "Gojek"
-
-[[recent]]
-url = "https://grofers.com/"
-image = "/images/grofers.png"
-name = "Grofers"
-
-[[recent]]
-url = "https://www.clarisights.com/"
-image = "/images/clarisights.png"
-name = "Clarisights"
+url = "https://www.dunzo.com/"
+image = "/images/dunzo.jpg"
+name = "Dunzo"
 
 [[recent]]
 url = "https://www.vitalstrategies.org/"
@@ -19,9 +9,34 @@ image = "/images/vital-strategies.png"
 name = "Vital Strategies"
 
 [[recent]]
+url = "https://www.porter.in/"
+image = "/images/porter.svg"
+name = "Porter"
+
+[[recent]]
+url = "https://www.clarisights.com/"
+image = "/images/clarisights.png"
+name = "Clarisights"
+
+[[recent]]
+url = "https://grofers.com/"
+image = "/images/grofers.png"
+name = "Grofers"
+
+[[recent]]
+url = "https://www.payu.in/"
+image = "/images/payu-svg.png"
+name = "PayU"
+
+[[recent]]
 url = "https://exotel.com/"
 image = "/images/exotel.svg"
 name = "Exotel"
+
+[[recent]]
+url = "https://www.gojek.com/en-id/"
+image = "/images/gojek.png"
+name = "Gojek"
 
 [[recent]]
 url = "https://insider.in/online"
@@ -38,12 +53,6 @@ url = "http://www.staples.com/"
 image = "/images/staples.png"
 name = "Staples"
 
-[[recent]]
-url = "https://www.payu.in/"
-image = "/images/payu-svg.png"
-name = "PayU"
-
-
 [[past]]
 url = "https://www.mapbox.com/"
 image = "/images/mapbox.png"
@@ -51,7 +60,7 @@ name = "Mapbox"
 
 [[past]]
 url = "https://www.flipkart.com/"
-image = "/images/flipkart.svg"
+image = "/images/flipkart.png"
 name = "Flipkart"
 
 [[past]]
@@ -69,12 +78,7 @@ url = "https://milaap.org/"
 image = "/images/milaap.png"
 name = "Milaap"
 
-[[recent]]
-url = "https://www.porter.in/"
-image = "/images/porter.svg"
-name = "Porter"
-
-[[recent]]
+[[past]]
 url = "https://www.quintype.com/"
 image = "/images/quintype.png"
 name = "Quintype"

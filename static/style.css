@@ -132,6 +132,39 @@ h2 {
     padding: 1rem 2rem;
 }
 
+.recent-work-logo {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.see-more-logos {
+    display: none;
+}
+
+#toggle-see-more-logos {
+    display: none;
+}
+
+.toggle-see-more-logos-label {
+    margin-top: 40px;
+    display: block;
+}
+
+#toggle-see-more-logos:checked ~ .see-more-logos {
+    display: block;
+}
+
+#toggle-see-more-logos:checked ~ .toggle-see-more-logos-label .see-more {
+    display: none;
+}
+
+#toggle-see-more-logos:not(:checked) ~ .toggle-see-more-logos-label .hide {
+    display: none;
+}
+
 .logo-slider .tabs-buttons .active-tab {
     opacity: 1;
 }
