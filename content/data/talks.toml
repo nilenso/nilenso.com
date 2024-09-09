@@ -1,4 +1,20 @@
 [[talks]]
+title = "Architecture and Design of Goose"
+speakers = "Akshat Shah"
+speakerhash = "akshat-shah"
+venue = "IN/Clojure 2024"
+youtube_id = "GQ1It09DLM0"
+duration = "41:13"
+
+[[talks]]
+title = " Building a spreadsheet from the ground up"
+speakers = "Prabhanshu Gupta"
+speakerhash = "prabhanshu-gupta"
+venue = "IN/Clojure 2024"
+youtube_id = "qj4ZFOBUbqY"
+duration = "32:30"
+
+[[talks]]
 title = "Growing Clojure inside the company"
 speakers = "Srihari Sriraman"
 speakerhash = "srihari-sriraman"
