@@ -49,6 +49,11 @@ image = "/images/clarisights.png"
 name = "Clarisights"
 
 [[recent]]
+url = "https://proactiveforher.com/"
+image = "/images/proactive.png"
+name = "Proactive"
+
+[[recent]]
 url = "https://www.dunzo.com/"
 image = "/images/dunzo.jpg"
 name = "Dunzo"
@@ -58,12 +63,12 @@ url = "https://consolidate.health/"
 image = "/images/consolidatehealth.png"
 name = "Consolidate Health"
 
-[[past]]
+[[recent]]
 url = "https://www.mapbox.com/"
 image = "/images/mapbox.png"
 name = "Mapbox"
 
-[[past]]
+[[recent]]
 url = "https://www.flipkart.com/"
 image = "/images/flipkart.svg"
 name = "Flipkart"
