@@ -125,6 +125,13 @@ name = "Shafeeq Kunnakkadan"
 link = "http://twitter.com/shafeeq_k"
 
 [[people]]
+nick = "shivam"
+picture = "images/alumni/shivam.webp"
+github = "https://github.com/shhivam"
+name = "Shivam Singhal"
+link = "https://twitter.com/shivam_310"
+
+[[people]]
 nick = "smit"
 picture = "images/alumni/smit.webp"
 github = "http://github.com/who828"
