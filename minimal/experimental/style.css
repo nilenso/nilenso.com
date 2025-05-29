@@ -181,6 +181,15 @@ footer {
   border: 5px dotted black;
 }
 
+.person-bio a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.person-bio a:hover {
+  color: #FF3D84;
+}
+
 .modal-close {
   position: absolute;
   top: 1em;
