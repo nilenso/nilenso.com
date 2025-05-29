@@ -22,7 +22,7 @@ a:hover {
   color: #FF3D84; /* nilenso pink */
 }
 
-.pink {
+.pink, .active {
   color: #FF3D84;
 }
 
@@ -48,6 +48,11 @@ footer {
   margin-top: 40px;
   padding-top: 20px;
   border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.contact-footer {
+  font-size: 0.9em;
 }
 
 .logo {
@@ -68,13 +73,34 @@ footer {
   max-width: 100px;
 }
 
+.people-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
 .person {
   margin-bottom: 30px;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.person:hover {
+  border-color: #FF3D84;
 }
 
 .person img {
-  max-width: 150px;
+  max-width: 100%;
   border-radius: 3px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.person h2 {
+  margin-top: 0;
+  font-size: 1.2em;
 }
 
 pre, code {
