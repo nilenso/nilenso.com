@@ -31,12 +31,12 @@ h2 {
 }
 
 a {
-  color: #d03232; /* Better for links than pink - better contrast */
+  color: #333; /* Same as body text */
   text-decoration: underline;
 }
 
 a:hover {
-  color: #FF3D84; /* nilenso pink on hover */
+  color: #555; /* Slightly lighter on hover */
 }
 
 .pink {
@@ -93,7 +93,7 @@ footer {
 }
 
 .contact-footer a {
-  color: #d03232;
+  color: #555;
 }
 
 .logo {
