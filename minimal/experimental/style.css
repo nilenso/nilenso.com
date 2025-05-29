@@ -11,6 +11,7 @@ body {
   font-family: Charter, Georgia, serif; /* Good serif font for body */
   font-weight: 400;
   background-color: #fff;
+  position: relative; /* Allow absolute positioning relative to body */
 }
 
 h1, h2, h3 {
@@ -171,9 +172,41 @@ blockquote {
 
 /* Title block and navigation for work page */
 .title-block {
-  margin: 2em 0 0.5em;
-  padding-bottom: 0.5em;
-  border-bottom: 1px solid #ddd;
+  position: relative;
+  margin: 2em 0 1.5em;
+  padding-left: 0;
+  border-top: 1px solid #ddd;
+  padding-top: 0.5em;
+}
+
+/* Layout for wider screens */
+@media (min-width: 992px) {
+  .work-page main {
+    margin-left: 0; /* Keep centered layout */
+    padding-left: 0;
+  }
+
+  .work-page .title-block {
+    position: relative;
+    padding-left: 0;
+  }
+
+  .work-page .title-content {
+    position: absolute;
+    left: -12em;
+    width: 10em;
+    top: 0;
+  }
+
+  .work-page .section-content {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+/* Work page specific styling */
+.work-page main {
+  position: relative;
 }
 
 .title-block h2 {
@@ -185,6 +218,7 @@ blockquote {
   margin: 0;
   font-style: italic;
   color: #666;
+  padding-bottom: 1em;
 }
 
 .client-nav {

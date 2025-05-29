@@ -1,14 +1,23 @@
 # nilenso.com
 
-source code to the website
+Source code to the nilenso.com website.
 
-## dependencies
+## Dependencies
 
 ```bash
 brew install zola
 ```
 
-## build
+## Font Usage
+
+This site uses Google Fonts:
+
+- Charter for body text
+- Source Sans Pro for headings and UI elements
+
+These fonts are loaded via Google Fonts CDN in the CSS.
+
+## Build
 
 #### Serve website locally
 
