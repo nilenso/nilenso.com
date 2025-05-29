@@ -1,42 +1,46 @@
-/* Minimalist style for nilenso.com with typography principles from practicaltypography.com */
-@import url('https://fonts.googleapis.com/css2?family=Charter:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+/* Minimal style matching practicaltypography.com */
+@import url('https://fonts.googleapis.com/css2?family=Equity+Text+A:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
   margin: 0 auto;
-  max-width: 34em; /* For optimal line length ~66 characters */
-  line-height: 1.4; /* 140% line spacing */
-  font-size: 18px;
-  color: #333;
+  max-width: 32em; /* ~65 characters */
+  line-height: 1.375; /* 22/16 = 1.375 */
+  font-size: 16px;
+  color: #222;
   padding: 2em 1.5em;
-  font-family: Charter, Georgia, serif; /* Good serif font for body */
+  font-family: 'Equity Text A', 'Palatino Linotype', Palatino, serif;
   font-weight: 400;
   background-color: #fff;
+  text-rendering: optimizeLegibility;
+  hyphens: auto;
 }
 
 h1, h2, h3 {
   line-height: 1.2;
   font-weight: 700;
-  margin-top: 1.5em;
+  margin-top: 2em;
   margin-bottom: 0.5em;
-  font-family: 'Source Sans Pro', -apple-system, sans-serif; /* Sans-serif for headings */
+  font-family: 'Equity Text A', 'Palatino Linotype', Palatino, serif;
 }
 
 h1 {
-  font-size: 2.2rem;
-  margin-top: 0.5em;
+  font-size: 1.3em;
+  margin-top: 1em;
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.2em;
 }
 
 a {
-  color: #333; /* Same as body text */
-  text-decoration: underline;
+  color: #0000FF; /* Blue links as on practicaltypography.com */
+  text-decoration: none;
+  border-bottom: 1px solid #0000FF;
 }
 
 a:hover {
-  color: #555; /* Slightly lighter on hover */
+  color: #0000FF;
+  border-bottom: none;
 }
 
 .pink {
@@ -45,15 +49,14 @@ a:hover {
 
 .active {
   color: #FF3D84;
-  text-decoration: none;
-  font-weight: 600;
+  border-bottom: none;
+  font-weight: 700;
 }
 
 nav {
   margin: 1em 0 2em 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ddd;
   padding-bottom: 0.5em;
-  font-family: 'Source Sans Pro', -apple-system, sans-serif;
 }
 
 nav ul {
@@ -62,7 +65,7 @@ nav ul {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5em;
+  gap: 1.25em;
 }
 
 nav li {
@@ -70,30 +73,30 @@ nav li {
 }
 
 nav a {
-  text-decoration: none;
+  border-bottom: none;
   font-size: 1em;
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1em;
+  text-align: left;
 }
 
 footer {
   margin-top: 3em;
   padding-top: 1em;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #ddd;
   text-align: center;
-  font-family: 'Source Sans Pro', -apple-system, sans-serif;
-  font-size: 0.9em;
+  font-size: 0.875em;
 }
 
 .contact-footer {
-  color: #555;
+  color: #666;
 }
 
 .contact-footer a {
-  color: #555;
+  color: #0000FF;
 }
 
 .logo {
@@ -155,16 +158,16 @@ footer {
 }
 
 pre, code {
-  background: #f8f8f8;
+  background: #f7f7f7;
   padding: 0.2em 0.4em;
-  font-family: Consolas, Monaco, 'Andale Mono', monospace;
-  font-size: 0.9em;
+  font-family: 'Triplicate T4c', Consolas, monospace;
+  font-size: 0.85em;
+  line-height: 1.5;
 }
 
 blockquote {
-  border-left: 3px solid #FF3D84;
-  margin-left: 0;
-  padding-left: 1em;
-  color: #555;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  color: #333;
   font-style: italic;
 }
