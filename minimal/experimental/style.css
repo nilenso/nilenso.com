@@ -168,3 +168,50 @@ blockquote {
   color: #555;
   font-style: italic;
 }
+
+/* Title block and navigation for work page */
+.title-block {
+  margin: 2em 0 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.title-block h2 {
+  font-size: 1.6em;
+  margin: 0 0 0.3em 0;
+}
+
+.title-block p {
+  margin: 0;
+  font-style: italic;
+  color: #666;
+}
+
+.client-nav {
+  margin: 0 0 2em;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  font-size: 0.9em;
+  font-family: 'Source Sans Pro', -apple-system, sans-serif;
+}
+
+.client-nav a {
+  text-decoration: none;
+  color: #333;
+  border-bottom: none;
+  padding-bottom: 0.2em;
+}
+
+.client-nav a:hover {
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.client-nav a.current {
+  color: #333;
+  font-weight: 600;
+  border-bottom: 1px solid #FF3D84;
+}

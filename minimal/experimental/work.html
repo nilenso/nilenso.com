@@ -32,8 +32,19 @@
             <h1><span class="pink">our best work.</span> we deliver products that stand the test of time: from healthcare to live video to ecommerce, our work is everywhere.</h1>
         </section>
 
+        <div class="client-nav">
+            <a href="#gojek" class="current">Gojek</a>
+            <a href="#paytm-insider">PayTM Insider</a>
+            <a href="#juspay">Juspay</a>
+            <a href="#vital-strategies">Vital Strategies</a>
+            <a href="#staples">Staples</a>
+        </div>
+
         <section id="gojek">
-            <h2>Gojek</h2>
+            <div class="title-block">
+                <h2>Gojek</h2>
+                <p>Ride-hailing and food delivery platform serving Southeast Asia</p>
+            </div>
             <p>Gojek is a ride-hailing, food, and grocery delivery platform that has grown into one of Southeast Asia's decacorns. Operational in 5 countries, it impacts the lives of 10s of millions of customers, drivers, and merchants.</p>
             
             <p><span class="pink">Since 2015, we have worked with Gojek on many of Gojek's products and services including allocation, pooling, order management, pricing and experimentation.</span></p>
@@ -56,7 +67,10 @@
         </section>
 
         <section id="paytm-insider">
-            <h2>PayTM Insider</h2>
+            <div class="title-block">
+                <h2>PayTM Insider</h2>
+                <p>Online ticketing and events platform for interactive digital experiences</p>
+            </div>
             <p>PayTM Insider is India's largest online ticketing and events company. Insider approached nilenso with a pioneering concept for its time: to take their live, interactive events online.</p>
             
             <p><span class="pink">We worked with Insider to build a digital platform for live events, with the objective of "streaming interactive video to one million concurrent users".</span></p>
@@ -81,7 +95,10 @@
         </section>
 
         <section id="juspay">
-            <h2>Juspay</h2>
+            <div class="title-block">
+                <h2>Juspay</h2>
+                <p>Payment solutions powering millions of transactions daily</p>
+            </div>
             <p>Juspay is a fintech offering a suite of end-to-end payment solutions that power over 4 million transactions a day.</p>
             
             <p><span class="pink">We have worked with Juspay in various capacities, including a wizard-like framework to build mobile apps, a real-time analytics dashboard, a DSL to build apps for banking clients and pilot solutions for ride sharing apps using an open specification.</span></p>
@@ -100,7 +117,10 @@
         </section>
 
         <section id="vital-strategies">
-            <h2>Vital Strategies (Simple)</h2>
+            <div class="title-block">
+                <h2>Vital Strategies (Simple)</h2>
+                <p>Digital health platform improving cardiovascular outcomes globally</p>
+            </div>
             <p><a href='https://simple.org/'>Simple</a> is a contextual digital platform supported by <a href='https://resolvetosavelives.org/'>Resolve To Save Lives (RTSL),</a> a non-profit venture of <a href='https://www.vitalstrategies.org/'>Vital Strategies,</a> whose mission is to improve global cardiovascular health.</p>
             
             <p><span class="pink">Simple is an offline-first Android app and web dashboard that enables policy makers to monitor and improve hypertension and diabetes outcomes.</span></p>
@@ -120,7 +140,10 @@
         </section>
 
         <section id="staples">
-            <h2>Staples</h2>
+            <div class="title-block">
+                <h2>Staples</h2>
+                <p>Global office retail giant with advanced data needs</p>
+            </div>
             <p>Staples is one of the world's largest office retail companies.</p>
             
             <p><span class="pink">We worked with Staples on their recommendation engine, experimentation platform, as well as several other products, over a period of 4 years.</span></p>
@@ -148,5 +171,32 @@
     <footer id="contact">
         <p class="contact-footer">Contact: <a href="mailto:hello@nilenso.com">hello@nilenso.com</a> | <a href="https://twitter.com/nilenso">Twitter</a> | <a href="https://github.com/nilenso">GitHub</a> | <a href="https://vyakaran.nilenso.com">Handbook</a></p>
     </footer>
+
+    <script>
+        // Simple script to handle client navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get all navigation links
+            var navLinks = document.querySelectorAll('.client-nav a');
+
+            // Function to update active link based on hash
+            function updateActiveLink() {
+                var currentHash = window.location.hash || '#gojek';
+
+                // Remove active class from all links
+                navLinks.forEach(function(link) {
+                    link.classList.remove('current');
+                });
+
+                // Add active class to current link
+                document.querySelector('.client-nav a[href="' + currentHash + '"]').classList.add('current');
+            }
+
+            // Update active link when hash changes
+            window.addEventListener('hashchange', updateActiveLink);
+
+            // Initialize active link
+            updateActiveLink();
+        });
+    </script>
 </body>
 </html>
