@@ -124,35 +124,177 @@ footer {
   height: auto;
 }
 
-/* People section */
-.people-list {
+/* People section - Grid with Modal */
+.people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 2em;
+  grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+  gap: 1em;
   margin: 2em 0;
 }
 
-.person {
-  margin-bottom: 1.5em;
+.person-thumbnail {
+  cursor: pointer;
+  transition: transform 0.2s;
 }
 
-.person img {
-  max-width: 100%;
+.person-thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.person-thumbnail img {
+  width: 135px;
+  height: 135px;
   display: block;
-  margin-bottom: 0.8em;
-  aspect-ratio: 1;
   object-fit: cover;
 }
 
-.person h2 {
-  margin-top: 0.5em;
-  margin-bottom: 0.3em;
-  font-size: 1.1em;
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s;
 }
 
-.person p {
+.modal-overlay.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-content {
+  background-color: white;
+  max-width: 800px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  padding: 2em;
+  border: 5px dotted black;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.person-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.person-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.person-header img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+.person-header h2 {
+  margin: 0.5em 0 0.25em;
+  font-size: 1.4em;
+}
+
+.person-header .person-nick {
+  font-style: italic;
+  margin-bottom: 0.5em;
+  color: #666;
+}
+
+.person-socials {
+  display: flex;
+  gap: 1em;
+  margin: 0.5em 0;
+}
+
+.person-socials a {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.person-socials img {
+  width: 100%;
+  height: 100%;
+}
+
+.person-bio {
+  line-height: 1.6;
+}
+
+/* Responsive adjustments for people grid */
+@media (max-width: 768px) {
+  .people-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+
+  .person-thumbnail img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+
+  .modal-content {
+    width: 95%;
+    padding: 1em;
+  }
+
+  .person-details {
+    flex-direction: column;
+  }
+
+  .person-header {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .person-details {
+    flex-direction: row;
+  }
+
+  .person-header {
+    width: 200px;
+    flex-shrink: 0;
+  }
+
+  .person-bio {
+    flex-grow: 1;
+    padding-left: 2em;
+  }
+}
+
+.alumni-link {
+  margin: 2em 0;
   font-size: 0.9em;
-  margin-top: 0;
+  text-align: center;
 }
 
 pre, code {
