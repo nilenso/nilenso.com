@@ -1,0 +1,91 @@
+/* Minimalist style for nilenso.com inspired by bettermotherfuckingwebsite.com */
+body {
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+a {
+  color: #444;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #FF3D84; /* nilenso pink */
+}
+
+.pink {
+  color: #FF3D84;
+}
+
+nav {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.logo {
+  max-width: 192px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.client-logos img {
+  max-height: 40px;
+  max-width: 100px;
+}
+
+.person {
+  margin-bottom: 30px;
+}
+
+.person img {
+  max-width: 150px;
+  border-radius: 3px;
+}
+
+pre, code {
+  background: #f4f4f4;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+blockquote {
+  border-left: 3px solid #FF3D84;
+  margin-left: 0;
+  padding-left: 15px;
+  color: #666;
+}
