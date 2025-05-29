@@ -1,41 +1,42 @@
-/* Minimalist style for nilenso.com inspired by bettermotherfuckingwebsite.com */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* Minimalist style for nilenso.com with typography principles from practicaltypography.com */
+@import url('https://fonts.googleapis.com/css2?family=Charter:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap');
 
 body {
-  margin: 40px auto;
-  max-width: 650px;
-  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 34em; /* For optimal line length ~66 characters */
+  line-height: 1.4; /* 140% line spacing */
   font-size: 18px;
-  color: #444;
-  padding: 0 10px;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #333;
+  padding: 2em 1.5em;
+  font-family: Charter, Georgia, serif; /* Good serif font for body */
   font-weight: 400;
+  background-color: #fff;
 }
 
 h1, h2, h3 {
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 1.5em;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.5em;
+  font-family: 'Source Sans Pro', -apple-system, sans-serif; /* Sans-serif for headings */
 }
 
 h1 {
-  font-size: 2rem;
-  letter-spacing: -0.01em;
+  font-size: 2.2rem;
+  margin-top: 0.5em;
 }
 
 h2 {
-  font-size: 1.5rem;
-  letter-spacing: -0.01em;
+  font-size: 1.6rem;
 }
 
 a {
-  color: #444;
+  color: #d03232; /* Better for links than pink - better contrast */
   text-decoration: underline;
 }
 
 a:hover {
-  color: #FF3D84; /* nilenso pink */
+  color: #FF3D84; /* nilenso pink on hover */
 }
 
 .pink {
@@ -45,65 +46,68 @@ a:hover {
 .active {
   color: #FF3D84;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 nav {
-  margin-bottom: 30px;
+  margin: 1em 0 2em 0;
   border-bottom: 1px solid #eee;
-  padding-bottom: 10px;
+  padding-bottom: 0.5em;
+  font-family: 'Source Sans Pro', -apple-system, sans-serif;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 1.5em;
 }
 
 nav li {
-  margin-right: 0;
+  margin: 0;
 }
 
 nav a {
   text-decoration: none;
-  font-size: 16px;
-  letter-spacing: 0.01em;
+  font-size: 1em;
 }
 
 p {
-  margin-bottom: 1.2em;
-  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 
 footer {
-  margin-top: 60px;
-  padding-top: 20px;
+  margin-top: 3em;
+  padding-top: 1em;
   border-top: 1px solid #eee;
   text-align: center;
+  font-family: 'Source Sans Pro', -apple-system, sans-serif;
+  font-size: 0.9em;
 }
 
 .contact-footer {
-  font-size: 0.9em;
-  color: #666;
+  color: #555;
 }
 
 .contact-footer a {
-  color: #666;
+  color: #d03232;
 }
 
 .logo {
-  max-width: 192px;
+  max-width: 180px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
 
+/* Client logos section */
 .client-logos {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 20px;
-  margin: 20px 0;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 1.5em;
+  margin: 1.5em 0;
 }
 
 .client-logos a {
@@ -114,57 +118,52 @@ footer {
 }
 
 .client-logos img {
-  max-height: 40px;
-  max-width: 100px;
+  max-height: 35px;
+  max-width: 80px;
 }
 
+/* People section */
 .people-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 30px;
-  margin: 30px 0;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 2em;
+  margin: 2em 0;
 }
 
 .person {
-  margin-bottom: 20px;
-  padding: 0;
-  transition: transform 0.2s ease;
-}
-
-.person:hover {
-  transform: translateY(-5px);
+  margin-bottom: 1.5em;
 }
 
 .person img {
   max-width: 100%;
-  border-radius: 0;
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 0.8em;
   aspect-ratio: 1;
   object-fit: cover;
 }
 
 .person h2 {
-  margin-top: 0;
-  margin-bottom: 5px;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
   font-size: 1.1em;
 }
 
 .person p {
   font-size: 0.9em;
   margin-top: 0;
-  color: #666;
 }
 
 pre, code {
-  background: #f4f4f4;
-  padding: 2px 5px;
-  border-radius: 3px;
+  background: #f8f8f8;
+  padding: 0.2em 0.4em;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  font-size: 0.9em;
 }
 
 blockquote {
   border-left: 3px solid #FF3D84;
   margin-left: 0;
-  padding-left: 15px;
-  color: #666;
+  padding-left: 1em;
+  color: #555;
+  font-style: italic;
 }
