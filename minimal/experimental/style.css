@@ -246,6 +246,15 @@ footer {
 
 .person-bio {
   line-height: 1.6;
+  color: #333; /* Match body text color */
+}
+
+.person-bio p {
+  color: #333; /* Ensure consistent color */
+}
+
+.person-header h2 {
+  color: #333; /* Match body text */
 }
 
 /* Responsive adjustments for people grid */
