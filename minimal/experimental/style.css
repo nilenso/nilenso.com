@@ -409,3 +409,68 @@ blockquote {
   font-weight: 600;
   border-bottom: 1px solid #FF3D84;
 }
+
+/* Talks page styles */
+.talk-item {
+  margin-bottom: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.talk-video-wrapper {
+  flex: 0 0 300px;
+  max-width: 300px;
+}
+
+.talk-content {
+  flex: 1;
+  min-width: 250px;
+}
+
+.talk-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.talk-meta {
+  margin-bottom: 1em;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.talk-video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.talk-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.talk-description {
+  margin-top: 1em;
+  line-height: 1.5;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .talk-item {
+    flex-direction: column;
+  }
+
+  .talk-video-wrapper {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .talk-content {
+    flex: 1 0 100%;
+  }
+}
