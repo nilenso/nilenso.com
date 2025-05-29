@@ -3,9 +3,9 @@
 
 body {
   margin: 0 auto;
-  max-width: 34em; /* For optimal line length ~66 characters */
-  line-height: 1.4; /* 140% line spacing */
-  font-size: 18px;
+  max-width: 38em; /* Increased for optimal line length with larger font */
+  line-height: 1.45; /* Slightly increased line spacing */
+  font-size: 24px; /* Increased from 18px to match zoom level */
   color: #333;
   padding: 2em 1.5em;
   font-family: Charter, Georgia, serif; /* Good serif font for body */
@@ -23,12 +23,12 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin-top: 0.5em;
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 a {
@@ -57,6 +57,28 @@ nav {
   font-family: 'Source Sans Pro', -apple-system, sans-serif;
 }
 
+/* Add spacing between sections */
+section {
+  margin-bottom: 3.5em; /* Increased vertical spacing */
+}
+
+/* Special styling for first section */
+section:first-of-type, .first-section {
+  margin-bottom: 5em; /* Extra bottom margin for first section */
+  position: relative;
+}
+
+section:first-of-type::after, .first-section::after {
+  content: "";
+  display: block;
+  width: 25%;
+  height: 1px;
+  background-color: #eee;
+  position: absolute;
+  bottom: -2.5em;
+  left: 0;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -72,7 +94,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 p {
@@ -98,7 +120,7 @@ footer {
 }
 
 .logo {
-  max-width: 180px;
+  max-width: 220px;
   height: auto;
   margin-bottom: 1em;
 }
@@ -127,7 +149,7 @@ footer {
 /* People section - Grid with Modal */
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 1em;
   margin: 2em 0;
 }
@@ -142,8 +164,8 @@ footer {
 }
 
 .person-thumbnail img {
-  width: 135px;
-  height: 135px;
+  width: 160px;
+  height: 160px;
   display: block;
   object-fit: cover;
 }
@@ -219,8 +241,8 @@ footer {
 }
 
 .person-header img {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   margin-bottom: 1em;
 }
@@ -269,7 +291,7 @@ footer {
 /* Responsive adjustments for people grid */
 @media (max-width: 768px) {
   .people-grid {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   }
 
   .person-thumbnail img {
@@ -280,7 +302,7 @@ footer {
 
   .modal-content {
     width: 95%;
-    padding: 1em;
+    padding: 1.2em;
   }
 
   .person-details {
@@ -290,6 +312,11 @@ footer {
   .person-header {
     width: 100%;
     align-items: center;
+  }
+
+  body {
+    font-size: 22px; /* Slightly smaller font on mobile */
+    padding: 1.5em 1.2em;
   }
 }
 
@@ -320,6 +347,7 @@ pre, code {
   padding: 0.2em 0.4em;
   font-family: Consolas, Monaco, 'Andale Mono', monospace;
   font-size: 0.9em;
+  line-height: 1.5;
 }
 
 blockquote {
