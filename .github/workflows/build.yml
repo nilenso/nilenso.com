@@ -1,0 +1,24 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Extract Zola version
+        id: extract-version
+        run: echo "zola_version=$(grep ZOLA_VERSION netlify.toml | cut -d '"' -f2)" >> "$GITHUB_OUTPUT"
+
+      - name: Install Zola
+        run: |
+          curl -sL "https://github.com/getzola/zola/releases/download/v${{ steps.extract-version.outputs.zola_version }}/zola-v${{ steps.extract-version.outputs.zola_version }}-x86_64-unknown-linux-gnu.tar.gz" | tar -xz
+          sudo mv zola /usr/local/bin/zola
+
+      - name: Build site
+        run: zola build
