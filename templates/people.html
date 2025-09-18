@@ -32,20 +32,20 @@
 
     {% set data = load_data(path="/content/data/people-page-tile-contents.toml", format="toml") %}
     {% set people_section = get_section(path="people/_index.md") %}
-    {% set tileset = people_section.pages | slice(end=8) %}
+    {% set tileset = people_section.pages | slice(end=6) %}
 
     {{ macros::gen_people_tiles(tileset=tileset) }}
     {{ macros::wide_image(img_src=data.wide_image.img_src) }}
 
-    {% set tileset = people_section.pages | slice(start=8, end=9) %}
+    {% set tileset = people_section.pages | slice(start=6, end=8) %}
     {{ macros::gen_people_tiles(tileset=tileset) }}
 
-    {% set tileset = people_section.pages | slice(start=9, end=16) %}
+    {{ macros::image_link_tile(url=data.image_tile_1.url, img_src=data.image_tile_1.img_src) }}
+    
+    {% set tileset = people_section.pages | slice(start=8, end=16) %}
 
     {{ macros::gen_people_tiles(tileset=tileset) }}
     <!-- {{ macros::text_link_tile(url=data.text_tile_2.url, text=data.text_tile_2.text) }} -->
-
-    {{ macros::image_link_tile(url=data.image_tile_1.url, img_src=data.image_tile_1.img_src) }}
 
     {% set tileset = people_section.pages | slice(start=16) %}
     {{ macros::gen_people_tiles(tileset=tileset) }}

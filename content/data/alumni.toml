@@ -20,6 +20,12 @@ name = "Abhinav Sarkar"
 link = "http://twitter.com/abhin4v"
 
 [[people]]
+picture = "images/alumni/akshatha.webp"
+github = "http://github.com/qptr"
+name = "Akshatha H"
+link = "http://github.com/qptr"
+
+[[people]]
 nick = "kitallis"
 picture = "images/alumni/kitallis.webp"
 github = "http://github.com/kitallis"
@@ -90,11 +96,23 @@ name = "Noopur Varma"
 link = "https://twitter.com/9porcupine"
 
 [[people]]
+picture = "images/alumni/prabhanshu.webp"
+github = "https://github.com/prabhanshuguptagit"
+name = "Prabhanshu Gupta"
+link = "https://twitter.com/twomogambo"
+
+[[people]]
 nick = "prashant"
 picture = "images/alumni/prashant.webp"
 github = "https://github.com/prashantkarpe"
 name = "Prashant Karpe"
 link = "http://twitter.com/prashantwit"
+
+[[people]]
+picture = "images/alumni/priti.webp"
+github = ""
+name = "Priti Nayak"
+link = "https://twitter.com/Pritisn0"
 
 [[people]]
 nick = "prtl"
@@ -123,6 +141,11 @@ picture = "images/alumni/shafeeq.webp"
 github = "https://github.com/shafeeq"
 name = "Shafeeq Kunnakkadan"
 link = "http://twitter.com/shafeeq_k"
+
+[[people]]
+picture = "images/alumni/shahn.webp"
+name = "Shahn Shamdasani"
+link = ""
 
 [[people]]
 nick = "shivam"

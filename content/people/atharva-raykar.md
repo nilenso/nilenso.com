@@ -7,7 +7,7 @@ nick = ""
 hash = "atharva-raykar"
 picture = "images/people/atharva.webp"
 github = "https://github.com/tfidfwastaken"
-twitter=""
+twitter="https://twitter.com/AtharvaRaykar"
 linkedin=""
 goodreads = ""
 +++
@@ -19,7 +19,7 @@ goodreads = ""
   His first exposure to serious software development was with the Git project, where he rewrote parts of the submodule functionality by emailing patches to the maintainer. 
 </p>
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-  While at nilenso, he worked with a hyperlocal delivery startup to revamp their payout systems. He currently pulls metaphorical levers with code at Resolve To Save Lives, an initiative to improve cardiovascular health globally.
+  While at nilenso, he helped a hyperlocal delivery startup revamp their payout systems and solved data integration challenges at a non-profit building population-scale software. Lately, he has been tinkering with AI of all modalities to figure out how to build products that actually deliver on the hype in production.
 </p>
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
   When he isn't debugging like a stoic, he usually writes blogs appreciating Comic Sans, creates grimy digital art and makes questionable beats with Indian truck horns and autotuned baby sounds.
