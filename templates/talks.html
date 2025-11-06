@@ -28,9 +28,19 @@
     <section class="py-6 md:px-9 px-6">
         {% for talk in data.talks %}
             <div class="talk-item sm:flex py-6 border-t">
+                {% set thumb_base = "images/talks/" ~ talk.youtube_id ~ ".jpg" %}
+                {% set thumb_sm = resize_image(path=thumb_base, width=320, op="fit_width", quality=70) %}
+                {% set thumb_lg = resize_image(path=thumb_base, width=640, op="fit_width", quality=70) %}
                 <figure onclick="showVideo(this)"
-                        class="min-w-full md:min-w-max lg:min-w-max xl:min-w-max">
-                    <img alt="talk_image" src="/images/talks/{{ talk.youtube_id }}.jpg" style="width: 300px; cursor: pointer"/>
+                        class="min-w-full md:min-w-max lg:min-w-max xl:min-w-max cursor-pointer">
+                    <img alt="{{ talk.title }}"
+                         src="{{ thumb_sm.url }}"
+                         srcset="{{ thumb_sm.url }} {{ thumb_sm.width }}w, {{ thumb_lg.url }} {{ thumb_lg.width }}w"
+                         sizes="(min-width: 768px) 320px, 90vw"
+                         width="{{ thumb_sm.width }}"
+                         height="{{ thumb_sm.height }}"
+                         loading="lazy"
+                         decoding="async"/>
                     <iframe id="ytplayer"
                             loading="lazy"
                             type="text/html"
