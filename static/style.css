@@ -11,12 +11,6 @@
     }
 }
 
-@media (min-width: 1024px) {
-    .lg\:lg\:text-\[2\.8rem\] {
-        font-size: 2.8rem;
-    }
-}
-
 .text-pink-500,
 .hover\:text-pink-500:hover,
 .hover\:text-pink-300:hover,
