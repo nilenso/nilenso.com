@@ -3,3 +3,9 @@
 *.DS_Store
 .idea/
 public
+
+# Node.js dependencies
+node_modules/
+
+# Generated CSS (built from src/styles.css)
+static/style.css

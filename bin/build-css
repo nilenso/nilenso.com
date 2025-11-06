@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+# Build CSS with Tailwind using npx
+echo "Building CSS with Tailwind..."
+npx -y tailwindcss@latest -i ./src/styles.css -o ./static/style.css --minify
+
+echo "CSS built successfully to static/style.css"
