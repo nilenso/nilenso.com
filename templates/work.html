@@ -2,7 +2,8 @@
 {% block title %} Work | nilenso {% endblock title %}
 
 {% block head %}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="preload" href="/vendor/swiper/swiper.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/vendor/swiper/swiper.min.css"></noscript>
 {% endblock head %}
 
 {% block header %}
@@ -40,7 +41,9 @@
                                 <div class="flex flex-wrap justify-center md:justify-start">
                                     <figure class="w-32 mb-10 sm:mb-0">
                                         <img src="/images/{{ client.hash }}.png" alt="{{ client.hash }}"
-                                             class="w-full"/>
+                                             class="w-full"
+                                             loading="lazy"
+                                             decoding="async"/>
                                     </figure>
                                     {% if client.talks | length > 0 %}
                                         <div class="hidden sm:block flex flex-col self-end w-full">
@@ -78,23 +81,32 @@
                our open source work</a>.
         </h5>
     </section>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+    <script src="/vendor/swiper/swiper.min.js" defer></script>
     <script>
-        var tabButtons = document.getElementById('logo-tab-buttons');
-
-        for (let clientNum = 0, len = tabButtons.children.length; clientNum < len; clientNum++) {
-            tabButtons.children[clientNum].onclick = function () {
-                tabContent.slideTo(clientNum);
+        window.addEventListener('DOMContentLoaded', function () {
+            if (typeof Swiper === 'undefined') {
+                return;
             }
 
-        }
+            var tabButtons = document.getElementById('logo-tab-buttons');
+            var tabContent;
 
-        var tabContent = new Swiper('.tabs-content', {
-            hashnav: true,
-            onSlideChangeStart: function (swiper, _event) {
-                tabButtons.children[swiper.previousIndex].children[0].classList.remove('active', 'active-tab');
-                tabButtons.children[swiper.activeIndex].children[0].classList.add('active', 'active-tab');
+            if (!tabButtons) {
+                return;
+            }
+
+            tabContent = new Swiper('.tabs-content', {
+                hashnav: true,
+                onSlideChangeStart: function (swiper, _event) {
+                    tabButtons.children[swiper.previousIndex].children[0].classList.remove('active', 'active-tab');
+                    tabButtons.children[swiper.activeIndex].children[0].classList.add('active', 'active-tab');
+                }
+            });
+
+            for (let clientNum = 0, len = tabButtons.children.length; clientNum < len; clientNum++) {
+                tabButtons.children[clientNum].onclick = function () {
+                    tabContent.slideTo(clientNum);
+                };
             }
         });
     </script>
