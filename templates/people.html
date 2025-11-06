@@ -3,7 +3,8 @@
 {% block title %} People | nilenso {% endblock title %}
 
 {% block head %}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="preload" href="/vendor/swiper/swiper.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/vendor/swiper/swiper.min.css"></noscript>
 {% endblock head %}
 
 {% block header %}
@@ -54,25 +55,35 @@
     </section>
     <br>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+    <script src="/vendor/swiper/swiper.min.js" defer></script>
     <script>
-        const peopleList = document.getElementById('people-list');
-
-        for (let personNum = 0, len = peopleList.children.length; personNum < len; personNum++) {
-            peopleList.children[personNum].onclick = function () {
-                peopleContent.slideTo(personNum);
+        window.addEventListener('DOMContentLoaded', function () {
+            if (typeof Swiper === 'undefined') {
+                return;
             }
-        }
+            const peopleList = document.getElementById('people-list');
+            const contentEl = document.querySelector('.people-content');
 
-        const peopleContent = new Swiper('.people-content', {
-            hashnav: true,
-            autoHeight: false,
-            onSlideChangeStart: function (swiper, _evt) {
-                peopleList.children[swiper.previousIndex].children[0].classList.remove('active', 'active-tab');
-                peopleList.children[swiper.activeIndex].children[0].classList.add('active', 'active-tab');
+            if (!peopleList || !contentEl) {
+                return;
             }
+
+            const peopleContent = new Swiper('.people-content', {
+                hashnav: true,
+                autoHeight: false,
+                onSlideChangeStart: function (swiper, _evt) {
+                    peopleList.children[swiper.previousIndex].children[0].classList.remove('active', 'active-tab');
+                    peopleList.children[swiper.activeIndex].children[0].classList.add('active', 'active-tab');
+                }
+            });
+
+            for (let personNum = 0, len = peopleList.children.length; personNum < len; personNum++) {
+                peopleList.children[personNum].onclick = function () {
+                    peopleContent.slideTo(personNum);
+                };
+            }
+
+            new Swiper('.swiper-container', {hashNav: true, autoHeight: false});
         });
-
-        new Swiper('.swiper-container', {hashNav: true, autoHeight: false});
     </script>
 {% endblock content %}

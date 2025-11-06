@@ -3,3 +3,6 @@
 *.DS_Store
 .idea/
 public
+reports/
+node_modules/
+static/processed_images/

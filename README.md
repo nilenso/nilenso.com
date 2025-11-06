@@ -6,6 +6,9 @@ source code to the website
 
 ```bash
 brew install zola
+nvm install 18
+nvm use 18
+npm install
 ```
 
 ## build
@@ -14,6 +17,8 @@ brew install zola
 
 ```bash
 make serve
+# in another terminal, for live Tailwind recompilation
+npm run watch:css
 ```
 
 #### Download the raw website
@@ -21,3 +26,24 @@ make serve
 ```bash
 make download
 ```
+
+#### Build for production
+
+```bash
+npm run build
+# or
+make build
+```
+
+## performance checks
+
+Run the automated performance baseline (Lighthouse + asset size summary) against production or any preview URL:
+
+```bash
+bin/perf-metrics.sh https://nilenso.com
+```
+
+Reports are written under `reports/perf/<timestamp>/` and include Lighthouse JSON/HTML plus an `asset-sizes.txt` summary from the latest `zola build`. Override defaults with environment variables:
+
+- `LH_PRESET` (`desktop` | `mobile`)
+- `ONLY_CATEGORIES` (comma-separated Lighthouse categories)

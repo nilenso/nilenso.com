@@ -1,10 +1,11 @@
 [build]
 publish = "public"
-command = "zola build"
+command = "npm run build"
 
 [build.environment]
 # Set the version name that you want to use and Netlify will automatically use it.
-ZOLA_VERSION = "0.14.0"
+ZOLA_VERSION = "0.18.0"
+NODE_VERSION = "18"
 
 [build.processing.images]
 compress = true
@@ -14,4 +15,4 @@ compress = true
 # preview site.  We do this using the Netlify environment variable
 # `$DEPLOY_PRIME_URL`.
 [context.deploy-preview]
-command = "zola build --base-url $DEPLOY_PRIME_URL"
+command = "npm run build -- --base-url $DEPLOY_PRIME_URL"

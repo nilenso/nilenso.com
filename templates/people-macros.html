@@ -1,9 +1,20 @@
 {# macro that takes iterates over a collection of tile objects and renders them on a grid #}
 {% macro gen_people_tiles(tileset) %}
     {% for person in tileset %}
+    {% set avatar_sm = resize_image(path=person.extra.picture, width=180, op="fit_width", quality=70) %}
+    {% set avatar_lg = resize_image(path=person.extra.picture, width=360, op="fit_width", quality=70) %}
+    {% set avatar_width = avatar_sm.width %}
+    {% set avatar_height = avatar_sm.height %}
     <a href="/people/{{ person.extra.hash }}">
         <div class="person-tile">
-            <img src="/{{ person.extra.picture }}">
+            <img src="{{ avatar_sm.url }}"
+                 srcset="{{ avatar_sm.url }} {{ avatar_sm.width }}w, {{ avatar_lg.url }} {{ avatar_lg.width }}w"
+                 sizes="(min-width: 768px) 135px, 45vw"
+                 width="{{ avatar_width }}"
+                 height="{{ avatar_height }}"
+                 loading="lazy"
+                 decoding="async"
+                 alt="{{ person.title }}">
             <div class="person-name">{{ person.title }}</div>
             <div class="shortbio">{{ person.extra.shortbio }}</div>
         </div>
@@ -21,12 +32,48 @@
 
 {% macro image_link_tile(url, img_src) %}
     <a class="tile-1x2" href="{{ url }}">
-        <img src="{{ img_src }}" class="tile-img">
+        {% if img_src is starting_with("http") %}
+            <img src="{{ img_src }}"
+                 loading="lazy"
+                 decoding="async"
+                 class="tile-img"
+                 alt="">
+        {% else %}
+            {% set tile_lg = resize_image(path=img_src, width=720, op="fit_width", quality=70) %}
+            {% set tile_sm = resize_image(path=img_src, width=360, op="fit_width", quality=70) %}
+            <img src="{{ tile_sm.url }}"
+                 srcset="{{ tile_sm.url }} {{ tile_sm.width }}w, {{ tile_lg.url }} {{ tile_lg.width }}w"
+                 sizes="(min-width: 768px) 295px, 90vw"
+                 width="{{ tile_sm.width }}"
+                 height="{{ tile_sm.height }}"
+                 class="tile-img"
+                 loading="lazy"
+                 decoding="async"
+                 alt="">
+        {% endif %}
     </a>
 {% endmacro %}
 
 {% macro wide_image(img_src) %}
     <div class="tile-2x2">
-        <img src="{{ img_src }}" class="tile-img">
+        {% if img_src is starting_with("http") %}
+            <img src="{{ img_src }}"
+                 loading="lazy"
+                 decoding="async"
+                 class="tile-img"
+                 alt="">
+        {% else %}
+            {% set wide_lg = resize_image(path=img_src | trim_start_matches(pat="/"), width=1280, op="fit_width", quality=75) %}
+            {% set wide_sm = resize_image(path=img_src | trim_start_matches(pat="/"), width=640, op="fit_width", quality=75) %}
+            <img src="{{ wide_sm.url }}"
+                 srcset="{{ wide_sm.url }} {{ wide_sm.width }}w, {{ wide_lg.url }} {{ wide_lg.width }}w"
+                 sizes="(min-width: 768px) 600px, 90vw"
+                 width="{{ wide_sm.width }}"
+                 height="{{ wide_sm.height }}"
+                 class="tile-img"
+                 loading="lazy"
+                 decoding="async"
+                 alt="">
+        {% endif %}
     </div>
 {% endmacro %}
