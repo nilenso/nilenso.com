@@ -1,7 +1,11 @@
-.PHONY:	download ? serve
+.PHONY:	download ? serve build
 
 serve:
+	npm run build:css
 	zola serve
+
+build:
+	npm run build
 
 get-site:
 	./bin/download-site

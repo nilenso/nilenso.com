@@ -25,6 +25,14 @@ npm run watch:css
 make download
 ```
 
+#### Build for production
+
+```bash
+npm run build
+# or
+make build
+```
+
 ## performance checks
 
 Run the automated performance baseline (Lighthouse + asset size summary) against production or any preview URL:
