@@ -6,6 +6,7 @@ source code to the website
 
 ```bash
 brew install zola
+npm install
 ```
 
 ## build
@@ -14,6 +15,8 @@ brew install zola
 
 ```bash
 make serve
+# in another terminal, for live Tailwind recompilation
+npm run watch:css
 ```
 
 #### Download the raw website

@@ -1,0 +1,27 @@
+{
+  "name": "nilenso.com",
+  "version": "1.0.0",
+  "description": "source code to the website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build:css": "tailwindcss -i ./styles/tailwind.css -o ./static/tailwind.min.css --minify",
+    "watch:css": "tailwindcss -i ./styles/tailwind.css -o ./static/tailwind.min.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilenso/nilenso.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilenso/nilenso.com/issues"
+  },
+  "homepage": "https://github.com/nilenso/nilenso.com#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
