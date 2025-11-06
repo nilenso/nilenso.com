@@ -6,6 +6,8 @@ source code to the website
 
 ```bash
 brew install zola
+nvm install 18
+nvm use 18
 npm install
 ```
 
