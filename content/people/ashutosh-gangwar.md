@@ -21,5 +21,5 @@ goodreads = ""
 </p>
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    As a person who lets his work speak more than his words, expect him to own your hard problems end-to-end, whether it be frontend or infrastructure, leaving codebases measurably better than he found them.
+    As a person who lets his work speak more than his words, expect him to own your hard problems end-to-end, whether it be backend, frontend or infrastructure, leaving codebases measurably better than he found them.
 </p>
