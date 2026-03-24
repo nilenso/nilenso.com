@@ -12,29 +12,52 @@
 {% endblock header %}
 
 {% block content %}
-    <section class="bg-black text-white px-6 py-8 md:py-10 md:px-12 lg:px-12">
+    <section class="bg-gray-50 px-6 py-8 md:py-10 md:px-12 lg:px-12">
         <p class="text-pink-500 font-medium text-sm md:text-base tracking-wider uppercase mb-4">Featured</p>
-        <p class="text-lg md:text-2xl lg:text-3xl font-normal leading-snug mb-12">
-            Our approach to
+        <p class="text-black text-lg md:text-2xl lg:text-3xl font-normal leading-snug mb-12">
+            People noticed
             <a href="https://blog.nilenso.com/blog/2025/05/29/ai-assisted-coding/"
                class="underline decoration-pink-500 underline-offset-4 hover:text-pink-500"
-               target="_blank">AI-assisted development</a>
-            was featured in Andrej Karpathy's
-            <a href="https://youtu.be/LCEmiRjPEtQ?si=SvYS_WrwXC766aZu"
-               class="underline decoration-pink-500 underline-offset-4 hover:text-pink-500"
-               target="_blank">Software 3.0</a>
-            talk at YC AI Startup School, and praised by
-            <a href="https://simonwillison.net/" target="_blank"
-               class="underline decoration-pink-500 underline-offset-4 hover:text-pink-500">Simon Willison</a>.
+               target="_blank">our approach</a> to AI-assisted development.
         </p>
-        <div class="md:flex md:gap-8 lg:gap-12">
-            <blockquote class="md:w-1/2 border-l-2 border-pink-500 pl-4 md:pl-6 mb-4 md:mb-0">
-                <p class="text-base md:text-lg font-light italic leading-relaxed">"I liked your article thank you! I feel like a lot of people are sensing the power of the new tool, but still figuring out exactly how to hold it, use it, or whatever the correct incantations are."</p>
-                <footer class="mt-3 text-sm text-gray-400">&mdash; <a href="https://x.com/karpathy/status/1935748856278569077" target="_blank" class="underline hover:text-pink-500">Andrej Karpathy</a>, former Director of AI at Tesla and founding member of OpenAI</footer>
+        <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+            <blockquote class="bg-white text-black rounded-lg p-6 shadow-lg flex flex-col justify-between h-full">
+                <div>
+                    <div class="flex items-center gap-4 mb-4">
+                        <a href="https://x.com/karpathy" target="_blank">
+                            <img src="https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_400x400.jpg"
+                                 alt="Andrej Karpathy" class="rounded-full w-12 h-12">
+                        </a>
+                        <div>
+                            <p><a href="https://x.com/karpathy" target="_blank" class="font-bold hover-link">Andrej Karpathy</a></p>
+                            <p class="text-sm text-gray-500">
+                                featured in his
+                                <a href="https://youtu.be/LCEmiRjPEtQ?si=bIhrqEsbyiKOljMf&t=1457" class="underline hover:text-pink-500" target="_blank">software 3.0 talk</a>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="leading-relaxed">I liked your article thank you! I feel like a lot of people are sensing the power of the new tool, but still figuring out exactly how to hold it, use it, or whatever the correct incantations are.</p>
+                </div>
+                <p class="mt-4 text-xs text-gray-500"><a href="https://x.com/karpathy/status/1935748856278569077" target="_blank" class="hover:underline hover:text-pink-500">1:17 PM · Jun 19, 2025</a></p>
             </blockquote>
-            <blockquote class="md:w-1/2 border-l-2 border-pink-500 pl-4 md:pl-6">
-                <p class="text-base md:text-lg font-light italic leading-relaxed">"This is genuinely excellent &mdash; I think it's the best piece I've read on AI-assisted development patterns."</p>
-                <footer class="mt-3 text-sm text-gray-400">&mdash; <a href="https://simonwillison.net/2025/jun/10/ai-assisted-coding/" target="_blank" class="underline hover:text-pink-500">Simon Willison</a>, creator of Datasette and Django co-creator</footer>
+            <blockquote class="bg-white text-black rounded-lg p-6 shadow-lg flex flex-col justify-between h-full">
+                <div>
+                    <div class="flex items-center gap-4 mb-4">
+                        <a href="https://x.com/simonw" target="_blank">
+                            <img src="https://pbs.twimg.com/profile_images/378800000261649705/be9cc55e64014e6d7663c50d7cb9fc75_400x400.jpeg"
+                                 alt="Simon Willison" class="rounded-full w-12 h-12">
+                        </a>
+                        <div>
+                            <p><a href="https://x.com/simonw" target="_blank" class="font-bold hover-link">Simon Willison</a></p>
+                            <p class="text-sm text-gray-500">
+                                featured in his
+                                <a href="https://simonwillison.net/2025/jun/10/ai-assisted-coding/" class="underline hover:text-pink-500" target="_blank">blog</a>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="leading-relaxed">This is genuinely excellent &mdash; I think it's the best piece I've read on AI-assisted development patterns.</p>
+                </div>
+                <p class="mt-4 text-xs text-gray-500"><a href="https://lobste.rs/s/1qppei/ai_assisted_coding_for_teams_can_t_get_away#c_q8e9j5" target="_blank" class="hover:underline hover:text-pink-500">9:20 AM · Jun 10, 2025</a></p>
             </blockquote>
         </div>
     </section>

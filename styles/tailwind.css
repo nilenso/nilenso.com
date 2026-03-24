@@ -7,3 +7,10 @@
     font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
   }
 }
+
+@layer components {
+  .hover-link:hover {
+    color: #ec4899; /* Tailwind's pink-500 */
+    font-weight: 700; /* Tailwind's font-bold */
+  }
+}
