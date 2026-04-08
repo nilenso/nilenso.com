@@ -14,9 +14,9 @@ image = "/images/staples.png"
 name = "Staples"
 
 [[recent]]
-url = "https://grofers.com/"
-image = "/images/grofers.png"
-name = "Grofers"
+url = "https://blinkit.com/"
+image = "/images/blinkit.png"
+name = "Blinkit"
 
 [[recent]]
 url = "https://www.payu.in/"
