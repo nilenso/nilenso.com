@@ -7,7 +7,7 @@ nick = ""
 hash = "priyanga-kini"
 picture = "images/people/priyanga.jpeg"
 github = "https://github.com/Priyangapkini"
-twitter="https://twitter.com/KiniPriyanga"
+twitter="https://x.com/priyangapkini"
 linkedin="https://www.linkedin.com/in/priyangapkini/"
 goodreads = ""
 +++
