@@ -1,4 +1,12 @@
 [[talks]]
+title = "Building the Systems that Build the Software"
+speakers = "Atharva Raykar"
+speakerhash = "atharva-raykar"
+venue = "The Fifth Elephant - Pune Edition 2026"
+youtube_id = "L4qtJWZrj4Q"
+duration = "30:01"
+
+[[talks]]
 title = "Architecture and Design of Goose"
 speakers = "Akshat Shah"
 speakerhash = "akshat-shah"
