@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros.html" as img %}
 {% block title %} Work | nilenso {% endblock title %}
 
 {% block head %}
@@ -71,10 +72,7 @@
                                                 {% endfor %}
                                             </span>
                                         {% else %}
-                                            <img src="/images/{{ logo }}" alt="{{ client.hash }}"
-                                                 class="w-full"
-                                                 loading="lazy"
-                                                 decoding="async"/>
+                                            {{ img::sized(path="images/" ~ logo, width=400, alt=client.hash, class="w-full") }}
                                         {% endif %}
                                     </figure>
                                     {% if client.writing is defined and client.writing | length > 0 %}
