@@ -3,10 +3,50 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="nilenso is a boutique product, engineering and AI consultancy based in India and Canada. We build thoughtful, well-crafted products for your organization.">
-    <meta name="keyword" content="nilenso, technology consultancy, software consultancy, coop, clojure, functional programming, backend development, health care software, Fintech, last mile delivery software">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{% block title %}nilenso{% endblock %}</title>
+
+    {# SEO metadata. Values come from front matter (title/description) and fall
+       back to the site-wide values in config.toml. #}
+    {%- set seo_name = page.title | default(value=section.title | default(value="")) -%}
+    {%- if seo_name -%}
+        {%- set_global seo_title = seo_name ~ " | " ~ config.title -%}
+    {%- else -%}
+        {%- set_global seo_title = config.title -%}
+    {%- endif -%}
+    {%- set seo_description = page.description | default(value=section.description | default(value=config.description)) -%}
+    {#- People pages have no description of their own; build one from the short
+        bio so the team doesn't ship 18 pages sharing the site-wide default. -#}
+    {%- if page.extra.type | default(value="") == "person" and page.extra.shortbio | default(value="") -%}
+        {%- set_global seo_description = page.title ~ " at nilenso. " ~ page.extra.shortbio -%}
+    {%- endif -%}
+    {%- set seo_url = current_url | default(value=config.base_url) -%}
+    {%- set seo_image = config.extra.seo.og_image | default(value="") -%}
+
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ seo_description }}">
+    <link rel="canonical" href="{{ seo_url | safe }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ config.title }}">
+    <meta property="og:title" content="{{ seo_title }}">
+    <meta property="og:description" content="{{ seo_description }}">
+    <meta property="og:url" content="{{ seo_url | safe }}">
+    {%- if seo_image %}
+    <meta property="og:image" content="{{ get_url(path=seo_image) }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    {%- endif %}
+
+    <meta name="twitter:card" content="{% if seo_image %}summary_large_image{% else %}summary{% endif %}">
+    <meta name="twitter:title" content="{{ seo_title }}">
+    <meta name="twitter:description" content="{{ seo_description }}">
+    {%- if config.extra.seo.twitter_handle %}
+    <meta name="twitter:site" content="{{ config.extra.seo.twitter_handle }}">
+    {%- endif %}
+    {%- if seo_image %}
+    <meta name="twitter:image" content="{{ get_url(path=seo_image) }}">
+    {%- endif %}
+
     {% block head %}
     {% endblock head %}
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
