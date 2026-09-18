@@ -1,5 +1,31 @@
 {% extends "base.html" %}
 
+{% block structured_data %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": {{ page.extra.role | json_encode | safe }},
+    "description": {{ page.description | default(value=page.extra.summary) | json_encode | safe }},
+    "datePosted": {{ page.extra.date_posted | json_encode | safe }},
+    "employmentType": {{ page.extra.employment_type | json_encode | safe }},
+    "hiringOrganization": {
+        "@type": "Organization",
+        "name": {{ config.title | default(value="nilenso") | json_encode | safe }},
+        "sameAs": {{ config.base_url ~ "/" | json_encode | safe }},
+        "logo": {{ get_url(path=config.extra.organization.logo) | json_encode | safe }}
+    },
+    "jobLocationType": "TELECOMMUTE",
+    "applicantLocationRequirements": [
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "Canada" }
+    ],
+    "directApply": false,
+    "url": {{ current_url | json_encode | safe }}
+}
+</script>
+{% endblock structured_data %}
+
 {% block header %}
 <section class="bg-black py-10 md:py-16 lg:py-16 px-6 md:px-10 lg:px-9">
     <div>

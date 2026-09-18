@@ -19,3 +19,14 @@ tabs = [
     {name="talks",path="/talks/",nav=true},
     {name="contact",path="#contact",nav=true},
 ]
+
+[extra.organization]
+# Used to build the Organization JSON-LD in base.html. `same_as` should list
+# profiles nilenso actually controls -- search engines use them to tie the
+# domain to the organisation.
+logo = "images/favicon/android-chrome-512x512.png"
+same_as = [
+    "https://github.com/nilenso",
+    "https://twitter.com/nilenso",
+    "https://in.linkedin.com/company/nilenso-software-llp",
+]

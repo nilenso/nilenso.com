@@ -108,6 +108,21 @@
 </main>
 </body>
 
+{% block structured_data %}
+{% endblock structured_data %}
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": {{ config.title | default(value="nilenso") | json_encode | safe }},
+    "url": {{ config.base_url ~ "/" | json_encode | safe }},
+    "logo": {{ get_url(path=config.extra.organization.logo) | json_encode | safe }},
+    "description": {{ config.description | default(value="nilenso is an employee-owned product, engineering and AI consultancy in India and Canada. We build thoughtful, well-crafted products.") | json_encode | safe }},
+    "sameAs": {{ config.extra.organization.same_as | json_encode | safe }}
+}
+</script>
+
 {% block footer %}
 <footer id="contact" class="py-12 pl-6 pr-8 mg:py-16 lg:py-16 md:px-12 bg-pink-500 ">
     <div class="flex justify-between items-center">
