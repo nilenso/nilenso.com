@@ -140,7 +140,8 @@ pre[class*="language-"] code[class*="language-"] {
   font-size: 0.9em;
 }
 
-h1 {
+h1,
+.heading-lg {
     font-weight: 500;
     font-size: 1.8rem;
     margin-top: 1.4rem;
