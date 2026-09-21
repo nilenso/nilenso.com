@@ -78,8 +78,8 @@
                                     </figure>
                                     {% if client.writing is defined and client.writing | length > 0 %}
                                         <div class="hidden sm:block flex flex-col self-end w-full">
-                                            <h6 class="font-normal text-gray-600 text-xl md:text-2xl leading-tight tracking-wider pb-10">
-                                                writing</h6>
+                                            <p class="font-normal text-gray-600 text-xl md:text-2xl leading-tight tracking-wider pb-10">
+                                                writing</p>
                                             {% for post in client.writing %}
                                                 <p class="text-lg md:text-xl text-pink-500 leading-tight font-medium pb-8">
                                                     <a href="{{ post.link }}" target="_blank">
@@ -93,8 +93,8 @@
                                     {% endif %}
                                     {% if client.talks | length > 0 %}
                                         <div class="hidden sm:block flex flex-col self-end w-full">
-                                            <h6 class="font-normal text-gray-600 text-xl md:text-2xl leading-tight tracking-wider pb-10">
-                                                talks</h6>
+                                            <p class="font-normal text-gray-600 text-xl md:text-2xl leading-tight tracking-wider pb-10">
+                                                talks</p>
                                             {% for talk in client.talks %}
                                                 <p class="text-lg md:text-xl text-pink-500 leading-tight font-medium pb-8">
                                                     {{ talk.venue }}<br>
@@ -120,12 +120,12 @@
     </section>
 
     <section class="xl:py-24 md:py-16 py-10 md:px-12 border-t border-gray-200 px-6">
-        <h5 class="font-normal text-sm md:text-lg text-black leading-tight ">
+        <p class="font-normal text-sm md:text-lg text-black leading-tight ">
             Want to know more? Check out
             <a href="/open-source" target="_blank"
                class="underline hover:text-pink-500">
                our open source work</a>.
-        </h5>
+        </p>
     </section>
     <script src="/vendor/swiper/swiper.min.js" defer></script>
     <script>
