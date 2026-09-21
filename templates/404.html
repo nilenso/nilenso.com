@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block header %}
+    <section class="bg-black py-10 md:py-16 lg:py-16 px-6 md:px-10 lg:px-9">
+        <div>
+            <h1 class="mt-4 mb-4 text-pink-500 font-normal text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug md:leading-tight">
+                page not found.
+                <span class="text-white font-light text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug md:leading-tight">
+                    this page doesn't exist, or it has moved.
+                </span>
+            </h1>
+        </div>
+    </section>
+{% endblock header %}
+
+{% block content %}
+    <section class="py-10 px-6 md:py-16 md:px-12">
+        <p class="text-black text-base leading-normal lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+            Try the <a href="/" class="text-pink-500 underline hover:text-pink-600">home page</a>, or one of these:
+        </p>
+        <ul class="text-black text-base leading-normal lg:text-xl md:leading-snug font-light space-y-2">
+            <li><a href="/work/" class="underline hover:text-pink-500">work</a></li>
+            <li><a href="/open-source/" class="underline hover:text-pink-500">open source</a></li>
+            <li><a href="/talks/" class="underline hover:text-pink-500">talks</a></li>
+            <li><a href="/people/" class="underline hover:text-pink-500">people</a></li>
+            <li><a href="/jobs/" class="underline hover:text-pink-500">jobs</a></li>
+            <li><a href="https://blog.nilenso.com/" class="underline hover:text-pink-500">blog</a></li>
+        </ul>
+    </section>
+{% endblock content %}
