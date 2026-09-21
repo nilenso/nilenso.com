@@ -4,14 +4,14 @@
 {% block header %}
 <section class="bg-black py-10 md:py-16 lg:py-16 px-6 md:px-10 lg:px-9">
     <div>
-        <h1
-            class="font-light text-pink-500 text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-pink-500 md:leading-tight">
+        <p
+            class="mt-[1.4rem] mb-[1.25rem] font-light text-pink-500 text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-pink-500 md:leading-tight">
             our tribe.
             <span
                 class="font-light text-white text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-white md:leading-tight">
                 we build and launch products, sing carnatic music and climb mountains.
             </span>
-        </h1>
+        </p>
 
     </div>
 </section>
@@ -29,9 +29,9 @@
                 {{ img::sized(path=page.extra.picture, width=200, alt=page.title, class="w-full rounded-sm", lazy=false, format="webp", sizes="(min-width: 1280px) 176px, 160px") }}
             </figure>
             <div class="flex flex-wrap flex-col mt-5 sm:block">
-                <h3 class="text-xl md:text-xl lg:text-xl font-medium leading-tight text-center">
+                <h1 class="mt-0 mb-0 text-xl md:text-xl lg:text-xl font-medium leading-tight text-center">
                     {{ page.title }}
-                </h3>
+                </h1>
                 {% if page.extra.nick %}
                     <div class="font-medium text-center"> &lt{{ page.extra.nick }}&gt</div>
                 {% endif %}
