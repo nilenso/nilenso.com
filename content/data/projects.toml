@@ -4,7 +4,7 @@ image = "/images/gojek.png"
 name = "Gojek"
 
 [[recent]]
-url = "https://insider.in/online"
+url = "https://insider.in/"
 image = "/images/paytm-insider.png"
 name = "Paytm Insider"
 
@@ -49,7 +49,6 @@ image = "/images/clarisights.png"
 name = "Clarisights"
 
 [[recent]]
-url = "https://www.dunzo.com/"
 image = "/images/dunzo.jpg"
 name = "Dunzo"
 
@@ -79,7 +78,6 @@ image = "/images/ashoka.png"
 name = "Ashoka"
 
 [[past]]
-url = "http://omnyway.com/"
 image = "/images/onmyway.png"
 name = "Omnyway"
 

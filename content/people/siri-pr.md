@@ -7,7 +7,7 @@ nick = ""
 hash = "siri-pr"
 picture = "images/people/siri.webp"
 github = "https://github.com/siripr4"
-twitter="https://twitter.com/_siripr_"
+twitter=""
 linkedin="https://www.linkedin.com/in/siripr/"
 goodreads = ""
 +++

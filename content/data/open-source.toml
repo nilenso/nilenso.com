@@ -12,7 +12,7 @@ paper_url = "https://www.alphaxiv.org/abs/context-viewer"
 blog_posts = [
     { title = "A Short Lesson in Simpler Prompts", url = "https://blog.nilenso.com/blog/2025/11/04/a-short-lesson-in-simpler-prompts/" },
     { title = "Fight Context Rot with Context Observability", url = "https://blog.nilenso.com/blog/2025/10/29/fight-context-rot-with-context-observability/" },
-    { title = "How System Prompts Define Agent Behaviour", url = "https://blog.nilenso.com/blog/2026/02/10/how-system-prompts-define-agent-behaviour/" }
+    { title = "How System Prompts Define Agent Behaviour", url = "https://blog.nilenso.com/blog/2026/02/10/how-system-prompts-define-agent-behaviiour/" }
 ]
 
 [[projects]]
