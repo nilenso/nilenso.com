@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros.html" as img %}
 
 {% block head %}
     <link rel="preload" href="/vendor/prism/prism.min.css" as="style" onload="this.rel='stylesheet'">
@@ -29,7 +30,7 @@
                 <div class="flex flex-col p-6 md:p-6">
                     <h2 class="text-pink-500 font-medium text-2xl md:text-3xl mb-4 flex items-center">
                         {% if project.icon %}
-                        <img src="{{ project.icon }}" alt="" class="w-6 h-6 inline-block mr-2 opacity-60" style="filter: invert(40%) sepia(8%) saturate(595%) hue-rotate(201deg) brightness(95%) contrast(89%);">
+                        <img src="{{ project.icon }}" alt="" width="24" height="24" class="w-6 h-6 inline-block mr-2 opacity-60" style="filter: invert(40%) sepia(8%) saturate(595%) hue-rotate(201deg) brightness(95%) contrast(89%);">
                         {% endif %}
                         {{ project.name }}
                     </h2>
@@ -114,12 +115,12 @@
                         </video>
                         <!-- Play button overlay -->
                         <div class="absolute inset-0 flex items-center justify-center">
-                            <img src="/images/svg/video-play.svg" alt="Play Video" class="w-16 h-16 md:w-20 md:h-20 opacity-80 hover:opacity-100 transition-all hover:scale-110 ">
+                            <img src="/images/svg/video-play.svg" width="80" height="80" alt="Play Video" class="w-16 h-16 md:w-20 md:h-20 opacity-80 hover:opacity-100 transition-all hover:scale-110 ">
                         </div>
                     </a>
                     {% elif project.media_type == "image" %}
                     <a href="#media-{{ loop.index }}" class="media-trigger">
-                        <img src="{{ project.media_src }}" alt="{{ project.name }}" class="w-full h-auto object-contain max-h-[400px] rounded">
+                        {{ img::sized(path=project.media_src, width=800, alt=project.name, class="w-full h-auto object-contain max-h-[400px] rounded", format="webp") }}
                     </a>
                     {% elif project.media_type == "code" and project.code_sample %}
                     {% if project.code_type %}
@@ -145,7 +146,7 @@
                     <source src="{{ project.media_src }}" type="video/mp4">
                 </video>
                 {% elif project.media_type == "image" %}
-                <img src="{{ project.media_src }}" alt="{{ project.name }}" class="w-full h-auto">
+                {{ img::sized(path=project.media_src, width=800, alt=project.name, class="w-full h-auto", format="webp") }}
                 {% endif %}
             </div>
         </div>

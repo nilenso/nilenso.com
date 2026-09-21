@@ -1,0 +1,30 @@
+{# Renders an image with explicit dimensions so the browser can reserve space
+   before it loads (avoiding layout shift), downscaling it when the original is
+   larger than it is ever displayed.
+
+   `path` is relative to static/ (a leading slash is tolerated). SVGs are passed
+   through untouched -- they are vector, and resize_image cannot read them.
+   Originals are only downscaled when they are at least twice the size they are
+   displayed at. Re-encoding a modest image is a false economy here: Zola's PNG
+   encoder writes larger files than the hand-optimised logos already in
+   static/images, so a marginal resize costs bytes instead of saving them. #}
+{% macro sized(path, width, alt="", class="", lazy=true, format="auto", sizes="") %}
+    {%- set src = path | trim_start_matches(pat="/") -%}
+    {%- if src is ending_with(".svg") -%}
+        <img src="/{{ src }}" alt="{{ alt }}" class="{{ class }}"{% if lazy %} loading="lazy"{% endif %} decoding="async">
+    {%- else -%}
+        {%- set meta = get_image_metadata(path=src) -%}
+        {%- if meta.width > width * 2 -%}
+            {%- set small = resize_image(path=src, width=width, op="fit_width", quality=75, format=format) -%}
+            {%- set large = resize_image(path=src, width=width * 2, op="fit_width", quality=75, format=format) -%}
+            <img src="{{ small.url }}"
+                 srcset="{{ small.url }} {{ small.width }}w, {{ large.url }} {{ large.width }}w"
+                 {% if sizes %}sizes="{{ sizes }}"{% endif %}
+                 width="{{ small.width }}" height="{{ small.height }}"
+                 alt="{{ alt }}" class="{{ class }}"{% if lazy %} loading="lazy"{% endif %} decoding="async">
+        {%- else -%}
+            <img src="{{ get_url(path=src) }}" width="{{ meta.width }}" height="{{ meta.height }}"
+                 alt="{{ alt }}" class="{{ class }}"{% if lazy %} loading="lazy"{% endif %} decoding="async">
+        {%- endif -%}
+    {%- endif -%}
+{% endmacro sized %}
