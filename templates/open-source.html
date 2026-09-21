@@ -121,7 +121,7 @@
                     </a>
                     {% elif project.media_type == "image" %}
                     <a href="#media-{{ loop.index }}" class="media-trigger">
-                        {{ img::sized(path=project.media_src, width=800, alt=project.name, class="w-full h-auto object-contain max-h-[400px] rounded") }}
+                        {{ img::sized(path=project.media_src, width=800, alt=project.name, class="w-full h-auto object-contain max-h-[400px] rounded", format="webp") }}
                     </a>
                     {% elif project.media_type == "code" and project.code_sample %}
                     {% if project.code_type %}
@@ -147,7 +147,7 @@
                     <source src="{{ project.media_src }}" type="video/mp4">
                 </video>
                 {% elif project.media_type == "image" %}
-                {{ img::sized(path=project.media_src, width=800, alt=project.name, class="w-full h-auto") }}
+                {{ img::sized(path=project.media_src, width=800, alt=project.name, class="w-full h-auto", format="webp") }}
                 {% endif %}
             </div>
         </div>
