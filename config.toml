@@ -31,3 +31,14 @@ tabs = [
 # platforms. Must be 1200x630. Leave empty to serve previews without an image.
 og_image = ""
 twitter_handle = "@nilenso"
+
+[extra.organization]
+# Used to build the Organization JSON-LD in base.html. `same_as` should list
+# profiles nilenso actually controls -- search engines use them to tie the
+# domain to the organisation.
+logo = "images/favicon/android-chrome-512x512.png"
+same_as = [
+    "https://github.com/nilenso",
+    "https://twitter.com/nilenso",
+    "https://in.linkedin.com/company/nilenso-software-llp",
+]
