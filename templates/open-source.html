@@ -110,7 +110,7 @@
                 <div class="bg-gray-100 rounded-lg p-4 md:p-8 flex items-center justify-center self-start md:mt-6 overflow-hidden" style="height: calc(100% - 1.5rem);">
                     {% if project.media_type == "video" %}
                     <a href="#media-{{ loop.index }}" class="media-trigger relative block">
-                        <video class="w-full h-auto object-contain max-h-[400px] rounded pointer-events-none" muted>
+                        <video class="w-full h-auto object-contain max-h-[400px] rounded pointer-events-none" muted preload="none"{% if project.media_poster %} poster="{{ project.media_poster }}"{% endif %}>
                             <source src="{{ project.media_src }}" type="video/mp4">
                         </video>
                         <!-- Play button overlay -->
@@ -142,7 +142,7 @@
             <a href="#_" class="media-modal-close">&times;</a>
             <div class="media-modal-content">
                 {% if project.media_type == "video" %}
-                <video controls preload="metadata" class="w-full h-auto" controlsList="nodownload">
+                <video controls preload="none"{% if project.media_poster %} poster="{{ project.media_poster }}"{% endif %} class="w-full h-auto" controlsList="nodownload">
                     <source src="{{ project.media_src }}" type="video/mp4">
                 </video>
                 {% elif project.media_type == "image" %}

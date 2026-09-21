@@ -5,6 +5,9 @@ description = "Context Viewer takes a conversation log, breaks it down into cons
 icon = "/images/svg/sparkle.svg"
 media_type = "video"
 media_src = "/videos/context-viewer-demo.mp4"
+# First frame of the video, shown until it plays. Both video elements use
+# preload="none", so without a poster they would be blank.
+media_poster = "/images/context-viewer-demo-poster.webp"
 github_url = "https://github.com/nilenso/context-viewer"
 docs_url = "https://github.com/nilenso/context-viewer"
 playground_url = "https://nilenso.github.io/context-viewer/"
