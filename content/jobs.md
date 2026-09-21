@@ -1,5 +1,5 @@
 +++
 title = "jobs — work with us"
-description = "Open roles at nilenso, an employee-owned software consultancy in India and Canada. We hire for depth, curiosity and care in how software is made."
+description = "Work at nilenso, an employee-owned cooperative in India and Canada with open salaries, remote-friendly teams and no weekend work."
 template = "jobs.html"
 +++

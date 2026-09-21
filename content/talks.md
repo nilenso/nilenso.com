@@ -1,5 +1,5 @@
 +++
 title = "talks — conference talks"
-description = "Talks by nilenso engineers on functional programming, distributed systems, AI-assisted development and building products."
+description = "Conference talks by nilenso engineers at IN/Clojure, Strange Loop, The Fifth Elephant and more, on Clojure, Postgres, testing and distributed systems."
 template = "talks.html"
 +++

@@ -1,5 +1,5 @@
 +++
 title = "senior developer"
-description = "Senior developer at nilenso: deep work on products in healthcare, payments, e-commerce and AI, in a consultancy owned by the people who work there."
+description = "Senior backend developer at nilenso: 5+ years building services at scale, in an employee-owned, remote-friendly consultancy in India and Canada."
 template = "jobs/senior-developer.html"
 +++
