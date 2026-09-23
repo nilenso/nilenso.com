@@ -1,10 +1,5 @@
 {% extends "base.html" %}
-{% import "macros.html" as img %}
-
-{% block head %}
-    <link rel="preload" href="/vendor/swiper/swiper.min.css" as="style" onload="this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/vendor/swiper/swiper.min.css"></noscript>
-{% endblock head %}
+{% import "work-macros.html" as work %}
 
 {% block header %}
     <section class="bg-black py-10 md:py-16 lg:py-16 px-6 md:px-10 lg:px-9">
@@ -20,156 +15,41 @@
 {% endblock header %}
 
 {% block content %}
-    <section class="logo-slider">
-        <div class="swiper-container tabs-buttons md:py-16 py-10 lg:py-16 bg-gray-100 md:px-12 px-6">
-            <div class="work-logo-strip-wrap">
-            <div id="logo-tab-buttons" class="work-logo-strip">
-                {% set data = load_data(path="content/data/work.toml", format="toml") %}
-                {% for client in data.clients %}
-                    {% if client.logo_text is defined %}
-                        {% set logo_text = client.logo_text %}
-                    {% elif client.logo is defined %}
-                        {% set logo = client.logo %}
-                    {% else %}
-                        {% set logo = client.hash ~ ".png" %}
-                    {% endif %}
-                    <div class="py-3 hover:cursor-pointer" data-client-hash="{{ client.hash }}">
-                        {% if client.logo_text is defined %}
-                            <button class="work-text-logo-button hover:opacity-100 swiper-slide{% if loop.index == 1 %} active-tab{% endif %} opacity-40">
-                                {% for word in logo_text | split(pat=" ") %}
-                                    <span>{{ word }}</span>
-                                {% endfor %}
-                            </button>
-                        {% else %}
-                            <button class="hover:opacity-100 swiper-slide{% if loop.index == 1 %} active-tab{% endif %} bg-no-repeat opacity-40 bg-center"
-                                    style='background-size: 104px; background-image: url("/images/{{ logo }}");'></button>
-                        {% endif %}
-                    </div>
-                {% endfor %}
-            </div>
-            </div>
-        </div>
-        <div class="swiper-container tabs-content">
-            <div class="swiper-wrapper">
-                {% for client in data.clients %}
-                    {% if client.logo_text is defined %}
-                        {% set logo_text = client.logo_text %}
-                    {% elif client.logo is defined %}
-                        {% set logo = client.logo %}
-                    {% else %}
-                        {% set logo = client.hash ~ ".png" %}
-                    {% endif %}
-                    <div class="swiper-slide" data-hash="{{ client.hash }}">
-                        <div class="py-8 md:py-16 lg:py-28 px-6 md:px-12">
-                            <div class="md:grid md:grid-cols-5 md:gap-3 xl:divide-x">
-                                <div class="flex flex-wrap justify-center md:justify-start">
-                                    <figure class="w-32 mb-12">
-                                        {% if client.logo_text is defined %}
-                                            <span class="work-text-logo">
-                                                {% for word in logo_text | split(pat=" ") %}
-                                                    <span>{{ word }}</span>
-                                                {% endfor %}
-                                            </span>
-                                        {% else %}
-                                            {{ img::sized(path="images/" ~ logo, width=400, alt=client.hash, class="w-full") }}
-                                        {% endif %}
-                                    </figure>
-                                    {% if client.writing is defined and client.writing | length > 0 %}
-                                        <div class="hidden sm:block flex flex-col self-end w-full">
-                                            <p class="font-normal text-gray-600 text-xl md:text-2xl leading-tight tracking-wider pb-10">
-                                                writing</p>
-                                            {% for post in client.writing %}
-                                                <p class="text-lg md:text-xl text-pink-500 leading-tight font-medium pb-8">
-                                                    <a href="{{ post.link }}" target="_blank">
-                                                        <span class="underline hover:text-pink-600 font-light cursor-pointer">
-                                                            {{ post.title }}
-                                                        </span>
-                                                    </a>
-                                                </p>
-                                            {% endfor %}
-                                        </div>
-                                    {% endif %}
-                                    {% if client.talks | length > 0 %}
-                                        <div class="hidden sm:block flex flex-col self-end w-full">
-                                            <p class="font-normal text-gray-600 text-xl md:text-2xl leading-tight tracking-wider pb-10">
-                                                talks</p>
-                                            {% for talk in client.talks %}
-                                                <p class="text-lg md:text-xl text-pink-500 leading-tight font-medium pb-8">
-                                                    {{ talk.venue }}<br>
-                                                    <a href="{{ talk.link }}" target="_blank">
-                                                        <span class="underline hover:text-pink-600 font-light cursor-pointer">
-                                                            {{ talk.title }}
-                                                        </span>
-                                                    </a>
-                                                </p>
-                                            {% endfor %}
-                                        </div>
-                                    {% endif %}
-                                </div>
-                                <div class="pt-10 sm:pt-0 sm:pl-10 md:pl-18 lg:pl-38 xl:pl-11 md:col-span-4">
-                                    {{ client.content | safe }}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
+    <section class="px-6 py-10 md:px-12 md:py-16">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            {% for client in section.pages %}
+                <a href="{{ client.permalink }}"
+                   class="group flex flex-col border border-gray-200 rounded-sm p-6 md:p-8 hover:border-pink-500">
+                    <figure class="w-32 mb-8">
+                        {{ work::logo(page=client) }}
+                    </figure>
+                    <p class="text-black text-base leading-normal md:text-xl md:leading-snug font-light pb-4">
+                        {{ client.extra.blurb }}
+                    </p>
+                    <span class="mt-auto text-pink-500 text-base md:text-lg font-normal underline group-hover:text-pink-600">
+                        read the case study
+                    </span>
+                </a>
+            {% endfor %}
         </div>
     </section>
 
     <section class="xl:py-24 md:py-16 py-10 md:px-12 border-t border-gray-200 px-6">
         <p class="font-normal text-sm md:text-lg text-black leading-tight ">
             Want to know more? Check out
-            <a href="/open-source" target="_blank"
-               class="underline hover:text-pink-500">
-               our open source work</a>.
+            <a href="/open-source/" class="underline hover:text-pink-500">our open source work</a>.
         </p>
     </section>
-    <script src="/vendor/swiper/swiper.min.js" defer></script>
+
+    {# Case studies used to be tabs on this page, addressed as /work/#gojek.
+       Those links still exist in talks and posts, so send them to the page. #}
     <script>
-        window.addEventListener('DOMContentLoaded', function () {
-            if (typeof Swiper === 'undefined') {
-                return;
+        (function () {
+            var slugs = [{% for client in section.pages %}"{{ client.slug }}"{% if not loop.last %}, {% endif %}{% endfor %}];
+            var hash = window.location.hash.replace('#', '');
+            if (hash && slugs.indexOf(hash) !== -1) {
+                window.location.replace('/work/' + hash + '/');
             }
-
-            var tabButtons = document.getElementById('logo-tab-buttons');
-            var tabContent;
-
-            if (!tabButtons) {
-                return;
-            }
-
-            function scrollLogoTabIntoView(index) {
-                var tabButton = tabButtons.children[index];
-
-                if (!tabButton) {
-                    return;
-                }
-
-                tabButtons.scrollTo({
-                    left: tabButton.offsetLeft - ((tabButtons.clientWidth - tabButton.offsetWidth) / 2),
-                    behavior: 'smooth'
-                });
-            }
-
-            tabContent = new Swiper('.tabs-content', {
-                hashnav: true,
-                onSlideChangeStart: function (swiper, _event) {
-                    tabButtons.children[swiper.previousIndex].children[0].classList.remove('active', 'active-tab');
-                    tabButtons.children[swiper.activeIndex].children[0].classList.add('active', 'active-tab');
-                    scrollLogoTabIntoView(swiper.activeIndex);
-                }
-            });
-
-            for (let clientNum = 0, len = tabButtons.children.length; clientNum < len; clientNum++) {
-                tabButtons.children[clientNum].onclick = function () {
-                    tabContent.slideTo(clientNum);
-                };
-            }
-
-            window.setTimeout(function () {
-                scrollLogoTabIntoView(tabContent.activeIndex);
-            }, 100);
-        });
+        })();
     </script>
 {% endblock content %}
