@@ -3,10 +3,58 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="nilenso is a boutique product, engineering and AI consultancy based in India and Canada. We build thoughtful, well-crafted products for your organization.">
-    <meta name="keyword" content="nilenso, technology consultancy, software consultancy, coop, clojure, functional programming, backend development, health care software, Fintech, last mile delivery software">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{% block title %}nilenso{% endblock %}</title>
+
+    {# SEO metadata. Values come from front matter (title/description) and fall
+       back to the site-wide values in config.toml. #}
+    {%- set seo_name = page.title | default(value=section.title | default(value="")) -%}
+    {#- Only the 404 page renders without current_url. -#}
+    {%- if current_url is not defined -%}
+        {%- set seo_name = "page not found" -%}
+    {%- endif -%}
+    {%- if seo_name -%}
+        {%- set_global seo_title = seo_name ~ " | " ~ config.title -%}
+    {%- else -%}
+        {%- set_global seo_title = config.title -%}
+    {%- endif -%}
+    {%- set seo_description = page.description | default(value=section.description | default(value=config.description)) -%}
+    {#- People pages have no description of their own; build one from the short
+        bio so the team doesn't ship 18 pages sharing the site-wide default. -#}
+    {%- if page.extra.type | default(value="") == "person" and page.extra.shortbio | default(value="") -%}
+        {%- set_global seo_description = page.title ~ " at nilenso. " ~ page.extra.shortbio -%}
+    {%- endif -%}
+    {%- set seo_url = current_url | default(value="") -%}
+    {%- set seo_image = config.extra.seo.og_image | default(value="") -%}
+
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ seo_description }}">
+    {%- if seo_url %}
+    <link rel="canonical" href="{{ seo_url | safe }}">
+    {%- endif %}
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ config.title }}">
+    <meta property="og:title" content="{{ seo_title }}">
+    <meta property="og:description" content="{{ seo_description }}">
+    {%- if seo_url %}
+    <meta property="og:url" content="{{ seo_url | safe }}">
+    {%- endif %}
+    {%- if seo_image %}
+    <meta property="og:image" content="{{ get_url(path=seo_image) }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    {%- endif %}
+
+    <meta name="twitter:card" content="{% if seo_image %}summary_large_image{% else %}summary{% endif %}">
+    <meta name="twitter:title" content="{{ seo_title }}">
+    <meta name="twitter:description" content="{{ seo_description }}">
+    {%- if config.extra.seo.twitter_handle %}
+    <meta name="twitter:site" content="{{ config.extra.seo.twitter_handle }}">
+    {%- endif %}
+    {%- if seo_image %}
+    <meta name="twitter:image" content="{{ get_url(path=seo_image) }}">
+    {%- endif %}
+
     {% block head %}
     {% endblock head %}
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
@@ -16,6 +64,17 @@
     <link rel="preload" href="/fonts/poppins/poppins-v24-latin-500.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/tailwind.min.css">
     <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": {{ config.title | default(value="nilenso") | json_encode | safe }},
+        "url": {{ config.base_url ~ "/" | json_encode | safe }},
+        "logo": {{ get_url(path=config.extra.organization.logo) | json_encode | safe }},
+        "description": {{ config.description | default(value="nilenso is an employee-owned product, engineering and AI consultancy in India and Canada. We build thoughtful, well-crafted products.") | json_encode | safe }},
+        "sameAs": {{ config.extra.organization.same_as | json_encode | safe }}
+    }
+    </script>
 </head>
 
 <body class="antialiased bg-white md:max-w-[1366px] mx-auto w-full font-normal">
@@ -30,7 +89,7 @@
             <nav class="w-full items-center flex justify-between">
                 <a href="/">
                     <figure class="w-28">
-                        <img src="/images/svg/logo.svg" alt="Logo" class="w-full">
+                        <img src="/images/svg/logo.svg" width="192" height="49" alt="Logo" class="w-full">
                     </figure>
                 </a>
                 <div id="menuToggle" class="flex items-center">
@@ -43,7 +102,7 @@
                             <div class="relative">
                                 <a href="/" class="px-6 block">
                                     <figure class="w-28">
-                                        <img src="/images/svg/logo.svg" alt="Logo" class="w-full">
+                                        <img src="/images/svg/logo.svg" width="192" height="49" alt="Logo" class="w-full">
                                     </figure>
                                 </a>
                                 <ul class="pt-16">
@@ -73,7 +132,7 @@
             <div class="hidden md:flex items-center justify-between">
                 <a href="/">
                     <figure>
-                        <img src="/images/svg/logo.svg" alt="nilenso" class="w-4/5">
+                        <img src="/images/svg/logo.svg" width="192" height="49" alt="nilenso" class="w-4/5">
                     </figure>
                 </a>
                 <ul class="flex">
@@ -82,8 +141,8 @@
                             <li>
                                 <a href="{{ tab.path }}"
                                    class="font-normal text-base leading-tight tracking-wider md:pr-4 lg:pr-8 xl:pr-8 text-black hover:text-pink-500 ">
-                                    {% if current_path == tab.path %}
-                                        {% if current_path == "/talks/" %}
+                                    {% if current_path | default(value="") == tab.path %}
+                                        {% if current_path | default(value="") == "/talks/" %}
                                             t<span class='font-bold text-pink-500'>a</span>lks
                                         {% else %}    
                                             {{ tab.name | replace(from="o", to="<span class='font-bold text-pink-500'>o</span>") | safe }}
@@ -106,47 +165,51 @@
     {% block content %}
     {% endblock %}
 </main>
-</body>
-
 {% block footer %}
 <footer id="contact" class="py-12 pl-6 pr-8 mg:py-16 lg:py-16 md:px-12 bg-pink-500 ">
     <div class="flex justify-between items-center">
-        <h3 class="text-white font-normal text-xl md:text-2xl leading-tight lg:text-3xl md:leading-loose">
+        <p class="text-white font-normal text-xl md:text-2xl leading-tight lg:text-3xl md:leading-loose">
             india + canada
-        </h3>
+        </p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-0 grid-flow-col md:divide-x">
-            <ul class="hidden md:block">
+            <div class="hidden md:block">
                 <p class="text-white pb-2.5 font-normal">Links</p>
-                <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
-                    <a href="https://vyakaran.nilenso.com" target="_blank">vyakaran: handbook</a>
-                </li>
+                <ul>
+                    <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
+                        <a href="https://vyakaran.nilenso.com" target="_blank">vyakaran: handbook</a>
+                    </li>
 
-                <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
-                    <a href="/talks/">talks</a>
-                </li>
+                    <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
+                        <a href="/talks/">talks</a>
+                    </li>
 
-                <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
-                    <a href="/alumni/">alumni</a>
-                </li>
-            </ul>
+                    <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
+                        <a href="/alumni/">alumni</a>
+                    </li>
+                </ul>
+            </div>
 
-            <ul class="pl-6 md:pl-10 lg:pl-10 xl:pl-10">
+            <div class="pl-6 md:pl-10 lg:pl-10 xl:pl-10">
                 <p class="text-white pb-2.5 font-normal">Contact</p>
-                <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
-                    <a href="mailto:hello@nilenso.com">hello@nilenso.com</a>
-                </li>
+                <ul>
+                    <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
+                        <a href="mailto:hello@nilenso.com">hello@nilenso.com</a>
+                    </li>
 
-                <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
-                    <a href="https://twitter.com/nilenso" target="_blank">@nilenso</a>
-                </li>
+                    <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
+                        <a href="https://twitter.com/nilenso" target="_blank">@nilenso</a>
+                    </li>
 
-                <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
-                    <a href="https://github.com/nilenso" target="_blank">github.com/nilenso</a>
-                </li>
-            </ul>
+                    <li class="text-white font-normal text-base md:text-xl lg:text-lg leading-tight pb-2.5 hover:opacity-80">
+                        <a href="https://github.com/nilenso" target="_blank">github.com/nilenso</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </footer>
 {% endblock %}
+</body>
+
 </html>

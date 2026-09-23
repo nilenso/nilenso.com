@@ -17,7 +17,7 @@ nick = "abhinav"
 picture = "images/alumni/abhinav.webp"
 github = "http://github.com/abhin4v"
 name = "Abhinav Sarkar"
-link = "http://twitter.com/abhin4v"
+link = "https://twitter.com/abhin4v"
 
 [[people]]
 picture = "images/alumni/akshatha.webp"
@@ -30,63 +30,61 @@ nick = "kitallis"
 picture = "images/alumni/kitallis.webp"
 github = "http://github.com/kitallis"
 name = "Akshay Gupta"
-link = "http://twitter.com/kitallis"
+link = "https://twitter.com/kitallis"
 
 [[people]]
 nick = "aninda"
 picture = "images/alumni/aninda.webp"
 github = "http://github.com/spacefugitive"
 name = "Aninda Kundu"
-link = "http://twitter.com/aninda42"
+link = "https://twitter.com/aninda42"
 
 [[people]]
 nick = "arnab"
 picture = "images/alumni/arnab.webp"
 github = "http://github.com/arnab"
 name = "Arnab Deka"
-link = "http://twitter.com/or9ob"
+link = "https://twitter.com/or9ob"
 
 [[people]]
 nick = "asif"
 picture = "images/alumni/asif.webp"
 github = "http://github.com/asifkalam"
 name = "Asif Kalam"
-link = "http://twitter.com/asifskalam"
+link = "https://twitter.com/asifskalam"
 
 [[people]]
 nick = "jasim"
 picture = "images/alumni/jasim.webp"
 github = "http://github.com/jasim"
 name = "Jasim Basheer"
-link = "http://twitter.com/jasim_ab"
+link = "https://twitter.com/jasim_ab"
 
 [[people]]
 nick = "jithu"
 picture = "images/alumni/jithu.webp"
 github = "http://github.com/jithugopal"
 name = "Jithu Gopal"
-link = "http://twitter.com/poxypen"
+link = "https://twitter.com/poxypen"
 
 [[people]]
 nick = "murtaza"
 picture = "images/alumni/murtaza.webp"
-github = "https://github.com/murtaza0xFF"
 name = "Murtaza Akbari"
-link = "https://twitter.com/murtaza0xFF"
 
 [[people]]
 nick = "neha"
 picture = "images/alumni/neha.webp"
 github = "http://github.com/Bodhisattva2-0"
 name = "Neha Kumari"
-link = "http://twitter.com/__Neha"
+link = "https://twitter.com/__Neha"
 
 [[people]]
 nick = "nid"
 picture = "images/alumni/nid.webp"
 github = "https://github.com/nid90"
 name = "Nivedita Priyadarshini"
-link = "http://twitter.com/nid90"
+link = "https://twitter.com/nid90"
 
 [[people]]
 nick = "noopur"
@@ -106,7 +104,7 @@ nick = "prashant"
 picture = "images/alumni/prashant.webp"
 github = "https://github.com/prashantkarpe"
 name = "Prashant Karpe"
-link = "http://twitter.com/prashantwit"
+link = "https://twitter.com/prashantwit"
 
 [[people]]
 picture = "images/alumni/priti.webp"
@@ -119,7 +117,7 @@ nick = "prtl"
 picture = "images/alumni/pratul.webp"
 github = "https://github.com/pratul"
 name = "Pratul Kalia"
-link = "http://twitter.com/prxtl"
+link = "https://twitter.com/prxtl"
 
 [[people]]
 nick = "samrat"
@@ -140,7 +138,7 @@ nick = "shafeeq"
 picture = "images/alumni/shafeeq.webp"
 github = "https://github.com/shafeeq"
 name = "Shafeeq Kunnakkadan"
-link = "http://twitter.com/shafeeq_k"
+link = "https://twitter.com/shafeeq_k"
 
 [[people]]
 picture = "images/alumni/shahn.webp"
@@ -159,13 +157,12 @@ nick = "smit"
 picture = "images/alumni/smit.webp"
 github = "http://github.com/who828"
 name = "Smit Shah"
-link = "http://twitter.com/who828"
+link = "https://github.com/who828"
 
 [[people]]
 nick = "soumya"
 picture = "images/alumni/soumya.webp"
 name = "Soumya Pillai"
-link = "http://twitter.com/SoumyaPillai"
 
 [[people]]
 nick = "srushti"
@@ -179,32 +176,32 @@ nick = "steven"
 picture = "images/alumni/steven.webp"
 github = "http://github.com/deobald"
 name = "Steven Deobald"
-link = "http://twitter.com/deobald"
+link = "https://twitter.com/deobald"
 
 [[people]]
 nick = "gja"
 picture = "images/alumni/gja.webp"
 github = "http://github.com/gja"
 name = "Tejas Dinkar"
-link = "http://twitter.com/tdinkar"
+link = "https://twitter.com/tdinkar"
 
 [[people]]
 nick = "tim"
 picture = "images/alumni/tim.webp"
 github = "https://github.com/timothyandrew"
 name = "Timothy Andrew"
-link = "http://twitter.com/timothyandrew"
+link = "https://twitter.com/timothyandrew"
 
 [[people]]
 nick = "unni"
 picture = "images/alumni/unni.webp"
 github = "https://github.com/krish8664"
 name = "Unnikrishnan G"
-link = "http://twitter.com/krish8664"
+link = "https://twitter.com/krish8664"
 
 [[people]]
 nick = "varun"
 picture = "images/alumni/varun.webp"
 github = "https://github.com/irrational-pai"
 name = "Varun Pai"
-link = "http://twitter.com/irrational_pai"
+link = "https://github.com/irrational-pai"

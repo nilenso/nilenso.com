@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros.html" as img %}
 
 {% block announcement %}
     <aside class="announcement-banner" aria-label="Announcement">
@@ -15,10 +16,10 @@
 {% block header %}
     <section class="pt-6 pb-10 px-6 md:py-10 md:px-8 lg:pt-12 lg:pb-16 lg:px-12">
         <div>
-            <h2 class="font-normal text-l leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-black md:leading-tight">
+            <h1 class="mt-4 mb-4 font-normal text-2xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug text-black md:leading-tight">
                 <span class="text-pink-500">nilenso is a boutique product, engineering and AI consultancy.</span>
                 We build thoughtful, well-crafted products for your organization.
-            </h2>
+            </h1>
         </div>
     </section>
 {% endblock header %}
@@ -37,8 +38,7 @@
                 <div>
                     <div class="flex items-center gap-4 mb-4">
                         <a href="https://x.com/karpathy" target="_blank">
-                            <img src="/images/people/featured-praise/andrej-karpathy.jpg"
-                                 alt="Andrej Karpathy" class="rounded-full w-12 h-12">
+                            {{ img::sized(path="images/people/featured-praise/andrej-karpathy.jpg", width=96, alt="Andrej Karpathy", class="rounded-full w-12 h-12") }}
                         </a>
                         <div>
                             <p><a href="https://x.com/karpathy" target="_blank" class="font-bold hover-link">Andrej Karpathy</a></p>
@@ -56,8 +56,7 @@
                 <div>
                     <div class="flex items-center gap-4 mb-4">
                         <a href="https://x.com/simonw" target="_blank">
-                            <img src="/images/people/featured-praise/simon-willison.jpeg"
-                                 alt="Simon Willison" class="rounded-full w-12 h-12">
+                            {{ img::sized(path="images/people/featured-praise/simon-willison.jpeg", width=96, alt="Simon Willison", class="rounded-full w-12 h-12") }}
                         </a>
                         <div>
                             <p><a href="https://x.com/simonw" target="_blank" class="font-bold hover-link">Simon Willison</a></p>
@@ -76,20 +75,16 @@
 
     <section class="py-10 px-6 md:py-20 md:px-12 border-t border-gray-200">
         <div>
-            <h6 class="font-normal text-gray-600 md:text-xl leading-tight tracking-wide">recent work</h6>
+            <p class="font-normal text-gray-600 md:text-xl leading-tight tracking-wide">recent work</p>
             <div class="recent-work-logo">
                 {% set projects = load_data(path="content/data/projects.toml", format="toml") %}
                 {% for project in projects.recent %}
                     <div class="mr-2 md:mr-2 lg:mr-25 xl:mr-25 mt-4 md:mt-12 justify-center">
-                        <a href="{{ project.url }}" target="_blank">
-                            <figure class="w-36 md:w-40 lg:w-44 xl:w-48  border-dotted box-border p-4 border-transparent border-2 rounded-sm hover:border-pink-500">
-                                <img src="{{ project.image }}"
-                                     alt="{{ project.name }}"
-                                     class="w-11/12"
-                                     loading="lazy"
-                                     decoding="async">
+                        {% if project.url %}<a href="{{ project.url }}" target="_blank">{% endif %}
+                            <figure class="w-36 md:w-40 lg:w-44 xl:w-48  border-dotted box-border p-4 border-transparent border-2 rounded-sm{% if project.url %} hover:border-pink-500{% endif %}">
+                                {{ img::sized(path=project.image, width=400, alt=project.name, class="w-11/12") }}
                             </figure>
-                        </a>
+                        {% if project.url %}</a>{% endif %}
                     </div>
                 {% endfor %}
             </div>
@@ -100,15 +95,11 @@
             {% set projects = load_data(path="content/data/projects.toml", format="toml") %}
             {% for project in projects.past %}
                 <div class="mr-2 md:mr-2 lg:mr-25 xl:mr-25 mt-4 md:mt-12 justify-center">
-                    <a href="{{ project.url }}" target="_blank">
-                        <figure class="w-36 md:w-40 lg:w-44 xl:w-48  border-dotted box-border p-4 border-transparent border-2 rounded-sm hover:border-pink-500">
-                            <img src="{{ project.image }}"
-                                 alt="{{ project.name }}"
-                                 class="w-11/12"
-                                 loading="lazy"
-                                 decoding="async">
+                    {% if project.url %}<a href="{{ project.url }}" target="_blank">{% endif %}
+                        <figure class="w-36 md:w-40 lg:w-44 xl:w-48  border-dotted box-border p-4 border-transparent border-2 rounded-sm{% if project.url %} hover:border-pink-500{% endif %}">
+                            {{ img::sized(path=project.image, width=400, alt=project.name, class="w-11/12") }}
                         </figure>
-                    </a>
+                    {% if project.url %}</a>{% endif %}
                 </div>
             {% endfor %}
         </div>
@@ -128,9 +119,9 @@
     <section class="px-6 py-10 lg:py-20 md:px-12 md:py-16 border-t border-b border-gray-200">
         <div class="md:flex flex flex-wrap">
             <div class="w-full pb-10 md:pb-0 md:w-1/2 md:pr-8 lg:pr-12 xl:pr-24 border-b md:border-b-0 md:border-r border-gray-200">
-                <h6 class="font-normal text-gray-600 md:text-xl leading-tight tracking-wider pb-5 md:pb-8">
+                <p class="font-normal text-gray-600 md:text-xl leading-tight tracking-wider pb-5 md:pb-8">
                     philosophy
-                </h6>
+                </p>
                 <p class="text-black text-base leading-normal lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
                     <span class="text-pink-500">
                         We are an employee-owned organisation that cares about the impact we create in the world.
@@ -150,8 +141,8 @@
 
             </div>
             <div class="pt-10 md:pt-0 w-full md:w-1/2 md:pl-8 lg:pl-12 xl:pl-24">
-                <h6 class="font-normal text-gray-600 md:text-xl leading-tight tracking-wider pb-5 md:pb-8">
-                    expertise</h6>
+                <p class="font-normal text-gray-600 md:text-xl leading-tight tracking-wider pb-5 md:pb-8">
+                    expertise</p>
                 <p class="text-black text-base leading-normal lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
                     <span class="text-pink-500">
                         We deliver outcomes.

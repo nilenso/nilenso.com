@@ -1,0 +1,6 @@
+# Netlify redirects. Paths match with or without a trailing slash.
+
+# /jobs/more/ was an unfinished 2021 draft and /contact/ a copy of it; both
+# removed. Contact details live in the footer on every page.
+/jobs/more   /jobs/       301
+/contact     /#contact    301
