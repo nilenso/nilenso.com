@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% import "work-macros.html" as work %}
+
+{% block header %}
+    <section class="bg-black py-10 md:py-16 lg:py-16 px-6 md:px-10 lg:px-9">
+        <div>
+            <h1 class="mt-4 mb-4 text-pink-500 font-normal text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug md:leading-tight">
+                {{ page.extra.name }}.
+                <span class="text-white font-light text-xl leading-snug md:text-4xl lg:lg:text-[2.8rem] lg:leading-snug md:leading-tight">
+                    {{ page.extra.blurb }}
+                </span>
+            </h1>
+        </div>
+    </section>
+{% endblock header %}
+
+{% block content %}
+    {% set work_section = get_section(path="work/_index.md") %}
+    <section class="logo-slider">
+        {{ work::strip(pages=work_section.pages, active=page.path) }}
+
+        <div class="py-8 md:py-16 lg:py-28 px-6 md:px-12">
+            <div class="md:grid md:grid-cols-5 md:gap-3 xl:divide-x">
+                <div class="flex flex-wrap justify-center md:justify-start">
+                    <figure class="w-32 mb-12">
+                        {{ work::logo(page=page) }}
+                    </figure>
+                    {% if page.extra.writing %}
+                        <div class="hidden sm:block flex flex-col self-end w-full">
+                            <p class="font-normal text-gray-600 text-xl md:text-2xl leading-tight tracking-wider pb-10">
+                                writing</p>
+                            {% for post in page.extra.writing %}
+                                <p class="text-lg md:text-xl text-pink-500 leading-tight font-medium pb-8">
+                                    <a href="{{ post.link }}" target="_blank">
+                                        <span class="underline hover:text-pink-600 font-light cursor-pointer">
+                                            {{ post.title }}
+                                        </span>
+                                    </a>
+                                </p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                    {% if page.extra.talks %}
+                        <div class="hidden sm:block flex flex-col self-end w-full">
+                            <p class="font-normal text-gray-600 text-xl md:text-2xl leading-tight tracking-wider pb-10">
+                                talks</p>
+                            {% for talk in page.extra.talks %}
+                                <p class="text-lg md:text-xl text-pink-500 leading-tight font-medium pb-8">
+                                    {{ talk.venue }}<br>
+                                    <a href="{{ talk.link }}" target="_blank">
+                                        <span class="underline hover:text-pink-600 font-light cursor-pointer">
+                                            {{ talk.title }}
+                                        </span>
+                                    </a>
+                                </p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="pt-10 sm:pt-0 sm:pl-10 md:pl-18 lg:pl-38 xl:pl-11 md:col-span-4">
+                    {{ page.content | safe }}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="xl:py-16 md:py-12 py-10 md:px-12 border-t border-gray-200 px-6">
+        <div class="flex flex-wrap gap-x-8 gap-y-3 justify-between text-base md:text-lg font-normal">
+            <span>
+                {% if page.lower %}
+                    <a href="{{ page.lower.permalink }}" class="underline hover:text-pink-500">← {{ page.lower.extra.name }}</a>
+                {% endif %}
+            </span>
+            <a href="/work/" class="underline hover:text-pink-500">all case studies</a>
+            <span>
+                {% if page.higher %}
+                    <a href="{{ page.higher.permalink }}" class="underline hover:text-pink-500">{{ page.higher.extra.name }} →</a>
+                {% endif %}
+            </span>
+        </div>
+    </section>
+
+    {# Keep the current client's logo in view in the scrolling strip. #}
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            var strip = document.getElementById('logo-tab-buttons');
+            var current = strip && strip.querySelector('[aria-current="page"]');
+            if (!strip || !current) {
+                return;
+            }
+            var item = current.parentElement;
+            strip.scrollTo({ left: item.offsetLeft - ((strip.clientWidth - item.offsetWidth) / 2) });
+        });
+    </script>
+{% endblock content %}

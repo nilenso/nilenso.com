@@ -1,0 +1,45 @@
+{% import "macros.html" as img %}
+
+{# A client's logo: an image, or the wordmark for clients we don't name. #}
+{% macro logo(page, class="w-full") %}
+    {%- if page.extra.logo_text -%}
+        <span class="work-text-logo">
+            {% for word in page.extra.logo_text | split(pat=" ") %}
+                <span>{{ word }}</span>
+            {% endfor %}
+        </span>
+    {%- else -%}
+        {{ img::sized(path="images/" ~ page.extra.logo, width=400, alt=page.extra.name, class=class) }}
+    {%- endif -%}
+{% endmacro logo %}
+
+{# The strip of client logos, linking to each case study. On a case study page
+   `active` is that page's path, so its logo is highlighted. #}
+{% macro strip(pages, active="") %}
+    <div class="swiper-container tabs-buttons md:py-16 py-10 lg:py-16 bg-gray-100 md:px-12 px-6">
+        <div class="work-logo-strip-wrap">
+            <div id="logo-tab-buttons" class="work-logo-strip">
+                {% for p in pages %}
+                    <div class="py-3">
+                        <a href="{{ p.permalink }}"
+                           class="block{% if p.path == active %} active-tab-item{% endif %}"
+                           {% if p.path == active %}aria-current="page"{% endif %}
+                           title="{{ p.extra.name }}">
+                            {% if p.extra.logo_text %}
+                                <span class="work-text-logo-button hover:opacity-100 swiper-slide{% if p.path == active %} active-tab{% endif %} opacity-40">
+                                    {% for word in p.extra.logo_text | split(pat=" ") %}
+                                        <span>{{ word }}</span>
+                                    {% endfor %}
+                                </span>
+                            {% else %}
+                                <span class="hover:opacity-100 swiper-slide{% if p.path == active %} active-tab{% endif %} bg-no-repeat opacity-40 bg-center block"
+                                      style='background-size: 104px; background-image: url("/images/{{ p.extra.logo }}");'
+                                      role="img" aria-label="{{ p.extra.name }}"></span>
+                            {% endif %}
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endmacro strip %}
