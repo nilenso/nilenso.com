@@ -7,7 +7,7 @@ nick = ""
 hash = "alisha-mohanty"
 picture = "images/people/alisha.webp"
 github = "https://github.com/alishamohanty"
-twitter="https://twitter.com/alisham__"
+twitter="https://x.com/withloveaal"
 linkedin="https://www.linkedin.com/in/alisha-mohanty-573197140/"
 goodreads = ""
 +++

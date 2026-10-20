@@ -54,6 +54,12 @@ name = "Asif Kalam"
 link = "https://twitter.com/asifskalam"
 
 [[people]]
+picture = "images/people/atharva.webp"
+github = "https://github.com/tfidfwastaken"
+name = "Atharva Raykar"
+link = "https://twitter.com/AtharvaRaykar"
+
+[[people]]
 nick = "jasim"
 picture = "images/alumni/jasim.webp"
 github = "http://github.com/jasim"
@@ -151,6 +157,12 @@ picture = "images/alumni/shivam.webp"
 github = "https://github.com/shhivam"
 name = "Shivam Singhal"
 link = "https://twitter.com/shivam_310"
+
+[[people]]
+picture = "images/people/siri.webp"
+github = "https://github.com/siripr4"
+name = "Siri PR"
+link = "https://www.linkedin.com/in/siripr/"
 
 [[people]]
 nick = "smit"
