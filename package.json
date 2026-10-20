@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/nilenso/nilenso.com#readme",
   "devDependencies": {
-    "tailwindcss": "^3.4.13"
+    "tailwindcss": "^4.3.3"
   }
 }
