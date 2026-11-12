@@ -29,7 +29,11 @@ We strengthened the foundations of session capture with stable identifiers for t
 </p>
 
 <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-We built tools to retrieve information from traces, and an agent around it that answers questions about traces. This was then further extended to an MCP that people could access from their own coding agents. We helped build <a href="https://traces.com/surfaces" class="underline hover:text-pink-500">Surfaces</a>, letting users explore their agent sessions from different perspectives, including file changes, security reviews, token usage, and skills. We designed Surfaces so teams could create and publish their own views.
+We built tools to retrieve information from traces, and an agent around it that answers questions about traces. This was then further extended to an MCP that people could access from their own coding agents.
+</p>
+
+<p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
+We helped build <a href="https://traces.com/surfaces" class="underline hover:text-pink-500">Surfaces</a>, letting users explore their agent sessions from different perspectives, including file changes, security reviews, token usage, and skills. We designed Surfaces so teams could create and publish their own views.
 </p>
 
 <p class="text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
