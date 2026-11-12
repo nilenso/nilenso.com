@@ -10,9 +10,14 @@ logo = "traces.svg"
 +++
 
 <p class="text-black text-base leading-normal md:text-xl lg:text-2xl  xl:text-2xl font-normal pb-10 w-full max-w-[46rem] w-full company-blurb">
-Traces captures coding agent sessions across the team, and makes them readable, and searchable. Traces are linked to the git commits, files and other artifacts they produced, helping teams access their collective memory and learn from their work with AI. We helped make Traces a more reliable platform for capturing agent work and turning it into knowledge teams and their agents can build on.
+Traces captures coding agent sessions across the team, and makes them readable, and searchable. Traces are linked to the git commits, files and other artifacts they produced, helping teams access their collective memory and learn from their work with AI.
 </p>
 
+<div class="border-t border-b border-gray-200 py-10">
+<p class="text-pink-500 text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light">
+We helped make Traces a more reliable platform for capturing agent work and turning it into knowledge teams and their agents can build on.
+</p>
+</div>
 
 <div class="md:pt-0 md:pb-0 py-10">
 <p class="md:pt-12 text-black text-base leading-normal md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
