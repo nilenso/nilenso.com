@@ -1,4 +1,9 @@
 [[recent]]
+url = "https://traces.com"
+image = "/images/traces.svg"
+name = "Traces"
+
+[[recent]]
 url = "https://www.gojek.com/en-id/"
 image = "/images/gojek.png"
 name = "Gojek"

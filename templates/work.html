@@ -20,8 +20,8 @@
             {% for client in section.pages %}
                 <a href="{{ client.permalink }}"
                    class="group flex flex-col border border-gray-200 rounded-sm p-6 md:p-8 hover:border-pink-500">
-                    <figure class="w-32 mb-8">
-                        {{ work::logo(page=client) }}
+                    <figure class="{% if client.slug == 'traces' %}w-36{% else %}w-32{% endif %} h-16 mb-8 flex items-center shrink-0">
+                        {{ work::logo(page=client, class="w-full h-full object-contain object-left") }}
                     </figure>
                     <p class="text-black text-base leading-normal md:text-xl md:leading-snug font-light pb-4">
                         {{ client.extra.blurb }}
