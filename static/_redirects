@@ -1,5 +1,16 @@
 # Netlify redirects. Paths match with or without a trailing slash.
 
+# Alternate domains. Each must also be a domain alias on the Netlify site;
+# http and https need separate rules.
+http://nilenso.ai/*    https://nilenso.com/:splat  301!
+https://nilenso.ai/*   https://nilenso.com/:splat  301!
+http://nilenso.ca/*    https://nilenso.com/:splat  301!
+https://nilenso.ca/*   https://nilenso.com/:splat  301!
+http://nilenso.in/*    https://nilenso.com/:splat  301!
+https://nilenso.in/*   https://nilenso.com/:splat  301!
+http://nilenzo.com/*   https://nilenso.com/:splat  301!
+https://nilenzo.com/*  https://nilenso.com/:splat  301!
+
 # /jobs/more/ was an unfinished 2021 draft and /contact/ a copy of it; both
 # removed. Contact details live in the footer on every page.
 /jobs/more   /jobs/       301
