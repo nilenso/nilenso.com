@@ -7,7 +7,7 @@ nick = ""
 hash = "srihari-sriraman"
 picture = "images/people/srihari.webp"
 github = "http://github.com/ssrihari"
-twitter="https://twitter.com/SrihariSriraman"
+twitter="https://x.com/SrihariSriraman"
 linkedin="http://www.linkedin.com/in/sriharisriraman"
 goodreads = ""
 +++

@@ -6,7 +6,7 @@ type = "person"
 hash = "raj-patil"
 picture = "images/people/raj.webp"
 github = "https://github.com/rajp152k"
-twitter = "https://twitter.com/rajpatil152k"
+twitter = "https://x.com/rajpatil152k"
 linkedin = "https://www.linkedin.com/in/rajp152k/"
 goodreads = "https://goodreads.com/rajp152k"
 +++
@@ -20,5 +20,5 @@ goodreads = "https://goodreads.com/rajp152k"
 </p>
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Outside work, Raj <a class='underline hover:text-pink-500' href='https://www.youtube.com/@The-Bit-Mage'>evangelizes</a> Emacs, and <a class='underline hover:text-pink-500' href='https://www.youtube.com/@CognWare'>rambles</a> about metacognition.
+    Outside work, Raj <a class='underline hover:text-pink-500' href='https://www.youtube.com/@The-Bit-Mage' target='_blank'>evangelizes</a> Emacs, and <a class='underline hover:text-pink-500' href='https://www.youtube.com/@CognWare' target='_blank'>rambles</a> about metacognition.
 </p>

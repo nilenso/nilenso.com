@@ -7,7 +7,7 @@ nick = "yogi"
 hash = "yogiraj-hendre"
 picture = "images/people/yogi.webp"
 github = "https://github.com/yogirajh007"
-twitter="https://twitter.com/yogirajhendre"
+twitter="https://x.com/yogirajhendre"
 linkedin="https://linkedin.com/in/yogirajhendre/"
 goodreads = ""
 +++

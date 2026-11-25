@@ -7,7 +7,7 @@ nick = ""
 hash = "udit-kumar"
 picture = "images/people/udit.webp"
 github = "https://github.com/yudistrange"
-twitter="https://twitter.com/yudistrange"
+twitter="https://x.com/yudistrange"
 linkedin="https://www.linkedin.com/in/udit-kumar-01690127/"
 goodreads = ""
 +++

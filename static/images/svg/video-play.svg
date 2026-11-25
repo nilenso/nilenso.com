@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor">
-  <!-- Semi-transparent circle background -->
-  <circle cx="32" cy="32" r="31" fill="rgba(0, 0, 0, 0.7)" stroke="rgba(255, 255, 255, 0.9)" stroke-width="2"/>
-  <!-- Play triangle -->
-  <path d="M26 20 L26 44 L44 32 Z" fill="rgba(255, 255, 255, 0.95)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 64 64"><circle cx="32" cy="32" r="31" fill="rgba(0, 0, 0, 0.7)" stroke="rgba(255, 255, 255, 0.9)" stroke-width="2"/><path fill="rgba(255, 255, 255, 0.95)" d="M26 20v24l18-12Z"/></svg>
