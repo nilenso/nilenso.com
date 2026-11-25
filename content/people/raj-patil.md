@@ -6,7 +6,7 @@ type = "person"
 hash = "raj-patil"
 picture = "images/people/raj.webp"
 github = "https://github.com/rajp152k"
-twitter = "https://twitter.com/rajpatil152k"
+twitter = "https://x.com/rajpatil152k"
 linkedin = "https://www.linkedin.com/in/rajp152k/"
 goodreads = "https://goodreads.com/rajp152k"
 +++

@@ -7,7 +7,7 @@ nick = "vkrm"
 hash = "vikram-chintalapati"
 picture = "images/people/vkrm.webp"
 github = "https://github.com/vkrmis"
-twitter="https://twitter.com/cvikram"
+twitter="https://x.com/cvikram"
 linkedin="https://www.linkedin.com/in/vikram-chintalapati-23764111a/"
 goodreads = ""
 +++

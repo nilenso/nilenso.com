@@ -7,7 +7,7 @@ nick = ""
 hash = "kiran-gangadharan"
 picture = "images/people/kiran.webp"
 github = "https://github.com/kirang89"
-twitter="https://twitter.com/kirang89"
+twitter="https://x.com/kirang89"
 linkedin="https://www.linkedin.com/in/kirang89/"
 goodreads = ""
 +++

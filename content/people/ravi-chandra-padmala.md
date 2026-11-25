@@ -7,7 +7,7 @@ nick = "neena"
 hash = "ravi-chandra-padmala"
 picture = "images/people/neena.webp"
 github = "https://github.com/neenaoffline"
-twitter="https://twitter.com/neenaoffline"
+twitter="https://x.com/neenaoffline"
 linkedin=""
 goodreads = ""
 +++

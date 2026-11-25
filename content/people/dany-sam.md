@@ -7,7 +7,7 @@ nick = "dan"
 hash = "dany-sam"
 picture = "images/people/dan.webp"
 github = "https://github.com/danySam"
-twitter="https://twitter.com/_danySam"
+twitter="https://x.com/_danySam"
 linkedin="https://www.linkedin.com/in/danysam/"
 goodreads = ""
 +++

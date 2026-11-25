@@ -7,7 +7,7 @@ nick = ""
 hash = "deepa-venkataraman"
 picture = "images/people/deepa.jpg"
 github = "http://github.com/dvenkatr"
-twitter="https://twitter.com/deepa_v"
+twitter="https://x.com/deepa_v"
 linkedin="https://uk.linkedin.com/in/deepavenkatraman"
 goodreads = ""
 +++

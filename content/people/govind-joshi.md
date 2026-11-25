@@ -7,7 +7,7 @@ nick = ""
 hash = "govind-joshi"
 picture = "images/people/govind.webp"
 github = "http://github.com/govindkrjoshi"
-twitter="https://twitter.com/govindkrjoshi"
+twitter="https://x.com/govindkrjoshi"
 linkedin=""
 goodreads = ""
 +++

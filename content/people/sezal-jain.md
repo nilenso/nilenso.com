@@ -7,7 +7,7 @@ nick = ""
 hash = "sezal-jain"
 picture = "images/people/sezal.webp"
 github = "https://github.com/sezaljain"
-twitter="https://twitter.com/sezal_jain"
+twitter="https://x.com/sezal_jain"
 linkedin="https://www.linkedin.com/in/sezal-jain-80823511/"
 goodreads = ""
 +++
