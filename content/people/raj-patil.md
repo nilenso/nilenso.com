@@ -20,5 +20,5 @@ goodreads = "https://goodreads.com/rajp152k"
 </p>
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    Outside work, Raj <a class='underline hover:text-pink-500' href='https://www.youtube.com/@The-Bit-Mage'>evangelizes</a> Emacs, and <a class='underline hover:text-pink-500' href='https://www.youtube.com/@CognWare'>rambles</a> about metacognition.
+    Outside work, Raj <a class='underline hover:text-pink-500' href='https://www.youtube.com/@The-Bit-Mage' target='_blank'>evangelizes</a> Emacs, and <a class='underline hover:text-pink-500' href='https://www.youtube.com/@CognWare' target='_blank'>rambles</a> about metacognition.
 </p>

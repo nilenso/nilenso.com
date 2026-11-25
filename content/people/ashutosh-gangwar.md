@@ -17,7 +17,7 @@ goodreads = ""
 </p>
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
-    He has a deep instinct for craft: the kind that led him to build a custom audio format just to get gapless playback right in <a class="underline" href="https://trynoice.com/">Noice<a>, an ambient sound app he designed, built, and shipped entirely on his own.
+    He has a deep instinct for craft: the kind that led him to build a custom audio format just to get gapless playback right in <a class="underline" href="https://trynoice.com/" target="_blank">Noice</a>, an ambient sound app he designed, built, and shipped entirely on his own.
 </p>
 
 <p class="text-black text-base leading-normal  md:text-xl lg:text-xl md:leading-snug font-light pb-4 md:pb-7">
